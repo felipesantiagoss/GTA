@@ -1,0 +1,158 @@
+{
+  "versao": 1,
+  "tipoDocumento": "modelos_veiculos_candidatos",
+  "estado": "identificados_por_metadados; teste_visual_pendente",
+  "pronto": false,
+  "fonteDLL": {
+    "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+    "sha256": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446",
+    "enum": "GTA.VehicleHash"
+  },
+  "observacao": "VehicleList nao existe nesta instalacao. Hashes extraidos do enum oficial; tipos/disponibilidade conferidos no GTA antes de criar. Estilo e movimento nao testados.",
+  "veiculos": [
+    {
+      "codigo": "FAGGIO",
+      "modelo": "faggio",
+      "tipo": "MOTO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Faggio",
+        "hashHex": "9229E4EB",
+        "hashInt": -1842748181,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "BATI",
+      "modelo": "bati",
+      "tipo": "MOTO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Bati",
+        "hashHex": "F9300CC5",
+        "hashInt": -114291515,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "SANCHEZ",
+      "modelo": "sanchez",
+      "tipo": "MOTO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Sanchez",
+        "hashHex": "2EF89E46",
+        "hashInt": 788045382,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "BUS",
+      "modelo": "bus",
+      "tipo": "ONIBUS",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Bus",
+        "hashHex": "D577C962",
+        "hashInt": -713569950,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "COACH",
+      "modelo": "coach",
+      "tipo": "ONIBUS",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Coach",
+        "hashHex": "84718D34",
+        "hashInt": -2072933068,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "TAILGATER",
+      "modelo": "tailgater",
+      "tipo": "CARRO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Tailgater",
+        "hashHex": "C3DDFDCE",
+        "hashInt": -1008861746,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "SUPERD",
+      "modelo": "superd",
+      "tipo": "CARRO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Superd",
+        "hashHex": "42F2ED16",
+        "hashInt": 1123216662,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "PACKER",
+      "modelo": "packer",
+      "tipo": "CAMINHAO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Packer",
+        "hashHex": "21EEE87D",
+        "hashInt": 569305213,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    },
+    {
+      "codigo": "HAULER",
+      "modelo": "hauler",
+      "tipo": "CAMINHAO",
+      "pronto": false,
+      "estado": "nao_testado_no_jogo",
+      "origem": {
+        "membroEnum": "Hauler",
+        "hashHex": "5A82F9AE",
+        "hashInt": 1518533038,
+        "arquivoDLL": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\ScriptHookVDotNet3.dll",
+        "sha256DLL": "A9890FD5FDA81674BA3B0596D1A73B7F26A51416F519B0F4378AA132E71E5446"
+      }
+    }
+  ],
+  "motoristaExtra": {
+    "modelo": "s_m_m_gentransport",
+    "pronto": false,
+    "estado": "modelo_identificado;visual_pendente",
+    "origem": {
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedList.xml",
+      "linha": 927,
+      "sha256": "47BCA4383A6A841408EE37CB6F1B59989C5EB4BFDE64B5CB6B85ECE3C59A224E"
+    }
+  },
+  "limites": {
+    "veiculos": 2,
+    "extras": 2,
+    "acoes": 32,
+    "pontosPorRota": 16,
+    "amostraMaxMetros": 10,
+    "timeoutLoadingMs": 5000
+  }
+}

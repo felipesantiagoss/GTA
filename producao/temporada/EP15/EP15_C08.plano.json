@@ -1,0 +1,182 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C08",
+  "episodio": 15,
+  "numero": 8,
+  "nome": "OS QUE FICARAM",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1591,
+    "linhaFim": 1599,
+    "sha256BlocoUtf8": "8FB47FECD74DA64DFC54E5F0155CCF7F70A7AEF74009E424B9A5A0C133055E8B",
+    "raw": "### EP15_C08 · OS QUE FICARAM\n`local:` MANSAO_CHEFE · `hora:` 21:10 · `clima:` limpo\n`elenco:` O_CHEFE, DINJER · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "21:10",
+    "clima": "limpo",
+    "elenco": "O_CHEFE, DINJER",
+    "elencoCodigos": [
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1592,
+      1593
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1595,
+      "raw": "**Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1597,
+      "linhaTexto": 1598,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "montagem_tempos",
+      "descricao": "Duas tomadas de 4s totalizam 8s; narração de 10s e estimativa de 12s permanecem separadas, montagem a definir.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão.",
+      "origem": "linha 1595",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:bandeja",
+      "familia": "objetos",
+      "descricao": "bandeja: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:multiplas_tomadas",
+      "familia": "edicao",
+      "descricao": "Plano separado de tomadas/subplanos, com sua montagem e tempo; não fingir uma única atuação contínua.",
+      "origem": "ações e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

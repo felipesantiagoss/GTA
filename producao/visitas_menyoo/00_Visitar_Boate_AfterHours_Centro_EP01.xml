@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SpoonerPlacements>
+  <Note>Visita ZERO Placement ao literal de referencia do INTERIOR After Hours do autor. Nao e marca F3 nem prova de pista/piso Story. Autor: https://github.com/Bob74/bob74_ipl/wiki/After-Hours:-Nightclubs; corroboracao: https://github.com/TomGrobbe/vMenu/blob/3e2e49f1d424707e6a9db34e4c3f31559b2b0b3f/vMenu/IplManager.cs#L341</Note>
+  <ReferenceCoords>
+    <X>-1604.664</X>
+    <Y>-3012.583</Y>
+    <Z>-78.000</Z>
+  </ReferenceCoords>
+</SpoonerPlacements>

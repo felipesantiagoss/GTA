@@ -1,0 +1,85 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 4,
+  "nomeOriginal": "\"NO TRABALHO DELA\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP04_C01",
+    "EP04_C02",
+    "EP04_C03",
+    "EP04_C04",
+    "EP04_C05",
+    "EP04_C06"
+  ],
+  "cenas": [
+    {
+      "id": "EP04_C01",
+      "plano": "EP04_C01.plano.json",
+      "srtBase": "EP04_C01.base.srt"
+    },
+    {
+      "id": "EP04_C02",
+      "plano": "EP04_C02.plano.json",
+      "srtBase": "EP04_C02.base.srt"
+    },
+    {
+      "id": "EP04_C03",
+      "plano": "EP04_C03.plano.json",
+      "srtBase": "EP04_C03.base.srt"
+    },
+    {
+      "id": "EP04_C04",
+      "plano": "EP04_C04.plano.json",
+      "srtBase": "EP04_C04.base.srt"
+    },
+    {
+      "id": "EP04_C05",
+      "plano": "EP04_C05.plano.json",
+      "srtBase": "EP04_C05.base.srt"
+    },
+    {
+      "id": "EP04_C06",
+      "plano": "EP04_C06.plano.json",
+      "srtBase": "EP04_C06.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 539,
+        "linhaFim": 540,
+        "sha256BlocoUtf8": "EEBCADED6C1BCF4268E57DD17DBD3E38C1B1AB8A8D729F1C219F5768FA117C1D",
+        "raw": "**ANTERIORMENTE**: EP03_C05 (a fuga) · EP03_C07 (os trinta dias)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP03_C05",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP03_C07",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 537,
+    "linhaFim": 622,
+    "sha256BlocoUtf8": "1EF7EE0976B0C8E0BC06908D238799AB821FBA25A4D0F9F687BD12C4636D94E8",
+    "raw": null
+  }
+}

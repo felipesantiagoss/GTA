@@ -1,0 +1,50 @@
+# Local history, installed tools, generated builds and recordings.
+/backups/
+/dependencias/
+/dist/
+/logs/
+/videos/
+
+# Python environments and caches.
+**/.venv*/
+**/venv/
+**/env/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+*.pyc
+*.pyo
+
+# Downloaded binaries, archives and generated media.
+*.exe
+*.dll
+*.pdb
+*.asi
+*.zip
+*.7z
+*.rar
+*.mp4
+*.mov
+*.MOV
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.flac
+*.bmp
+*.log
+*.backup-*
+
+# Local credentials and machine-specific private overrides.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.local.ini
+*.local.json
+.DS_Store
+Thumbs.db

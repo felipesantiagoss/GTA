@@ -1,0 +1,123 @@
+{
+  "versao": 1,
+  "id": "EP15_C01",
+  "episodio": 15,
+  "numero": 1,
+  "nome": "A SUBIDA",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "20:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 1,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 2,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 3,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 5,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 6,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      }
+    ],
+    "transicaoSuave": true
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "LONGE",
+      "texto": "Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "veiculos": [
+    {
+      "id": "CARRO_LUXO",
+      "recurso": "SUPERD",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "motoristaExtra": false,
+      "trajetoDireto": true,
+      "assentosIniciais": [
+        {
+          "personagem": "DJANIRA_RICA",
+          "assento": -1
+        }
+      ],
+      "acoes": [
+        {
+          "tipo": "dirigir",
+          "personagem": "DJANIRA_RICA",
+          "inicioSegundos": 0,
+          "duracaoSegundos": 7,
+          "assento": -1,
+          "rota": [
+            {
+              "direita": 0,
+              "frente": 8,
+              "altura": 0
+            }
+          ],
+          "velocidade": 3,
+          "raioChegada": 1.5,
+          "raioParada": 1
+        }
+      ]
+    }
+  ]
+}

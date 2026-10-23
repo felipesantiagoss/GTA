@@ -1,0 +1,59 @@
+{
+  "versao": 1,
+  "id": "EP08_C02",
+  "episodio": 8,
+  "numero": 2,
+  "nome": "DOIS DIAS DE VOLTA",
+  "ambiente": {
+    "local": "ESTRADA_SENORA",
+    "hora": "06:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 11,
+      "plano": "LONGE",
+      "texto": "Eu levei dois dias pra voltar pra casa. A pé e de carona, com um sapato só e a roupa de igreja rasgada. Eu não chorei nenhuma vez. Eu só pensava na minha avó esperando na porta.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 11,
+      "destino": {
+        "direita": 0,
+        "frente": 4,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": []
+}

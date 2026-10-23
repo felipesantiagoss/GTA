@@ -1,0 +1,142 @@
+{
+  "versao": 1,
+  "tipoDocumento": "proposta_apoios_nao_executavel",
+  "pronto": false,
+  "apoios": [
+    {
+      "codigoProposto": "cadeira_simples",
+      "modelo": "prop_chair_01a",
+      "tipoProposto": "assento",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10261,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_chair_01a"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "poltrona",
+      "modelo": "prop_armchair_01",
+      "tipoProposto": "assento",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9571,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_armchair_01"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "banco",
+      "modelo": "prop_bench_01a",
+      "tipoProposto": "assento",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9788,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_bench_01a"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "mesa",
+      "modelo": "prop_table_01",
+      "tipoProposto": "mesa",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 13997,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_table_01"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "cadeira_casa",
+      "modelo": "v_res_fa_chair01",
+      "tipoProposto": "assento",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19002,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_fa_chair01"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "cama_casa",
+      "modelo": "v_res_d_bed",
+      "tipoProposto": "cama",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 18958,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_d_bed"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "cama_quarto",
+      "modelo": "v_res_msonbed",
+      "tipoProposto": "cama",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19210,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_msonbed"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    },
+    {
+      "codigoProposto": "cama_simples",
+      "modelo": "v_res_tre_bed1",
+      "tipoProposto": "cama",
+      "pronto": false,
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19272,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_tre_bed1"
+      },
+      "geometriaMedida": null,
+      "pontoAssentoMedido": null,
+      "cenaTestada": null,
+      "limite": "Nome comprova existência na lista, não superfície, escala, alinhamento corporal, colisão, adequação visual ou carregamento no jogo."
+    }
+  ],
+  "preflightNecessario": [
+    "Validar modelo e criar somente objeto próprio; salvar hash/modelo/handle.",
+    "GetModelDimensions fornece caixa; medir superfície útil e altura do assento/cama com raycast e pose real, pois centro/bounding-box não prova apoio humano.",
+    "Registrar transform relativo a marca real e zona livre; não inventar coordenadas absolutas ou ponto de assento.",
+    "Entrada/base/saída reais; duração conferida, fala upper-body sobre pose primária; testar contato/oclusão e reset.",
+    "Limpar somente objeto próprio; restaurar ator/pose/câmera sem alterar cenário original."
+  ]
+}

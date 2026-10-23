@@ -1,0 +1,249 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 14,
+  "nomeOriginal": "\"VOCÊ SABIA\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 130000,
+  "clipes": [
+    {
+      "id": "EP14_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 7000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP14_C01.base.srt"
+    },
+    {
+      "id": "EP14_C02",
+      "inicioEpisodioBaseMs": 7000,
+      "fimEpisodioBaseMs": 27000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP14_C02.base.srt"
+    },
+    {
+      "id": "EP14_C03",
+      "inicioEpisodioBaseMs": 27000,
+      "fimEpisodioBaseMs": 51000,
+      "duracaoPlanejadaMs": 24000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP14_C03.base.srt"
+    },
+    {
+      "id": "EP14_C04",
+      "inicioEpisodioBaseMs": 51000,
+      "fimEpisodioBaseMs": 80000,
+      "duracaoPlanejadaMs": 29000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP14_C04.base.srt"
+    },
+    {
+      "id": "EP14_C05",
+      "inicioEpisodioBaseMs": 80000,
+      "fimEpisodioBaseMs": 110000,
+      "duracaoPlanejadaMs": 30000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP14_C05.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 110000,
+      "fimEpisodioBaseMs": 130000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP14_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "legenda": "Narrador: Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda."
+    },
+    {
+      "cena": "EP14_C02",
+      "bloco": 1,
+      "inicioMs": 7000,
+      "fimMs": 11000,
+      "legenda": "Dinjer: Djanira. Djanira, é você mesmo?"
+    },
+    {
+      "cena": "EP14_C02",
+      "bloco": 2,
+      "inicioMs": 11000,
+      "fimMs": 16000,
+      "legenda": "Djanira: Você levou três anos pra olhar na minha cara direito."
+    },
+    {
+      "cena": "EP14_C02",
+      "bloco": 3,
+      "inicioMs": 16000,
+      "fimMs": 21000,
+      "legenda": "Dinjer: Amiga, eu procurei você. Eu juro que eu procurei."
+    },
+    {
+      "cena": "EP14_C02",
+      "bloco": 4,
+      "inicioMs": 21000,
+      "fimMs": 24000,
+      "legenda": "Djanira: Não me chama de amiga."
+    },
+    {
+      "cena": "EP14_C03",
+      "bloco": 1,
+      "inicioMs": 27000,
+      "fimMs": 37000,
+      "legenda": "Djanira: Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa."
+    },
+    {
+      "cena": "EP14_C03",
+      "bloco": 2,
+      "inicioMs": 37000,
+      "fimMs": 39000,
+      "legenda": "Djanira: Você sabia?"
+    },
+    {
+      "cena": "EP14_C03",
+      "bloco": 4,
+      "inicioMs": 43000,
+      "fimMs": 45000,
+      "legenda": "Djanira: Você sabia."
+    },
+    {
+      "cena": "EP14_C04",
+      "bloco": 1,
+      "inicioMs": 51000,
+      "fimMs": 58000,
+      "legenda": "Dinjer: Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia."
+    },
+    {
+      "cena": "EP14_C04",
+      "bloco": 2,
+      "inicioMs": 58000,
+      "fimMs": 65000,
+      "legenda": "Djanira: Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais."
+    },
+    {
+      "cena": "EP14_C04",
+      "bloco": 3,
+      "inicioMs": 65000,
+      "fimMs": 74000,
+      "legenda": "Dinjer: Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego."
+    },
+    {
+      "cena": "EP14_C04",
+      "bloco": 4,
+      "inicioMs": 74000,
+      "fimMs": 76000,
+      "legenda": "Djanira: E você acreditou."
+    },
+    {
+      "cena": "EP14_C04",
+      "bloco": 5,
+      "inicioMs": 76000,
+      "fimMs": 80000,
+      "legenda": "Dinjer: Eu precisava acreditar, Djanira! Eu precisava!"
+    },
+    {
+      "cena": "EP14_C05",
+      "bloco": 1,
+      "inicioMs": 80000,
+      "fimMs": 90000,
+      "legenda": "Dinjer: Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar."
+    },
+    {
+      "cena": "EP14_C05",
+      "bloco": 2,
+      "inicioMs": 90000,
+      "fimMs": 93000,
+      "legenda": "Djanira: Então diz pra ele que eu aceito."
+    },
+    {
+      "cena": "EP14_C05",
+      "bloco": 3,
+      "inicioMs": 93000,
+      "fimMs": 98000,
+      "legenda": "Dinjer: Você não pode ir. Você não sabe quem ele é."
+    },
+    {
+      "cena": "EP14_C05",
+      "bloco": 4,
+      "inicioMs": 98000,
+      "fimMs": 103000,
+      "legenda": "Djanira: Eu sei exatamente quem ele é. Eu descobri antes de você."
+    },
+    {
+      "cena": "EP14_C05",
+      "bloco": 5,
+      "inicioMs": 103000,
+      "fimMs": 110000,
+      "legenda": "Narrador: Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1377,
+        "linhaFim": 1378,
+        "sha256BlocoUtf8": "E77F05A98D6DAB33404ABE9B83EAF8BEEF27BD13288E7B633F7C165DA480C966",
+        "raw": "**ANTERIORMENTE**: EP13_C05 (a foto) · EP13_C06 (no chão)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP13_C05",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP13_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP14_C01",
+      "codigo": "figurino_dinjer",
+      "descricao": "A indicação sem maquiagem conflita com visual fixo de Dinjer.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP14_C04",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 28000ms menor que blocos declarados 29000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    },
+    {
+      "cena": "EP14_C05",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 22000ms menor que blocos declarados 30000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

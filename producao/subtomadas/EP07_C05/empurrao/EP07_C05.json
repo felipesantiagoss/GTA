@@ -1,0 +1,62 @@
+{
+  "versao": 1,
+  "id": "EP07_C05",
+  "episodio": 7,
+  "numero": 5,
+  "nome": "A QUEDA",
+  "ambiente": {
+    "local": "CANAL_LS",
+    "hora": "21:10",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.7,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.7,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "O_CHEFE",
+    "planoFala": "OLHOS",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "PERTO"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "empurraoAviao": true
+}

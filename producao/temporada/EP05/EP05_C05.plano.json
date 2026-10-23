@@ -1,0 +1,222 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP05_C05",
+  "episodio": 5,
+  "numero": 5,
+  "nome": "O AVISO QUE ELA NÃO OUVIU",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 682,
+    "linhaFim": 701,
+    "sha256BlocoUtf8": "F2BCBD613FEB39F6463249A8B44FE0B117532576A00FA4AEDF9EEE64FC849A69",
+    "raw": "### EP05_C05 · O AVISO QUE ELA NÃO OUVIU\n`local:` CASA_VO · `hora:` 19:30 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 18s · `gravar:` SIM\n\n**Ação:** A avó chama a Djanira. Djanira ouve de pé, já decidida.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Minha filha, não vai.\" | 3s | implorando |\n| 2 | DJANIRA | \"Vó, é o dinheiro do aluguel. É o seu remédio.\" | 4s | neutro |\n| 3 | DONA_IRACI | \"Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre.\" | 11s | explicando |\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Minha avó nunca errou uma na vida. E foi justo essa que eu não escutei.\"\n\n**NARRADOR** — 7s:\n> \"Um convite bom demais pra ser verdade. E o que é bom demais sempre cobra o preço. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "19:30",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 18000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      683,
+      684
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 686,
+      "raw": "**Ação:** A avó chama a Djanira. Djanira ouve de pé, já decidida.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Minha filha, não vai.",
+      "textoOriginal": "\"Minha filha, não vai.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 692,
+      "raw": "| 1 | DONA_IRACI | \"Minha filha, não vai.\" | 3s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 3000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Vó, é o dinheiro do aluguel. É o seu remédio.",
+      "textoOriginal": "\"Vó, é o dinheiro do aluguel. É o seu remédio.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 693,
+      "raw": "| 2 | DJANIRA | \"Vó, é o dinheiro do aluguel. É o seu remédio.\" | 4s | neutro |",
+      "inicioMs": 3000,
+      "fimMs": 7000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre.",
+      "textoOriginal": "\"Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 694,
+      "raw": "| 3 | DONA_IRACI | \"Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre.\" | 11s | explicando |",
+      "inicioMs": 7000,
+      "fimMs": 18000,
+      "duracaoMs": 11000
+    },
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Minha avó nunca errou uma na vida. E foi justo essa que eu não escutei.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Minha avó nunca errou uma na vida. E foi justo essa que eu não escutei.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 696,
+      "linhaTexto": 697,
+      "inicioMs": 18000,
+      "fimMs": 24000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Um convite bom demais pra ser verdade. E o que é bom demais sempre cobra o preço. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Um convite bom demais pra ser verdade. E o que é bom demais sempre cobra o preço. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 699,
+      "linhaTexto": 700,
+      "inicioMs": 24000,
+      "fimMs": 31000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 18000,
+    "blocosDeclaradosMs": 31000,
+    "conteudoPlanejadoMs": 31000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 34000,
+    "fimUltimaLegendaMs": 34000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 18000ms menor que blocos declarados 31000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASA_VO",
+      "familia": "ambiente",
+      "descricao": "Marca real CASA_VO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** A avó chama a Djanira. Djanira ouve de pé, já decidida.",
+      "origem": "linha 686",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

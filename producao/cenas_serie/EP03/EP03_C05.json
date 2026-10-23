@@ -1,0 +1,123 @@
+{
+  "versao": 1,
+  "id": "EP03_C05",
+  "episodio": 3,
+  "numero": 5,
+  "nome": "A FUGA",
+  "ambiente": {
+    "local": "CASA_DINJER",
+    "hora": "21:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0.8,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 180
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 2,
+        "frente": -4,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DINJER",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "plano": "LONGE",
+      "texto": "E foi aí que eu vi. Ela saiu correndo pelos fundos. Descalça. De uma casa que ela pagava com o meu dinheiro. Correndo de mim, como se eu fosse o problema dela.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 5,
+      "duracaoSegundos": 7,
+      "destino": {
+        "direita": 2.5,
+        "frente": -2,
+        "altura": 0
+      },
+      "velocidade": 2
+    }
+  ],
+  "objetos": [
+    {
+      "id": "SAPATO_DINJER_D",
+      "recurso": "sapato_mao",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "id": "SAPATO_DINJER_E",
+      "recurso": "sapato_mao",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "esquerda",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP11_C02",
+  "episodio": 11,
+  "numero": 2,
+  "nome": "QUANTO CUSTOU",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1158,
+    "linhaFim": 1170,
+    "sha256BlocoUtf8": "42688A64A446CEA793470E676F62217E7A04D56CD1480860329BA4E74E554BBF",
+    "raw": "### EP11_C02 · QUANTO CUSTOU\n`local:` BANCO_MAZE · `hora:` 09:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 12s · `gravar:` SIM\n\n**Ação:** O atendente olha a tela e muda de expressão.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |\n| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |\n\n"
+  },
+  "original": {
+    "local": "BANCO_MAZE",
+    "locaisCodigos": [
+      "BANCO_MAZE"
+    ],
+    "hora": "09:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, ATENDENTE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "ATENDENTE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1159,
+      1160
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "ATENDENTE"
+    ],
+    "regras": [
+      {
+        "tipo": "figurino",
+        "origem": [
+          "DJANIRA_POBRE",
+          "ATENDENTE"
+        ],
+        "destino": [
+          "DJANIRA_RICA",
+          "ATENDENTE"
+        ],
+        "autoridade": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+        "motivo": "Djanira rica nos episódios11–15, mantendo o mesmo rosto."
+      }
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "ATENDENTE",
+      "texto": "A senhora... tem noção de quanto tem nessa conta?",
+      "textoOriginal": "\"A senhora... tem noção de quanto tem nessa conta?\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1168,
+      "raw": "| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Não. Mas eu tenho noção de quanto me custou.",
+      "textoOriginal": "\"Não. Mas eu tenho noção de quanto me custou.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1169,
+      "raw": "| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 10000,
+      "duracaoMs": 5000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1162,
+      "raw": "**Ação:** O atendente olha a tela e muda de expressão.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:ATENDENTE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BANCO_MAZE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP11_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "ATENDENTE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

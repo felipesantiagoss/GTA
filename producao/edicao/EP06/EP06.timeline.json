@@ -1,0 +1,211 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 6,
+  "nomeOriginal": "\"A BOATE\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 112000,
+  "clipes": [
+    {
+      "id": "EP06_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 11000,
+      "duracaoPlanejadaMs": 11000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C01.base.srt"
+    },
+    {
+      "id": "EP06_C02",
+      "inicioEpisodioBaseMs": 11000,
+      "fimEpisodioBaseMs": 18000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C02.base.srt"
+    },
+    {
+      "id": "EP06_C03",
+      "inicioEpisodioBaseMs": 18000,
+      "fimEpisodioBaseMs": 31000,
+      "duracaoPlanejadaMs": 13000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C03.base.srt"
+    },
+    {
+      "id": "EP06_C04",
+      "inicioEpisodioBaseMs": 31000,
+      "fimEpisodioBaseMs": 77000,
+      "duracaoPlanejadaMs": 46000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C04.base.srt"
+    },
+    {
+      "id": "EP06_C05",
+      "inicioEpisodioBaseMs": 77000,
+      "fimEpisodioBaseMs": 85000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C05.base.srt"
+    },
+    {
+      "id": "EP06_C06",
+      "inicioEpisodioBaseMs": 85000,
+      "fimEpisodioBaseMs": 92000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP06_C06.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 92000,
+      "fimEpisodioBaseMs": 112000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP06_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 11000,
+      "legenda": "Narrador: Eu nunca tinha entrado na cidade grande de noite. Tudo era alto demais, claro demais, caro demais. E eu com a única roupa boa que eu tinha, que já era velha quando eu ganhei."
+    },
+    {
+      "cena": "EP06_C02",
+      "bloco": 1,
+      "inicioMs": 11000,
+      "fimMs": 18000,
+      "legenda": "Narrador: Eu fiquei quarenta minutos naquela fila. Todo mundo que chegou depois de mim entrou antes."
+    },
+    {
+      "cena": "EP06_C03",
+      "bloco": 1,
+      "inicioMs": 18000,
+      "fimMs": 31000,
+      "legenda": "Narrador: E aí eu vi ela. Mas não do jeito que eu esperava. A Dinjer não tava se divertindo naquela boate. Ela tava trabalhando. E o trabalho dela não era servir champanhe."
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 1,
+      "inicioMs": 31000,
+      "fimMs": 40000,
+      "legenda": "Dinjer: Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira."
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 2,
+      "inicioMs": 40000,
+      "fimMs": 46000,
+      "legenda": "O Chefe: Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais."
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 3,
+      "inicioMs": 46000,
+      "fimMs": 50000,
+      "legenda": "Djanira: Como é que o senhor sabe dos mil reais?"
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 4,
+      "inicioMs": 50000,
+      "fimMs": 56000,
+      "legenda": "O Chefe: Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali."
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 5,
+      "inicioMs": 56000,
+      "fimMs": 68000,
+      "legenda": "O Chefe: Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros."
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 6,
+      "inicioMs": 68000,
+      "fimMs": 72000,
+      "legenda": "Djanira: E por que é que o senhor faria isso por mim?"
+    },
+    {
+      "cena": "EP06_C04",
+      "bloco": 7,
+      "inicioMs": 72000,
+      "fimMs": 77000,
+      "legenda": "O Chefe: Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor."
+    },
+    {
+      "cena": "EP06_C05",
+      "bloco": 1,
+      "inicioMs": 77000,
+      "fimMs": 85000,
+      "legenda": "Narrador: Eu saí daquela boate feliz. Eu liguei pra minha avó de um orelhão e falei que ia dar tudo certo. Que no domingo a gente pagava o aluguel."
+    },
+    {
+      "cena": "EP06_C06",
+      "bloco": 1,
+      "inicioMs": 85000,
+      "fimMs": 92000,
+      "legenda": "Narrador: Um jantar no céu. Uma promessa de pagamento. E um gesto que ninguém deveria ter visto. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 706,
+        "linhaFim": 707,
+        "sha256BlocoUtf8": "C992802105C4EC693844040678C0735EBC63FE8160A60C0CB967F0F0E9F94A7C",
+        "raw": "**ANTERIORMENTE**: EP05_C03 (a proposta) · EP05_C05 (o aviso da avó)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP05_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP05_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP06_C04",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 40000ms menor que blocos declarados 46000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    },
+    {
+      "cena": "EP06_C06",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 6000ms menor que blocos declarados 7000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

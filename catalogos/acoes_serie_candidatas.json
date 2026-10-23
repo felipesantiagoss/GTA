@@ -1,0 +1,5014 @@
+{
+  "versao": 1,
+  "tipo": "catalogo_de_pesquisa_nao_executavel",
+  "estado": "não testado",
+  "pronto": false,
+  "totalCenas": 95,
+  "animacoes": [
+    {
+      "codigo": "deitada_cama_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_bedmid",
+      "animacao": "f_sleep_l_loop_bighouse",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70591,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_bedmid f_sleep_l_loop_bighouse"
+      },
+      "restricoes": [
+        "Exige cama/banco real e alinhamento do corpo; não garante expressão doente."
+      ]
+    },
+    {
+      "codigo": "sono_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_sleep",
+      "animacao": "sleep_loopfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71428,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_sleep sleep_loopfemale"
+      },
+      "restricoes": [
+        "Exige testar origem e altura; clipe não informa banco nem sacola."
+      ]
+    },
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    },
+    {
+      "codigo": "choro_patricia",
+      "tipo": "animacao_corporal",
+      "categoria": "choro",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "crying_patricia",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65146,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 crying_patricia"
+      },
+      "restricoes": [
+        "Sequência de missão; offsets, movimento e duração não medidos; expressão dramática não garantida."
+      ]
+    },
+    {
+      "codigo": "choro_gesto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "choro",
+      "dicionario": "anim@mp_player_intcelebrationfemale@cry_baby",
+      "animacao": "cry_baby",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationfemale@cry_baby cry_baby"
+      },
+      "restricoes": [
+        "Celebração possivelmente caricata; não substituir choro dramático sem conferir imagem."
+      ]
+    },
+    {
+      "codigo": "pegar_celular_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "anim@amb@business@bgen@bgen_no_work@",
+      "animacao": "stand_phone_phonepickup-noworkfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 134260,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@business@bgen@bgen_no_work@ stand_phone_phonepickup-noworkfemale"
+      },
+      "restricoes": [
+        "Prop próprio no osso da mão; origem da peça/entrada precisa de calibração."
+      ]
+    },
+    {
+      "codigo": "celular_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Entrada/texto/saída com prop próprio; nenhuma transferência bancária real."
+      ]
+    },
+    {
+      "codigo": "celular_texto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_read_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55788,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_read_base"
+      },
+      "restricoes": [
+        "Posição/rotação do telefone e mão pendentes; Pix é encenado, sem interface bancária."
+      ]
+    },
+    {
+      "codigo": "celular_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55789,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_out"
+      },
+      "restricoes": [
+        "Remover/ocultar somente telefone próprio ao fim ou reset."
+      ]
+    },
+    {
+      "codigo": "ligacao_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55780,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_in"
+      },
+      "restricoes": [
+        "Duas locações na EP05_C03 são duas tomadas; não juntar as personagens no mesmo local."
+      ]
+    },
+    {
+      "codigo": "ligacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_listen_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55786,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_listen_base"
+      },
+      "restricoes": [
+        "Boca só no diálogo, nunca narração; prop mão/cabeça precisa de teste."
+      ]
+    },
+    {
+      "codigo": "ligacao_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55791,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_out"
+      },
+      "restricoes": [
+        "Troca para caminhada não deve deixar tarefa/clipset de telefone ativo."
+      ]
+    },
+    {
+      "codigo": "foto_celular_f",
+      "tipo": "animacao_corporal",
+      "categoria": "foto",
+      "dicionario": "amb@world_human_tourist_mobile@female@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55642,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_tourist_mobile@female@base base"
+      },
+      "restricoes": [
+        "Animação de turista não comprova selfie; telefone/câmera de prop e composição a testar."
+      ]
+    },
+    {
+      "codigo": "empurrar",
+      "tipo": "coreografia",
+      "categoria": "briga",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "shove",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61481,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core shove"
+      },
+      "restricoes": [
+        "Somente TASK_PLAY_ANIM; sem TASK_COMBAT, dano, arma nem seleção de alvo por IA."
+      ]
+    },
+    {
+      "codigo": "reacao_golpe",
+      "tipo": "coreografia",
+      "categoria": "briga",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "hit_heavy_punch_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61437,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core hit_heavy_punch_a"
+      },
+      "restricoes": [
+        "Reação separada; não há prova de que sincroniza com shove; requer ensaio de distância/tempo."
+      ]
+    },
+    {
+      "codigo": "empurrar_patricia",
+      "tipo": "coreografia_pareada",
+      "categoria": "briga",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_patricia",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65142,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_patricia"
+      },
+      "restricoes": [
+        "Par proposto push_away_trevor; validar offsets/timing antes de chamar sincronizado."
+      ]
+    },
+    {
+      "codigo": "empurrar_trevor",
+      "tipo": "coreografia_pareada",
+      "categoria": "briga",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_trevor",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65143,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_trevor"
+      },
+      "restricoes": [
+        "Par proposto push_away_patricia; não deriva combate físico nem target AI."
+      ]
+    },
+    {
+      "codigo": "tropecar",
+      "tipo": "animacao_corporal",
+      "categoria": "machucado",
+      "dicionario": "misscarsteal4@actor",
+      "animacao": "stumble",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 63696,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "misscarsteal4@actor stumble"
+      },
+      "restricoes": [
+        "Root motion e equilíbrio não medidos; não usar para lançar alguém do avião."
+      ]
+    },
+    {
+      "codigo": "andar_machucado_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "machucado",
+      "dicionario": "move_f@injured",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68857,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@injured walk"
+      },
+      "restricoes": [
+        "PedAnimList prova o par de animação, não que REQUEST_ANIM_SET aceite o nome; conferir IsLoaded."
+      ]
+    },
+    {
+      "codigo": "andar_passarela_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@sexy@a",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68939,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@sexy@a walk"
+      },
+      "restricoes": [
+        "Só candidato de estilo; não prometer passarela ou gait feminino até testar carregamento/visual."
+      ]
+    },
+    {
+      "codigo": "andar_salto_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@heels@c",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68841,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@heels@c walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável; não trocar outfit registrado para usar salto."
+      ]
+    },
+    {
+      "codigo": "andar_chefe_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@business@a",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69144,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@business@a walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem andar playboy."
+      ]
+    },
+    {
+      "codigo": "andar_capanga_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@tough_guy@",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69564,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@tough_guy@ walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem autoriza combate."
+      ]
+    },
+    {
+      "codigo": "ameaca_pescoco_m",
+      "tipo": "animacao_corporal",
+      "categoria": "ameaca",
+      "dicionario": "anim@mp_player_intcelebrationmale@cut_throat",
+      "animacao": "cut_throat",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259796,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationmale@cut_throat cut_throat"
+      },
+      "restricoes": [
+        "Somente gesto; não causar corte/dano; câmera e intensidade precisam de teste."
+      ]
+    },
+    {
+      "codigo": "abraco_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "abraco",
+      "dicionario": "mp_ped_interaction",
+      "animacao": "hugs_guy_a",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71053,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_ped_interaction hugs_guy_a"
+      },
+      "restricoes": [
+        "Pares A/B; testar esqueleto feminino, espaço e offsets; clipe não é garantia de abraço entre mulheres."
+      ]
+    },
+    {
+      "codigo": "abraco_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "abraco",
+      "dicionario": "mp_ped_interaction",
+      "animacao": "hugs_guy_b",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71062,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_ped_interaction hugs_guy_b"
+      },
+      "restricoes": [
+        "Pares A/B precisam de mesma referência e início; não apresentar poses desencontradas como prontas."
+      ]
+    },
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    },
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    },
+    {
+      "codigo": "ajoelhar_entrada_f",
+      "tipo": "pose_transicao",
+      "categoria": "ajoelhar",
+      "dicionario": "missheist_jewel",
+      "animacao": "manageress_kneel_intro",
+      "sexoOrigem": "feminino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65932,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheist_jewel manageress_kneel_intro"
+      },
+      "restricoes": [
+        "Transição com altura/root motion pendentes; imortalidade e reset próprios, sem prisão por IA."
+      ]
+    },
+    {
+      "codigo": "ajoelhar_base_f",
+      "tipo": "pose",
+      "categoria": "ajoelhar",
+      "dicionario": "missheist_jewel",
+      "animacao": "manageress_kneel_loop",
+      "sexoOrigem": "feminino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65957,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheist_jewel manageress_kneel_loop"
+      },
+      "restricoes": [
+        "Pose de joelhos precisa permitir diálogo sem gesto standing substituir a parte inferior."
+      ]
+    },
+    {
+      "codigo": "trabalho_plantacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "trabalho",
+      "dicionario": "amb@world_human_gardener_plant@female@base",
+      "animacao": "base_female",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54835,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_gardener_plant@female@base base_female"
+      },
+      "restricoes": [
+        "É jardinagem; não comprova capina com enxada. Ferramenta e postura precisam de pesquisa/teste."
+      ]
+    },
+    {
+      "codigo": "limpar_mesa",
+      "tipo": "animacao_corporal",
+      "categoria": "limpeza",
+      "dicionario": "amb@world_human_maid_clean@base",
+      "animacao": "base",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55141,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_maid_clean@base base"
+      },
+      "restricoes": [
+        "Superfície/mão/prop não medidos; não criar sujeira nem modificar objeto de missão."
+      ]
+    },
+    {
+      "codigo": "beber_f",
+      "tipo": "animacao_corporal",
+      "categoria": "bebida",
+      "dicionario": "amb@world_human_drinking@beer@female@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54785,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_drinking@beer@female@base base"
+      },
+      "restricoes": [
+        "Objeto de bebida deve casar com mão/clip; não modificar álcool/estado do jogador."
+      ]
+    },
+    {
+      "codigo": "ler_papel_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "papel",
+      "dicionario": "missmic3",
+      "animacao": "newspaper_idle_loop_dave",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 67180,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missmic3 newspaper_idle_loop_dave"
+      },
+      "restricoes": [
+        "Lê jornal grande; não garante papel dobrado da trama. Prop/jornal e mulher precisam de teste."
+      ]
+    },
+    {
+      "codigo": "anotar_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "escrever",
+      "dicionario": "amb@world_human_clipboard@male@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54763,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_clipboard@male@base base"
+      },
+      "restricoes": [
+        "É prancheta; calendário/texto no CapCut. Testar mulher/mãos antes de usar."
+      ]
+    },
+    {
+      "codigo": "rir_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "riso",
+      "dicionario": "missheistdockssetup1ig_10@laugh",
+      "animacao": "laugh_pipe_worker1",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 66200,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheistdockssetup1ig_10@laugh laugh_pipe_worker1"
+      },
+      "restricoes": [
+        "Risada de operário; não comprova riso errado ou sorriso mínimo da Djanira."
+      ]
+    },
+    {
+      "codigo": "danca_djanira_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "med_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133408,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar estilo curtindo; posição/root motion/intensidade e roupa precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_dinjer_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+      "animacao": "high_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133452,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@ high_center"
+      },
+      "restricoes": [
+        "Não afirmar requebrando sem imagem; mesma roupa permanente de Dinjer."
+      ]
+    },
+    {
+      "codigo": "danca_iraci_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "low_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133425,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ low_center"
+      },
+      "restricoes": [
+        "Não afirmar duro de dançar; compatibilidade da senhora e humor precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_chefe_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+      "animacao": "med_center",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133466,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar deslizando; não transportar personagem por root motion sem marca."
+      ]
+    },
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "queda",
+      "categoria": "voo_queda",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    },
+    {
+      "codigo": "sair_agua_candidato",
+      "tipo": "agua",
+      "categoria": "agua",
+      "dicionario": "swimming@swim",
+      "animacao": "swimclimbup_40",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75416,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "swimming@swim swimclimbup_40"
+      },
+      "restricoes": [
+        "Altura da rampa/água reais; não executar no chão nem criar água/teleporte para simular trajeto."
+      ]
+    }
+  ],
+  "objetos": [
+    {
+      "codigo": "celular",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_npc_phone_02",
+      "categoria": "celular",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 12614,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_npc_phone_02"
+      },
+      "restricoes": [
+        "Encaixe/rotação na mão continuam pendentes; nenhum Pix real."
+      ]
+    },
+    {
+      "codigo": "papel",
+      "tipo": "objeto_candidato",
+      "modelo": "p_cs_papers_01",
+      "categoria": "papel",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9011,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_cs_papers_01"
+      },
+      "restricoes": [
+        "Modelo candidato; não confirma papel dobrado nem texto. Texto da trama entra no CapCut."
+      ]
+    },
+    {
+      "codigo": "envelope",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_cs_envolope_01",
+      "categoria": "entrega",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10564,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_envolope_01"
+      },
+      "restricoes": [
+        "Grafia envolope é literal. Troca mãos/fase e volume visual a testar."
+      ]
+    },
+    {
+      "codigo": "documentos",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_cs_documents_01",
+      "categoria": "papel",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10545,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_documents_01"
+      },
+      "restricoes": [
+        "Não comprova o papel dobrado da avó; escala/mãos a testar."
+      ]
+    },
+    {
+      "codigo": "sacola",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_cs_shopping_bag",
+      "categoria": "sacola",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10675,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_shopping_bag"
+      },
+      "restricoes": [
+        "Não promete sacola do figurino; mão/colisão/altura a testar."
+      ]
+    },
+    {
+      "codigo": "bandeja",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_food_bs_tray_01",
+      "categoria": "bandeja",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 11368,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_food_bs_tray_01"
+      },
+      "restricoes": [
+        "Bandeja fast food candidata; não equivale a bandeja de aeromoça ou jantar formal."
+      ]
+    },
+    {
+      "codigo": "comprimidos",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_cs_pills",
+      "categoria": "remedio",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10640,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_pills"
+      },
+      "restricoes": [
+        "Não é caixa vazia comprovada; cena exige recurso adequado antes da produção."
+      ]
+    },
+    {
+      "codigo": "prancheta",
+      "tipo": "objeto_candidato",
+      "modelo": "p_amb_clipboard_01",
+      "categoria": "escrever",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 8928,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_amb_clipboard_01"
+      },
+      "restricoes": [
+        "Calendário escrito é composição externa; mãos/anotação a testar."
+      ]
+    },
+    {
+      "codigo": "ferramenta_jardim",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_tool_shovel",
+      "categoria": "trabalho",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14180,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_tool_shovel"
+      },
+      "restricoes": [
+        "É pá pelo nome, não enxada. Não afirmar capina fiel à cena."
+      ]
+    },
+    {
+      "codigo": "taca",
+      "tipo": "objeto_candidato",
+      "modelo": "prop_wine_glass",
+      "categoria": "bebida",
+      "estado": "não testado",
+      "pronto": false,
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14624,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_wine_glass"
+      },
+      "restricoes": [
+        "Clip beber cerveja pode não casar com taça; escolher par após ensaio."
+      ]
+    }
+  ],
+  "fontes": {
+    "roteiro": {
+      "arquivo": "C:\\GTA_Diretor\\ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+    },
+    "animacoes": {
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+      "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4"
+    },
+    "objetos": {
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+      "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552"
+    },
+    "api": {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D"
+    }
+  },
+  "apiConferida": [
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 39650,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.TaskInvoker.PlayAnimationAdvanced(GTA.CrClipAsset,GTA.Math.Vector3,GTA.Math.Vector3,System.Nullable{GTA.AnimationBlendDelta},System.Nullable{GTA.AnimationBlendDelta},System.Int32,GTA.AnimationFlags,System.Single,GTA.EulerRotationOrder,GTA.AnimationIKControlFlags)\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 39682,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.TaskInvoker.PlaySynchronizedScene(GTA.FwSyncedScene,GTA.CrClipAsset,GTA.AnimationBlendDelta,GTA.AnimationBlendDelta,GTA.SyncedSceneFlags,GTA.RagdollBlockingFlags,System.Nullable{GTA.AnimationBlendDelta},GTA.AnimationIKControlFlags)\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 39503,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.TaskInvoker.GoStraightTo(GTA.Math.Vector3,System.Int32,GTA.PedMoveBlendRatio,System.Single,System.Single)\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 32988,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.Ped.SetMovementClipSet(GTA.ClipSet,System.Nullable{GTA.AnimationBlendDuration})\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 33006,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.Ped.ResetMovementClipSet(System.Nullable{GTA.AnimationBlendDuration})\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 40641,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.TaskInvoker.StopScriptedAnimationTask(GTA.CrClipAsset,System.Nullable{GTA.AnimationBlendDelta})\">"
+    },
+    {
+      "arquivo": "C:\\GTA_Diretor\\dependencias\\ScriptHookVDotNet-v3.7.0-nightly.191\\Docs\\ScriptHookVDotNet3.xml",
+      "linha": 28198,
+      "sha256": "B762D2AE3DA037467F2395560BFF2F8131AC238BE0DE57F807DE68922C50112D",
+      "assinaturaXML": "<member name=\"M:GTA.Entity.GetAnimationTotalTime(GTA.CrClipAsset)\">"
+    }
+  ],
+  "capacidadeBackendProposta": [
+    "Request/Poll entre frames com timeout",
+    "TASK_PLAY_ANIM/PlayAnimationAdvanced com duração real consultada e fase controlada",
+    "posturas fullbody sem sobrescrever pernas com gesto standing",
+    "pares coreografados com offsets/tempos medidos, sem IA combate",
+    "clipset com Request próprio/IsLoaded e restauração",
+    "objetos próprios com modelo/handle/memória conferidos, attachment e reset",
+    "andar/virar/olhar por marcas reais, sem warp em tomada",
+    "voo/quedaaquática bloqueados até marcas e teste específico"
+  ],
+  "limites": [
+    "PedAnimList comprova nomes, não duração, root motion, compatibilidade por sexo/modelo ou efeito dramático.",
+    "Duração original dos clipes deve ser medida no jogo após streaming; não é a duração dur estimada do roteiro.",
+    "Nenhuma coordenada global, variação de roupa, native hash literal, duração de clipe, novo personagem ou resultado visual foi inventado.",
+    "Catálogo não altera cenas executáveis nem declara as95cenas produzidas/gravadas."
+  ],
+  "capacidades": [
+    {
+      "codigo": "abraco",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "coreografia_pareada"
+      ],
+      "cenas": [
+        "EP06_C04"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "agua",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "agua"
+      ],
+      "cenas": [
+        "EP01_C01",
+        "EP08_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "ajoelhar",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "pose",
+        "pose_transicao"
+      ],
+      "cenas": [
+        "EP14_C04"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "ambiente_mobiliario",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP05_C04",
+        "EP07_C02",
+        "EP09_C01",
+        "EP13_C03"
+      ],
+      "restricao": "Bancos/cama/mesa/contêiner/porta/portão precisam existir no local ou ser objetos próprios autorizados; não modificar missões nem map props."
+    },
+    {
+      "codigo": "ameaca",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP06_C06"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "andar_estilo",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "clipset_candidato"
+      ],
+      "cenas": [
+        "EP01_C06",
+        "EP01_C08",
+        "EP04_C03",
+        "EP11_C03"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "bandeja",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP07_C04",
+        "EP12_C03",
+        "EP15_C02",
+        "EP15_C08"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "bebida",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP02_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "briga",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "coreografia",
+        "coreografia_pareada"
+      ],
+      "cenas": [
+        "EP01_C07"
+      ],
+      "restricao": "Somente coreografia com animações; nenhum TaskCombat, agressão IA, dano ou aquisição de armas. Distância/fase/offsets medidos em ensaio."
+    },
+    {
+      "codigo": "caminhao",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP13_C03"
+      ],
+      "restricao": "Carros/caminhões próprios com rota e portão reais; modelo não selecionado neste catálogo. Cenário vazio não executa a ação de portão/caminhão sozinho."
+    },
+    {
+      "codigo": "caminhar",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C01",
+        "EP01_C02",
+        "EP01_C04",
+        "EP01_C05",
+        "EP01_C06",
+        "EP01_C07",
+        "EP01_C08",
+        "EP03_C01",
+        "EP03_C05",
+        "EP04_C01",
+        "EP04_C03",
+        "EP04_C04",
+        "EP06_C01",
+        "EP06_C04",
+        "EP06_C05",
+        "EP07_C01",
+        "EP08_C02",
+        "EP09_C05",
+        "EP10_C03",
+        "EP10_C04",
+        "EP10_C05",
+        "EP11_C01",
+        "EP11_C03",
+        "EP13_C01",
+        "EP13_C04",
+        "EP14_C05",
+        "EP15_C04",
+        "EP15_C07"
+      ],
+      "restricao": "Motor básico já testado no TESTE_AMBIENTE. Percurso de produção, velocidade, piso e colisões precisam de marca real. Sem warp durante filmagem."
+    },
+    {
+      "codigo": "carona",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP03_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "carro",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP11_C03",
+        "EP12_C01",
+        "EP12_C04",
+        "EP15_C01",
+        "EP15_C09"
+      ],
+      "restricao": "Carro próprio, entrada/saída física e percurso marcado. Nenhum modelo de luxo selecionado só por aparência presumida."
+    },
+    {
+      "codigo": "celular",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP01_C08",
+        "EP02_C03",
+        "EP02_C05",
+        "EP02_C06",
+        "EP05_C02"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "choro",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP12_C04"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "danca",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "danca"
+      ],
+      "cenas": [
+        "EP02_C01",
+        "VINHETA_01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "deitar",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "pose"
+      ],
+      "cenas": [
+        "EP04_C05",
+        "EP08_C03",
+        "EP10_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "dialogo",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C07",
+        "EP01_C08",
+        "EP02_C04",
+        "EP02_C06",
+        "EP03_C07",
+        "EP04_C02",
+        "EP04_C05",
+        "EP05_C03",
+        "EP05_C05",
+        "EP06_C04",
+        "EP07_C02",
+        "EP07_C04",
+        "EP08_C03",
+        "EP08_C04",
+        "EP08_C05",
+        "EP09_C04",
+        "EP11_C02",
+        "EP12_C03",
+        "EP13_C04",
+        "EP13_C06",
+        "EP14_C02",
+        "EP14_C03",
+        "EP14_C04",
+        "EP14_C05",
+        "EP15_C02",
+        "EP15_C03",
+        "EP15_C04",
+        "EP15_C05",
+        "EP15_C07"
+      ],
+      "restricao": "Boca/gestos do catálogo canônico já testados apenas nos dois modelos business. Outros modelos/posturas exigem teste. Fala sentada/deitada/ajoelhada não pode ser substituída por animação standing."
+    },
+    {
+      "codigo": "edicao_externa",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP08_C06",
+        "EP10_C06",
+        "EP12_C05",
+        "EP13_C05",
+        "EP15_C09",
+        "VINHETA_01"
+      ],
+      "restricao": "Texto de bilhete/calendário/foto/créditos/corte preto no CapCut. Nenhum asset/personagem de outro jogo."
+    },
+    {
+      "codigo": "elenco_adicional",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP03_C07",
+        "EP04_C02",
+        "EP06_C02",
+        "EP11_C01",
+        "EP12_C01",
+        "EP13_C02"
+      ],
+      "restricao": "Roteiro menciona homem/gerente/segurança/colegas nem sempre declarados no elenco da cena. Mapear por código existente e registrar adaptação antes de executar; não inventar identidade/personagem."
+    },
+    {
+      "codigo": "entrega",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "coreografia_pareada"
+      ],
+      "cenas": [
+        "EP01_C03",
+        "EP02_C02",
+        "EP08_C05",
+        "EP11_C05",
+        "EP12_C04",
+        "EP12_C05",
+        "EP13_C02",
+        "EP15_C03"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "esconder",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP07_C02"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "escrever",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP10_C06"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "expressao",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C05",
+        "EP02_C01",
+        "EP02_C03",
+        "EP02_C05",
+        "EP03_C04",
+        "EP03_C06",
+        "EP04_C06",
+        "EP05_C01",
+        "EP06_C02",
+        "EP06_C05",
+        "EP07_C01",
+        "EP07_C03",
+        "EP09_C06",
+        "EP10_C02",
+        "EP10_C07",
+        "EP11_C02",
+        "EP13_C01",
+        "EP13_C04",
+        "EP14_C01"
+      ],
+      "restricao": "Vocabulário normal/chateado/feliz/machucado/comraiva/estressado/convencido não determina índice facial. Selecionar clipe real e testar por modelo; sorriso/riso não se inferem de texto."
+    },
+    {
+      "codigo": "figurino_conflito",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP03_C05",
+        "EP07_C01",
+        "EP08_C02",
+        "EP10_C02",
+        "EP11_C01"
+      ],
+      "restricao": "Preservar regra mais recente: Djanira pobre1–10/rica11–15, demais figurinos fixos. Roupa de igreja/descalça/faxina/roupa velha do roteiro são conflitos, não alterações silenciosas."
+    },
+    {
+      "codigo": "foto",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP02_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "interior",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP02_C01",
+        "EP02_C02",
+        "EP06_C03",
+        "EP06_C04",
+        "EP11_C04",
+        "EP12_C02",
+        "EP12_C03",
+        "EP13_C01",
+        "EP13_C02",
+        "EP13_C05",
+        "EP13_C06",
+        "EP15_C02"
+      ],
+      "restricao": "Boate/casa/avião dependem de acesso real. Não inventar coordenadas, decorar espaço aberto como se fosse interior ou marcar interior disponível sem prova."
+    },
+    {
+      "codigo": "ligacao",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP05_C02",
+        "EP05_C03",
+        "EP13_C04"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "limpeza",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP13_C05"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "machucado",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal",
+        "clipset_candidato"
+      ],
+      "cenas": [
+        "EP08_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "marca_elevada",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP14_C02"
+      ],
+      "restricao": "Degrau/altura diferentes precisam de solo real. Nunca inventar Z global ou posicionar ped flutuando."
+    },
+    {
+      "codigo": "montagem",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP11_C03",
+        "EP13_C03",
+        "EP15_C08"
+      ],
+      "restricao": "Tomadas separadas no CapCut, preservar ordem narrativa e somas de tempos; não fingir montagem inteira em uma câmera parada."
+    },
+    {
+      "codigo": "montagem_locacoes",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP05_C03"
+      ],
+      "restricao": "EP05_C03 usa Djanira e Dinjer em locais diferentes, duas tomadas para alternar no CapCut."
+    },
+    {
+      "codigo": "moto",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C08",
+        "EP01_C09"
+      ],
+      "restricao": "Helper piloto Faggio preparado; movimento de produção precisa de teste próprio. Não mover veículo ocupado por alguém alheio."
+    },
+    {
+      "codigo": "olhar",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C03",
+        "EP01_C04",
+        "EP01_C05",
+        "EP01_C07",
+        "EP01_C09",
+        "EP02_C04",
+        "EP02_C06",
+        "EP02_C07",
+        "EP03_C06",
+        "EP04_C02",
+        "EP05_C04",
+        "EP05_C05",
+        "EP06_C01",
+        "EP06_C02",
+        "EP06_C03",
+        "EP06_C06",
+        "EP07_C02",
+        "EP07_C04",
+        "EP08_C04",
+        "EP08_C06",
+        "EP09_C01",
+        "EP09_C02",
+        "EP09_C03",
+        "EP11_C01",
+        "EP11_C02",
+        "EP13_C01",
+        "EP13_C05",
+        "EP14_C05",
+        "EP15_C04",
+        "EP15_C05",
+        "EP15_C06"
+      ],
+      "restricao": "LookAt precisa respeitar roteiro: chão na fala6EP07_C04; desvio emEP08_C04 e costas emEP14_C05. Não depender sempre do ouvinte automático."
+    },
+    {
+      "codigo": "onibus",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP01_C06",
+        "EP04_C01",
+        "EP06_C01"
+      ],
+      "restricao": "Ônibus próprio, porta e chegada/saída reais. Caminhar perto de veículo parado não demonstra descer do ônibus."
+    },
+    {
+      "codigo": "papel",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP08_C05",
+        "EP09_C02",
+        "EP11_C05",
+        "EP12_C04",
+        "EP12_C05",
+        "EP15_C03"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "populacao_propria",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP10_C05"
+      ],
+      "restricao": "EP10_C05 exige pessoas ao redor; limpeza padrão remove população ambiental. Figuração própria limitada/persistente deve ser explicitamente encenada e preservada."
+    },
+    {
+      "codigo": "porta",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP01_C04",
+        "EP01_C05",
+        "EP03_C02",
+        "EP03_C04",
+        "EP03_C07",
+        "EP11_C01",
+        "EP12_C01",
+        "EP14_C01",
+        "EP15_C07"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "quadro_reutilizavel",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP06_C02",
+        "EP12_C01"
+      ],
+      "restricao": "EP06_C02 e EP12_C01 exigem mesmo enquadramento real guardado, não recalcular aproximação e afirmar equivalência."
+    },
+    {
+      "codigo": "recurso_sapato",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP03_C05"
+      ],
+      "restricao": "Fuga descalça/com sapatos na mão conflita com figurino permanente de Dinjer. Recurso/continuidade precisam de adaptação declarada, sem alterar XML salvo."
+    },
+    {
+      "codigo": "remedio",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP04_C06"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "reutilizacao",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP07_C05"
+      ],
+      "restricao": "Conservar clipe gravado EP01_C01 para EP07_C05; somente outro ângulo se houver nova tomada própria."
+    },
+    {
+      "codigo": "riso",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP04_C03",
+        "EP11_C05"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "sacola",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [],
+      "cenas": [
+        "EP09_C05",
+        "EP09_C06",
+        "EP10_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "sentar",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "pose"
+      ],
+      "cenas": [
+        "EP01_C03",
+        "EP02_C02",
+        "EP03_C03",
+        "EP04_C05",
+        "EP06_C03",
+        "EP06_C04",
+        "EP08_C03",
+        "EP09_C04",
+        "EP11_C04",
+        "EP12_C02",
+        "EP13_C06",
+        "EP15_C02",
+        "EP15_C04",
+        "EP15_C05",
+        "EP15_C08"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "trabalho",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "animacao_corporal"
+      ],
+      "cenas": [
+        "EP01_C02",
+        "EP05_C01"
+      ],
+      "restricao": "Requer postura/objeto/ação real e teste de duração, transformação e reset; fonte do roteiro não valida execução."
+    },
+    {
+      "codigo": "voo_queda",
+      "estado": "planejado; produção não testada",
+      "tiposCandidatos": [
+        "queda"
+      ],
+      "cenas": [
+        "EP01_C01",
+        "EP07_C03",
+        "EP07_C04",
+        "EP07_C05"
+      ],
+      "restricao": "Bloqueado sem marca aérea/água/rota real, aeronave real consultada e teste técnico invencível. Animar queda não é simular voo/física. EP07_C05 reaproveita EP01_C01."
+    }
+  ],
+  "coberturaRoteiro": [
+    {
+      "id": "EP01_C01",
+      "nome": "A QUEDA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 212,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_AR → CANAL_LS · `hora:` 18:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE → OLHOS · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 218,
+          "texto": "**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "voo_queda",
+        "agua",
+        "caminhar"
+      ],
+      "candidatos": [
+        "queda_livre_candidata",
+        "sair_agua_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C02",
+      "nome": "A ROÇA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 225,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 07:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 229,
+          "texto": "**Ação:** Djanira andando devagar no meio da plantação, trabalhando. Câmera bem afastada, ela pequena no quadro."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "trabalho"
+      ],
+      "candidatos": [
+        "trabalho_plantacao_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C03",
+      "nome": "A AVÓ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 238,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 18:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` DOIS → MEDIA · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 242,
+          "texto": "**Ação:** As duas sentadas ou em pé na frente da casa. Djanira ajeita algo para a avó. Sem diálogo — só convivência."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "entrega",
+        "olhar"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato",
+        "entrega_a",
+        "entrega_b"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C04",
+      "nome": "O HOSPITAL",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 249,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` HOSPITAL_SANDY · `hora:` 08:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 253,
+          "texto": "**Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "porta",
+        "olhar"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C05",
+      "nome": "O SEGREDO DA AVÓ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 260,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` HOSPITAL_SANDY → CASSINO_FORA · `hora:` 10:00 · `clima:` limpo",
+        "`elenco:` DONA_IRACI · `cam:` ATRAS → LONGE · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 266,
+          "texto": "**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 271,
+          "texto": "> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude."
+        }
+      ],
+      "capacidades": [
+        "caminhar",
+        "porta",
+        "olhar",
+        "expressao"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C06",
+      "nome": "A DINJER NO TRABALHO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 275,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_TERMINAL · `hora:` 09:00 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 279,
+          "texto": "**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "onibus",
+        "caminhar",
+        "andar_estilo"
+      ],
+      "candidatos": [
+        "andar_passarela_candidato",
+        "andar_salto_candidato",
+        "andar_chefe_candidato",
+        "andar_capanga_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C07",
+      "nome": "O BARRACO NO HANGAR",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 286,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_HANGAR · `hora:` 11:00 · `clima:` limpo",
+        "`elenco:` DINJER, COLEGA_1, COLEGA_2, COLEGA_3 · `cam:` auto · `dur:` 20s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 292,
+          "texto": "**Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada."
+        },
+        {
+          "linha": 303,
+          "texto": "**Ação final:** 2 segundos de empurra-empurra. Corte seco."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "olhar",
+        "briga",
+        "dialogo"
+      ],
+      "candidatos": [
+        "empurrar",
+        "reacao_golpe",
+        "empurrar_patricia",
+        "empurrar_trevor"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C08",
+      "nome": "O PEDIDO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 307,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 17:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 313,
+          "texto": "**Ação:** Dinjer chega de moto, desce, anda com jeito de passarela até a Djanira e para na frente dela. As duas conversam. No fim, Djanira mexe no celular fazendo o Pix."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 311,
+          "texto": "> 🔴 **Esta é a cena de teste do sistema.** Gere esta primeiro."
+        }
+      ],
+      "capacidades": [
+        "moto",
+        "caminhar",
+        "andar_estilo",
+        "celular",
+        "dialogo"
+      ],
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f",
+        "andar_passarela_candidato",
+        "andar_salto_candidato",
+        "andar_chefe_candidato",
+        "andar_capanga_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP01_C09",
+      "nome": "FECHAMENTO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 330,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 334,
+          "texto": "**Ação:** Djanira sozinha, olhando a moto da Dinjer ir embora."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "moto",
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C01",
+      "nome": "A BALADA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 352,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` MEDIA → PERTO · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 358,
+          "texto": "**Ação:** Dinjer bebendo, dançando, tirando foto. Expressão `convencido`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "bebida",
+        "danca",
+        "foto",
+        "expressao",
+        "interior"
+      ],
+      "candidatos": [
+        "foto_celular_f",
+        "beber_f",
+        "danca_djanira_candidata",
+        "danca_dinjer_candidata",
+        "danca_iraci_candidata",
+        "danca_chefe_candidata"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C02",
+      "nome": "A MESA DOS HOMENS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 365,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:30 · `clima:` limpo",
+        "`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3, CAPANGA_4 · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 369,
+          "texto": "**Ação:** Dinjer sentada numa mesa reservada com quatro homens de terno. Um deles entrega um envelope para ela. Ela guarda rápido."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "entrega",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato",
+        "entrega_a",
+        "entrega_b"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C03",
+      "nome": "O SILÊNCIO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 376,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 380,
+          "texto": "**Ação:** Djanira no escuro, mexendo no celular, esperando resposta. Expressão `estressado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "celular",
+        "expressao"
+      ],
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C04",
+      "nome": "O AVISO DA AVÓ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 387,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 19:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` auto · `dur:` 18s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 391,
+          "texto": "**Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "dialogo",
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C05",
+      "nome": "O BLOQUEIO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 403,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 19:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 407,
+          "texto": "**Ação:** Djanira com o celular na mão. Rosto fecha. Expressão muda para `com raiva`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "celular",
+        "expressao"
+      ],
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C06",
+      "nome": "O STORY",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 414,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 19:45 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` DOIS → PERTO · `dur:` 16s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 418,
+          "texto": "**Ação:** A avó mostra o celular dela para a Djanira. As duas olham a tela."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "celular",
+        "olhar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP02_C07",
+      "nome": "A DECISÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 431,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 435,
+          "texto": "**Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C01",
+      "nome": "A CARONA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 451,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ESTRADA_SENORA · `hora:` 07:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 455,
+          "texto": "**Ação:** Djanira andando na beira da estrada, acenando para carros que passam."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "carona"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C02",
+      "nome": "DE MANHÃ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 462,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_DINJER · `hora:` 08:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 466,
+          "texto": "**Ação:** Djanira bate na porta três vezes. Espera. Ninguém atende."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "porta"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C03",
+      "nome": "DE TARDE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 473,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_DINJER · `hora:` 14:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 477,
+          "texto": "**Ação:** Djanira sentada no meio-fio em frente à casa, esperando. Sol forte."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C04",
+      "nome": "DE NOITE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 484,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_DINJER · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 488,
+          "texto": "**Ação:** Djanira bate na porta de novo. Luz acesa dentro. Expressão `estressado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "porta",
+        "expressao"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C05",
+      "nome": "A FUGA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 495,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_DINJER, fundos · `hora:` 21:30 · `clima:` limpo",
+        "`elenco:` DINJER, DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 499,
+          "texto": "**Ação:** A porta dos fundos abre. Dinjer sai correndo, descalça, com os sapatos na mão. Djanira parada no meio da rua, vendo ela sumir."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "recurso_sapato",
+        "figurino_conflito"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C06",
+      "nome": "O QUE ELA ENTENDEU",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 506,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_DINJER, rua · `hora:` 21:40 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 11s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 510,
+          "texto": "**Ação:** Close na Djanira, parada, sem reação."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "expressao"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP03_C07",
+      "nome": "OS TRINTA DIAS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 517,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 10:00 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE, CAPANGA_1 *(como dono da fazenda, sem terno)* · `cam:` auto · `dur:` 15s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 521,
+          "texto": "**Ação:** Um homem bate na porta. A avó atende. Djanira ouve de dentro."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "porta",
+        "dialogo",
+        "elenco_adicional"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C01",
+      "nome": "O AEROPORTO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 543,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_TERMINAL · `hora:` 10:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 547,
+          "texto": "**Ação:** Djanira desce de um ônibus e anda pelo terminal, deslocada no meio de gente bem vestida."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "onibus",
+        "caminhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C02",
+      "nome": "A COBRANÇA PÚBLICA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 554,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_TERMINAL · `hora:` 10:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER, COLEGA_1, COLEGA_2 · `cam:` auto · `dur:` 26s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 558,
+          "texto": "**Ação:** Dinjer aparece com colegas. Vê a Djanira e muda de expressão. Os colegas param para olhar. Dinjer percebe a plateia e vira o jogo."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "dialogo",
+        "elenco_adicional"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C03",
+      "nome": "A SAÍDA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 572,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_TERMINAL · `hora:` 10:40 · `clima:` limpo",
+        "`elenco:` DINJER, DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 576,
+          "texto": "**Ação:** Dinjer vai embora andando na passarela com os colegas, rindo. Djanira fica parada no meio do saguão."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "andar_estilo",
+        "riso"
+      ],
+      "candidatos": [
+        "andar_passarela_candidato",
+        "andar_salto_candidato",
+        "andar_chefe_candidato",
+        "andar_capanga_candidato",
+        "rir_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C04",
+      "nome": "A VOLTA A PÉ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 583,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ESTRADA_SENORA · `hora:` 18:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 587,
+          "texto": "**Ação:** Djanira andando sozinha na estrada, câmera o mais longe possível."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C05",
+      "nome": "A AVÓ PIORA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 594,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 20:00 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 598,
+          "texto": "**Ação:** A avó deitada, muito mal. Djanira sentada do lado."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "deitar",
+        "sentar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "deitada_cama_f",
+        "sono_f",
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP04_C06",
+      "nome": "A CONTA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 609,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 613,
+          "texto": "**Ação:** Close na Djanira segurando uma caixa de remédio vazia. Expressão `machucado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "remedio",
+        "expressao"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP05_C01",
+      "nome": "OS TRÊS SERVIÇOS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 629,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 12:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 633,
+          "texto": "**Ação:** Djanira capinando no sol forte, exausta. Expressão `chateado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "trabalho",
+        "expressao"
+      ],
+      "candidatos": [
+        "trabalho_plantacao_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP05_C02",
+      "nome": "A LIGAÇÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 640,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED · `hora:` 15:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 5s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 644,
+          "texto": "**Ação:** O celular toca. Djanira olha a tela e atende."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "celular",
+        "ligacao"
+      ],
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f",
+        "ligacao_entrada_f",
+        "ligacao_f",
+        "ligacao_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP05_C03",
+      "nome": "A PROPOSTA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 651,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ROCA_GRAPESEED *(Djanira)* · `hora:` 15:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 657,
+          "texto": "**Ação:** As duas ao telefone, cada uma no seu lugar."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 655,
+          "texto": "> 💡 **Cena de telefone.** As duas estão em lugares diferentes. Grave cada uma separada, na sua locação, e alterne na edição. A Dinjer fica em `AEROPORTO_TERMINAL`."
+        }
+      ],
+      "capacidades": [
+        "ligacao",
+        "dialogo",
+        "montagem_locacoes"
+      ],
+      "candidatos": [
+        "ligacao_entrada_f",
+        "ligacao_f",
+        "ligacao_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP05_C04",
+      "nome": "O ARMÁRIO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 671,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 19:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 675,
+          "texto": "**Ação:** Djanira parada olhando o guarda-roupa, quase vazio."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "ambiente_mobiliario"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP05_C05",
+      "nome": "O AVISO QUE ELA NÃO OUVIU",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 682,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 19:30 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 18s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 686,
+          "texto": "**Ação:** A avó chama a Djanira. Djanira ouve de pé, já decidida."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "dialogo",
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C01",
+      "nome": "A CIDADE GRANDE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 710,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CENTRO_LEGION · `hora:` 22:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 11s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 714,
+          "texto": "**Ação:** Djanira desce do ônibus e olha os prédios. Câmera baixa, olhando para cima, os arranha-céus enormes em volta dela."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "onibus",
+        "caminhar",
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C02",
+      "nome": "A FILA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 721,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 727,
+          "texto": "**Ação:** Djanira parada na fila, sendo olhada de cima a baixo pelo segurança. Expressão `chateado`."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 725,
+          "texto": "> 🔴 **Guarde o enquadramento exato desta tomada.** No Episódio 12 você vai repetir a mesma câmera com a Djanira rica. O corte entre as duas é o momento mais forte da temporada."
+        }
+      ],
+      "capacidades": [
+        "olhar",
+        "expressao",
+        "quadro_reutilizavel",
+        "elenco_adicional"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C03",
+      "nome": "O QUE ELA VIU",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 734,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE, CAPANGA_1, CAPANGA_2 · `cam:` LONGE → PERTO · `dur:` 13s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 740,
+          "texto": "**Ação:** Djanira vê, de longe, a Dinjer sentada com o Chefe e os capangas. Não é festa — é negócio."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "olhar",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C04",
+      "nome": "A APRESENTAÇÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 747,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:40 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` auto · `dur:` 40s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 751,
+          "texto": "**Ação:** Dinjer vê a Djanira, levanta rápido e vai abraçar. Leva até a mesa do Chefe. Ele se levanta devagar."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "abraco",
+        "caminhar",
+        "dialogo",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato",
+        "abraco_a",
+        "abraco_b"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C05",
+      "nome": "A SAÍDA FELIZ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 767,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_FORA · `hora:` 00:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 771,
+          "texto": "**Ação:** Djanira saindo da boate, sorrindo. Expressão `feliz` — a primeira vez na série."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "expressao"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP06_C06",
+      "nome": "O GESTO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 778,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 00:31 · `clima:` limpo",
+        "`elenco:` O_CHEFE, DINJER · `cam:` PERTO · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 784,
+          "texto": "**Ação:** Close no Chefe. Ele olha para a Dinjer e faz o gesto de **passar a mão no pescoço** — ordem de matar. Corta para a Dinjer: ela abaixa a cabeça e não diz nada. **Corte seco.**"
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 782,
+          "texto": "> 🔴 **A tomada mais importante da primeira metade da temporada. Sem fala nenhuma.**"
+        }
+      ],
+      "capacidades": [
+        "ameaca",
+        "olhar"
+      ],
+      "candidatos": [
+        "ameaca_pescoco_m"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP07_C01",
+      "nome": "O HANGAR",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 797,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_HANGAR · `hora:` 19:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 801,
+          "texto": "**Ação:** Djanira chega no hangar arrumada com a roupa de igreja. Expressão `feliz`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "expressao",
+        "figurino_conflito"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP07_C02",
+      "nome": "O QUE ELA NÃO DEVIA VER",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 808,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` GALPAO_CYPRESS · `hora:` 19:30 · `clima:` limpo",
+        "`elenco:` O_CHEFE, CAPANGA_1, CAPANGA_2, DJANIRA_POBRE · `cam:` LONGE → PERTO · `dur:` 16s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 812,
+          "texto": "**Ação:** Djanira escondida atrás de um contêiner, escutando. O Chefe conversa com dois homens perto de umas caixas. Filme de longe, pouca luz, nada claramente visível."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "esconder",
+        "dialogo",
+        "ambiente_mobiliario"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP07_C03",
+      "nome": "A DECOLAGEM",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 825,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_HANGAR · `hora:` 20:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 829,
+          "texto": "**Ação:** Os três embarcam. Djanira `feliz`, Dinjer `chateado` — primeira vez que ela não está convencida. O avião decola."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "voo_queda",
+        "expressao"
+      ],
+      "candidatos": [
+        "queda_livre_candidata"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP07_C04",
+      "nome": "O JANTAR NO CÉU",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 836,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_AR · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 840,
+          "texto": "**Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 853,
+          "texto": "> 💡 Na fala 6 a Dinjer **não olha para a Djanira**. Olha para o chão. É o detalhe que o público vai lembrar no Episódio 15."
+        }
+      ],
+      "capacidades": [
+        "voo_queda",
+        "bandeja",
+        "dialogo",
+        "olhar"
+      ],
+      "candidatos": [
+        "queda_livre_candidata"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP07_C05",
+      "nome": "A QUEDA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 857,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` AEROPORTO_AR → CANAL_LS · `hora:` 21:10 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` OLHOS · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [],
+      "observacoesRoteiro": [
+        {
+          "linha": 861,
+          "texto": "> 💡 **Reaproveite a EP01_C01.** É a mesma queda, agora explicada. Se quiser regravar com outro ângulo, melhor ainda."
+        }
+      ],
+      "capacidades": [
+        "voo_queda",
+        "reutilizacao"
+      ],
+      "candidatos": [
+        "queda_livre_candidata"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C01",
+      "nome": "SAINDO DA ÁGUA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 877,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CANAL_LS · `hora:` 06:00 · `clima:` nublado",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 881,
+          "texto": "**Ação:** Djanira sai da água do canal, encharcada, subindo a rampa de concreto com dificuldade. Expressão `machucado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "agua",
+        "machucado"
+      ],
+      "candidatos": [
+        "tropecar",
+        "andar_machucado_candidato",
+        "sair_agua_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C02",
+      "nome": "DOIS DIAS DE VOLTA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 888,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ESTRADA_SENORA · `hora:` 06:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 11s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 892,
+          "texto": "**Ação:** Djanira andando descalça na beira da estrada, ao nascer do sol. Câmera o mais longe possível."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "figurino_conflito"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C03",
+      "nome": "A REVELAÇÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 899,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 20:00 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 42s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 905,
+          "texto": "**Ação:** A avó deitada, muito pior. Chama a Djanira para perto e conta tudo."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 903,
+          "texto": "> 🔴 **A cena mais importante do primeiro bloco.** Cortes lentos, planos fechados, deixe respirar."
+        }
+      ],
+      "capacidades": [
+        "deitar",
+        "sentar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "deitada_cama_f",
+        "sono_f",
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C04",
+      "nome": "A CONFISSÃO DO CASSINO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 920,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 20:30 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 30s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 924,
+          "texto": "**Ação:** A avó desvia o olhar, envergonhada."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 935,
+          "texto": "> 💡 **Insira aqui o flashback da EP01_C05** — a avó saindo do hospital e entrando no cassino. Agora o público entende."
+        }
+      ],
+      "capacidades": [
+        "olhar",
+        "dialogo"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C05",
+      "nome": "O PAPEL",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 939,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` PERTO · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 943,
+          "texto": "**Ação:** A avó entrega um papel dobrado na mão da Djanira. Close nas mãos."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "entrega",
+        "papel",
+        "dialogo"
+      ],
+      "candidatos": [
+        "entrega_a",
+        "entrega_b",
+        "ler_papel_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP08_C06",
+      "nome": "A MORTE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 953,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 957,
+          "texto": "**Ação:** Djanira parada na porta do quarto, de costas para a câmera. **Não mostre a avó.** Corte para o preto."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "edicao_externa"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C01",
+      "nome": "O ENTERRO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 973,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` IGREJA_CHAPARRAL · `hora:` 10:00 · `clima:` nublado",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 13s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 977,
+          "texto": "**Ação:** Djanira sozinha na frente de uma cova. Ninguém mais em cena. É a solidão que conta a história."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "ambiente_mobiliario"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C02",
+      "nome": "O PAPEL ABERTO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 984,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 11:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 988,
+          "texto": "**Ação:** Djanira abre o papel dobrado. Close no papel e no rosto dela."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 993,
+          "texto": "> 🔴 **Plantado aqui, colhido no Episódio 11.** Ela não lê a segunda linha. O público também não vê."
+        }
+      ],
+      "capacidades": [
+        "papel",
+        "olhar"
+      ],
+      "candidatos": [
+        "ler_papel_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C03",
+      "nome": "O BANCO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 997,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BANCO_MAZE · `hora:` 14:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1001,
+          "texto": "**Ação:** Djanira parada na calçada, olhando o prédio enorme. Câmera baixa — o prédio gigante, ela minúscula."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C04",
+      "nome": "TRÊS ANOS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1008,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BANCO_MAZE · `hora:` 14:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 24s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1012,
+          "texto": "**Ação:** Djanira sentada na frente de um atendente."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C05",
+      "nome": "A SAÍDA DE CASA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1026,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CASA_VO · `hora:` 08:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1030,
+          "texto": "**Ação:** Djanira sai de casa com uma sacola, de costas. Câmera parada. Ela some do quadro sozinha."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "sacola"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP09_C06",
+      "nome": "O ÔNIBUS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1037,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` ESTRADA_SENORA · `hora:` 09:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1041,
+          "texto": "**Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1055,
+          "texto": "> 💡 **O episódio mais fácil de gravar da temporada.** Um personagem só, zero diálogo, tudo narração. Oito tomadas curtas em lugares diferentes, montadas com música. **Varie muito a hora do dia** — é a mudança de luz que vende os três anos passando."
+        }
+      ],
+      "capacidades": [
+        "sacola",
+        "expressao"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C01",
+      "nome": "O BANCO DE PRAÇA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1059,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` PRAIA_DELPERRO · `hora:` 03:00 · `clima:` nublado",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1063,
+          "texto": "**Ação:** Djanira dormindo num banco, abraçada na sacola."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "deitar",
+        "sacola"
+      ],
+      "candidatos": [
+        "deitada_cama_f",
+        "sono_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C02",
+      "nome": "OS SERVIÇOS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1070,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` RUA_STRAWBERRY · `hora:` 05:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1074,
+          "texto": "**Ação:** Djanira num ponto de ônibus, esperando, de uniforme de faxina."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "expressao",
+        "figurino_conflito"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C03",
+      "nome": "AS QUATRO DA MANHÃ",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1081,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` RUA_STRAWBERRY · `hora:` 04:00 · `clima:` nublado",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1085,
+          "texto": "**Ação:** Djanira andando sozinha na rua vazia, ainda escuro."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C04",
+      "nome": "O VIADUTO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1092,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` VIADUTO_LAPUERTA · `hora:` 23:00 · `clima:` nublado",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1096,
+          "texto": "**Ação:** Djanira andando embaixo do viaduto à noite."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C05",
+      "nome": "A INVISÍVEL",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1103,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` CENTRO_LEGION · `hora:` 08:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1107,
+          "texto": "**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "populacao_propria"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C06",
+      "nome": "O CALENDÁRIO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1114,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` VIADUTO_LAPUERTA · `hora:` 22:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1118,
+          "texto": "**Ação:** Close na Djanira riscando algo com a mão. O calendário em si você monta no CapCut."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "escrever",
+        "edicao_externa"
+      ],
+      "candidatos": [
+        "anotar_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP10_C07",
+      "nome": "O ÚLTIMO DIA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1125,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` VIADUTO_LAPUERTA · `hora:` 22:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 4s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1129,
+          "texto": "**Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "expressao"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP11_C01",
+      "nome": "A MESMA ROUPA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1145,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BANCO_MAZE · `hora:` 09:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1151,
+          "texto": "**Ação:** Djanira entrando no banco com a roupa velha e o chinelo. O segurança a segue com o olhar."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1149,
+          "texto": "> ⚠️ Ainda é a **DJANIRA_POBRE**. A troca acontece só na próxima cena."
+        }
+      ],
+      "capacidades": [
+        "caminhar",
+        "porta",
+        "figurino_conflito",
+        "olhar",
+        "elenco_adicional"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP11_C02",
+      "nome": "QUANTO CUSTOU",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1158,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BANCO_MAZE · `hora:` 09:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1162,
+          "texto": "**Ação:** O atendente olha a tela e muda de expressão."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar",
+        "expressao",
+        "dialogo"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP11_C03",
+      "nome": "A TRANSFORMAÇÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1173,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 13:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` LONGE → MEDIA → PERTO · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1179,
+          "texto": "**Ação:** Montagem de 5 ou 6 tomadas curtas: saindo do carro, na frente da mansão, no portão, andando de salto."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1177,
+          "texto": "> 🔴 **Aqui troca o figurino.** A partir desta cena é sempre `DJANIRA_RICA`, andar `na passarela`, expressão `convencido`."
+        }
+      ],
+      "capacidades": [
+        "carro",
+        "caminhar",
+        "andar_estilo",
+        "montagem"
+      ],
+      "candidatos": [
+        "andar_passarela_candidato",
+        "andar_salto_candidato",
+        "andar_chefe_candidato",
+        "andar_capanga_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP11_C04",
+      "nome": "A CAMA MACIA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1186,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1190,
+          "texto": "**Ação:** Djanira sentada sozinha, no chão, numa sala enorme e vazia."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP11_C05",
+      "nome": "A SEGUNDA LINHA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1197,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 20:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` PERTO · `dur:` 20s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1203,
+          "texto": "**Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1201,
+          "texto": "> 🔴 **O gancho de toda a segunda metade da temporada.**"
+        }
+      ],
+      "capacidades": [
+        "entrega",
+        "papel",
+        "riso"
+      ],
+      "candidatos": [
+        "entrega_a",
+        "entrega_b",
+        "ler_papel_candidato",
+        "rir_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP12_C01",
+      "nome": "A MESMA PORTA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1219,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1225,
+          "texto": "**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1223,
+          "texto": "> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**"
+        }
+      ],
+      "capacidades": [
+        "carro",
+        "porta",
+        "quadro_reutilizavel",
+        "elenco_adicional"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP12_C02",
+      "nome": "A MESA DO CHEFE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1232,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:15 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 6s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1236,
+          "texto": "**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP12_C03",
+      "nome": "ELA NÃO RECONHECE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1243,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 23:20 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 36s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1249,
+          "texto": "**Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1247,
+          "texto": "> 💡 A Dinjer está com o mesmo uniforme de sempre. A Djanira mudou tudo menos o rosto. **A Dinjer olha e não reconhece.**"
+        }
+      ],
+      "capacidades": [
+        "bandeja",
+        "dialogo",
+        "interior"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP12_C04",
+      "nome": "A GORJETA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1269,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 00:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1273,
+          "texto": "**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "entrega",
+        "choro",
+        "papel",
+        "carro"
+      ],
+      "candidatos": [
+        "choro_patricia",
+        "choro_gesto_f",
+        "entrega_a",
+        "entrega_b",
+        "ler_papel_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP12_C05",
+      "nome": "O BILHETE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1280,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 00:05 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` PERTO · `dur:` 5s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1284,
+          "texto": "**Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "papel",
+        "entrega",
+        "edicao_externa"
+      ],
+      "candidatos": [
+        "entrega_a",
+        "entrega_b",
+        "ler_papel_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C01",
+      "nome": "TUDO DIFERENTE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1300,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1304,
+          "texto": "**Ação:** Dinjer chega para trabalhar e vê tudo mudado. Expressão `estressado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "olhar",
+        "expressao",
+        "interior"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C02",
+      "nome": "A DEMISSÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1311,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 21:30 · `clima:` limpo",
+        "`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3 · `cam:` LONGE · `dur:` 10s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1315,
+          "texto": "**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "entrega",
+        "elenco_adicional",
+        "interior"
+      ],
+      "candidatos": [
+        "entrega_a",
+        "entrega_b"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C03",
+      "nome": "COMPRANDO TUDO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1322,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` GALPAO_CYPRESS · `hora:` 15:00 · `clima:` limpo",
+        "`elenco:` *(nenhum)* · `cam:` LONGE · `dur:` 13s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1326,
+          "texto": "**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhao",
+        "ambiente_mobiliario",
+        "montagem"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C04",
+      "nome": "O CHEFE DESCOBRE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1333,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 16:00 · `clima:` limpo",
+        "`elenco:` O_CHEFE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1337,
+          "texto": "**Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "ligacao",
+        "expressao",
+        "dialogo"
+      ],
+      "candidatos": [
+        "ligacao_entrada_f",
+        "ligacao_f",
+        "ligacao_saida_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C05",
+      "nome": "A FOTO NA PAREDE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1347,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 14:00 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` MEDIA → PERTO · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1351,
+          "texto": "**Ação:** Dinjer limpando uma mesa na boate vazia. Olha para a parede. Aproxima o rosto. Entende. A foto emoldurada você monta no CapCut, usando um print da `DJANIRA_RICA`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "limpeza",
+        "olhar",
+        "edicao_externa",
+        "interior"
+      ],
+      "candidatos": [
+        "limpar_mesa"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP13_C06",
+      "nome": "NO CHÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1358,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` BOATE_DENTRO · `hora:` 14:10 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` ALTA · `dur:` 8s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1362,
+          "texto": "**Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "interior",
+        "dialogo"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP14_C01",
+      "nome": "O PORTÃO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1381,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:00 · `clima:` limpo",
+        "`elenco:` DINJER · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1385,
+          "texto": "**Ação:** Dinjer batendo no portão, desesperada, ainda de uniforme. Expressão `estressado`."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "porta",
+        "expressao"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP14_C02",
+      "nome": "O REENCONTRO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1392,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:10 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 20s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [],
+      "observacoesRoteiro": [
+        {
+          "linha": 1396,
+          "texto": "> 💡 Posicione a Djanira **mais alta** que a Dinjer — em cima de um degrau, por exemplo. A câmera deve mostrar isso."
+        }
+      ],
+      "capacidades": [
+        "dialogo",
+        "marca_elevada"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP14_C03",
+      "nome": "A PERGUNTA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1409,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:20 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 24s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [],
+      "observacoesRoteiro": [
+        {
+          "linha": 1413,
+          "texto": "> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena."
+        }
+      ],
+      "capacidades": [
+        "dialogo"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP14_C04",
+      "nome": "DE JOELHOS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1426,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:25 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1430,
+          "texto": "**Ação:** Dinjer cai de joelhos."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "ajoelhar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "ajoelhar_entrada_f",
+        "ajoelhar_base_f"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP14_C05",
+      "nome": "ELE SABE",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1444,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_DJANIRA · `hora:` 23:40 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1448,
+          "texto": "**Ação:** Dinjer já na porta, para e fala sem se virar."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "olhar",
+        "dialogo"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C01",
+      "nome": "A SUBIDA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1471,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 20:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 7s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1475,
+          "texto": "**Ação:** Um carro subindo a estrada do morro até a mansão, à noite, com a cidade acesa lá embaixo."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "carro"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C02",
+      "nome": "A MESA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1482,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 20:15 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1488,
+          "texto": "**Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1486,
+          "texto": "> 🔴 **Deixe a DINJER em quadro, ao fundo, parada, de uniforme, durante a cena inteira.** O público esquece que ela está ali. Quando a Djanira se virar para ela na cena C05, o susto dobra."
+        }
+      ],
+      "capacidades": [
+        "sentar",
+        "bandeja",
+        "dialogo",
+        "interior"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C03",
+      "nome": "O PAPEL NA MESA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1502,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 20:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 26s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1508,
+          "texto": "**Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1506,
+          "texto": "> 🔴 **Depois da fala 1, deixe 3 segundos de silêncio.** O silêncio é a cena."
+        }
+      ],
+      "capacidades": [
+        "papel",
+        "entrega",
+        "dialogo"
+      ],
+      "candidatos": [
+        "entrega_a",
+        "entrega_b",
+        "ler_papel_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C04",
+      "nome": "O MOTIVO",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1524,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 20:40 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1530,
+          "texto": "**Ação:** O Chefe se levanta e anda até a janela, de costas."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1528,
+          "texto": "> 🔴 **O primeiro grande twist da temporada.**"
+        }
+      ],
+      "capacidades": [
+        "sentar",
+        "caminhar",
+        "olhar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C05",
+      "nome": "E VOCÊ?",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1543,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 20:50 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1549,
+          "texto": "**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1547,
+          "texto": "> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar."
+        }
+      ],
+      "capacidades": [
+        "sentar",
+        "olhar",
+        "dialogo"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C06",
+      "nome": "A VOLTA COMPLETA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1565,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 21:00 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 14s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1569,
+          "texto": "**Ação:** Djanira parada no meio da sala, entre o pai e a amiga. Sem reação."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "olhar"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C07",
+      "nome": "A SAÍDA",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1576,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 21:05 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1580,
+          "texto": "**Ação:** Djanira anda até a porta e sai, sem olhar para trás."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "caminhar",
+        "porta",
+        "dialogo"
+      ],
+      "candidatos": [
+        "bater_porta"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C08",
+      "nome": "OS QUE FICARAM",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1591,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 21:10 · `clima:` limpo",
+        "`elenco:` O_CHEFE, DINJER · `cam:` LONGE · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1595,
+          "texto": "**Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "sentar",
+        "bandeja",
+        "montagem"
+      ],
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "EP15_C09",
+      "nome": "A ÚLTIMA IMAGEM",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1602,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` MANSAO_CHEFE · `hora:` 21:15 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 12s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1606,
+          "texto": "**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim."
+        }
+      ],
+      "observacoesRoteiro": [
+        {
+          "linha": 1618,
+          "texto": "> Grave **uma vez só**. Entra no fim dos 15 episódios."
+        }
+      ],
+      "capacidades": [
+        "carro",
+        "edicao_externa"
+      ],
+      "candidatos": [],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    },
+    {
+      "id": "VINHETA_01",
+      "nome": "OS CRÉDITOS",
+      "origem": {
+        "fonte": "roteiro",
+        "linha": 1620,
+        "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+      },
+      "metadadosLiterais": [
+        "`local:` PRAIA_DELPERRO · `hora:` 18:30 · `clima:` limpo",
+        "`elenco:` DJANIRA_RICA, DINJER, DONA_IRACI, O_CHEFE · `cam:` MEDIA · `dur:` 20s · `gravar:` SIM"
+      ],
+      "acoesLiterais": [
+        {
+          "linha": 1624,
+          "texto": "**Ação:** Os quatro dançando, um de cada vez, 5 segundos cada. Danças diferentes por personagem."
+        }
+      ],
+      "observacoesRoteiro": [],
+      "capacidades": [
+        "danca",
+        "edicao_externa"
+      ],
+      "candidatos": [
+        "danca_djanira_candidata",
+        "danca_dinjer_candidata",
+        "danca_iraci_candidata",
+        "danca_chefe_candidata"
+      ],
+      "estado": "planejamento; animações de produção não testadas",
+      "executavel": false
+    }
+  ]
+}

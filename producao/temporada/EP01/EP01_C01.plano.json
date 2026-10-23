@@ -1,0 +1,190 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP01_C01",
+  "episodio": 1,
+  "numero": 1,
+  "nome": "A QUEDA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 212,
+    "linhaFim": 222,
+    "sha256BlocoUtf8": "ABCF0EE40D6D1E80333311A86A7BD4A8039BF99867F6835A7F3FF581BA325A84",
+    "raw": "### EP01_C01 · A QUEDA\n`local:` AEROPORTO_AR → CANAL_LS · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE → OLHOS · `dur:` 14s · `gravar:` SIM\n\n⚠️ **Cena técnica.** Invencibilidade LIGADA. Trate como etapa separada.\n\n**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_AR → CANAL_LS",
+    "locaisCodigos": [
+      "AEROPORTO_AR",
+      "CANAL_LS"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE → OLHOS",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "OLHOS"
+    ],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      213,
+      214
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 218,
+      "raw": "**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 216,
+      "raw": "⚠️ **Cena técnica.** Invencibilidade LIGADA. Trate como etapa separada."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+      "textoOriginal": "> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 220,
+      "linhaTexto": 221,
+      "inicioMs": 0,
+      "fimMs": 14000,
+      "duracaoMs": 14000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_AR",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_AR; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CANAL_LS",
+      "familia": "ambiente",
+      "descricao": "Marca real CANAL_LS; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.",
+      "origem": "linha 218",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "veiculo:avião particular",
+      "familia": "veiculos",
+      "descricao": "avião particular: modelo, assentos/portas, motorista, percurso e restauração.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:queda_agua",
+      "familia": "movimento",
+      "descricao": "Teste técnico separado: avião/queda, invencibilidade, água, saída e rampa conforme a cena.",
+      "origem": "ação técnica e reaproveitamento originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

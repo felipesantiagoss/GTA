@@ -1,0 +1,125 @@
+{
+  "versao": 1,
+  "id": "EP04_C01",
+  "episodio": 4,
+  "numero": 1,
+  "nome": "O AEROPORTO",
+  "ambiente": {
+    "local": "AEROPORTO_TERMINAL",
+    "hora": "10:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -5,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -2,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": -0.5,
+        "frente": 3,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "LONGE",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 5,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "texto": "Se ela não aparecia em casa, eu ia onde ela não podia fugir. No trabalho. Eu nunca tinha entrado num aeroporto na vida. Todo mundo ali andava rápido, de mala, de terno. E eu de chinelo, com um papel na mão.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "destino": {
+        "direita": -2,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 1.2
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "destino": {
+        "direita": -0.5,
+        "frente": -3,
+        "altura": 0
+      },
+      "velocidade": 1.2
+    }
+  ],
+  "objetos": [
+    {
+      "id": "PAPEL_DJANIRA",
+      "recurso": "carta_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "esquerda",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ]
+}

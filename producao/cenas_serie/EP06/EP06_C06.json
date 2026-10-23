@@ -1,0 +1,98 @@
+{
+  "versao": 1,
+  "id": "EP06_C06",
+  "episodio": 6,
+  "numero": 6,
+  "nome": "O GESTO",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "00:31",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": -0.8,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "PERTO",
+    "personagem": "O_CHEFE",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "PERTO",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 6,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "texto": "Um jantar no céu. Uma promessa de pagamento. E um gesto que ninguém deveria ter visto. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 2
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "recurso": "ameaca_pescoco_m",
+      "loop": false,
+      "corpoInteiro": true,
+      "manterPoseFinal": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 6,
+      "duracaoSegundos": 3,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "chao"
+      }
+    }
+  ]
+}

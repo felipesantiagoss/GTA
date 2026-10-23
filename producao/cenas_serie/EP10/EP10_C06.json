@@ -1,0 +1,47 @@
+{
+  "versao": 1,
+  "id": "EP10_C06",
+  "episodio": 10,
+  "numero": 6,
+  "nome": "O CALENDÁRIO",
+  "ambiente": {
+    "local": "VIADUTO_LAPUERTA",
+    "hora": "22:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 14,
+      "plano": "PERTO",
+      "texto": "E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": []
+}

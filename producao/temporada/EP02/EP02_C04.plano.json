@@ -1,0 +1,186 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP02_C04",
+  "episodio": 2,
+  "numero": 4,
+  "nome": "O AVISO DA AVÓ",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 387,
+    "linhaFim": 400,
+    "sha256BlocoUtf8": "03D794B1EF108B250D97A519E4126ACC24A27C7B0F97889645D699A566220A5A",
+    "raw": "### EP02_C04 · O AVISO DA AVÓ\n`local:` CASA_VO · `hora:` 19:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` auto · `dur:` 18s · `gravar:` SIM\n\n**Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\" | 5s | neutro |\n| 2 | DJANIRA | \"Dei, vó. É a Dinjer. A gente cresceu junto.\" | 4s | neutro |\n| 3 | DONA_IRACI | \"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\" | 9s | explicando |\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "19:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 18000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      388,
+      389
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 391,
+      "raw": "**Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?",
+      "textoOriginal": "\"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 397,
+      "raw": "| 1 | DONA_IRACI | \"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\" | 5s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Dei, vó. É a Dinjer. A gente cresceu junto.",
+      "textoOriginal": "\"Dei, vó. É a Dinjer. A gente cresceu junto.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 398,
+      "raw": "| 2 | DJANIRA | \"Dei, vó. É a Dinjer. A gente cresceu junto.\" | 4s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 9000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.",
+      "textoOriginal": "\"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 399,
+      "raw": "| 3 | DONA_IRACI | \"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\" | 9s | explicando |",
+      "inicioMs": 9000,
+      "fimMs": 18000,
+      "duracaoMs": 9000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 18000,
+    "blocosDeclaradosMs": 18000,
+    "conteudoPlanejadoMs": 18000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 21000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASA_VO",
+      "familia": "ambiente",
+      "descricao": "Marca real CASA_VO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé.",
+      "origem": "linha 391",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

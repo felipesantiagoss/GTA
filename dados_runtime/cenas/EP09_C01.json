@@ -1,0 +1,62 @@
+{
+  "versao": 1,
+  "id": "EP09_C01",
+  "episodio": 9,
+  "numero": 1,
+  "nome": "O ENTERRO",
+  "ambiente": {
+    "local": "IGREJA_CHAPARRAL",
+    "hora": "10:00",
+    "clima": "nublado",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 13,
+      "plano": "LONGE",
+      "texto": "Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 13,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 0,
+          "frente": 1,
+          "altura": 0.6
+        }
+      }
+    }
+  ]
+}

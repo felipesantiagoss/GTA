@@ -1,0 +1,222 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP14_C04",
+  "episodio": 14,
+  "numero": 4,
+  "nome": "DE JOELHOS",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1426,
+    "linhaFim": 1441,
+    "sha256BlocoUtf8": "C997274AB37B255D0BED25AB5C9B6D2FDCB15541761EB4E2403796A9EA835D24",
+    "raw": "### EP14_C04 · DE JOELHOS\n`local:` MANSAO_DJANIRA · `hora:` 23:25 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM\n\n**Ação:** Dinjer cai de joelhos.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\" | 7s | implorando |\n| 2 | DJANIRA | \"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\" | 7s | irritado |\n| 3 | DINJER | \"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\" | 9s | implorando |\n| 4 | DJANIRA | \"E você acreditou.\" | 2s | neutro |\n| 5 | DINJER | \"Eu precisava acreditar, Djanira! Eu precisava!\" | 4s | implorando |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:25",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 28000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1427,
+      1428
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1430,
+      "raw": "**Ação:** Dinjer cai de joelhos.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.",
+      "textoOriginal": "\"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1436,
+      "raw": "| 1 | DINJER | \"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\" | 7s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.",
+      "textoOriginal": "\"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 1437,
+      "raw": "| 2 | DJANIRA | \"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\" | 7s | irritado |",
+      "inicioMs": 7000,
+      "fimMs": 14000,
+      "duracaoMs": 7000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.",
+      "textoOriginal": "\"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1438,
+      "raw": "| 3 | DINJER | \"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\" | 9s | implorando |",
+      "inicioMs": 14000,
+      "fimMs": 23000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "E você acreditou.",
+      "textoOriginal": "\"E você acreditou.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1439,
+      "raw": "| 4 | DJANIRA | \"E você acreditou.\" | 2s | neutro |",
+      "inicioMs": 23000,
+      "fimMs": 25000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DINJER",
+      "texto": "Eu precisava acreditar, Djanira! Eu precisava!",
+      "textoOriginal": "\"Eu precisava acreditar, Djanira! Eu precisava!\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1440,
+      "raw": "| 5 | DINJER | \"Eu precisava acreditar, Djanira! Eu precisava!\" | 4s | implorando |",
+      "inicioMs": 25000,
+      "fimMs": 29000,
+      "duracaoMs": 4000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 28000,
+    "blocosDeclaradosMs": 29000,
+    "conteudoPlanejadoMs": 29000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 32000,
+    "fimUltimaLegendaMs": 32000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 28000ms menor que blocos declarados 29000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_DJANIRA",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_DJANIRA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer cai de joelhos.",
+      "origem": "linha 1430",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

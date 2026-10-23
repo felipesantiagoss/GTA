@@ -1,0 +1,210 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 3,
+  "nomeOriginal": "\"A COBRANÇA\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 94000,
+  "clipes": [
+    {
+      "id": "EP03_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 7000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C01.base.srt"
+    },
+    {
+      "id": "EP03_C02",
+      "inicioEpisodioBaseMs": 7000,
+      "fimEpisodioBaseMs": 13000,
+      "duracaoPlanejadaMs": 6000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C02.base.srt"
+    },
+    {
+      "id": "EP03_C03",
+      "inicioEpisodioBaseMs": 13000,
+      "fimEpisodioBaseMs": 21000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C03.base.srt"
+    },
+    {
+      "id": "EP03_C04",
+      "inicioEpisodioBaseMs": 21000,
+      "fimEpisodioBaseMs": 30000,
+      "duracaoPlanejadaMs": 9000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C04.base.srt"
+    },
+    {
+      "id": "EP03_C05",
+      "inicioEpisodioBaseMs": 30000,
+      "fimEpisodioBaseMs": 42000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C05.base.srt"
+    },
+    {
+      "id": "EP03_C06",
+      "inicioEpisodioBaseMs": 42000,
+      "fimEpisodioBaseMs": 53000,
+      "duracaoPlanejadaMs": 11000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C06.base.srt"
+    },
+    {
+      "id": "EP03_C07",
+      "inicioEpisodioBaseMs": 53000,
+      "fimEpisodioBaseMs": 74000,
+      "duracaoPlanejadaMs": 21000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP03_C07.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 74000,
+      "fimEpisodioBaseMs": 94000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP03_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "legenda": "Narrador: Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela."
+    },
+    {
+      "cena": "EP03_C02",
+      "bloco": 1,
+      "inicioMs": 7000,
+      "fimMs": 13000,
+      "legenda": "Narrador: Eu fui de manhã. Bati três vezes. Ninguém atendeu."
+    },
+    {
+      "cena": "EP03_C03",
+      "bloco": 1,
+      "inicioMs": 13000,
+      "fimMs": 21000,
+      "legenda": "Narrador: Fui de tarde. Esperei duas horas sentada no meio-fio. A televisão tava ligada lá dentro. Eu escutava daqui de fora."
+    },
+    {
+      "cena": "EP03_C04",
+      "bloco": 1,
+      "inicioMs": 21000,
+      "fimMs": 30000,
+      "legenda": "Narrador: Fui de noite. A luz acesa, a música tocando, e ninguém atendendo uma mulher que tava ali só pra pegar o que era dela."
+    },
+    {
+      "cena": "EP03_C05",
+      "bloco": 1,
+      "inicioMs": 30000,
+      "fimMs": 42000,
+      "legenda": "Narrador: E foi aí que eu vi. Ela saiu correndo pelos fundos. Descalça. De uma casa que ela pagava com o meu dinheiro. Correndo de mim, como se eu fosse o problema dela."
+    },
+    {
+      "cena": "EP03_C06",
+      "bloco": 1,
+      "inicioMs": 42000,
+      "fimMs": 53000,
+      "legenda": "Narrador: Eu não gritei. Eu não corri atrás. Pra ela, eu nunca fui amiga. Eu era reserva. Eu era o dinheiro que dava pra pegar sem precisar devolver."
+    },
+    {
+      "cena": "EP03_C07",
+      "bloco": 1,
+      "inicioMs": 53000,
+      "fimMs": 63000,
+      "legenda": "Capanga 1: Dona Iraci, eu gosto muito da senhora. Mas já são três meses de aluguel atrasado. Eu vou ter que pedir a casa. A senhora tem trinta dias."
+    },
+    {
+      "cena": "EP03_C07",
+      "bloco": 2,
+      "inicioMs": 63000,
+      "fimMs": 68000,
+      "legenda": "Narrador: Mil reais. Foi só isso. Mil reais foi o que separou a minha avó de morrer na casa dela."
+    },
+    {
+      "cena": "EP03_C07",
+      "bloco": 3,
+      "inicioMs": 68000,
+      "fimMs": 74000,
+      "legenda": "Narrador: Trinta dias pra achar o que ela nunca devia ter perdido. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 447,
+        "linhaFim": 448,
+        "sha256BlocoUtf8": "989264F4838EA72CBF7E0FC58A21D5BC3EDC650653DCAFB7342282D572C0F2E8",
+        "raw": "**ANTERIORMENTE**: EP02_C04 (o aviso) · EP02_C05 (o bloqueio) · EP02_C06 (o story)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP02_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP02_C05",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP02_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP03_C05",
+      "codigo": "figurino_dinjer",
+      "descricao": "Dinjer descalça com sapatos na mão conflita com uniforme fixo; nenhuma troca é aprovada implicitamente.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP03_C07",
+      "codigo": "capanga_terno",
+      "descricao": "CAPANGA_1 mantém o terno fixo do prompt; preservar a indicação original 'sem terno' e sua fala, sem criar variante silenciosa.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP03_C07",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 15000ms menor que blocos declarados 21000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

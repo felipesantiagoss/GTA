@@ -1,0 +1,623 @@
+{
+  "versao": 1,
+  "tipoDocumento": "complemento_edicao_EP01_runtime",
+  "episodio": 1,
+  "fontesValidadas": 10,
+  "fonteRoteiroSHA256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+  "audioRealGerado": false,
+  "mp4RealGerado": false,
+  "sincronismoMedido": false,
+  "duracaoNoveCenasPlanejadaMs": 180000,
+  "fontesBrutas": [
+    {
+      "id": "EP01_C01",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C01",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C01.json",
+      "sha256Json": "8403A1271AF6260E22FB53BBAE2047047E7C95E060CC8D4909B73BC713A072BB",
+      "local": "CANAL_LS",
+      "conteudoMs": 60000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 63000,
+      "srtRelativoF7": "srt_brutos/EP01_C01.srt",
+      "pausasTecnicas": [
+        {
+          "inicioConteudoMs": 14000,
+          "fimConteudoMs": 60000,
+          "semVoz": true
+        }
+      ],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C02",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C02",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C02.json",
+      "sha256Json": "6EF68F629E69FDE60913535C5CD425BB8D981ECD772E1E19A5A06F110DC6F493",
+      "local": "ROCA_GRAPESEED",
+      "conteudoMs": 10000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 13000,
+      "srtRelativoF7": "srt_brutos/EP01_C02.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C03",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C03",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C03.json",
+      "sha256Json": "472E65947A22CE4D023DA1B49617CD44701E6BA8A63BC75807F17CAEC1DC8B74",
+      "local": "CASA_VO",
+      "conteudoMs": 9000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 12000,
+      "srtRelativoF7": "srt_brutos/EP01_C03.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C04",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C04",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C04.json",
+      "sha256Json": "2F4C7FF86380354B4DA9CC5B755DDC214AB7878934D8B64409E93BFD944A0971",
+      "local": "HOSPITAL_SANDY",
+      "conteudoMs": 7000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 10000,
+      "srtRelativoF7": "srt_brutos/EP01_C04.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C05",
+      "subtomada": "hospital",
+      "rotuloBruto": "EP01_C05_hospital",
+      "arquivoJson": "producao/subtomadas/EP01_C05/hospital/EP01_C05.json",
+      "sha256Json": "6C23D2DFAC5F8EA94031E9B6A5728F46EB312D00D4B2121B5388A560546F05D3",
+      "local": "HOSPITAL_SANDY",
+      "conteudoMs": 8000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 11000,
+      "srtRelativoF7": "srt_brutos/EP01_C05_hospital.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": true
+    },
+    {
+      "id": "EP01_C05",
+      "subtomada": "cassino",
+      "rotuloBruto": "EP01_C05_cassino",
+      "arquivoJson": "producao/subtomadas/EP01_C05/cassino/EP01_C05.json",
+      "sha256Json": "7A19B6A3FE97CECFF2C92F0FCB3A269B807DCF8AD396FEDC29C1FE4B0DCA6C2E",
+      "local": "CASSINO_FORA",
+      "conteudoMs": 8000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 11000,
+      "srtRelativoF7": "srt_brutos/EP01_C05_cassino.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": true
+    },
+    {
+      "id": "EP01_C06",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C06",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C06.json",
+      "sha256Json": "FF9D986A4B78A972A686E264326462B62447CC7AAD0A988F3588ED3AD2E61B34",
+      "local": "AEROPORTO_TERMINAL",
+      "conteudoMs": 9000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 12000,
+      "srtRelativoF7": "srt_brutos/EP01_C06.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C07",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C07",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C07.json",
+      "sha256Json": "919ED48083CBE6F098B90B47E61A08B348E137E89572BA9EF23B85D79217BDE6",
+      "local": "AEROPORTO_HANGAR",
+      "conteudoMs": 24000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 27000,
+      "srtRelativoF7": "srt_brutos/EP01_C07.srt",
+      "pausasTecnicas": [
+        {
+          "inicioConteudoMs": 0,
+          "fimConteudoMs": 4000,
+          "semVoz": true
+        },
+        {
+          "inicioConteudoMs": 22000,
+          "fimConteudoMs": 24000,
+          "semVoz": true
+        }
+      ],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C08",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C08",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C08.json",
+      "sha256Json": "F7B4080C0177BA686827A80AAF7FDC3ED8E07A9D2549E1780D2EDDD4205B427D",
+      "local": "ROCA_GRAPESEED",
+      "conteudoMs": 46000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 49000,
+      "srtRelativoF7": "srt_brutos/EP01_C08.srt",
+      "pausasTecnicas": [
+        {
+          "inicioConteudoMs": 0,
+          "fimConteudoMs": 12000,
+          "semVoz": true
+        },
+        {
+          "inicioConteudoMs": 42000,
+          "fimConteudoMs": 46000,
+          "semVoz": true
+        }
+      ],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    },
+    {
+      "id": "EP01_C09",
+      "subtomada": "principal",
+      "rotuloBruto": "EP01_C09",
+      "arquivoJson": "producao/cenas_serie/EP01/EP01_C09.json",
+      "sha256Json": "B56D258EACD8871F554BD4581C8C6DABBA5151A95155C54ED3670FB8213DE65E",
+      "local": "ROCA_GRAPESEED",
+      "conteudoMs": 7000,
+      "contagemMs": 3000,
+      "capturaMinimaDesdeF7Ms": 10000,
+      "srtRelativoF7": "srt_brutos/EP01_C09.srt",
+      "pausasTecnicas": [],
+      "mp4Real": null,
+      "offsetManualMp4ParaF7Ms": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "selecionarTomadaPeloLog": false
+    }
+  ],
+  "ordemNarrativa": [
+    {
+      "id": "EP01_C01",
+      "inicioEpisodioPlanejadoMs": 0,
+      "fimEpisodioPlanejadoMs": 60000,
+      "duracaoMontagemPlanejadaMs": 60000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C01",
+          "duracaoSelecionadaPlanejadaMs": 60000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C01_B01"
+      ]
+    },
+    {
+      "id": "EP01_C02",
+      "inicioEpisodioPlanejadoMs": 60000,
+      "fimEpisodioPlanejadoMs": 70000,
+      "duracaoMontagemPlanejadaMs": 10000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C02",
+          "duracaoSelecionadaPlanejadaMs": 10000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C02_B01"
+      ]
+    },
+    {
+      "id": "EP01_C03",
+      "inicioEpisodioPlanejadoMs": 70000,
+      "fimEpisodioPlanejadoMs": 79000,
+      "duracaoMontagemPlanejadaMs": 9000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C03",
+          "duracaoSelecionadaPlanejadaMs": 9000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C03_B01"
+      ]
+    },
+    {
+      "id": "EP01_C04",
+      "inicioEpisodioPlanejadoMs": 79000,
+      "fimEpisodioPlanejadoMs": 86000,
+      "duracaoMontagemPlanejadaMs": 7000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C04",
+          "duracaoSelecionadaPlanejadaMs": 7000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C04_B01"
+      ]
+    },
+    {
+      "id": "EP01_C05",
+      "inicioEpisodioPlanejadoMs": 86000,
+      "fimEpisodioPlanejadoMs": 94000,
+      "duracaoMontagemPlanejadaMs": 8000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C05_hospital",
+          "duracaoSelecionadaPlanejadaMs": 3000,
+          "inicioConteudoSelecionadoMs": null
+        },
+        {
+          "rotuloBruto": "EP01_C05_cassino",
+          "duracaoSelecionadaPlanejadaMs": 5000,
+          "inicioConteudoSelecionadoMs": null
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C05_B01"
+      ]
+    },
+    {
+      "id": "EP01_C06",
+      "inicioEpisodioPlanejadoMs": 94000,
+      "fimEpisodioPlanejadoMs": 103000,
+      "duracaoMontagemPlanejadaMs": 9000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C06",
+          "duracaoSelecionadaPlanejadaMs": 9000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C06_B01"
+      ]
+    },
+    {
+      "id": "EP01_C07",
+      "inicioEpisodioPlanejadoMs": 103000,
+      "fimEpisodioPlanejadoMs": 127000,
+      "duracaoMontagemPlanejadaMs": 24000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C07",
+          "duracaoSelecionadaPlanejadaMs": 24000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C07_B01",
+        "EP01_C07_B02",
+        "EP01_C07_B03",
+        "EP01_C07_B04"
+      ]
+    },
+    {
+      "id": "EP01_C08",
+      "inicioEpisodioPlanejadoMs": 127000,
+      "fimEpisodioPlanejadoMs": 173000,
+      "duracaoMontagemPlanejadaMs": 46000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C08",
+          "duracaoSelecionadaPlanejadaMs": 46000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C08_B01",
+        "EP01_C08_B02",
+        "EP01_C08_B03",
+        "EP01_C08_B04",
+        "EP01_C08_B05",
+        "EP01_C08_B06"
+      ]
+    },
+    {
+      "id": "EP01_C09",
+      "inicioEpisodioPlanejadoMs": 173000,
+      "fimEpisodioPlanejadoMs": 180000,
+      "duracaoMontagemPlanejadaMs": 7000,
+      "partes": [
+        {
+          "rotuloBruto": "EP01_C09",
+          "duracaoSelecionadaPlanejadaMs": 7000,
+          "inicioConteudoSelecionadoMs": 0
+        }
+      ],
+      "chavesVoz": [
+        "EP01_C09_B01"
+      ]
+    }
+  ],
+  "vozesMontagemFinal": [
+    {
+      "chaveVoz": "EP01_C01_B01",
+      "cena": "EP01_C01",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.",
+      "duracaoMs": 14000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C02_B01",
+      "cena": "EP01_C02",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "A minha vida era bem diferente. Eu acordava antes do sol, trabalhava na roça e voltava pra casa com o corpo pedindo descanso.",
+      "duracaoMs": 10000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C03_B01",
+      "cena": "EP01_C03",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Eu morava com a minha avó, dona Iraci. Foi ela que me criou. Agora que ela tava muito doente, era a minha vez de cuidar dela.",
+      "duracaoMs": 9000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C04_B01",
+      "cena": "EP01_C04",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.",
+      "duracaoMs": 7000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C05_B01",
+      "cena": "EP01_C05",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "duracaoMs": 8000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C06_B01",
+      "cena": "EP01_C06",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.",
+      "duracaoMs": 9000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C07_B01",
+      "cena": "EP01_C07",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "COLEGA_1",
+      "textoOriginal": "Eu pegaria ela só no off mesmo.",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C07_B02",
+      "cena": "EP01_C07",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DINJER",
+      "textoOriginal": "Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.",
+      "duracaoMs": 9000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C07_B03",
+      "cena": "EP01_C07",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "COLEGA_2",
+      "textoOriginal": "Só faltou falar comunista.",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C07_B04",
+      "cena": "EP01_C07",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DINJER",
+      "textoOriginal": "Me respeita, cara. Tá tirando onda?",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B01",
+      "cena": "EP01_C08",
+      "tipo": "narracao",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.",
+      "duracaoMs": 6000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B02",
+      "cena": "EP01_C08",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DINJER",
+      "textoOriginal": "Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?",
+      "duracaoMs": 9000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B03",
+      "cena": "EP01_C08",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?",
+      "duracaoMs": 6000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B04",
+      "cena": "EP01_C08",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DINJER",
+      "textoOriginal": "Prometo pela vida da minha mãe.",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B05",
+      "cena": "EP01_C08",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DJANIRA",
+      "textoOriginal": "Então tá bom. Vou fazer o Pix.",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C08_B06",
+      "cena": "EP01_C08",
+      "tipo": "fala",
+      "tipoRuntime": "fala",
+      "quemOriginal": "DINJER",
+      "textoOriginal": "Amiga, muito obrigada. Te amo!",
+      "duracaoMs": 3000,
+      "audioReal": null,
+      "usarUmaVez": true
+    },
+    {
+      "chaveVoz": "EP01_C09_B01",
+      "cena": "EP01_C09",
+      "tipo": "narrador",
+      "tipoRuntime": "narracao",
+      "quemOriginal": "NARRADOR (voz masculina)",
+      "textoOriginal": "E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.",
+      "duracaoMs": 7000,
+      "audioReal": null,
+      "usarUmaVez": true
+    }
+  ],
+  "adaptacoes": [
+    {
+      "id": "EP01_C01",
+      "vozOriginalMs": 14000,
+      "reservaSemVozMs": 46000,
+      "conteudoBrutoMs": 60000,
+      "observacao": "Conservar toda a física; silêncio adicional não comprime a voz nem garante conclusão no jogo."
+    },
+    {
+      "id": "EP01_C07",
+      "vozesOriginaisMs": 18000,
+      "introducaoSemVozMs": 4000,
+      "coreografiaSemVozMs": 2000,
+      "conteudoBrutoMs": 24000
+    },
+    {
+      "id": "EP01_C08",
+      "vozesOriginaisMs": 30000,
+      "chegadaSemVozMs": 12000,
+      "celularSemVozMs": 4000,
+      "conteudoBrutoMs": 46000
+    },
+    {
+      "id": "EP01_C05",
+      "brutos": 2,
+      "conteudoPorBrutoMs": 8000,
+      "montagemFinalMs": 8000,
+      "vozOriginalUnicaMs": 8000,
+      "observacao": "Escolher pela imagem 3s de saída do hospital e 5s de entrada do cassino. Não repetir a voz; versões _v2 não identificam automaticamente o local. Usar log SUBTOMADA_GRAVACAO."
+    }
+  ],
+  "sincronismo": "Medir na imagem o início de F7/ação. MP4 pode começar antes de F7; não retirar apenas 3s de seu início nem inferir offset por ctime. Cada regravação tem offset próprio.",
+  "extraCompartilhado": {
+    "id": "VINHETA_01",
+    "duracaoPlanejadaMs": 20000,
+    "mp4Real": null,
+    "acao": "Capturar uma vez ou reutilizar tomada real; inserir no fim conforme roteiro."
+  },
+  "montagemEditorialOriginal": [
+    {
+      "tipo": "proximo_episodio",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 341,
+        "linhaFim": 343,
+        "sha256BlocoUtf8": "9B68107CA09BC6D2BF128BE5C3E777EBCD3EFEBA5BAC4BA74912008F84231C85",
+        "raw": "**NO PRÓXIMO EPISÓDIO** *(montagem de 5s, cortes do Ep 2)*:\nDinjer na boate bebendo. Dinjer sentada com quatro homens de terno.\n\n"
+      },
+      "referenciasOriginais": [],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": [
+        "EP02_C01",
+        "EP02_C02"
+      ]
+    }
+  ],
+  "limites": [
+    "Complemento; roteiro, SRTs base e guia preliminar anteriores permanecem preservados.",
+    "Os 180s das nove cenas são planejamento com as reservas atuais, sem MP4 medido.",
+    "Vinheta, cartelas, créditos e anúncio do próximo episódio precisam de edição/capturas próprias; não entram automaticamente nos 180s.",
+    "Os dois SRTs brutos de C05 repetem a referência original para orientar cada captura. Na montagem final usar a voz/legenda8s apenas uma vez."
+  ]
+}

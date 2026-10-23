@@ -1,0 +1,247 @@
+{
+  "versao": 1,
+  "id": "EP15_C05",
+  "episodio": 15,
+  "numero": 5,
+  "nome": "E VOCÊ?",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "20:50",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 10,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 15,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 27,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 33,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_RICA"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "E você? Você sabia por quê?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Djanira, não...",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Fala. Você me deve uma resposta há três anos.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Que dívida?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Mil reais, Djanira. Eu devia mil reais pra ele.",
+      "personagem": "DINJER",
+      "gesto": "machucado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Os teus mil reais.",
+      "personagem": "DINJER",
+      "gesto": "machucado"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "virar",
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 1,
+      "alvo": "DINJER"
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "servir_champanhe_autor",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 34,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": true
+    }
+  ],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "MESA_JANTAR",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "BANDEJA_SERVICO",
+      "recurso": "bandeja_champanhe_autor",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.01
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "transicoesPose": [
+    {
+      "tipo": "levantar",
+      "personagem": "DJANIRA_RICA",
+      "recurso": "levantar_cadeira_livre_f",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4
+    }
+  ]
+}

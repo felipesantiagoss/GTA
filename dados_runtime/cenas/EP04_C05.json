@@ -1,0 +1,114 @@
+{
+  "versao": 1,
+  "id": "EP04_C05",
+  "episodio": 4,
+  "numero": 5,
+  "nome": "A AVÓ PIORA",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "20:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": -1.1,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 1.1,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "Minha filha, deixa esse dinheiro pra lá. Tem coisa que a gente perde só pra aprender.",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "A senhora tá na cama porque eu não tenho com que comprar o seu remédio, vó. Eu não vou deixar pra lá.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "irritado"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "CAMA_IRACI",
+      "recurso": "cama_quarto",
+      "marca": {
+        "direita": -1.1,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DONA_IRACI",
+      "objeto": "CAMA_IRACI",
+      "recurso": "deitada_cama_f",
+      "tipo": "deitada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 14,
+      "expressao": "machucado"
+    }
+  ]
+}

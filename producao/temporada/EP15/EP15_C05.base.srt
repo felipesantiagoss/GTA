@@ -1,0 +1,27 @@
+1
+00:00:03,000 --> 00:00:07,000
+Djanira: E você? Você sabia por quê?
+
+2
+00:00:07,000 --> 00:00:09,000
+Dinjer: Djanira, não...
+
+3
+00:00:09,000 --> 00:00:14,000
+Djanira: Fala. Você me deve uma resposta há três anos.
+
+4
+00:00:14,000 --> 00:00:22,000
+Dinjer: Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.
+
+5
+00:00:22,000 --> 00:00:24,000
+Djanira: Que dívida?
+
+6
+00:00:24,000 --> 00:00:30,000
+Dinjer: Mil reais, Djanira. Eu devia mil reais pra ele.
+
+7
+00:00:30,000 --> 00:00:33,000
+Dinjer: Os teus mil reais.

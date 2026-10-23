@@ -1,0 +1,125 @@
+{
+  "versao": 1,
+  "personagens": [
+    {
+      "codigo": "DJANIRA_POBRE",
+      "nome": "Djanira",
+      "modelo": "mp_f_freemode_01",
+      "pronto": false,
+      "estado": "modelo candidato; rosto e figurino pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:80; modelo indicado no roteiro e conferido em menyooStuff/PedList.xml:9 (Freemode MP Female). Visual não aprovado."
+    },
+    {
+      "codigo": "DJANIRA_RICA",
+      "nome": "Djanira",
+      "modelo": "mp_f_freemode_01",
+      "pronto": false,
+      "estado": "modelo candidato; mesmo rosto de DJANIRA_POBRE e figurino pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:91; modelo conferido em menyooStuff/PedList.xml:9. PROMPT_CODEX_CENAS_E_CAMERA.md:56 fixa rica nos episódios 11 a 15, sem mudar o rosto."
+    },
+    {
+      "codigo": "DINJER",
+      "nome": "Dinjer",
+      "modelo": "mp_f_freemode_01",
+      "pronto": false,
+      "estado": "modelo candidato; rosto, afro e uniforme fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:104; modelo indicado no roteiro e conferido em menyooStuff/PedList.xml:9. Visual não aprovado."
+    },
+    {
+      "codigo": "DONA_IRACI",
+      "nome": "Dona Iraci",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:117; senhora idosa com roupa simples. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "O_CHEFE",
+      "nome": "O Chefe",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:127; homem branco de meia-idade, cabelo grisalho e terno escuro caro. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "CAPANGA_1",
+      "nome": "Capanga 1",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:138; também fala como dono da fazenda em EP03_C07. A regra de figurino fixo do novo prompt prevalece."
+    },
+    {
+      "codigo": "CAPANGA_2",
+      "nome": "Capanga 2",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:138; NPC de terno. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "CAPANGA_3",
+      "nome": "Capanga 3",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:138; NPC de terno. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "CAPANGA_4",
+      "nome": "Capanga 4",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:138; NPC de terno. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "COLEGA_1",
+      "nome": "Colega 1",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:141; colega de trabalho de Dinjer, homem com roupa casual. Colegas reaparecem em EP04_C02."
+    },
+    {
+      "codigo": "COLEGA_2",
+      "nome": "Colega 2",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:141; colega de trabalho de Dinjer, homem com roupa casual. Colegas reaparecem em EP04_C02."
+    },
+    {
+      "codigo": "COLEGA_3",
+      "nome": "Colega 3",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:141; colega de trabalho de Dinjer, homem com roupa casual. Colegas reaparecem em EP04_C02."
+    },
+    {
+      "codigo": "ATENDENTE",
+      "nome": "Atendente",
+      "modelo": null,
+      "pronto": false,
+      "estado": "modelo e figurino fixo pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:144; atendente do banco sem rosto definido. Nenhum identificador técnico escolhido."
+    },
+    {
+      "codigo": "TESTE_HOMEM",
+      "nome": "Homem",
+      "modelo": "a_m_y_business_01",
+      "pronto": true,
+      "estado": "testado no jogo; somente modelo do teste",
+      "origem": "Menyoo instalado, menyooStuff/PedList.xml:216 (Business Young Male); catalogos/elenco.xml. Usuário confirmou montagem, boca e os gestos masculinos declarados em catalogos/gestos_fala.xml em 03/10/2026."
+    },
+    {
+      "codigo": "TESTE_MULHER",
+      "nome": "Mulher",
+      "modelo": "a_f_y_business_01",
+      "pronto": true,
+      "estado": "testado no jogo; somente modelo do teste",
+      "origem": "Menyoo instalado, menyooStuff/PedList.xml:95 (Business Young Female); catalogos/elenco.xml. Usuário confirmou montagem, boca e os gestos femininos declarados em catalogos/gestos_fala.xml em 03/10/2026."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "versao": 1,
+  "id": "EP15_C09",
+  "episodio": 15,
+  "numero": 9,
+  "nome": "A ÚLTIMA IMAGEM",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "21:15",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 2.2,
+        "frente": -8.3,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 5,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 7,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 9,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 11,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 13,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 15,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 17,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 10,
+      "plano": "LONGE",
+      "texto": "Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "LONGE",
+      "texto": "A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "veiculos": [
+    {
+      "id": "CARRO_LUXO",
+      "recurso": "SUPERD",
+      "marca": {
+        "direita": 1,
+        "frente": -8,
+        "altura": 0
+      },
+      "rotacao": 180,
+      "motoristaExtra": false,
+      "trajetoDireto": true,
+      "assentosIniciais": [],
+      "acoes": [
+        {
+          "tipo": "entrar",
+          "personagem": "DJANIRA_RICA",
+          "inicioSegundos": 0,
+          "duracaoSegundos": 5,
+          "assento": -1
+        },
+        {
+          "tipo": "dirigir",
+          "personagem": "DJANIRA_RICA",
+          "inicioSegundos": 5,
+          "duracaoSegundos": 14,
+          "assento": -1,
+          "rota": [
+            {
+              "direita": 1,
+              "frente": -18,
+              "altura": 0
+            },
+            {
+              "direita": 1,
+              "frente": -33,
+              "altura": 0
+            }
+          ],
+          "velocidade": 3,
+          "raioChegada": 1.5,
+          "raioParada": 1
+        }
+      ]
+    }
+  ]
+}

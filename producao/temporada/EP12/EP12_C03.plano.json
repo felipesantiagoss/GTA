@@ -1,0 +1,326 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP12_C03",
+  "episodio": 12,
+  "numero": 3,
+  "nome": "ELA NÃO RECONHECE",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1243,
+    "linhaFim": 1266,
+    "sha256BlocoUtf8": "0DDE2CB610CE25EDC652A55ACD25E25FF2BD741378F6895C0E133730E494A710",
+    "raw": "### EP12_C03 · ELA NÃO RECONHECE\n`local:` BOATE_DENTRO · `hora:` 23:20 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 36s · `gravar:` SIM\n\n> 💡 A Dinjer está com o mesmo uniforme de sempre. A Djanira mudou tudo menos o rosto. **A Dinjer olha e não reconhece.**\n\n**Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Boa noite, senhora. Champanhe por conta da casa?\" | 4s | neutro |\n| 2 | DJANIRA | \"Você trabalha aqui há muito tempo?\" | 3s | neutro |\n| 3 | DINJER | \"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\" | 9s | explicando |\n| 4 | DJANIRA | \"E por que parou?\" | 2s | neutro |\n| 5 | DINJER | \"Ah... é complicado. Coisa de patrão.\" | 4s | negando |\n| 6 | DJANIRA | \"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\" | 5s | neutro |\n| 7 | DINJER | \"Ai, senhora, eu faço isso todo dia.\" | 3s | explicando |\n| 8 | DJANIRA | \"E teve alguma que doeu?\" | 3s | neutro |\n| 9 | DINJER | \"...Uma.\" | 2s | neutro |\n| 10 | DJANIRA | \"Conta.\" | 1s | neutro |\n| 11 | DINJER | \"Eu não posso, senhora. Se eu contar, eu morro.\" | 5s | implorando |\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "23:20",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 36000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1244,
+      1245
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1249,
+      "raw": "**Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1247,
+      "raw": "> 💡 A Dinjer está com o mesmo uniforme de sempre. A Djanira mudou tudo menos o rosto. **A Dinjer olha e não reconhece.**"
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Boa noite, senhora. Champanhe por conta da casa?",
+      "textoOriginal": "\"Boa noite, senhora. Champanhe por conta da casa?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1255,
+      "raw": "| 1 | DINJER | \"Boa noite, senhora. Champanhe por conta da casa?\" | 4s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você trabalha aqui há muito tempo?",
+      "textoOriginal": "\"Você trabalha aqui há muito tempo?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1256,
+      "raw": "| 2 | DJANIRA | \"Você trabalha aqui há muito tempo?\" | 3s | neutro |",
+      "inicioMs": 4000,
+      "fimMs": 7000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.",
+      "textoOriginal": "\"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1257,
+      "raw": "| 3 | DINJER | \"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\" | 9s | explicando |",
+      "inicioMs": 7000,
+      "fimMs": 16000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "E por que parou?",
+      "textoOriginal": "\"E por que parou?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1258,
+      "raw": "| 4 | DJANIRA | \"E por que parou?\" | 2s | neutro |",
+      "inicioMs": 16000,
+      "fimMs": 18000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DINJER",
+      "texto": "Ah... é complicado. Coisa de patrão.",
+      "textoOriginal": "\"Ah... é complicado. Coisa de patrão.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 1259,
+      "raw": "| 5 | DINJER | \"Ah... é complicado. Coisa de patrão.\" | 4s | negando |",
+      "inicioMs": 18000,
+      "fimMs": 22000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DJANIRA",
+      "texto": "Me diz uma coisa. Você já fez alguma coisa de que se arrepende?",
+      "textoOriginal": "\"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1260,
+      "raw": "| 6 | DJANIRA | \"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\" | 5s | neutro |",
+      "inicioMs": 22000,
+      "fimMs": 27000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 7,
+      "quemOriginal": "DINJER",
+      "texto": "Ai, senhora, eu faço isso todo dia.",
+      "textoOriginal": "\"Ai, senhora, eu faço isso todo dia.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1261,
+      "raw": "| 7 | DINJER | \"Ai, senhora, eu faço isso todo dia.\" | 3s | explicando |",
+      "inicioMs": 27000,
+      "fimMs": 30000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 8,
+      "quemOriginal": "DJANIRA",
+      "texto": "E teve alguma que doeu?",
+      "textoOriginal": "\"E teve alguma que doeu?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1262,
+      "raw": "| 8 | DJANIRA | \"E teve alguma que doeu?\" | 3s | neutro |",
+      "inicioMs": 30000,
+      "fimMs": 33000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 9,
+      "quemOriginal": "DINJER",
+      "texto": "...Uma.",
+      "textoOriginal": "\"...Uma.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1263,
+      "raw": "| 9 | DINJER | \"...Uma.\" | 2s | neutro |",
+      "inicioMs": 33000,
+      "fimMs": 35000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 10,
+      "quemOriginal": "DJANIRA",
+      "texto": "Conta.",
+      "textoOriginal": "\"Conta.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1264,
+      "raw": "| 10 | DJANIRA | \"Conta.\" | 1s | neutro |",
+      "inicioMs": 35000,
+      "fimMs": 36000,
+      "duracaoMs": 1000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 11,
+      "quemOriginal": "DINJER",
+      "texto": "Eu não posso, senhora. Se eu contar, eu morro.",
+      "textoOriginal": "\"Eu não posso, senhora. Se eu contar, eu morro.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1265,
+      "raw": "| 11 | DINJER | \"Eu não posso, senhora. Se eu contar, eu morro.\" | 5s | implorando |",
+      "inicioMs": 36000,
+      "fimMs": 41000,
+      "duracaoMs": 5000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 36000,
+    "blocosDeclaradosMs": 41000,
+    "conteudoPlanejadoMs": 41000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 44000,
+    "fimUltimaLegendaMs": 44000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 36000ms menor que blocos declarados 41000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete.",
+      "origem": "linha 1249",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:bandeja",
+      "familia": "objetos",
+      "descricao": "bandeja: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

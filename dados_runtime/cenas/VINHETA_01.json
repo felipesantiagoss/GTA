@@ -1,0 +1,127 @@
+{
+  "versao": 1,
+  "id": "VINHETA_01",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "OS CRÉDITOS",
+  "ambiente": {
+    "local": "PRAIA_DELPERRO",
+    "hora": "18:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -9,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -3,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 3,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 9,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "personagem": "DJANIRA_RICA"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "personagem": "DINJER"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "personagem": "DONA_IRACI"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "personagem": "O_CHEFE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 5,
+      "recurso": "danca_djanira_candidata",
+      "loop": true,
+      "corpoInteiro": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 5,
+      "duracaoSegundos": 5,
+      "recurso": "danca_dinjer_candidata",
+      "loop": true,
+      "corpoInteiro": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 10,
+      "duracaoSegundos": 5,
+      "recurso": "danca_iraci_candidata",
+      "loop": true,
+      "corpoInteiro": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 15,
+      "duracaoSegundos": 5,
+      "recurso": "danca_chefe_candidata",
+      "loop": true,
+      "corpoInteiro": true
+    }
+  ]
+}

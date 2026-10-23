@@ -1,0 +1,88 @@
+{
+  "versao": 1,
+  "id": "teste_fila_93",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Elenco 3/3 — Os três colegas e o atendente",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo"
+  },
+  "elenco": [
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -2.4000000000000004,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": -0.8,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "COLEGA_3",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "ATENDENTE",
+      "marca": {
+        "direita": -2.4,
+        "frente": -1.8
+      },
+      "olharPara": "COLEGA_1"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "COLEGA_1",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "personagem": "COLEGA_1"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "COLEGA_1",
+      "texto": "Este é o visual de Colega 1.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "COLEGA_2",
+      "texto": "Este é o visual de Colega 2.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "COLEGA_3",
+      "texto": "Este é o visual de Colega 3.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "personagem": "ATENDENTE"
+    }
+  ]
+}

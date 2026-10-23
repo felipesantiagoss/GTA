@@ -1,0 +1,173 @@
+{
+  "versao": 1,
+  "locais": [
+    {
+      "codigo": "ROCA_GRAPESEED",
+      "nome": "Plantação em Grapeseed",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:156; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "CASA_VO",
+      "nome": "Casa da avó em Grapeseed",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:157; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "HOSPITAL_SANDY",
+      "nome": "Entrada da clínica de Sandy Shores",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:158; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "CASSINO_FORA",
+      "nome": "Fachada do Diamond Casino",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:159; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "AEROPORTO_HANGAR",
+      "nome": "Hangares do aeroporto de Los Santos",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:160; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "AEROPORTO_TERMINAL",
+      "nome": "Terminal do aeroporto de Los Santos",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:161; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "AEROPORTO_AR",
+      "nome": "Ponto aéreo do aeroporto",
+      "pronto": false,
+      "estado": "marcação e teste próprio da queda de avião pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:162; Parte 2 e aviso técnico 0.4. Nenhuma coordenada aérea inventada."
+    },
+    {
+      "codigo": "CANAL_LS",
+      "nome": "Canal de concreto de Los Santos",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:163; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "BOATE_FORA",
+      "nome": "Fachada da Bahama Mamas West",
+      "pronto": false,
+      "estado": "não marcado; região divergente no roteiro",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:164; Parte 2. Divergência Hawick/Del Perro já documentada em PLANEJAMENTO_CENAS_E_CAMERA.md; marca real necessária."
+    },
+    {
+      "codigo": "BOATE_DENTRO",
+      "nome": "Interior da boate",
+      "pronto": false,
+      "estado": "acesso ao interior e marcação pendentes",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:165; Parte 2 e aviso técnico 0.4. Compatibilidade do interior não confirmada; fachada é alternativa."
+    },
+    {
+      "codigo": "BANCO_MAZE",
+      "nome": "Calçada da Maze Bank Tower",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:166; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "IGREJA_CHAPARRAL",
+      "nome": "Igreja de Great Chaparral",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:167; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "GALPAO_CYPRESS",
+      "nome": "Galpões de Cypress Flats",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:168; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "MANSAO_CHEFE",
+      "nome": "Mansão em Vinewood Hills",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:169; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "MANSAO_DJANIRA",
+      "nome": "Mansão em Rockford Hills",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:170; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "CENTRO_LEGION",
+      "nome": "Legion Square",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:171; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "PRAIA_DELPERRO",
+      "nome": "Praia de Del Perro",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:172; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "RUA_STRAWBERRY",
+      "nome": "Ponto de ônibus de Strawberry",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:173; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "VIADUTO_LAPUERTA",
+      "nome": "Viaduto de La Puerta",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:174; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "ESTRADA_SENORA",
+      "nome": "Estrada de Grand Senora",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:175; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "CASA_DINJER",
+      "nome": "Casa de Dinjer em Sandy Shores",
+      "pronto": false,
+      "estado": "não marcado",
+      "origem": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md:176; Parte 2. Coordenadas dependem de marca real no jogo."
+    },
+    {
+      "codigo": "TESTE_AMBIENTE",
+      "nome": "Marca real do teste de ambiente",
+      "pronto": true,
+      "estado": "marcado no jogo; coordenadas somente no XML canônico",
+      "origem": "catalogos/locais_marcados.xml:3; Local TESTE_AMBIENTE, origem capturado_no_jogo, dataUtc 2026-10-03T20:57:29.9892133+00:00. Não copiar XYZ para este catálogo."
+    },
+    {
+      "codigo": "EXTRA_BAR_IRACI",
+      "nome": "Bar Tequi-la-la para clip extra de Iraci",
+      "pronto": true,
+      "estado": "marcado no jogo; extra suplementar",
+      "origem": "catalogos/locais_marcados.xml; capturado pelos getters 2026-10-06; fonte primaria Menyoo Locations.cpp:374; fora dos21locais do roteiro."
+    },
+    {
+      "codigo": "CASA_VO_INTERIOR",
+      "nome": "Interior da casa da av? em Grapeseed",
+      "pronto": true,
+      "estado": "marcado no jogo; submarca interior do mesmo im?vel",
+      "origem": "catalogos/locais_marcados.xml; CASA_VO_INTERIOR capturado por getters nativos 2026-10-06T04:23; refer?ncia Menyoo ONeil Farm"
+    }
+  ]
+}

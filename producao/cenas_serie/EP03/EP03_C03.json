@@ -1,0 +1,57 @@
+{
+  "versao": 1,
+  "id": "EP03_C03",
+  "episodio": 3,
+  "numero": 3,
+  "nome": "DE TARDE",
+  "ambiente": {
+    "local": "CASA_DINJER",
+    "hora": "14:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "ajustes": {
+      "aproximar": 2,
+      "lado": 2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "LONGE",
+      "texto": "Fui de tarde. Esperei duas horas sentada no meio-fio. A televisão tava ligada lá dentro. Eu escutava daqui de fora.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "poses": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": null,
+      "recurso": "sentada_meio_fio_f",
+      "tipo": "chao"
+    }
+  ]
+}

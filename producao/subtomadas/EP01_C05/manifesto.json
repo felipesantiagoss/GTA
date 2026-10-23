@@ -1,0 +1,76 @@
+{
+  "versao": 1,
+  "id": "EP01_C05",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 260,
+    "linhaFim": 272,
+    "sha256BlocoUtf8": "2ED8D132009707C119E0E4E6A0988171CB92741B13ACA1435F16531580375CC2",
+    "raw": "### EP01_C05 · O SEGREDO DA AVÓ\n`local:` HOSPITAL_SANDY → CASSINO_FORA · `hora:` 10:00 · `clima:` limpo\n`elenco:` DONA_IRACI · `cam:` ATRAS → LONGE · `dur:` 8s · `gravar:` SIM\n\n⚠️ Se o interior do cassino não abrir, grave só a **fachada** com ela entrando. Funciona igual.\n\n**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"\n\n> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude.\n\n"
+  },
+  "acoesOriginais": [
+    {
+      "linha": 266,
+      "raw": "**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 268,
+      "linhaTexto": 269,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "subtomadas": [
+    {
+      "parte": "hospital",
+      "local": "HOSPITAL_SANDY",
+      "arquivo": "producao/subtomadas/EP01_C05/hospital/EP01_C05.json",
+      "sha256": "6C23D2DFAC5F8EA94031E9B6A5728F46EB312D00D4B2121B5388A560546F05D3",
+      "id": "EP01_C05",
+      "conteudoMs": 8000,
+      "contagemMs": 3000,
+      "capturaDesdeF7Ms": 11000
+    },
+    {
+      "parte": "cassino",
+      "local": "CASSINO_FORA",
+      "arquivo": "producao/subtomadas/EP01_C05/cassino/EP01_C05.json",
+      "sha256": "7A19B6A3FE97CECFF2C92F0FCB3A269B807DCF8AD396FEDC29C1FE4B0DCA6C2E",
+      "id": "EP01_C05",
+      "conteudoMs": 8000,
+      "contagemMs": 3000,
+      "capturaDesdeF7Ms": 11000
+    }
+  ],
+  "estado": "duas_fontes_carregaveis;passagens_reais_e_teste_visual_pendentes;montagem_final_externa",
+  "pronto": false,
+  "gravado": false,
+  "mp4FinalGerado": false,
+  "montagem": {
+    "hospitalMs": 3000,
+    "cassinoMs": 5000,
+    "vozOriginalMs": 8000,
+    "boca": false,
+    "instrucao": "Gravar separadamente as duas fontes do mesmoID. Usar3s úteis do hospital+5s úteis do cassino no CapCut com uma única narração original8s; remover contagens. OsMP4brutos versionados não são uma cena única já montada."
+  },
+  "requisitos": [
+    "HOSPITAL_SANDY limiar real aberto apontando para dentro; saída sem atravessar porta fechada.",
+    "CASSINO_FORA limiar/vestíbulo real aberto apontando para dentro; fachada é alternativa literal, interior não é alegado acessível.",
+    "Preflight3raycasts e chegada física; bloqueio interrompe em vez de ocultar/teleportar atriz."
+  ]
+}

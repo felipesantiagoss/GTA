@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "tipo": "extras_suplementares_EP01",
+  "cenas": [
+    {
+      "id": "EP01_EXTRA_IRACI_BAR",
+      "arquivo": "C:\\GTA_Diretor\\producao\\extras_serie\\EP01\\EP01_EXTRA_IRACI_BAR.json",
+      "sha256": "C96BEF391A226DB5F63309A90363AA4498B6BA0B9EC0FC24B2544361025D3867",
+      "duracaoMs": 8000,
+      "contratoPython": false,
+      "testeVisual": false,
+      "gravado": true,
+      "origemBar": "producao/locacoes_referencia/EXTRA_BAR_IRACI.xml",
+      "local": "EXTRA_BAR_IRACI",
+      "testeVisualTecnico": "quadros amostrados; sem HUD/legendas/contagem; geometria conferida",
+      "aprovacaoEsteticaUsuario": "pendente",
+      "saidaLimpa": {
+        "arquivo": "C:\\GTA_Diretor\\backups\\montagem-video-episodios\\20261006T030944456592Z-clips-limpos-exportar-2480c4f4\\EP01_EXTRA_IRACI_BAR_LIMPO.mp4",
+        "bytes": 8350936,
+        "sha256": "8BFC272C2AC4D4F4A5D8777895B3F075E6983C3FE19A587A4E3E65E0E4345C5C",
+        "decodificado": false,
+        "trilhas": [
+          {
+            "largura": 1920.0,
+            "altura": 1080.0,
+            "duracaoSegundos": 8.0166,
+            "tipo": "vide",
+            "codec": "avc1",
+            "amostras": 241
+          },
+          {
+            "largura": 0.0,
+            "altura": 0.0,
+            "duracaoSegundos": 7.999979166666667,
+            "tipo": "soun",
+            "codec": "mp4a",
+            "amostras": 375
+          }
+        ],
+        "duracaoMs": 8016,
+        "boxes": [
+          "ftyp",
+          "uuid",
+          "mdat",
+          "moov"
+        ],
+        "duracaoSegundos": 8.0166
+      },
+      "runtimePublicado": true
+    },
+    {
+      "id": "EP01_EXTRA_DINJER_DEDO",
+      "arquivo": "C:\\GTA_Diretor\\producao\\extras_serie\\EP01\\EP01_EXTRA_DINJER_DEDO.json",
+      "sha256": "2C0A51EA19059CE4D2C6235985E0E6523A906454D8D35D4D033913B2C29DF10F",
+      "duracaoMs": 8000,
+      "contratoPython": true,
+      "testeVisual": false,
+      "gravado": true,
+      "ajuste": "Saida pela varanda no sentido oposto; CAMERA MEDIA espelhada para evitar janela. Atores separados; conferir nova tomada.",
+      "testeVisualTecnico": "quadros amostrados; sem HUD/legendas/contagem; geometria conferida",
+      "aprovacaoEsteticaUsuario": "pendente",
+      "saidaLimpa": {
+        "arquivo": "C:\\GTA_Diretor\\backups\\montagem-video-episodios\\20261006T030944456592Z-clips-limpos-exportar-2480c4f4\\EP01_EXTRA_DINJER_DEDO_LIMPO.mp4",
+        "bytes": 8584612,
+        "sha256": "5DC3427A7DD3AE45D19F77C477C1411462DDC3539E640F8776705F3D02FC4D69",
+        "decodificado": false,
+        "trilhas": [
+          {
+            "largura": 1920.0,
+            "altura": 1080.0,
+            "duracaoSegundos": 8.032633333333333,
+            "tipo": "vide",
+            "codec": "avc1",
+            "amostras": 241
+          },
+          {
+            "largura": 0.0,
+            "altura": 0.0,
+            "duracaoSegundos": 7.999979166666667,
+            "tipo": "soun",
+            "codec": "mp4a",
+            "amostras": 375
+          }
+        ],
+        "duracaoMs": 8032,
+        "boxes": [
+          "ftyp",
+          "uuid",
+          "mdat",
+          "moov"
+        ],
+        "duracaoSegundos": 8.032633333333333
+      },
+      "runtimePublicado": true
+    }
+  ],
+  "foraDoIndiceOriginal94": true,
+  "namespace": "EP01_EXTRA_* (somente dois IDs whitelist)",
+  "numero": 0,
+  "episodio": 1,
+  "runtimePublicado": true,
+  "CSharpCompiladoNesteSubtask": false,
+  "contatoFisicoOutrosAtores": false,
+  "separacaoDinjerDjaniraPlanejadaMinimaM": 3,
+  "limites": [
+    "Gesto precisa mostrar dedos/maos legiveis na filmagem MEDIA; separacao real minima1m requer getters/quadros.",
+    "Marca BOATE_DENTRO nao prova bar/balcao; conferir o fundo real antes de gravar Iraci.",
+    "Nao abre porta de CASA_VO; trajetoria de saida exige acesso fisico aberto real.",
+    "Iraci usa mesmo figurino registrado; gole/encaixe de garrafa no modelo da avo aguardam filmagem."
+  ],
+  "provaCatalogo": {
+    "recursosAnterioresPreservados": 49,
+    "unicoNovoCodigo": "extra_dedo_medio"
+  },
+  "estado": "dois MP4 extras limpos publicados, EP01 principal preservado"
+}

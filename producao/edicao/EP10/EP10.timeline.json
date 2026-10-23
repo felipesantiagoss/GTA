@@ -1,0 +1,193 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 10,
+  "nomeOriginal": "\"TRÊS ANOS\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 87000,
+  "clipes": [
+    {
+      "id": "EP10_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 10000,
+      "duracaoPlanejadaMs": 10000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C01.base.srt"
+    },
+    {
+      "id": "EP10_C02",
+      "inicioEpisodioBaseMs": 10000,
+      "fimEpisodioBaseMs": 19000,
+      "duracaoPlanejadaMs": 9000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C02.base.srt"
+    },
+    {
+      "id": "EP10_C03",
+      "inicioEpisodioBaseMs": 19000,
+      "fimEpisodioBaseMs": 27000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C03.base.srt"
+    },
+    {
+      "id": "EP10_C04",
+      "inicioEpisodioBaseMs": 27000,
+      "fimEpisodioBaseMs": 34000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C04.base.srt"
+    },
+    {
+      "id": "EP10_C05",
+      "inicioEpisodioBaseMs": 34000,
+      "fimEpisodioBaseMs": 43000,
+      "duracaoPlanejadaMs": 9000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C05.base.srt"
+    },
+    {
+      "id": "EP10_C06",
+      "inicioEpisodioBaseMs": 43000,
+      "fimEpisodioBaseMs": 57000,
+      "duracaoPlanejadaMs": 14000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C06.base.srt"
+    },
+    {
+      "id": "EP10_C07",
+      "inicioEpisodioBaseMs": 57000,
+      "fimEpisodioBaseMs": 67000,
+      "duracaoPlanejadaMs": 10000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP10_C07.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 67000,
+      "fimEpisodioBaseMs": 87000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP10_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "legenda": "Narrador: No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada."
+    },
+    {
+      "cena": "EP10_C02",
+      "bloco": 1,
+      "inicioMs": 10000,
+      "fimMs": 19000,
+      "legenda": "Narrador: Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar."
+    },
+    {
+      "cena": "EP10_C03",
+      "bloco": 1,
+      "inicioMs": 19000,
+      "fimMs": 27000,
+      "legenda": "Narrador: Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu."
+    },
+    {
+      "cena": "EP10_C04",
+      "bloco": 1,
+      "inicioMs": 27000,
+      "fimMs": 34000,
+      "legenda": "Narrador: Eu dormia embaixo de um viaduto sendo dona de um prédio que eu nunca vi."
+    },
+    {
+      "cena": "EP10_C05",
+      "bloco": 1,
+      "inicioMs": 34000,
+      "fimMs": 43000,
+      "legenda": "Narrador: Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo."
+    },
+    {
+      "cena": "EP10_C06",
+      "bloco": 1,
+      "inicioMs": 43000,
+      "fimMs": 57000,
+      "legenda": "Narrador: E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela."
+    },
+    {
+      "cena": "EP10_C07",
+      "bloco": 1,
+      "inicioMs": 57000,
+      "fimMs": 61000,
+      "legenda": "Narrador: E aí faltou um."
+    },
+    {
+      "cena": "EP10_C07",
+      "bloco": 2,
+      "inicioMs": 61000,
+      "fimMs": 67000,
+      "legenda": "Narrador: Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1053,
+        "linhaFim": 1056,
+        "sha256BlocoUtf8": "4DE0D61440EA2D067D623FDD14FD8AE715FB0C806C9D00D91FE2EAA9E6BCEFBC",
+        "raw": "**ANTERIORMENTE**: EP09_C04 (\"três anos\") · EP09_C05 (a saída de casa)\n\n> 💡 **O episódio mais fácil de gravar da temporada.** Um personagem só, zero diálogo, tudo narração. Oito tomadas curtas em lugares diferentes, montadas com música. **Varie muito a hora do dia** — é a mudança de luz que vende os três anos passando.\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP09_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP09_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP10_C02",
+      "codigo": "figurino_fixo",
+      "descricao": "Uniforme de faxina conflita com DJANIRA_POBRE fixo do prompt.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP10_C07",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 4000ms menor que blocos declarados 10000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

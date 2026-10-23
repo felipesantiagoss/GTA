@@ -1,0 +1,57 @@
+{
+  "versao": 1,
+  "id": "EP10_C02",
+  "episodio": 10,
+  "numero": 2,
+  "nome": "OS SERVIÇOS",
+  "ambiente": {
+    "local": "RUA_STRAWBERRY",
+    "hora": "05:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "horizonte"
+      }
+    }
+  ]
+}

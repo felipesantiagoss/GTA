@@ -1,0 +1,94 @@
+{
+  "versao": 1,
+  "id": "EP01_C05",
+  "episodio": 1,
+  "numero": 5,
+  "nome": "O SEGREDO DA AVÓ — hospital",
+  "ambiente": {
+    "local": "HOSPITAL_SANDY",
+    "hora": "10:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DONA_IRACI",
+    "planoNarracao": "LONGE",
+    "planoFala": "MEDIA",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "LONGE",
+      "texto": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "destino": {
+        "direita": 0,
+        "frente": -2,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 2,
+      "expressao": "machucado",
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": -3,
+          "frente": 0,
+          "altura": 1.6
+        }
+      }
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 2,
+      "duracaoSegundos": 2,
+      "expressao": "machucado",
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 3,
+          "frente": 0,
+          "altura": 1.6
+        }
+      }
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4,
+      "expressao": "feliz"
+    }
+  ]
+}

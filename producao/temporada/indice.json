@@ -1,0 +1,2027 @@
+{
+  "versao": 1,
+  "serie": "A_CALOTEIRA_1_TEMP",
+  "fontes": {
+    "roteiro": {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhas": 1695,
+      "utf8Bom": false
+    },
+    "promptPrioritario": {
+      "arquivo": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+      "sha256": "60A431444DB31BDC5A18A7E0A18F3C460E005A446107EC0F1142CCA6FDD6BA9B",
+      "linhas": 388,
+      "utf8Bom": false
+    }
+  },
+  "locaisOriginais": [
+    {
+      "codigo": "ROCA_GRAPESEED",
+      "lugarOriginal": "Grapeseed, no meio da plantação",
+      "regiaoOriginal": "Canto de cima à direita do mapa, acima do Alamo Sea",
+      "usoDeclaradoOriginal": "Eps 1,2,3,5,8,9",
+      "linha": 156,
+      "marcaReal": null
+    },
+    {
+      "codigo": "CASA_VO",
+      "lugarOriginal": "Grapeseed, frente de uma casa de fazenda",
+      "regiaoOriginal": "Mesma região",
+      "usoDeclaradoOriginal": "Eps 1,2,3,4,5,8,9",
+      "linha": 157,
+      "marcaReal": null
+    },
+    {
+      "codigo": "HOSPITAL_SANDY",
+      "lugarOriginal": "Clínica de Sandy Shores, entrada",
+      "regiaoOriginal": "À direita do Alamo Sea",
+      "usoDeclaradoOriginal": "Eps 1,4",
+      "linha": 158,
+      "marcaReal": null
+    },
+    {
+      "codigo": "CASSINO_FORA",
+      "lugarOriginal": "Diamond Casino, fachada",
+      "regiaoOriginal": "East Vinewood",
+      "usoDeclaradoOriginal": "Ep 1",
+      "linha": 159,
+      "marcaReal": null
+    },
+    {
+      "codigo": "AEROPORTO_HANGAR",
+      "lugarOriginal": "LS Intl. Airport, área dos hangares",
+      "regiaoOriginal": "Canto de baixo à esquerda",
+      "usoDeclaradoOriginal": "Eps 1,7",
+      "linha": 160,
+      "marcaReal": null
+    },
+    {
+      "codigo": "AEROPORTO_TERMINAL",
+      "lugarOriginal": "LS Intl. Airport, frente do terminal",
+      "regiaoOriginal": "Mesma região",
+      "usoDeclaradoOriginal": "Eps 1,4",
+      "linha": 161,
+      "marcaReal": null
+    },
+    {
+      "codigo": "AEROPORTO_AR",
+      "lugarOriginal": "Ponto no ar, saindo do aeroporto",
+      "regiaoOriginal": "—",
+      "usoDeclaradoOriginal": "Ep 7",
+      "linha": 162,
+      "marcaReal": null
+    },
+    {
+      "codigo": "CANAL_LS",
+      "lugarOriginal": "Rio Los Santos, canal de concreto",
+      "regiaoOriginal": "Faixa cinza no lado direito da cidade, entre La Mesa e Murrieta Heights",
+      "usoDeclaradoOriginal": "Eps 1,7,8",
+      "linha": 163,
+      "marcaReal": null
+    },
+    {
+      "codigo": "BOATE_FORA",
+      "lugarOriginal": "Bahama Mamas, calçada da entrada",
+      "regiaoOriginal": "Hawick, parte de cima da cidade",
+      "usoDeclaradoOriginal": "Eps 2,6,12",
+      "linha": 164,
+      "marcaReal": null
+    },
+    {
+      "codigo": "BOATE_DENTRO",
+      "lugarOriginal": "Interior da boate ⚠️",
+      "regiaoOriginal": "Ver aviso 0.4",
+      "usoDeclaradoOriginal": "Eps 2,6,12,13",
+      "linha": 165,
+      "marcaReal": null
+    },
+    {
+      "codigo": "BANCO_MAZE",
+      "lugarOriginal": "Maze Bank Tower, calçada da frente",
+      "regiaoOriginal": "Pillbox Hill, centro",
+      "usoDeclaradoOriginal": "Eps 9,11",
+      "linha": 166,
+      "marcaReal": null
+    },
+    {
+      "codigo": "IGREJA_CHAPARRAL",
+      "lugarOriginal": "Igrejinha de Great Chaparral, cemitério",
+      "regiaoOriginal": "Região verde no meio do mapa",
+      "usoDeclaradoOriginal": "Ep 9",
+      "linha": 167,
+      "marcaReal": null
+    },
+    {
+      "codigo": "GALPAO_CYPRESS",
+      "lugarOriginal": "Cypress Flats, entre galpões",
+      "regiaoOriginal": "Lado direito da cidade",
+      "usoDeclaradoOriginal": "Ep 7",
+      "linha": 168,
+      "marcaReal": null
+    },
+    {
+      "codigo": "MANSAO_CHEFE",
+      "lugarOriginal": "Vinewood Hills, mansão com vista",
+      "regiaoOriginal": "Morro acima da cidade",
+      "usoDeclaradoOriginal": "Ep 15",
+      "linha": 169,
+      "marcaReal": null
+    },
+    {
+      "codigo": "MANSAO_DJANIRA",
+      "lugarOriginal": "Rockford Hills, portão de mansão",
+      "regiaoOriginal": "Bairro rico, lado esquerdo",
+      "usoDeclaradoOriginal": "Eps 11,14",
+      "linha": 170,
+      "marcaReal": null
+    },
+    {
+      "codigo": "CENTRO_LEGION",
+      "lugarOriginal": "Legion Square, entre os arranha-céus",
+      "regiaoOriginal": "Centro da cidade",
+      "usoDeclaradoOriginal": "Eps 6,10",
+      "linha": 171,
+      "marcaReal": null
+    },
+    {
+      "codigo": "PRAIA_DELPERRO",
+      "lugarOriginal": "Del Perro Beach, banco de praça",
+      "regiaoOriginal": "Costa esquerda",
+      "usoDeclaradoOriginal": "Ep 10",
+      "linha": 172,
+      "marcaReal": null
+    },
+    {
+      "codigo": "RUA_STRAWBERRY",
+      "lugarOriginal": "Strawberry, ponto de ônibus",
+      "regiaoOriginal": "Abaixo do centro",
+      "usoDeclaradoOriginal": "Ep 10",
+      "linha": 173,
+      "marcaReal": null
+    },
+    {
+      "codigo": "VIADUTO_LAPUERTA",
+      "lugarOriginal": "La Puerta, embaixo do viaduto",
+      "regiaoOriginal": "Abaixo de Vespucci",
+      "usoDeclaradoOriginal": "Ep 10",
+      "linha": 174,
+      "marcaReal": null
+    },
+    {
+      "codigo": "ESTRADA_SENORA",
+      "lugarOriginal": "Grand Senora Desert, estrada vazia",
+      "regiaoOriginal": "Faixa amarelada no centro do mapa",
+      "usoDeclaradoOriginal": "Eps 3,4,8,9",
+      "linha": 175,
+      "marcaReal": null
+    },
+    {
+      "codigo": "CASA_DINJER",
+      "lugarOriginal": "Casa simples em Sandy Shores",
+      "regiaoOriginal": "À direita do Alamo Sea",
+      "usoDeclaradoOriginal": "Ep 3",
+      "linha": 176,
+      "marcaReal": null
+    }
+  ],
+  "materialNaoCenaOriginal": [
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1,
+      "linhaFim": 211,
+      "sha256BlocoUtf8": "85DD009FD23D50595538F6E5A2BC91DB4440F95643A0CF0D0ACD2BC8438F9FB6",
+      "raw": "# A CALOTEIRA DO OESTE\n## Temporada 1 — 15 episódios · Roteiro de produção para o Diretor de Cenas\n\n---\n\n# PARTE 0 — COMO LER ESTE ARQUIVO\n\n> **Esta seção é para o Codex. Leia inteira antes de gerar qualquer arquivo de cena.**\n\nEste documento é o roteiro completo da novela, escrito para ser transformado em arquivos de cena do Diretor de Cenas. Cada cena já vem com local, hora, clima, elenco, câmera, duração e falas.\n\n## 0.1 A estrutura de cada cena\n\n```\n### EPnn_Cnn · NOME DA CENA\n`local:` CODIGO_DO_LOCAL · `hora:` 17:00 · `clima:` limpo\n`elenco:` PERSONAGEM_1, PERSONAGEM_2 · `cam:` auto · `dur:` 24s · `gravar:` SIM\n\n**Ação:** descrição do que acontece fisicamente na cena.\n\n**Diálogo:**\n| # | Quem | Texto | Dur | Gesto |\n```\n\n> ⚠️ O bloco acima é **só o modelo do formato**, não é uma cena real. As cenas de verdade começam na Parte 5.\n\nSignificado dos campos:\n\n| Campo | O que é |\n|---|---|\n| `EPnn_Cnn` | ID da cena, por exemplo `EP01_C04`. Vira o nome do arquivo: `EP01_C04.json` e `EP01_C04.mp4` |\n| `local` | Código do local no catálogo (Parte 2). Eu marco no jogo, você usa o código |\n| `hora` | Hora do jogo, congelada |\n| `clima` | Clima travado |\n| `elenco` | Códigos dos personagens no catálogo (Parte 1) |\n| `cam` | `auto` = corte automático seguindo quem fala. Ou lista de planos |\n| `dur` | Duração estimada, para eu saber quanto gravar |\n| `gravar` | `SIM` = gera arquivo de vídeo. `NÃO` = cena de apoio, reaproveitada de outra |\n\n## 0.2 🔴 A regra mais importante: NARRAÇÃO não é FALA\n\nO roteiro tem dois tipos de texto, e eles se comportam de forma **completamente diferente**:\n\n| Tipo | O que é | Boca mexe? | O personagem... |\n|---|---|---|---|\n| **NARRAÇÃO** | Voz da Djanira contando a história por cima da imagem | **NÃO** | só age: anda, olha, trabalha |\n| **DIÁLOGO** | Personagens conversando dentro da cena | **SIM** | fala com a boca mexendo e gesto |\n\n**Cerca de 60% do texto desta novela é NARRAÇÃO.** Nessas cenas você não precisa de animação facial nenhuma — só da ação e da câmera. Isso simplifica muito o seu trabalho e evita o erro de deixar a personagem mexendo a boca enquanto a voz dela narra em off.\n\nNos blocos abaixo, o tipo está sempre declarado. Nunca presuma.\n\n## 0.3 O que você faz com este arquivo\n\n1. **Leia tudo.** Monte os catálogos da Parte 1 (personagens) e da Parte 2 (locais).\n2. Me diga **quantos locais eu preciso marcar no jogo** e em que ordem convém marcar.\n3. Me diga **quais figurinos você monta sozinho** e quais preciso montar no Menyoo.\n4. Comece gerando **uma cena só** — a `EP01_C04` — para eu testar o ciclo inteiro.\n5. Depois do meu \"ok\", gere o resto do Episódio 1.\n6. Só então siga para os episódios 2 em diante.\n\n**Não gere os 15 episódios de uma vez.** Um episódio por vez, com teste meu no meio.\n\n## 0.4 Avisos técnicos — leia antes de planejar\n\nTrês coisas neste roteiro são difíceis no GTA V. Trate cada uma como está escrito:\n\n**1. Interiores de boate e cassino.** No modo história, os interiores da Bahama Mamas e do Diamond Casino **não abrem** por padrão. Existe um mod conhecido chamado **Open All Interiors** (gta5-mods.com) que destrava interiores no modo história. Verifique, me proponha a instalação se for necessário, e **tenha sempre um plano B gravando só a fachada**. Marquei no roteiro quais cenas dependem disso.\n\n**2. Briga de verdade.** Combate com a inteligência artificial do jogo é imprevisível e não repete igual duas vezes. **Não use combate real.** Use animações de luta encadeadas, que rodam sempre igual.\n\n**3. A queda do avião.** É a cena de abertura e a mais importante da série. Precisa de invencibilidade ligada e de teste cuidadoso. Trate como uma etapa própria, não como mais uma cena.\n\n---\n\n# PARTE 1 — O ELENCO\n\n> Monte estes catálogos primeiro. Todos os códigos em MAIÚSCULA são os nomes que uso nas cenas.\n\n## DJANIRA_POBRE\n**Mulher branca, cabelo ruivo preso em rabo de cavalo, olhos azuis.**\nModelo: `mp_f_freemode_01`\n\n| Item | Valor |\n|---|---|\n| Roupa | Short curto, camisa simples, chinelo. Cabelo preso, sem maquiagem |\n| Expressão padrão | `normal` |\n| Andar | `normal` |\n| Episódios | 1 a 10 |\n\n## DJANIRA_RICA\n**Mesma mulher, mesmo rosto.** Só muda roupa, cabelo e postura.\nModelo: `mp_f_freemode_01`\n\n| Item | Valor |\n|---|---|\n| Roupa | Terninho ou vestido caro, salto, joias, cabelo solto |\n| Expressão padrão | `convencido` |\n| Andar | `na passarela` |\n| Episódios | 11 a 15 |\n\n> ⚠️ **O rosto precisa ser idêntico ao da DJANIRA_POBRE.** É isso que faz a Dinjer não reconhecê-la no Episódio 12. Salve os dois figurinos no mesmo personagem.\n\n## DINJER\n**Mulher negra, cabelo afro volumoso, batom forte.**\nModelo: `mp_f_freemode_01`\n\n| Item | Valor |\n|---|---|\n| Roupa | **Uniforme de aeromoça** — blazer, saia lápis, lencinho no pescoço, salto. **Nunca muda, a série inteira** |\n| Expressão padrão | `convencido` |\n| Andar | `na passarela` |\n| Episódios | 1 a 15 |\n\n> 💡 O uniforme é a piada e a tragédia ao mesmo tempo. Ela não é rica — ela só trabalha perto de gente rica. E termina a temporada exatamente como começou: de uniforme, servindo.\n\n## DONA_IRACI\n**Senhora idosa.** Modelo de pedestre do jogo, mulher idosa.\n\n| Item | Valor |\n|---|---|\n| Roupa | Simples, de dona de casa. Sacola na mão |\n| Expressão padrão | `machucado` (ela está doente) |\n| Andar | `normal`, devagar |\n| Episódios | 1 a 8 |\n\n## O_CHEFE\n**Homem branco, meia-idade, terno caro, cabelo grisalho.**\nModelo de pedestre em terno, ou um modelo de ator do jogo.\n\n| Item | Valor |\n|---|---|\n| Roupa | Terno escuro caro |\n| Expressão padrão | `convencido` |\n| Andar | `playboy` |\n| Episódios | 6, 7, 13, 15 |\n\n## CAPANGA_1 a CAPANGA_4\nNPCs de terno. Andar `durão`. Expressão `com raiva`. Figurantes, sem fala.\n\n## COLEGA_1 a COLEGA_3\nColegas de trabalho da Dinjer no aeroporto. Homens, roupa casual. Episódio 1 apenas.\n\n## ATENDENTE\nNPC genérico. Aparece no banco (Eps 9 e 11). Sem rosto definido, sempre de costas ou em plano aberto.\n\n---\n\n# PARTE 2 — OS LOCAIS\n\n> Eu marco cada um no jogo com a tecla de marcar local. Você usa o código.\n> **Me diga a ordem em que convém eu marcar**, agrupando por região para eu não ficar atravessando o mapa.\n\n| Código | Lugar no GTA | Onde fica | Usado em |\n|---|---|---|---|\n| `ROCA_GRAPESEED` | Grapeseed, no meio da plantação | Canto de cima à direita do mapa, acima do Alamo Sea | Eps 1,2,3,5,8,9 |\n| `CASA_VO` | Grapeseed, frente de uma casa de fazenda | Mesma região | Eps 1,2,3,4,5,8,9 |\n| `HOSPITAL_SANDY` | Clínica de Sandy Shores, entrada | À direita do Alamo Sea | Eps 1,4 |\n| `CASSINO_FORA` | Diamond Casino, fachada | East Vinewood | Ep 1 |\n| `AEROPORTO_HANGAR` | LS Intl. Airport, área dos hangares | Canto de baixo à esquerda | Eps 1,7 |\n| `AEROPORTO_TERMINAL` | LS Intl. Airport, frente do terminal | Mesma região | Eps 1,4 |\n| `AEROPORTO_AR` | Ponto no ar, saindo do aeroporto | — | Ep 7 |\n| `CANAL_LS` | Rio Los Santos, canal de concreto | Faixa cinza no lado direito da cidade, entre La Mesa e Murrieta Heights | Eps 1,7,8 |\n| `BOATE_FORA` | Bahama Mamas, calçada da entrada | Hawick, parte de cima da cidade | Eps 2,6,12 |\n| `BOATE_DENTRO` | Interior da boate ⚠️ | Ver aviso 0.4 | Eps 2,6,12,13 |\n| `BANCO_MAZE` | Maze Bank Tower, calçada da frente | Pillbox Hill, centro | Eps 9,11 |\n| `IGREJA_CHAPARRAL` | Igrejinha de Great Chaparral, cemitério | Região verde no meio do mapa | Ep 9 |\n| `GALPAO_CYPRESS` | Cypress Flats, entre galpões | Lado direito da cidade | Ep 7 |\n| `MANSAO_CHEFE` | Vinewood Hills, mansão com vista | Morro acima da cidade | Ep 15 |\n| `MANSAO_DJANIRA` | Rockford Hills, portão de mansão | Bairro rico, lado esquerdo | Eps 11,14 |\n| `CENTRO_LEGION` | Legion Square, entre os arranha-céus | Centro da cidade | Eps 6,10 |\n| `PRAIA_DELPERRO` | Del Perro Beach, banco de praça | Costa esquerda | Ep 10 |\n| `RUA_STRAWBERRY` | Strawberry, ponto de ônibus | Abaixo do centro | Ep 10 |\n| `VIADUTO_LAPUERTA` | La Puerta, embaixo do viaduto | Abaixo de Vespucci | Ep 10 |\n| `ESTRADA_SENORA` | Grand Senora Desert, estrada vazia | Faixa amarelada no centro do mapa | Eps 3,4,8,9 |\n| `CASA_DINJER` | Casa simples em Sandy Shores | À direita do Alamo Sea | Ep 3 |\n\n**Total: 21 marcas.** Agrupadas por região:\n- **Grapeseed / Sandy Shores / deserto:** 6 marcas\n- **Aeroporto e canal:** 4 marcas\n- **Centro e Vinewood:** 6 marcas\n- **Bairros ricos e praia:** 5 marcas\n\n---\n\n# PARTE 3 — VOCABULÁRIO\n\n## Câmeras\n`LONGE` · `DOIS` · `MEDIA` · `PERTO` · `BAIXA` · `ALTA` · `ATRAS` · `OLHOS` · `auto`\n\n## Gestos de fala (só em DIÁLOGO)\n`neutro` · `explicando` · `negando` · `implorando` · `irritado`\n\n## Expressões\n`normal` · `chateado` · `feliz` · `machucado` · `com raiva` · `estressado` · `convencido`\n\n## Andar\n`normal` · `na passarela` · `playboy` · `durão` · `criminoso`\n\n---\n\n# PARTE 4 — A HISTÓRIA EM CINCO LINHAS\n\nDjanira tem 18 anos, mora com a avó numa casa de favor em Vila Oeste e trabalha na roça. Empresta os mil reais do aluguel para a amiga de infância Dinjer, que voltou dizendo que virou aeromoça de jatinho particular. Leva calote. Persegue a dívida até ser convidada para um voo, onde é jogada do avião por ter visto o que não devia. Sobrevive, volta para casa e descobre pela avó que é herdeira de uma fortuna que só pode tocar aos 21 anos. Passa três anos na miséria sabendo que é bilionária. Aos 21 pega o dinheiro e volta — para descobrir que o homem que mandou matá-la é o próprio pai, e que a amiga a entregou por exatamente mil reais.\n\n**Regra fixa: a dívida é R$ 1.000.** Não altere valores, falas, nomes nem a ordem dos episódios.\n\n---\n\n# 🎬 EPISÓDIO 1 — \"O EMPRÉSTIMO\"\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 223,
+      "linhaFim": 224,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 236,
+      "linhaFim": 237,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 247,
+      "linhaFim": 248,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 258,
+      "linhaFim": 259,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 273,
+      "linhaFim": 274,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 284,
+      "linhaFim": 285,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 305,
+      "linhaFim": 306,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 328,
+      "linhaFim": 329,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 339,
+      "linhaFim": 351,
+      "sha256BlocoUtf8": "EAB2494CDB2188161E156C06AFDAF040BE7C016E7898C5E32179AA7D9F23C405",
+      "raw": "---\n\n**NO PRÓXIMO EPISÓDIO** *(montagem de 5s, cortes do Ep 2)*:\nDinjer na boate bebendo. Dinjer sentada com quatro homens de terno.\n\n---\n\n# 🎬 EPISÓDIO 2 — \"O DINHEIRO SUMIU\"\n\n**ANTERIORMENTE** *(reaproveite, não grave)*: EP01_C01 (a queda) · EP01_C08 (o pedido)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 363,
+      "linhaFim": 364,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 374,
+      "linhaFim": 375,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 385,
+      "linhaFim": 386,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 401,
+      "linhaFim": 402,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 412,
+      "linhaFim": 413,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 429,
+      "linhaFim": 430,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 443,
+      "linhaFim": 450,
+      "sha256BlocoUtf8": "43DCF354085AFDC672F097FD724512F270131F9CE678D55817706880649AD76D",
+      "raw": "---\n\n# 🎬 EPISÓDIO 3 — \"A COBRANÇA\"\n\n**ANTERIORMENTE**: EP02_C04 (o aviso) · EP02_C05 (o bloqueio) · EP02_C06 (o story)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 460,
+      "linhaFim": 461,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 471,
+      "linhaFim": 472,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 482,
+      "linhaFim": 483,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 493,
+      "linhaFim": 494,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 504,
+      "linhaFim": 505,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 515,
+      "linhaFim": 516,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 535,
+      "linhaFim": 542,
+      "sha256BlocoUtf8": "49F5D8155368420E03F0B2CB313109252AE0F17C9472B8413CE92094BA546CE3",
+      "raw": "---\n\n# 🎬 EPISÓDIO 4 — \"NO TRABALHO DELA\"\n\n**ANTERIORMENTE**: EP03_C05 (a fuga) · EP03_C07 (os trinta dias)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 552,
+      "linhaFim": 553,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 570,
+      "linhaFim": 571,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 581,
+      "linhaFim": 582,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 592,
+      "linhaFim": 593,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 607,
+      "linhaFim": 608,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 621,
+      "linhaFim": 628,
+      "sha256BlocoUtf8": "E304200396B391ACEC6DB1AE0528428361814671B26D12907CE1107CC5C6AA3A",
+      "raw": "---\n\n# 🎬 EPISÓDIO 5 — \"O CONVITE\"\n\n**ANTERIORMENTE**: EP04_C02 (a humilhação) · EP04_C05 (a avó doente) · EP04_C06 (a caixa vazia)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 638,
+      "linhaFim": 639,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 649,
+      "linhaFim": 650,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 669,
+      "linhaFim": 670,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 680,
+      "linhaFim": 681,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 702,
+      "linhaFim": 709,
+      "sha256BlocoUtf8": "A16D256CAB80E711FEC4CCF4D92ABCFD98BBF7239D361EB9F170DC64E1BD2FF2",
+      "raw": "---\n\n# 🎬 EPISÓDIO 6 — \"A BOATE\"\n\n**ANTERIORMENTE**: EP05_C03 (a proposta) · EP05_C05 (o aviso da avó)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 719,
+      "linhaFim": 720,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 732,
+      "linhaFim": 733,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 745,
+      "linhaFim": 746,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 765,
+      "linhaFim": 766,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 776,
+      "linhaFim": 777,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 789,
+      "linhaFim": 796,
+      "sha256BlocoUtf8": "041A2AB07E1535E225A5096DCAD533A8FC5FA5EF6559F4E00F32B6928367ADCA",
+      "raw": "---\n\n# 🎬 EPISÓDIO 7 — \"O VOO\"\n\n**ANTERIORMENTE**: EP06_C04 (o convite) · EP06_C06 (o gesto)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 806,
+      "linhaFim": 807,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 823,
+      "linhaFim": 824,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 834,
+      "linhaFim": 835,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 855,
+      "linhaFim": 856,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 869,
+      "linhaFim": 876,
+      "sha256BlocoUtf8": "BAB01650ADC597B4105D3A0FF92C7AC10487391B973C7A71FE093293F32E49CE",
+      "raw": "---\n\n# 🎬 EPISÓDIO 8 — \"O QUE A VÓ GUARDOU\"\n\n**ANTERIORMENTE**: EP07_C04 (o aviso do Chefe) · EP07_C04 fala 6 (\"desculpa, amiga\") · EP07_C05 (a queda)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 886,
+      "linhaFim": 887,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 897,
+      "linhaFim": 898,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 918,
+      "linhaFim": 919,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 937,
+      "linhaFim": 938,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 951,
+      "linhaFim": 952,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 965,
+      "linhaFim": 972,
+      "sha256BlocoUtf8": "C243472406221E0C59A5434961E699EBAF783E5E8B4EA2EDAD4B171345F904F5",
+      "raw": "---\n\n# 🎬 EPISÓDIO 9 — \"VINTE E UM\"\n\n**ANTERIORMENTE**: EP08_C03 (a herança) · EP08_C04 (o cassino) · EP08_C05 (o papel)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 982,
+      "linhaFim": 983,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 995,
+      "linhaFim": 996,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1006,
+      "linhaFim": 1007,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1024,
+      "linhaFim": 1025,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1035,
+      "linhaFim": 1036,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1049,
+      "linhaFim": 1058,
+      "sha256BlocoUtf8": "DCC77F761E2B8E35648CDA2DB4832DDA56FF5BE997EE4E06B6F98C820ECF14AE",
+      "raw": "---\n\n# 🎬 EPISÓDIO 10 — \"TRÊS ANOS\"\n\n**ANTERIORMENTE**: EP09_C04 (\"três anos\") · EP09_C05 (a saída de casa)\n\n> 💡 **O episódio mais fácil de gravar da temporada.** Um personagem só, zero diálogo, tudo narração. Oito tomadas curtas em lugares diferentes, montadas com música. **Varie muito a hora do dia** — é a mudança de luz que vende os três anos passando.\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1068,
+      "linhaFim": 1069,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1079,
+      "linhaFim": 1080,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1090,
+      "linhaFim": 1091,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1101,
+      "linhaFim": 1102,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1112,
+      "linhaFim": 1113,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1123,
+      "linhaFim": 1124,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1137,
+      "linhaFim": 1144,
+      "sha256BlocoUtf8": "307DB9AC21E43CA29D13E731D90F87C250219B2AD040D45003017234822E01E7",
+      "raw": "---\n\n# 🎬 EPISÓDIO 11 — \"A HERDEIRA\"\n\n**ANTERIORMENTE**: EP10_C01 (dormindo na rua) · EP10_C06 (o calendário) · EP10_C07 (\"faltou um\")\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1156,
+      "linhaFim": 1157,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1171,
+      "linhaFim": 1172,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1184,
+      "linhaFim": 1185,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1195,
+      "linhaFim": 1196,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1211,
+      "linhaFim": 1218,
+      "sha256BlocoUtf8": "D420844AB0BF79C43F2D46EAF9C20406DD263F80ABDCB0672164A4F7E796A600",
+      "raw": "---\n\n# 🎬 EPISÓDIO 12 — \"A CLIENTE VIP\"\n\n**ANTERIORMENTE**: EP11_C03 (a transformação) · EP11_C05 (a segunda linha)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1230,
+      "linhaFim": 1231,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1241,
+      "linhaFim": 1242,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1267,
+      "linhaFim": 1268,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1278,
+      "linhaFim": 1279,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1292,
+      "linhaFim": 1299,
+      "sha256BlocoUtf8": "848D286F698BE5A841C03BB3F420C354BAA8F3630675854ADB9EA8CEA6D521C6",
+      "raw": "---\n\n# 🎬 EPISÓDIO 13 — \"A DONA DA CASA\"\n\n**ANTERIORMENTE**: EP12_C03 (\"se eu contar, eu morro\") · EP12_C05 (o bilhete)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1309,
+      "linhaFim": 1310,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1320,
+      "linhaFim": 1321,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1331,
+      "linhaFim": 1332,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1345,
+      "linhaFim": 1346,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1356,
+      "linhaFim": 1357,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1373,
+      "linhaFim": 1380,
+      "sha256BlocoUtf8": "1F39CBEB507D9B8E7EA86DB2DDE165B15EDBA8B63B46DB60E9345C6996FD32AF",
+      "raw": "---\n\n# 🎬 EPISÓDIO 14 — \"VOCÊ SABIA\"\n\n**ANTERIORMENTE**: EP13_C05 (a foto) · EP13_C06 (no chão)\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1390,
+      "linhaFim": 1391,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1407,
+      "linhaFim": 1408,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1424,
+      "linhaFim": 1425,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1442,
+      "linhaFim": 1443,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1462,
+      "linhaFim": 1470,
+      "sha256BlocoUtf8": "52B602E43EE397651363A31249BDE6F0179ACD1D8D33A56BA325921FD046A69D",
+      "raw": "---\n\n# 🎬 EPISÓDIO 15 — GRANDE FINAL\n## \"O PAI\"\n\n**ANTERIORMENTE**: EP14_C03 (\"você sabia\") · EP14_C04 (de joelhos) · EP14_C05 (\"ele mandou te chamar\")\n\n---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1480,
+      "linhaFim": 1481,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1500,
+      "linhaFim": 1501,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1522,
+      "linhaFim": 1523,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1541,
+      "linhaFim": 1542,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1563,
+      "linhaFim": 1564,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1574,
+      "linhaFim": 1575,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1589,
+      "linhaFim": 1590,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1600,
+      "linhaFim": 1601,
+      "sha256BlocoUtf8": "FB9F586EB6A7D7113A63492F0F563B1B46C410E47F561C4FD527CA2E35F232FE",
+      "raw": "---\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1614,
+      "linhaFim": 1619,
+      "sha256BlocoUtf8": "2C6D7AD7A2B7E4130CF4D0DD7D678602B17E1C561BE8FF27C4B9A4E22DC93AEC",
+      "raw": "---\n\n# 🎞️ A VINHETA FINAL\n\n> Grave **uma vez só**. Entra no fim dos 15 episódios.\n\n"
+    },
+    {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhaInicio": 1646,
+      "linhaFim": 1695,
+      "sha256BlocoUtf8": "B06B5C4BDDE8F090B1B2CEC336F79ADFAECEFB99895C9EC50E65A2C38C7BD1D6",
+      "raw": "---\n\n# PARTE 5 — RESUMO DE PRODUÇÃO\n\n## Contagem\n\n| Item | Quantidade |\n|---|---|\n| Episódios | 15 |\n| Cenas a gravar | 94 + 1 vinheta |\n| Locais a marcar | 21 |\n| Personagens | 5 principais + figurantes |\n| Cenas com diálogo *(boca mexendo)* | 29 |\n| Cenas só com narração *(sem boca)* | 65 |\n\n> 💡 **Dois terços das cenas não precisam de animação facial nenhuma.** Isso reduz muito o seu trabalho e o risco de bug. Comece pelas cenas de narração, que são mais simples, e deixe as de diálogo para depois que a boca estiver funcionando.\n\n### Cenas por episódio\n\n| Ep | Cenas | Ep | Cenas | Ep | Cenas |\n|---|---|---|---|---|---|\n| 1 | 9 | 6 | 6 | 11 | 5 |\n| 2 | 7 | 7 | 5 | 12 | 5 |\n| 3 | 7 | 8 | 6 | 13 | 6 |\n| 4 | 6 | 9 | 6 | 14 | 5 |\n| 5 | 5 | 10 | 7 | 15 | 9 |\n\n## Ordem de produção sugerida\n\nAgrupe por **local e figurino**, não por episódio. Assim eu teleporto e troco de roupa o mínimo possível.\n\n| Bloco | Personagem | Locais | Cenas |\n|---|---|---|---|\n| 1 | DJANIRA_POBRE | ROCA_GRAPESEED, CASA_VO | Eps 1,2,3,4,5,8,9 |\n| 2 | DONA_IRACI | CASA_VO, HOSPITAL_SANDY, CASSINO_FORA | Eps 1,2,4,5,8 |\n| 3 | DINJER | AEROPORTO, CASA_DINJER | Eps 1,3,4,5 |\n| 4 | DJANIRA_POBRE | ESTRADA_SENORA, cidade | Eps 3,4,8,9,10 |\n| 5 | Noite, boate | BOATE_FORA, BOATE_DENTRO | Eps 2,6,12,13 |\n| 6 | Avião e queda | AEROPORTO_AR, CANAL_LS | Eps 1,7,8 |\n| 7 | DJANIRA_RICA | BANCO_MAZE, MANSAO_DJANIRA | Eps 11,14 |\n| 8 | Final | MANSAO_CHEFE | Ep 15 |\n| 9 | Vinheta | PRAIA_DELPERRO | — |\n\n## O que eu preciso que você me diga antes de começar\n\n1. A ordem em que convém eu marcar os 21 locais, agrupada por região\n2. Quais figurinos você monta sozinho e quais eu monto no Menyoo\n3. Se o interior da boate abre no modo história, ou se precisamos do Open All Interiors\n4. Quais animações de gesto você achou no `PedAnimList` e quais faltam\n5. Se a queda do avião precisa de etapa própria antes das outras cenas\n"
+    }
+  ],
+  "familiasCapacidades": {
+    "visuais": "Identidade, rosto, roupa fixa, cabelo, acessórios e visual aprovado no modelo real.",
+    "ambiente": "Marcas reais, sublocais/interiores, hora/clima, limpeza seletiva e restauração.",
+    "corpo": "Poses e transições: sentar/deitar/ajoelhar/levantar, trabalho, dança, reação e luta coreografada.",
+    "movimento": "Rotas e estilos de andar; correr, água/rampa/queda; sem teleporte para fingir chegada.",
+    "fala": "Boca, gesto, expressão e olhar compatíveis com o visual, pose e ações concorrentes.",
+    "veiculos": "Modelo verificado, motorista/assentos, portas, embarque/desembarque, rota e limpeza.",
+    "objetos": "Modelos e ossos verificados, segurar/usar/entregar/abrir e objetos de cenário.",
+    "figurantes": "Presenças descritas fora do elenco; perfis reais e figurantes controlados.",
+    "camera": "Alvos sem ator/individuais/grupos, terceiro interlocutor, objetos, eixo, movimento e reutilização exata.",
+    "edicao": "Cartelas, créditos, som/vozes, telefone em locais separados, montagem e reaproveitamento no CapCut.",
+    "gravacao": "Game Bar real, vínculo da tomada, MP4/SRT versionados e organização antes da automação de teclado."
+  },
+  "piloto": "EP01_C08",
+  "estado": "preparacao",
+  "runtime": null,
+  "conflitosGerais": [
+    "Autorização mais recente permite preparar todos os15; roteiro/prompt antigos exigiam um por vez.",
+    "Piloto priorizado EP01_C08; referências antigas EP01_C04 ficam preservadas na origem.",
+    "Djanira: pobreEP1–10, ricaEP11–15; somente ela troca figurino, mesma identidade facial.",
+    "Capangas definidos sem fala na Parte1, mas CAPANGA_1 fala emEP03_C07; conservar a fala explícita e o terno fixo.",
+    "Colegas citados como apenasEp1 também aparecemEp4; conservar aparições e registrar divergência.",
+    "Atendente sempre de costas/sem rosto; câmera automática precisa respeitar essa regra.",
+    "Boate/interiores e localização Hawick não são confirmados; localizar e testar antes de marcar. Fachada é planoB explícito.",
+    "EP10 anuncia oito tomadas, mas contém sete IDs; não inventar cena08.",
+    "Parte5 diz cinco principais; são quatro identidades principais e cinco perfis com os dois figurinos de Djanira.",
+    "A fala sobre o pai morto é preservada; a revelação final não autoriza reescrever narração anterior.",
+    "Limpeza de população não elimina figurantes dirigidos previstos na ação; estes exigem perfis/controladores próprios.",
+    "Cenas narradas sem diálogo não exigem boca; NARRADOR não cria ator. Silêncios não recebem fala/legenda."
+  ],
+  "tipoDocumento": "indice_pre_producao",
+  "episodios": [
+    {
+      "numero": 1,
+      "nome": "\"O EMPRÉSTIMO\"",
+      "manifesto": "EP01/manifesto.json",
+      "cenas": [
+        "EP01_C01",
+        "EP01_C02",
+        "EP01_C03",
+        "EP01_C04",
+        "EP01_C05",
+        "EP01_C06",
+        "EP01_C07",
+        "EP01_C08",
+        "EP01_C09"
+      ]
+    },
+    {
+      "numero": 2,
+      "nome": "\"O DINHEIRO SUMIU\"",
+      "manifesto": "EP02/manifesto.json",
+      "cenas": [
+        "EP02_C01",
+        "EP02_C02",
+        "EP02_C03",
+        "EP02_C04",
+        "EP02_C05",
+        "EP02_C06",
+        "EP02_C07"
+      ]
+    },
+    {
+      "numero": 3,
+      "nome": "\"A COBRANÇA\"",
+      "manifesto": "EP03/manifesto.json",
+      "cenas": [
+        "EP03_C01",
+        "EP03_C02",
+        "EP03_C03",
+        "EP03_C04",
+        "EP03_C05",
+        "EP03_C06",
+        "EP03_C07"
+      ]
+    },
+    {
+      "numero": 4,
+      "nome": "\"NO TRABALHO DELA\"",
+      "manifesto": "EP04/manifesto.json",
+      "cenas": [
+        "EP04_C01",
+        "EP04_C02",
+        "EP04_C03",
+        "EP04_C04",
+        "EP04_C05",
+        "EP04_C06"
+      ]
+    },
+    {
+      "numero": 5,
+      "nome": "\"O CONVITE\"",
+      "manifesto": "EP05/manifesto.json",
+      "cenas": [
+        "EP05_C01",
+        "EP05_C02",
+        "EP05_C03",
+        "EP05_C04",
+        "EP05_C05"
+      ]
+    },
+    {
+      "numero": 6,
+      "nome": "\"A BOATE\"",
+      "manifesto": "EP06/manifesto.json",
+      "cenas": [
+        "EP06_C01",
+        "EP06_C02",
+        "EP06_C03",
+        "EP06_C04",
+        "EP06_C05",
+        "EP06_C06"
+      ]
+    },
+    {
+      "numero": 7,
+      "nome": "\"O VOO\"",
+      "manifesto": "EP07/manifesto.json",
+      "cenas": [
+        "EP07_C01",
+        "EP07_C02",
+        "EP07_C03",
+        "EP07_C04",
+        "EP07_C05"
+      ]
+    },
+    {
+      "numero": 8,
+      "nome": "\"O QUE A VÓ GUARDOU\"",
+      "manifesto": "EP08/manifesto.json",
+      "cenas": [
+        "EP08_C01",
+        "EP08_C02",
+        "EP08_C03",
+        "EP08_C04",
+        "EP08_C05",
+        "EP08_C06"
+      ]
+    },
+    {
+      "numero": 9,
+      "nome": "\"VINTE E UM\"",
+      "manifesto": "EP09/manifesto.json",
+      "cenas": [
+        "EP09_C01",
+        "EP09_C02",
+        "EP09_C03",
+        "EP09_C04",
+        "EP09_C05",
+        "EP09_C06"
+      ]
+    },
+    {
+      "numero": 10,
+      "nome": "\"TRÊS ANOS\"",
+      "manifesto": "EP10/manifesto.json",
+      "cenas": [
+        "EP10_C01",
+        "EP10_C02",
+        "EP10_C03",
+        "EP10_C04",
+        "EP10_C05",
+        "EP10_C06",
+        "EP10_C07"
+      ]
+    },
+    {
+      "numero": 11,
+      "nome": "\"A HERDEIRA\"",
+      "manifesto": "EP11/manifesto.json",
+      "cenas": [
+        "EP11_C01",
+        "EP11_C02",
+        "EP11_C03",
+        "EP11_C04",
+        "EP11_C05"
+      ]
+    },
+    {
+      "numero": 12,
+      "nome": "\"A CLIENTE VIP\"",
+      "manifesto": "EP12/manifesto.json",
+      "cenas": [
+        "EP12_C01",
+        "EP12_C02",
+        "EP12_C03",
+        "EP12_C04",
+        "EP12_C05"
+      ]
+    },
+    {
+      "numero": 13,
+      "nome": "\"A DONA DA CASA\"",
+      "manifesto": "EP13/manifesto.json",
+      "cenas": [
+        "EP13_C01",
+        "EP13_C02",
+        "EP13_C03",
+        "EP13_C04",
+        "EP13_C05",
+        "EP13_C06"
+      ]
+    },
+    {
+      "numero": 14,
+      "nome": "\"VOCÊ SABIA\"",
+      "manifesto": "EP14/manifesto.json",
+      "cenas": [
+        "EP14_C01",
+        "EP14_C02",
+        "EP14_C03",
+        "EP14_C04",
+        "EP14_C05"
+      ]
+    },
+    {
+      "numero": 15,
+      "nome": "GRANDE FINAL",
+      "manifesto": "EP15/manifesto.json",
+      "cenas": [
+        "EP15_C01",
+        "EP15_C02",
+        "EP15_C03",
+        "EP15_C04",
+        "EP15_C05",
+        "EP15_C06",
+        "EP15_C07",
+        "EP15_C08",
+        "EP15_C09"
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "VINHETA_01",
+      "plano": "extras/VINHETA_01.plano.json",
+      "srtBase": "extras/VINHETA_01.base.srt"
+    }
+  ],
+  "contagem": {
+    "episodios": 15,
+    "cenasEpisodios": 94,
+    "vinhetas": 1,
+    "planos": 95,
+    "comDialogo": 29,
+    "semDialogo": 65
+  },
+  "arquivosDerivados": [
+    {
+      "arquivo": "EP01/EP01_C01.base.srt",
+      "sha256": "A0CE244F92954F9181EA1D1496D99A43AC72E11960FFD149D1E3517700C5B494"
+    },
+    {
+      "arquivo": "EP01/EP01_C01.plano.json",
+      "sha256": "95B0AC479C96C915381F4E49D4B099C5AF8AC172736590643F0CAC01D0A1F2C1"
+    },
+    {
+      "arquivo": "EP01/EP01_C02.base.srt",
+      "sha256": "ADE6B0A6FE309E0D73D01A31B9C1E1652448B2F53BD0525BC1A9139C11E7B1FA"
+    },
+    {
+      "arquivo": "EP01/EP01_C02.plano.json",
+      "sha256": "0E5C06E6557C8C920A64D634C33BE61CEACA915FFF2052D6BA6DB80032FEBCC8"
+    },
+    {
+      "arquivo": "EP01/EP01_C03.base.srt",
+      "sha256": "AC0E6C11CDB9709C93F4DC332030E3607EA8D919501293EAB2739CA0BF411D38"
+    },
+    {
+      "arquivo": "EP01/EP01_C03.plano.json",
+      "sha256": "19A49EE876B5CB5FEA8678AB1EBA7BFE0E8C5CD1A07AFA178D0526B59704EBDD"
+    },
+    {
+      "arquivo": "EP01/EP01_C04.base.srt",
+      "sha256": "5351583C52AE00AE546A0731A39714CCBB9ADF65AE86F84E083D2551F067D08B"
+    },
+    {
+      "arquivo": "EP01/EP01_C04.plano.json",
+      "sha256": "07809855E90C19B7818C3424DD8E4BA0509C956346074A557951F2FCDD1DF741"
+    },
+    {
+      "arquivo": "EP01/EP01_C05.base.srt",
+      "sha256": "CBFAB61A95A50D3CA1E4158B7B71C1CF4173B07ECD92C45BD20E345C3A09F362"
+    },
+    {
+      "arquivo": "EP01/EP01_C05.plano.json",
+      "sha256": "8DE9063D76D6682F652DFA5BDA647C04BB54A36E1AAE5C2A2F11F31B72370CCB"
+    },
+    {
+      "arquivo": "EP01/EP01_C06.base.srt",
+      "sha256": "88E4EA5E873C9F78B366E90C9904ECABCD8DEBA011D52BB0490A1C8F61C0F9A9"
+    },
+    {
+      "arquivo": "EP01/EP01_C06.plano.json",
+      "sha256": "F1A696DA43356845FC0F2E7454D3FA57E7E00645172A50ADCA822A9716DC7E1E"
+    },
+    {
+      "arquivo": "EP01/EP01_C07.base.srt",
+      "sha256": "22108FE796C7D056695CC2A04223A233D2792CC5EC9817125737914E2C2C6961"
+    },
+    {
+      "arquivo": "EP01/EP01_C07.plano.json",
+      "sha256": "AA8E3039069CF442373FEA7F8FA6A066E368DB7529D18027EA1FBE27F7681D16"
+    },
+    {
+      "arquivo": "EP01/EP01_C08.base.srt",
+      "sha256": "A7F4DD14DC06D0B5B4144B61123EC2BA97826F93A92950F547E80A07BFE752F7"
+    },
+    {
+      "arquivo": "EP01/EP01_C08.plano.json",
+      "sha256": "A159ED478795E6865D5EB94948A2077514CD552F5D90C22BCAFBF42EB252FFF0"
+    },
+    {
+      "arquivo": "EP01/EP01_C09.base.srt",
+      "sha256": "52A45EBDE55D0EDCC0C4832135E92AF53C5D27198E4712DD6FDFE04BB8E3AECC"
+    },
+    {
+      "arquivo": "EP01/EP01_C09.plano.json",
+      "sha256": "6B1BBB7E294D7700C64203255CE2CD72E94F94DFB3BF8DEFAECE8E7A33B59BFA"
+    },
+    {
+      "arquivo": "EP01/manifesto.json",
+      "sha256": "3C53254AB9CA1F733DCA3115EE3D66D258A407EB25374B502D50124190D85C47"
+    },
+    {
+      "arquivo": "EP02/EP02_C01.base.srt",
+      "sha256": "8AEDE4E1B1E1CAC848A28B83D8EFF6BEF4FE39A23CF709F15B54FCC9E22B977B"
+    },
+    {
+      "arquivo": "EP02/EP02_C01.plano.json",
+      "sha256": "A7A37BEA8671608E56F56EF59BABC8A69C50CED26D3C3306D641F114F06E9553"
+    },
+    {
+      "arquivo": "EP02/EP02_C02.base.srt",
+      "sha256": "63135012680105F68BE91EACE2A06423C494D3814DD7F0568BB4E8C2AD908F81"
+    },
+    {
+      "arquivo": "EP02/EP02_C02.plano.json",
+      "sha256": "7ED47F5994AEFFA6A500252566B145BD76ED1BDA388A700C5895D3A427E527A9"
+    },
+    {
+      "arquivo": "EP02/EP02_C03.base.srt",
+      "sha256": "B81C1BC2A4ADA32A5870583BF45C52F8E344CCD84C6B7854E0EE3581EE045F7E"
+    },
+    {
+      "arquivo": "EP02/EP02_C03.plano.json",
+      "sha256": "DDEDD83E0DDD45C5B60E7213F7652D7B0129F91D52EF6959BF6295A886183360"
+    },
+    {
+      "arquivo": "EP02/EP02_C04.base.srt",
+      "sha256": "145D5FF6B44964493E271261691FB67522FDC816272980C5B37BFB3983875FA5"
+    },
+    {
+      "arquivo": "EP02/EP02_C04.plano.json",
+      "sha256": "C24318077BB1005B9A2D986AC3C61B5F0E69FC0D83CA952820179B7BAAB76D51"
+    },
+    {
+      "arquivo": "EP02/EP02_C05.base.srt",
+      "sha256": "CC8E858CD161D695B20D1F6913864912D27CA31BF7335F85565306BD0B1ED653"
+    },
+    {
+      "arquivo": "EP02/EP02_C05.plano.json",
+      "sha256": "9A0BFED699A95866A68EA86D5F9D991DCC85827A0416D6E992AB8CF03EC05377"
+    },
+    {
+      "arquivo": "EP02/EP02_C06.base.srt",
+      "sha256": "5AD8D82B18B7C56D68DF174B4849735C4CD5DF346566A7AEB44B581E640403F2"
+    },
+    {
+      "arquivo": "EP02/EP02_C06.plano.json",
+      "sha256": "35B73EBEE6FEFEDFF88793D7DE48E29E1FFE4425443E8659FB73A3FF79F8FCFC"
+    },
+    {
+      "arquivo": "EP02/EP02_C07.base.srt",
+      "sha256": "645E6E544590247E98E73127C6B47EAFBAF75257B1891980E028655E1F3DCB48"
+    },
+    {
+      "arquivo": "EP02/EP02_C07.plano.json",
+      "sha256": "CA5D7EE022673EA53C6BF1DE9AD4E4F88A4F58FF411A74FBC2CE9E5952880DD2"
+    },
+    {
+      "arquivo": "EP02/manifesto.json",
+      "sha256": "F9081AD8A2BCF62E67F8A4A7606C19C756066D016908F4CDDA563CAB0E38417E"
+    },
+    {
+      "arquivo": "EP03/EP03_C01.base.srt",
+      "sha256": "B3BADB98A38940988DB20873B74127EB1CA61551F1AB91BE481BA95586706EAD"
+    },
+    {
+      "arquivo": "EP03/EP03_C01.plano.json",
+      "sha256": "8BA9CE1D0401A5C70B55281F6960FF48017B77D6160E928B122E999D4EC22756"
+    },
+    {
+      "arquivo": "EP03/EP03_C02.base.srt",
+      "sha256": "3516C3CD57D054FBF8AA9F62E7D7465444574F0DFDDBF55A221CDD9395D140F4"
+    },
+    {
+      "arquivo": "EP03/EP03_C02.plano.json",
+      "sha256": "BE698F3134FC0E5BB218D9DB5069A0BCFC96CB08829729D9479D3CB04617917E"
+    },
+    {
+      "arquivo": "EP03/EP03_C03.base.srt",
+      "sha256": "DDBF8A8EE39548D5EC6ADEA5BA15D2D0D28F5400078B9E4E32D4EFF801AE28C0"
+    },
+    {
+      "arquivo": "EP03/EP03_C03.plano.json",
+      "sha256": "8C5EDC84F6FAA66DC4B7D95ADB916744CFC465C29729DB3221700D71421BAA91"
+    },
+    {
+      "arquivo": "EP03/EP03_C04.base.srt",
+      "sha256": "3AD68B55ED0375F25175B9D8AEB9AAA3FD2475FF5E458E545D31CF2AF77C38BA"
+    },
+    {
+      "arquivo": "EP03/EP03_C04.plano.json",
+      "sha256": "9B8034B3B0FAEE2996E9908FE0E9FA6D6FCFB977908A3D425C8775FF7182095B"
+    },
+    {
+      "arquivo": "EP03/EP03_C05.base.srt",
+      "sha256": "1C9A47A54ACA470B6E038E073BE2352318005CA452E12364AE36D6BEB2EA964D"
+    },
+    {
+      "arquivo": "EP03/EP03_C05.plano.json",
+      "sha256": "D9F10C74DF9F3A154AFB7FA505E1F7920FDDCBF41EC3B9F8B162DF30EDA63973"
+    },
+    {
+      "arquivo": "EP03/EP03_C06.base.srt",
+      "sha256": "00D9BC41FF214042EF121070D873FC1E4B1B841FFDD43A4CC16DE985DC273AA2"
+    },
+    {
+      "arquivo": "EP03/EP03_C06.plano.json",
+      "sha256": "9225FE78A3E127D58F53559BA36026616E073462B491421D9569142395F0BF78"
+    },
+    {
+      "arquivo": "EP03/EP03_C07.base.srt",
+      "sha256": "DFDCD54A489178B62BBDC0BC208F7F3D862D9ADD87EBB89256F99D3EE8C6B713"
+    },
+    {
+      "arquivo": "EP03/EP03_C07.plano.json",
+      "sha256": "E071025B7B2AE85D7ADCA1E7B6D0FF7CA6B6E79242410D5D7B76371BA93F465E"
+    },
+    {
+      "arquivo": "EP03/manifesto.json",
+      "sha256": "DE5380319D04A1AFF56A4C51B422FB478506EC947E4568177E590794904A7F3E"
+    },
+    {
+      "arquivo": "EP04/EP04_C01.base.srt",
+      "sha256": "EA907DFB8C01BDE7256F38AD4442C2840FDFEF05A9E8FA08FBBA63B9E2E13EF0"
+    },
+    {
+      "arquivo": "EP04/EP04_C01.plano.json",
+      "sha256": "2A7E80BDF9811A6F2FF4FFA30FCDEC76A1B1A1324C67F9AEC022FB0793D3C630"
+    },
+    {
+      "arquivo": "EP04/EP04_C02.base.srt",
+      "sha256": "3978F5582B0F1F0E9BE17B0AF2412C9387A8FFF1012EDC74325590C751CB6BF0"
+    },
+    {
+      "arquivo": "EP04/EP04_C02.plano.json",
+      "sha256": "2E20BA3AA40598E2E9BE13CA727736BD0B4B94E1928625F44C9DFEBD479846F8"
+    },
+    {
+      "arquivo": "EP04/EP04_C03.base.srt",
+      "sha256": "E1C55664AF75F3B320A5DC0D48AF7754411A83CB0565A29F43A92FE2BC9C6178"
+    },
+    {
+      "arquivo": "EP04/EP04_C03.plano.json",
+      "sha256": "4B690A827ED4832CAAABEAAF130777AAE49332B491382B7E4E9F08FA6258EC5E"
+    },
+    {
+      "arquivo": "EP04/EP04_C04.base.srt",
+      "sha256": "612F3FE813EB80A162AD4EF3D611B990A1465AAC43EA256D7878C70EC58549F5"
+    },
+    {
+      "arquivo": "EP04/EP04_C04.plano.json",
+      "sha256": "6E4426C24DB40CF71A98F2A916CEC3E37DB25330021F27648E882FB4EBC733EE"
+    },
+    {
+      "arquivo": "EP04/EP04_C05.base.srt",
+      "sha256": "EC0CD17E27761C5A325463DC48183A6C3893067F6688F1D74D13BCDA894C7040"
+    },
+    {
+      "arquivo": "EP04/EP04_C05.plano.json",
+      "sha256": "52C33D062C27C535CEBBC94FDB76D59E2B4466A345B0A29A44A9289CE37EC326"
+    },
+    {
+      "arquivo": "EP04/EP04_C06.base.srt",
+      "sha256": "62355D2DE90659104504C4BBD15D06607BC5146BDC1DF18A502AA55699D0B455"
+    },
+    {
+      "arquivo": "EP04/EP04_C06.plano.json",
+      "sha256": "B5556A2D6923AE03C286B5C60AF36C2C27CAAF4F966F5C3687BA137079AC66D6"
+    },
+    {
+      "arquivo": "EP04/manifesto.json",
+      "sha256": "7A4B786F52E85DE6B246B310248AE170B77B9623EA1C1F8BA581F33EB1C521DB"
+    },
+    {
+      "arquivo": "EP05/EP05_C01.base.srt",
+      "sha256": "95F02499DE3C21A1713DEE48744D91ECC7678A2D846753F50E6EC324B86ADC15"
+    },
+    {
+      "arquivo": "EP05/EP05_C01.plano.json",
+      "sha256": "F8844C2CC549F278C8497DD05EF1905E4162542F54CBADC9F611F5F9656220A7"
+    },
+    {
+      "arquivo": "EP05/EP05_C02.base.srt",
+      "sha256": "5BFDFF14BABE3F23F3E7DCAB85017328BE5EE0ABCF7AAAE799F7DF81CA68D865"
+    },
+    {
+      "arquivo": "EP05/EP05_C02.plano.json",
+      "sha256": "549735A2CC612DDDE4F6065300B627C0ABB3CB0E886C1764F53B65686EF52127"
+    },
+    {
+      "arquivo": "EP05/EP05_C03.base.srt",
+      "sha256": "5FAE61CF188187B1F45FD9C05AE7564BE1113AF19C394DACD47BFA463399F58C"
+    },
+    {
+      "arquivo": "EP05/EP05_C03.plano.json",
+      "sha256": "5AAC603986B894E74F71CE5C6E4FFC73E6763068B4EF27CCCE8ED1F245D63381"
+    },
+    {
+      "arquivo": "EP05/EP05_C04.base.srt",
+      "sha256": "C115042F90045D9870CD387D951FC68BD27FD41F9F33741826A1777BE26F2B0D"
+    },
+    {
+      "arquivo": "EP05/EP05_C04.plano.json",
+      "sha256": "2E7B74A9DBAF58C9ADA27D01F50839088F77BC53C907CBBD6C6A764BAA0E22CC"
+    },
+    {
+      "arquivo": "EP05/EP05_C05.base.srt",
+      "sha256": "9812329C5291050A65B9E7A0CA052B26F28EDC80A91FDDECC2BB0AC8FC852D20"
+    },
+    {
+      "arquivo": "EP05/EP05_C05.plano.json",
+      "sha256": "39C1CA8D8C5E20F555917E4B17EA8A4ECAF2FD0DC8CA600AEE2F804140530968"
+    },
+    {
+      "arquivo": "EP05/manifesto.json",
+      "sha256": "76D98229917F90A2357229DA2816FCE7D63D3D849696D161B13BBD24E6CFDFE1"
+    },
+    {
+      "arquivo": "EP06/EP06_C01.base.srt",
+      "sha256": "0C88E406FC117E825F66B1790CC2B1D2863D676B84E738714E7AC14C271B3E73"
+    },
+    {
+      "arquivo": "EP06/EP06_C01.plano.json",
+      "sha256": "782F9731AF80ED69BBCCFBAC55DDC99F1902C52900D0546669C4E3E533B55249"
+    },
+    {
+      "arquivo": "EP06/EP06_C02.base.srt",
+      "sha256": "819E5BC0C1EC8D26CF0D1A2FE26FD917AB7024853ACD783F1E696452932A57FA"
+    },
+    {
+      "arquivo": "EP06/EP06_C02.plano.json",
+      "sha256": "3CB34C2660149A76C0CB2C5929F59CD8DD6AF6C59D461A13ABE6ACDB78B51155"
+    },
+    {
+      "arquivo": "EP06/EP06_C03.base.srt",
+      "sha256": "0C95373DFA4A8194F2547929121AE020B95B6FE7F711A2B49F1340CBB320DC90"
+    },
+    {
+      "arquivo": "EP06/EP06_C03.plano.json",
+      "sha256": "2C27C626C29799C00A843A8C4420C85144AC5C12108141A2C252970287FEA046"
+    },
+    {
+      "arquivo": "EP06/EP06_C04.base.srt",
+      "sha256": "15DD416D8BF434165D42FA9AF9D8287CEEC057DB4A3CACC1D459D0120998A98A"
+    },
+    {
+      "arquivo": "EP06/EP06_C04.plano.json",
+      "sha256": "ADA5D2500C85EB31E7EC55A48422E257EAB5351EC46C86C8BD0371CBF7C6A5CC"
+    },
+    {
+      "arquivo": "EP06/EP06_C05.base.srt",
+      "sha256": "DAD550593A2B7149CE686796B53B253AE961CC0FF686E7257AC77E684884ED9B"
+    },
+    {
+      "arquivo": "EP06/EP06_C05.plano.json",
+      "sha256": "4298F19945D8673EEE00955362367CE837EC67991A8D142C889A7D350CA68DE6"
+    },
+    {
+      "arquivo": "EP06/EP06_C06.base.srt",
+      "sha256": "0233AA6B6FE7F64B69F2A959708053887225F4917770267EB9DC82549D4A43CC"
+    },
+    {
+      "arquivo": "EP06/EP06_C06.plano.json",
+      "sha256": "F061DE103E4660275D3F158E2BF7E2E074F9C3B0A1A2BF9B155A990AD189E0C1"
+    },
+    {
+      "arquivo": "EP06/manifesto.json",
+      "sha256": "C3CE96718986F2209904792B3E0CD88D0579AAFFE74DE66F36177FAA202FA5EE"
+    },
+    {
+      "arquivo": "EP07/EP07_C01.base.srt",
+      "sha256": "761F60EFC8294221C4B936B886D4B324A3F097962F13790CC90D427099F4CEA8"
+    },
+    {
+      "arquivo": "EP07/EP07_C01.plano.json",
+      "sha256": "9A62FE2826BFB5227870910A2F03F3A40FF2A2655BF3EA12CF1EABADC0EAD9BC"
+    },
+    {
+      "arquivo": "EP07/EP07_C02.base.srt",
+      "sha256": "BFAA901ED0F8FA3860766AD7FF65555C1CF3D7A54717872EC9265FB7B4D73C3F"
+    },
+    {
+      "arquivo": "EP07/EP07_C02.plano.json",
+      "sha256": "96B04B7E7E3B89ADA794625D4886700C6165F35C732A936E3A80F50BAD6E73D2"
+    },
+    {
+      "arquivo": "EP07/EP07_C03.base.srt",
+      "sha256": "150FD4B06F2718A0DC9941D8ACDC02D800D8D32F9808FAC3203359DB0CD8097F"
+    },
+    {
+      "arquivo": "EP07/EP07_C03.plano.json",
+      "sha256": "AE6836146F21DD3DE8123FD8594794366AF4F444DB850B0ADF23A505CF5AC13B"
+    },
+    {
+      "arquivo": "EP07/EP07_C04.base.srt",
+      "sha256": "CC228D222C4E536C5EFFA000DA831A9BE8EEF42EDE9AB7A824291E03FCA9C9D0"
+    },
+    {
+      "arquivo": "EP07/EP07_C04.plano.json",
+      "sha256": "480F73323EC553894B3EF4A27849EDA50A6AE8E7C74D9C4A401B25C7C248658A"
+    },
+    {
+      "arquivo": "EP07/EP07_C05.base.srt",
+      "sha256": "4C9D17044DA7CB26CD494567B1B5A01F980D9FFE861FAC785A7713130B9AE6A6"
+    },
+    {
+      "arquivo": "EP07/EP07_C05.plano.json",
+      "sha256": "5AB5A0B86B5F2A300DFF70484C63FA49A865F026E25599A6AEB834FC0DE4405D"
+    },
+    {
+      "arquivo": "EP07/manifesto.json",
+      "sha256": "571652657B39991D170DE9B177ECF8F1ABAA763A5E83960B6A88320E38C2F498"
+    },
+    {
+      "arquivo": "EP08/EP08_C01.base.srt",
+      "sha256": "E76A2AAACD22F75BB34187A7EE7275FF80C81E32B4F53F6E5EE6C71722F97705"
+    },
+    {
+      "arquivo": "EP08/EP08_C01.plano.json",
+      "sha256": "B7CB234388B22B81AD9D89D76342D7AA4DC3EDBA586180CCCE72811FADAAF12A"
+    },
+    {
+      "arquivo": "EP08/EP08_C02.base.srt",
+      "sha256": "874E6055CF9D8EA2657D437E544D978DEA331B614EE247A7117726F2C6969317"
+    },
+    {
+      "arquivo": "EP08/EP08_C02.plano.json",
+      "sha256": "9EF5DAF88FBA3826F59D7FAF833A3F48D8524437F2D3117CAB4BDE7391485817"
+    },
+    {
+      "arquivo": "EP08/EP08_C03.base.srt",
+      "sha256": "36F8D17AB3E4C9758F082C5AF499AA8EE77EB4AAD16C57153974DAA05B05C880"
+    },
+    {
+      "arquivo": "EP08/EP08_C03.plano.json",
+      "sha256": "25833F3D8CDCA27676E296F9B4EFE6D02F0F711D28274977E38598884BFA49B3"
+    },
+    {
+      "arquivo": "EP08/EP08_C04.base.srt",
+      "sha256": "48EAF7A5F764F4BD0EB68C52D812EFAE05B9BC1093585E4D8A29E1382FE4B06F"
+    },
+    {
+      "arquivo": "EP08/EP08_C04.plano.json",
+      "sha256": "525B56A4106A67FCB87B7AEBD426809AB13F3EED328706E319E31D3FAB03A9DF"
+    },
+    {
+      "arquivo": "EP08/EP08_C05.base.srt",
+      "sha256": "63B0F88016D4A3487E594007C3BA7F281D65899ECA36CD8E90F66EF05010CB40"
+    },
+    {
+      "arquivo": "EP08/EP08_C05.plano.json",
+      "sha256": "683D11D09EADF8725D415A91BF41EF9FBB0BD113F8C20113A387E720AAF35014"
+    },
+    {
+      "arquivo": "EP08/EP08_C06.base.srt",
+      "sha256": "9E9241738DC8ACCEB7266FC8EB08DF6E93D9335EFF84F9570B5203E3C967CEC6"
+    },
+    {
+      "arquivo": "EP08/EP08_C06.plano.json",
+      "sha256": "3D02F6D8F93794ECC1E8FF24F5074C280F6100BC7DE4DBF84B9F667029BAD757"
+    },
+    {
+      "arquivo": "EP08/manifesto.json",
+      "sha256": "A5663454C41E6D6C20FE0BC2F76D84762C85E1013AF4BCBABAB3670F6BE1EE96"
+    },
+    {
+      "arquivo": "EP09/EP09_C01.base.srt",
+      "sha256": "386740AB624B5B1AE3BB3FDE6C37E12E1D3735EAAAD96631E4713E08A54F56FC"
+    },
+    {
+      "arquivo": "EP09/EP09_C01.plano.json",
+      "sha256": "C509EEA776A3EA8362778951F71618215F3C5BF2B98E90B5922287329232A203"
+    },
+    {
+      "arquivo": "EP09/EP09_C02.base.srt",
+      "sha256": "51F7E0E5EC967F5DEB522F0CC4F0C7F45B6BB34C798FA679E322C6E4186DCEA3"
+    },
+    {
+      "arquivo": "EP09/EP09_C02.plano.json",
+      "sha256": "296FD995537146B65E74FF989D4EE639CE883A7FA9EC132E54EBF7A76FE182C4"
+    },
+    {
+      "arquivo": "EP09/EP09_C03.base.srt",
+      "sha256": "555A9E442879DB6540F75A967F1C99C2317CC9130212E912B90C61EFA1CAA957"
+    },
+    {
+      "arquivo": "EP09/EP09_C03.plano.json",
+      "sha256": "8CCB1DEE3DB0C660886A9972C384FCAED719743B355986C850AB2332DD95A8C0"
+    },
+    {
+      "arquivo": "EP09/EP09_C04.base.srt",
+      "sha256": "3B19C92DB3912E5CAF3200C76878C343960A5033BDE27A9004A4006723EAC071"
+    },
+    {
+      "arquivo": "EP09/EP09_C04.plano.json",
+      "sha256": "877D170288906BB0E9DD14DBCFA9D05C0FB77EC261D69A873707A236EB5D8206"
+    },
+    {
+      "arquivo": "EP09/EP09_C05.base.srt",
+      "sha256": "8A0D7CB830DB726BD58608844CBB0DB10833EC11F658DE7C175F1278B1E447CB"
+    },
+    {
+      "arquivo": "EP09/EP09_C05.plano.json",
+      "sha256": "27393BDDEF815E99ED5E2C4642A8FFB50EF6307F50C1539B93BA3A5D926636F4"
+    },
+    {
+      "arquivo": "EP09/EP09_C06.base.srt",
+      "sha256": "FAD89C279A256DB8441958EC79D42E4261CD162A0F01ACBD3A3D8C0063575B1C"
+    },
+    {
+      "arquivo": "EP09/EP09_C06.plano.json",
+      "sha256": "0F602FA2BDCFB2E19A34507EBFAAA45291D57D91E467F8A73C686326A050A6DB"
+    },
+    {
+      "arquivo": "EP09/manifesto.json",
+      "sha256": "F786BDC96DF2CB5CD37BF5930371A6E63167C6121777EC525EBFC013AE168DD1"
+    },
+    {
+      "arquivo": "EP10/EP10_C01.base.srt",
+      "sha256": "DCD143A43A9FA0EDAC0896D0A890A653119D5CA7145933FCEF3B5C209002BB77"
+    },
+    {
+      "arquivo": "EP10/EP10_C01.plano.json",
+      "sha256": "044EFCEC151E618549FD1DBA63686FA1A8BC976F6C7224A1A9BCD5C6A856424C"
+    },
+    {
+      "arquivo": "EP10/EP10_C02.base.srt",
+      "sha256": "3B2F3D27A98C7AF755FC42ABCCF842132C9320C855F783AF52ACCAB961E92EA4"
+    },
+    {
+      "arquivo": "EP10/EP10_C02.plano.json",
+      "sha256": "4409DC331B1826B681210006715CDFA449FCD35159AFC140F86242DB63D4246E"
+    },
+    {
+      "arquivo": "EP10/EP10_C03.base.srt",
+      "sha256": "C3C361D4EB6F29FF226CB2684388DFA936059605EEC40A231AD3EA9E64900C97"
+    },
+    {
+      "arquivo": "EP10/EP10_C03.plano.json",
+      "sha256": "C481F31F9A2B3968A1988F54340329C7148A664CE4449BF58392A3E9197B5FBF"
+    },
+    {
+      "arquivo": "EP10/EP10_C04.base.srt",
+      "sha256": "81E36CEAC48D92A8EE396B85F3D6C34353D2D7B7FD183490513DB7D7AD46158B"
+    },
+    {
+      "arquivo": "EP10/EP10_C04.plano.json",
+      "sha256": "F764BC5D617F825992D2B504FAAE56F76DCEA86F0E404A8A8A3910EFA3C441B5"
+    },
+    {
+      "arquivo": "EP10/EP10_C05.base.srt",
+      "sha256": "18AD8CC764DD0CDA0C054337BE369FB2C3CDB5927F52743150C70467554E6A87"
+    },
+    {
+      "arquivo": "EP10/EP10_C05.plano.json",
+      "sha256": "1DAA48D471B510FE85667A13392D71484426291A00DE6751FE585DB7BCE2C3D3"
+    },
+    {
+      "arquivo": "EP10/EP10_C06.base.srt",
+      "sha256": "6441B04137705A6343E2EB6C3B84CC637A13737A4BFA50273A9E12027707E6DA"
+    },
+    {
+      "arquivo": "EP10/EP10_C06.plano.json",
+      "sha256": "541E78ADBFA9383AC0162413115E41970984DF64802C87400AAB399E6549DF89"
+    },
+    {
+      "arquivo": "EP10/EP10_C07.base.srt",
+      "sha256": "03B8FD8D580FAD76607DCC64F2C7A6B35D554B477DF991AF569F5422BE513429"
+    },
+    {
+      "arquivo": "EP10/EP10_C07.plano.json",
+      "sha256": "F115A0E401F42F0EF5961A5765DE2AC9DD81BB9A0CA759BC8A97D2E865FF5BEC"
+    },
+    {
+      "arquivo": "EP10/manifesto.json",
+      "sha256": "5C24FDD6E5BD04E10E682019898E1719D8C567772C43C2C06663880343EAFBF2"
+    },
+    {
+      "arquivo": "EP11/EP11_C01.base.srt",
+      "sha256": "7868A8515F5161268C574A20479FF84D980357476D71E0ACA2920206AFB9ED78"
+    },
+    {
+      "arquivo": "EP11/EP11_C01.plano.json",
+      "sha256": "68804D3BDEBBB35165E310BF531F538EECF7289639EA9A7EEEAB8176F0E9A1CB"
+    },
+    {
+      "arquivo": "EP11/EP11_C02.base.srt",
+      "sha256": "BECC22AA7D1972EB9E579332A77D20307744DC6BAA3042EF6655AE9A6D11DA2F"
+    },
+    {
+      "arquivo": "EP11/EP11_C02.plano.json",
+      "sha256": "91484C111C9A60A01011913E7BDCF3F72289EC80022869726C292C8D2CEE33A4"
+    },
+    {
+      "arquivo": "EP11/EP11_C03.base.srt",
+      "sha256": "2D8D6066C5963CC466B653D25292B7E4672A3D669C708BB235EC45599CA410DC"
+    },
+    {
+      "arquivo": "EP11/EP11_C03.plano.json",
+      "sha256": "026C6BA0FA07E478B9266A1DF9281BCDC376E932DADE691062AD2774F1CB32B5"
+    },
+    {
+      "arquivo": "EP11/EP11_C04.base.srt",
+      "sha256": "41775B9EAD1C72BD1479F633E79E071B89BBFFD56EB6AEA8F04BC8B842337D33"
+    },
+    {
+      "arquivo": "EP11/EP11_C04.plano.json",
+      "sha256": "29437132A1F86091E8C00ACF2579BA5837800E55E9BFF5D784806A2915511754"
+    },
+    {
+      "arquivo": "EP11/EP11_C05.base.srt",
+      "sha256": "70321BCCCA3DB58AD51448D894E90ACD05CCC27FA5A6B788F18E8ED64B5189BF"
+    },
+    {
+      "arquivo": "EP11/EP11_C05.plano.json",
+      "sha256": "4079A8A0B1F9FBB29E454702E4F9932E57A782347E35107B9FFE6A933BACD654"
+    },
+    {
+      "arquivo": "EP11/manifesto.json",
+      "sha256": "800DC019277454799642973DD1C98752570F2D3A91AC084009D98F20C5622F4D"
+    },
+    {
+      "arquivo": "EP12/EP12_C01.base.srt",
+      "sha256": "CD053A8303FFF1A5B4F2005649883C12F8501C2BD6D16A8B611FFDDAA731CCEB"
+    },
+    {
+      "arquivo": "EP12/EP12_C01.plano.json",
+      "sha256": "A7B918C3ABBA0F72213CF6AC2DFB447582D062F9B77E73E16B0EE419BAEAC268"
+    },
+    {
+      "arquivo": "EP12/EP12_C02.base.srt",
+      "sha256": "11184D851AD19576F5C6BD207ACFB091FCB56B4D6C50C32DA68D48B477E6FAD7"
+    },
+    {
+      "arquivo": "EP12/EP12_C02.plano.json",
+      "sha256": "F61007BA8938A5C38C91947966A60230EA8BDFE97ADBCF4B4C8FC3809512A2B7"
+    },
+    {
+      "arquivo": "EP12/EP12_C03.base.srt",
+      "sha256": "4D5C9BB7CFDF2313F848C1C27642A3043140FE663F167A71596EA77F4B681684"
+    },
+    {
+      "arquivo": "EP12/EP12_C03.plano.json",
+      "sha256": "BEA1525813BA14DC0D129171E94876A7B184E55528525D1C6E148E9BAD3035A2"
+    },
+    {
+      "arquivo": "EP12/EP12_C04.base.srt",
+      "sha256": "FB901C6435BE98162928C8D1F0D87FE5518AC9C9EDD018C7C24B8C3263008B83"
+    },
+    {
+      "arquivo": "EP12/EP12_C04.plano.json",
+      "sha256": "C563872A0495E7AC34CE583E3785C6BD89F6E4BFED6F226E2C8304D5CEE17283"
+    },
+    {
+      "arquivo": "EP12/EP12_C05.base.srt",
+      "sha256": "2883F6A644FADDD1A26C89681728245627F805B0B468A32DD8302DA2B4966A3D"
+    },
+    {
+      "arquivo": "EP12/EP12_C05.plano.json",
+      "sha256": "E22A09DEA1175056712317C0C6CF93411295626C54A4F595D24AD94C080E423C"
+    },
+    {
+      "arquivo": "EP12/manifesto.json",
+      "sha256": "B44D55E2E6AD1F836CA3C5AFACCFAE74CFC85F407990DC59C59714B88D528BEB"
+    },
+    {
+      "arquivo": "EP13/EP13_C01.base.srt",
+      "sha256": "89244B6F7715CBDE82742EB2F916291977CF86A941735D375BCEB67C79A514A2"
+    },
+    {
+      "arquivo": "EP13/EP13_C01.plano.json",
+      "sha256": "081A75BC3496FD58DA8DFB380DB58F1816AB8293E476F33E438C1062F5F24554"
+    },
+    {
+      "arquivo": "EP13/EP13_C02.base.srt",
+      "sha256": "DAC1FE45F6DB159721BB1F1C07897C82744DEBFF0D9E13098A4E10FEB7DF2BA2"
+    },
+    {
+      "arquivo": "EP13/EP13_C02.plano.json",
+      "sha256": "7624CA0CDB3496A3B6C49B7E1279EA8397978D91964B1964F1C7BE75ED319F6E"
+    },
+    {
+      "arquivo": "EP13/EP13_C03.base.srt",
+      "sha256": "90C5A2D84A65A4E74FC461FD0693ED68A97001287FE33F545E2C2B6A857D35B8"
+    },
+    {
+      "arquivo": "EP13/EP13_C03.plano.json",
+      "sha256": "8A28BB53EAC11586B146AD184CF602070281D537E42740ACBB6F267CEE30B089"
+    },
+    {
+      "arquivo": "EP13/EP13_C04.base.srt",
+      "sha256": "49D1C9F149AFBB530DE70345050043F87E8EB16486AD3E870F0A1602F2E27A75"
+    },
+    {
+      "arquivo": "EP13/EP13_C04.plano.json",
+      "sha256": "B82FF64B9F5FC1A05DA6DA52392023474E3060E772EEB516D313A5F91770E17F"
+    },
+    {
+      "arquivo": "EP13/EP13_C05.base.srt",
+      "sha256": "F31F5B2FFF7D531762A0E7B26539362D1C2839A0621EA4541E0C09EEA1015EB1"
+    },
+    {
+      "arquivo": "EP13/EP13_C05.plano.json",
+      "sha256": "760841F8CEAC2FA1AC60DDD2BBD6D24710BC0080E8B53A99DC3CDB6C3FB58D15"
+    },
+    {
+      "arquivo": "EP13/EP13_C06.base.srt",
+      "sha256": "87C0547CCB69A2FE6C464FDAB977CA06A5CBD8E8D26E9ABEDBC64813D77CE345"
+    },
+    {
+      "arquivo": "EP13/EP13_C06.plano.json",
+      "sha256": "0376C7233501FA00707A9C9EA9A6D56366BAF5A7B7DF95B8530FDB6B5534D3DC"
+    },
+    {
+      "arquivo": "EP13/manifesto.json",
+      "sha256": "6A6B5C023C3FC93B26F8C95E2A7F33F1AF3593D0889D20E48DBD24131BA40A35"
+    },
+    {
+      "arquivo": "EP14/EP14_C01.base.srt",
+      "sha256": "746B8908406A104A840D9BC97CACEEFFAC9DED27E6915E0C672292CE67421518"
+    },
+    {
+      "arquivo": "EP14/EP14_C01.plano.json",
+      "sha256": "9AA0BD4690AC1BCF7C942D8C949BAB3D8FFB43958F57709A5A16DEC68DBE7999"
+    },
+    {
+      "arquivo": "EP14/EP14_C02.base.srt",
+      "sha256": "75373FFFE59BC3C7D69119E5E0CBA68A3A294528B96E99C7A78B2507A171D44C"
+    },
+    {
+      "arquivo": "EP14/EP14_C02.plano.json",
+      "sha256": "ED5BABC4CFA75940ABDF91BCBCD8493630193233291287C1ECE486335231098E"
+    },
+    {
+      "arquivo": "EP14/EP14_C03.base.srt",
+      "sha256": "7C5B4739D85F37D1D1EF3906C6C0B0AE5A09E53B846D085BD3D860F248607357"
+    },
+    {
+      "arquivo": "EP14/EP14_C03.plano.json",
+      "sha256": "01A7DF1B33EF19832C6CC8574C5FD8A8A34CF822B164597888A5B2969BD162D5"
+    },
+    {
+      "arquivo": "EP14/EP14_C04.base.srt",
+      "sha256": "D921F8CB801F6328984F4218C78AB0E6611464A81AE4B7D8A7A7D948F29B7FA8"
+    },
+    {
+      "arquivo": "EP14/EP14_C04.plano.json",
+      "sha256": "4C6FA578874EE48EA3919210ECADC2B1C0883B57AF9BF473AB846B60AB181E96"
+    },
+    {
+      "arquivo": "EP14/EP14_C05.base.srt",
+      "sha256": "1F929C0D0CB18CAEE20F9AE234096E1C3E0B1974B7DAD6D84959D8C99D89BFC8"
+    },
+    {
+      "arquivo": "EP14/EP14_C05.plano.json",
+      "sha256": "2285E0B42A010D30835298BFE41669E1A4BFFC81E384B4EBC14ACC472229C6B3"
+    },
+    {
+      "arquivo": "EP14/manifesto.json",
+      "sha256": "1A3449F8D863230FAC5DFE5E796C9AE80BF003592372E8DD4B9BC15D7031F49C"
+    },
+    {
+      "arquivo": "EP15/EP15_C01.base.srt",
+      "sha256": "678E112B4C733AB725E23E790E62D96700D044DC638A52749D1E343DDDF4F728"
+    },
+    {
+      "arquivo": "EP15/EP15_C01.plano.json",
+      "sha256": "0BD3993E36630782490D1FF1E1825350AD7EA5A03301E1C85FEF80803BE1F921"
+    },
+    {
+      "arquivo": "EP15/EP15_C02.base.srt",
+      "sha256": "83650CAC0654D1984A5814FEDFDFC98377B1BC1AF6FD328A06D97FE72E7581E7"
+    },
+    {
+      "arquivo": "EP15/EP15_C02.plano.json",
+      "sha256": "0D5AC039FD0BB7D5B721B0F59643764FAA3C80C3974E5110925E25A5D0D85F91"
+    },
+    {
+      "arquivo": "EP15/EP15_C03.base.srt",
+      "sha256": "7A3BE9FEEADB27247A45A16B2019AB0BBB423991FA6747B6AFBBB4E2B7E4D476"
+    },
+    {
+      "arquivo": "EP15/EP15_C03.plano.json",
+      "sha256": "0FF6ADF5CA9E9CB3FCCC4FCC9BC9E8F884823247CB6EFA99D484A2D3F1CC8EE2"
+    },
+    {
+      "arquivo": "EP15/EP15_C04.base.srt",
+      "sha256": "FC3F749C978F9E7275727F3C3716B4F7C8AE09430A7879C56297215078F12824"
+    },
+    {
+      "arquivo": "EP15/EP15_C04.plano.json",
+      "sha256": "A35FDD5D0B3A327B17AE50B3EE57087F3D732F622D0A2B81004AAA3DDF46074C"
+    },
+    {
+      "arquivo": "EP15/EP15_C05.base.srt",
+      "sha256": "EFDF0E9B168BF12451B6C9B04ECC8DE10EF303E9C915C99FF8B3529D27C7DD4C"
+    },
+    {
+      "arquivo": "EP15/EP15_C05.plano.json",
+      "sha256": "FA7CEEC3936C440D1858F48DA1A84A627AB32C1FC338B53646A11E76514C3998"
+    },
+    {
+      "arquivo": "EP15/EP15_C06.base.srt",
+      "sha256": "BE907643D2D60F160C960F4B7F9C861065C5F2F000C9669F6455475914FFD503"
+    },
+    {
+      "arquivo": "EP15/EP15_C06.plano.json",
+      "sha256": "21832A2814414B2F991EA390690A1A0D4123C8F1E5E35582C7BDC1D709710844"
+    },
+    {
+      "arquivo": "EP15/EP15_C07.base.srt",
+      "sha256": "859B54CC95181715BD4B766E11455F8CE0417CC90A2AEFB8120A03500C98E7E1"
+    },
+    {
+      "arquivo": "EP15/EP15_C07.plano.json",
+      "sha256": "E203BD529621E6B114A10625681787599DB7D32A193BE67868E877B56F5DFC9F"
+    },
+    {
+      "arquivo": "EP15/EP15_C08.base.srt",
+      "sha256": "AB08AB8835DAA56667C333B565B7DFBAD61C04B30AA55ACB949BCA441748F76C"
+    },
+    {
+      "arquivo": "EP15/EP15_C08.plano.json",
+      "sha256": "AC89D48F57E869960496F4CA0ABB0C90009E5D1B0DCBDCBBA268AE974D3DA566"
+    },
+    {
+      "arquivo": "EP15/EP15_C09.base.srt",
+      "sha256": "45DDD707976B90FAB65F5C27D7AEC0F7689A4504F424678382161A1505FC02B2"
+    },
+    {
+      "arquivo": "EP15/EP15_C09.plano.json",
+      "sha256": "B214458ED7145879998711755BB2388CD252C21AE6FF2EAA02ABB0DBBCE5CBAC"
+    },
+    {
+      "arquivo": "EP15/manifesto.json",
+      "sha256": "3064D96722D751D751246D5312C097D96C940EA94A9349759B46717A9496DD4D"
+    },
+    {
+      "arquivo": "extras/VINHETA_01.base.srt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "arquivo": "extras/VINHETA_01.plano.json",
+      "sha256": "585101B53C83722C7B172F85AB4B9414A4C082A4181B0B3B54BA4F1FA974E9BD"
+    }
+  ]
+}

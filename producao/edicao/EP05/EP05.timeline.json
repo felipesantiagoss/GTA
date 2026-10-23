@@ -1,0 +1,212 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 5,
+  "nomeOriginal": "\"O CONVITE\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 110000,
+  "clipes": [
+    {
+      "id": "EP05_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 12000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP05_C01.base.srt"
+    },
+    {
+      "id": "EP05_C02",
+      "inicioEpisodioBaseMs": 12000,
+      "fimEpisodioBaseMs": 17000,
+      "duracaoPlanejadaMs": 5000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP05_C02.base.srt"
+    },
+    {
+      "id": "EP05_C03",
+      "inicioEpisodioBaseMs": 17000,
+      "fimEpisodioBaseMs": 51000,
+      "duracaoPlanejadaMs": 34000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP05_C03.base.srt"
+    },
+    {
+      "id": "EP05_C04",
+      "inicioEpisodioBaseMs": 51000,
+      "fimEpisodioBaseMs": 59000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP05_C04.base.srt"
+    },
+    {
+      "id": "EP05_C05",
+      "inicioEpisodioBaseMs": 59000,
+      "fimEpisodioBaseMs": 90000,
+      "duracaoPlanejadaMs": 31000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP05_C05.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 90000,
+      "fimEpisodioBaseMs": 110000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP05_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 12000,
+      "legenda": "Narrador: Passaram mais duas semanas. Eu peguei três serviços. Capinei terreno, lavei roupa dos outros, colhi de sol a sol. Juntei duzentos reais. Faltavam oitocentos e a minha avó tinha vinte e dois dias."
+    },
+    {
+      "cena": "EP05_C02",
+      "bloco": 1,
+      "inicioMs": 12000,
+      "fimMs": 17000,
+      "legenda": "Narrador: E aí, depois de um mês e meio sumida, ela ligou."
+    },
+    {
+      "cena": "EP05_C03",
+      "bloco": 1,
+      "inicioMs": 17000,
+      "fimMs": 24000,
+      "legenda": "Dinjer: Amiga! Desculpa o sumiço, eu tava fora do país. Escuta, eu tenho uma notícia boa. Muito boa."
+    },
+    {
+      "cena": "EP05_C03",
+      "bloco": 2,
+      "inicioMs": 24000,
+      "fimMs": 28000,
+      "legenda": "Djanira: Eu não quero notícia. Eu quero o meu dinheiro."
+    },
+    {
+      "cena": "EP05_C03",
+      "bloco": 3,
+      "inicioMs": 28000,
+      "fimMs": 38000,
+      "legenda": "Dinjer: É exatamente disso que eu tô falando. Eu falei de você pro meu chefe. Falei que você é a pessoa mais honesta que eu conheço na vida. E ele quer te conhecer."
+    },
+    {
+      "cena": "EP05_C03",
+      "bloco": 4,
+      "inicioMs": 38000,
+      "fimMs": 43000,
+      "legenda": "Djanira: E por que é que um chefe seu ia querer me conhecer?"
+    },
+    {
+      "cena": "EP05_C03",
+      "bloco": 5,
+      "inicioMs": 43000,
+      "fimMs": 51000,
+      "legenda": "Dinjer: Vai ter uma festa sábado. Vem. Ele te paga tudo que eu te devo, na mão, com juros. Ele faz questão."
+    },
+    {
+      "cena": "EP05_C04",
+      "bloco": 1,
+      "inicioMs": 51000,
+      "fimMs": 59000,
+      "legenda": "Narrador: Minha melhor roupa. Eu abri o armário e fiquei olhando pra ele um tempo. Eu tinha duas roupas. Uma de trabalhar e uma de ir na igreja."
+    },
+    {
+      "cena": "EP05_C05",
+      "bloco": 1,
+      "inicioMs": 59000,
+      "fimMs": 62000,
+      "legenda": "Dona Iraci: Minha filha, não vai."
+    },
+    {
+      "cena": "EP05_C05",
+      "bloco": 2,
+      "inicioMs": 62000,
+      "fimMs": 66000,
+      "legenda": "Djanira: Vó, é o dinheiro do aluguel. É o seu remédio."
+    },
+    {
+      "cena": "EP05_C05",
+      "bloco": 3,
+      "inicioMs": 66000,
+      "fimMs": 77000,
+      "legenda": "Dona Iraci: Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre."
+    },
+    {
+      "cena": "EP05_C05",
+      "bloco": 4,
+      "inicioMs": 77000,
+      "fimMs": 83000,
+      "legenda": "Narrador: Minha avó nunca errou uma na vida. E foi justo essa que eu não escutei."
+    },
+    {
+      "cena": "EP05_C05",
+      "bloco": 5,
+      "inicioMs": 83000,
+      "fimMs": 90000,
+      "legenda": "Narrador: Um convite bom demais pra ser verdade. E o que é bom demais sempre cobra o preço. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 625,
+        "linhaFim": 626,
+        "sha256BlocoUtf8": "86387E1AF9DC50E1B9D23FBAF76534AE9C758217EAE39E7DB615F9B216E07FD3",
+        "raw": "**ANTERIORMENTE**: EP04_C02 (a humilhação) · EP04_C05 (a avó doente) · EP04_C06 (a caixa vazia)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP04_C02",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP04_C05",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP04_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP05_C03",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 30000ms menor que blocos declarados 34000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    },
+    {
+      "cena": "EP05_C05",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 18000ms menor que blocos declarados 31000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

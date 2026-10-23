@@ -1,0 +1,99 @@
+{
+  "versao": 1,
+  "id": "EP09_C06",
+  "episodio": 9,
+  "numero": 6,
+  "nome": "O ÔNIBUS",
+  "ambiente": {
+    "local": "ESTRADA_SENORA",
+    "hora": "09:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "plano": "MEDIA",
+      "texto": "Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 19,
+      "recurso": "carregar_sacola_autor",
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 19,
+      "expressao": "chateado"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "SACOLA_DJANIRA",
+      "recurso": "sacola",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0.24,
+          "y": 0.03,
+          "z": -0.04
+        },
+        "rotacao": {
+          "x": 0,
+          "y": -90,
+          "z": 10
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

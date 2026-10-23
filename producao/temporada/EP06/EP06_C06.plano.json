@@ -1,0 +1,160 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP06_C06",
+  "episodio": 6,
+  "numero": 6,
+  "nome": "O GESTO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 778,
+    "linhaFim": 788,
+    "sha256BlocoUtf8": "8B6E1B67C94666CB7D7426ED1152D1E5896534EA227FFB66859E61F18269DF0C",
+    "raw": "### EP06_C06 · O GESTO\n`local:` BOATE_DENTRO · `hora:` 00:31 · `clima:` limpo\n`elenco:` O_CHEFE, DINJER · `cam:` PERTO · `dur:` 6s · `gravar:` SIM\n\n> 🔴 **A tomada mais importante da primeira metade da temporada. Sem fala nenhuma.**\n\n**Ação:** Close no Chefe. Ele olha para a Dinjer e faz o gesto de **passar a mão no pescoço** — ordem de matar. Corta para a Dinjer: ela abaixa a cabeça e não diz nada. **Corte seco.**\n\n**NARRADOR** — 7s:\n> \"Um jantar no céu. Uma promessa de pagamento. E um gesto que ninguém deveria ter visto. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "00:31",
+    "clima": "limpo",
+    "elenco": "O_CHEFE, DINJER",
+    "elencoCodigos": [
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      779,
+      780
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 784,
+      "raw": "**Ação:** Close no Chefe. Ele olha para a Dinjer e faz o gesto de **passar a mão no pescoço** — ordem de matar. Corta para a Dinjer: ela abaixa a cabeça e não diz nada. **Corte seco.**",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 782,
+      "raw": "> 🔴 **A tomada mais importante da primeira metade da temporada. Sem fala nenhuma.**"
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Um jantar no céu. Uma promessa de pagamento. E um gesto que ninguém deveria ter visto. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Um jantar no céu. Uma promessa de pagamento. E um gesto que ninguém deveria ter visto. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 786,
+      "linhaTexto": 787,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 6000ms menor que blocos declarados 7000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Close no Chefe. Ele olha para a Dinjer e faz o gesto de **passar a mão no pescoço** — ordem de matar. Corta para a Dinjer: ela abaixa a cabeça e não diz nada. **Corte seco.**",
+      "origem": "linha 784",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

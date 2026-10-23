@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elenco versao="1">
+  <!-- Montagem/limpeza, boca e interações dos dois modelos confirmadas em 03/10/2026.
+       Gestos continuam registrados por variante em gestos_fala.xml.
+       Isso não aprova figurinos ou personagens da série nem variantes não vistas. -->
+  <Personagem id="homem_business" nome="Homem jovem de negócios" modelo="a_m_y_business_01" estado="testado na montagem e fala">
+    <Origem arquivo="C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\menyooStuff\PedList.xml" linha="216" legenda="Business Young Male" verificacao="2026-10-03" />
+    <Observacao>Usuário confirmou montagem/limpeza e, na Etapa 3, boca, olhar e os gestos neutro, negando e irritado deste modelo. Evidência por variante em gestos_fala.xml. Catálogo JSON: TESTE_HOMEM; não é personagem aprovado da série.</Observacao>
+  </Personagem>
+  <Personagem id="mulher_business" nome="Mulher jovem de negócios" modelo="a_f_y_business_01" estado="testado na montagem e fala">
+    <Origem arquivo="C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\menyooStuff\PedList.xml" linha="95" legenda="Business Young Female" verificacao="2026-10-03" />
+    <Observacao>Usuário confirmou montagem/limpeza e, na Etapa 3, boca, olhar e os gestos explicando e implorando deste modelo. Evidência por variante em gestos_fala.xml. Catálogo JSON: TESTE_MULHER; não é personagem aprovado da série.</Observacao>
+  </Personagem>
+</Elenco>

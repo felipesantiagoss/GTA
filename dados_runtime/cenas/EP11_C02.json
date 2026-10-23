@@ -1,0 +1,119 @@
+{
+  "versao": 1,
+  "id": "EP11_C02",
+  "episodio": 11,
+  "numero": 2,
+  "nome": "QUANTO CUSTOU",
+  "ambiente": {
+    "local": "BANCO_MAZE",
+    "hora": "09:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.8,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "ATENDENTE"
+    },
+    {
+      "personagem": "ATENDENTE",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 90
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "A senhora... tem noção de quanto tem nessa conta?",
+      "personagem": "ATENDENTE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Não. Mas eu tenho noção de quanto me custou.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 2,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "ATENDENTE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 5,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "TELA_BANCO"
+      }
+    },
+    {
+      "personagem": "ATENDENTE",
+      "inicioSegundos": 5,
+      "duracaoSegundos": 7,
+      "expressao": "feliz",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "TELA_BANCO"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_BANCO",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0.7,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "TELA_BANCO",
+      "recurso": "laptop",
+      "marca": {
+        "direita": 0.7,
+        "frente": 0.8,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "apoioInicial": "MESA_BANCO"
+    }
+  ]
+}

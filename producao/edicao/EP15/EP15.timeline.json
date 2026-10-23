@@ -1,0 +1,379 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 15,
+  "nomeOriginal": "GRANDE FINAL",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 196000,
+  "clipes": [
+    {
+      "id": "EP15_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 7000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C01.base.srt"
+    },
+    {
+      "id": "EP15_C02",
+      "inicioEpisodioBaseMs": 7000,
+      "fimEpisodioBaseMs": 29000,
+      "duracaoPlanejadaMs": 22000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C02.base.srt"
+    },
+    {
+      "id": "EP15_C03",
+      "inicioEpisodioBaseMs": 29000,
+      "fimEpisodioBaseMs": 55000,
+      "duracaoPlanejadaMs": 26000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C03.base.srt"
+    },
+    {
+      "id": "EP15_C04",
+      "inicioEpisodioBaseMs": 55000,
+      "fimEpisodioBaseMs": 89000,
+      "duracaoPlanejadaMs": 34000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C04.base.srt"
+    },
+    {
+      "id": "EP15_C05",
+      "inicioEpisodioBaseMs": 89000,
+      "fimEpisodioBaseMs": 119000,
+      "duracaoPlanejadaMs": 30000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C05.base.srt"
+    },
+    {
+      "id": "EP15_C06",
+      "inicioEpisodioBaseMs": 119000,
+      "fimEpisodioBaseMs": 133000,
+      "duracaoPlanejadaMs": 14000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C06.base.srt"
+    },
+    {
+      "id": "EP15_C07",
+      "inicioEpisodioBaseMs": 133000,
+      "fimEpisodioBaseMs": 145000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C07.base.srt"
+    },
+    {
+      "id": "EP15_C08",
+      "inicioEpisodioBaseMs": 145000,
+      "fimEpisodioBaseMs": 157000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C08.base.srt"
+    },
+    {
+      "id": "EP15_C09",
+      "inicioEpisodioBaseMs": 157000,
+      "fimEpisodioBaseMs": 176000,
+      "duracaoPlanejadaMs": 19000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP15_C09.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 176000,
+      "fimEpisodioBaseMs": 196000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP15_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "legenda": "Narrador: Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele."
+    },
+    {
+      "cena": "EP15_C02",
+      "bloco": 1,
+      "inicioMs": 7000,
+      "fimMs": 13000,
+      "legenda": "Narrador: Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos."
+    },
+    {
+      "cena": "EP15_C02",
+      "bloco": 2,
+      "inicioMs": 13000,
+      "fimMs": 24000,
+      "legenda": "O Chefe: Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora."
+    },
+    {
+      "cena": "EP15_C02",
+      "bloco": 3,
+      "inicioMs": 24000,
+      "fimMs": 29000,
+      "legenda": "Djanira: Eu sou muito boa em ser invisível. Eu tive três anos de treino."
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 1,
+      "inicioMs": 29000,
+      "fimMs": 32000,
+      "legenda": "Djanira: O senhor conhece esse nome?"
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 3,
+      "inicioMs": 35000,
+      "fimMs": 39000,
+      "legenda": "O Chefe: Onde é que a senhora conseguiu isso?"
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 4,
+      "inicioMs": 39000,
+      "fimMs": 47000,
+      "legenda": "Djanira: Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar."
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 5,
+      "inicioMs": 47000,
+      "fimMs": 49000,
+      "legenda": "O Chefe: ...Djanira."
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 6,
+      "inicioMs": 49000,
+      "fimMs": 52000,
+      "legenda": "Djanira: O senhor sabe o meu nome."
+    },
+    {
+      "cena": "EP15_C03",
+      "bloco": 7,
+      "inicioMs": 52000,
+      "fimMs": 55000,
+      "legenda": "O Chefe: Eu escolhi o teu nome."
+    },
+    {
+      "cena": "EP15_C04",
+      "bloco": 1,
+      "inicioMs": 55000,
+      "fimMs": 60000,
+      "legenda": "Djanira: Então o senhor sabia quem eu era naquele avião."
+    },
+    {
+      "cena": "EP15_C04",
+      "bloco": 2,
+      "inicioMs": 60000,
+      "fimMs": 62000,
+      "legenda": "O Chefe: Eu sabia."
+    },
+    {
+      "cena": "EP15_C04",
+      "bloco": 3,
+      "inicioMs": 62000,
+      "fimMs": 74000,
+      "legenda": "O Chefe: Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário."
+    },
+    {
+      "cena": "EP15_C04",
+      "bloco": 4,
+      "inicioMs": 74000,
+      "fimMs": 89000,
+      "legenda": "O Chefe: Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo."
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 1,
+      "inicioMs": 89000,
+      "fimMs": 93000,
+      "legenda": "Djanira: E você? Você sabia por quê?"
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 2,
+      "inicioMs": 93000,
+      "fimMs": 95000,
+      "legenda": "Dinjer: Djanira, não..."
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 3,
+      "inicioMs": 95000,
+      "fimMs": 100000,
+      "legenda": "Djanira: Fala. Você me deve uma resposta há três anos."
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 4,
+      "inicioMs": 100000,
+      "fimMs": 108000,
+      "legenda": "Dinjer: Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida."
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 5,
+      "inicioMs": 108000,
+      "fimMs": 110000,
+      "legenda": "Djanira: Que dívida?"
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 6,
+      "inicioMs": 110000,
+      "fimMs": 116000,
+      "legenda": "Dinjer: Mil reais, Djanira. Eu devia mil reais pra ele."
+    },
+    {
+      "cena": "EP15_C05",
+      "bloco": 7,
+      "inicioMs": 116000,
+      "fimMs": 119000,
+      "legenda": "Dinjer: Os teus mil reais."
+    },
+    {
+      "cena": "EP15_C06",
+      "bloco": 1,
+      "inicioMs": 119000,
+      "fimMs": 133000,
+      "legenda": "Narrador: O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos."
+    },
+    {
+      "cena": "EP15_C07",
+      "bloco": 1,
+      "inicioMs": 133000,
+      "fimMs": 138000,
+      "legenda": "O Chefe: Djanira. Djanira, espera. A gente pode conversar."
+    },
+    {
+      "cena": "EP15_C07",
+      "bloco": 2,
+      "inicioMs": 138000,
+      "fimMs": 143000,
+      "legenda": "Djanira: O senhor teve dezoito anos pra conversar."
+    },
+    {
+      "cena": "EP15_C08",
+      "bloco": 1,
+      "inicioMs": 145000,
+      "fimMs": 155000,
+      "legenda": "Narrador: E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo."
+    },
+    {
+      "cena": "EP15_C09",
+      "bloco": 1,
+      "inicioMs": 157000,
+      "fimMs": 167000,
+      "legenda": "Narrador: Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais."
+    },
+    {
+      "cena": "EP15_C09",
+      "bloco": 2,
+      "inicioMs": 167000,
+      "fimMs": 176000,
+      "legenda": "Narrador: A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1467,
+        "linhaFim": 1468,
+        "sha256BlocoUtf8": "77DF055F51A4C3AE27D385744DB59A6549DC8F3034F4C2D027DA93BE99FFCDA1",
+        "raw": "**ANTERIORMENTE**: EP14_C03 (\"você sabia\") · EP14_C04 (de joelhos) · EP14_C05 (\"ele mandou te chamar\")\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP14_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP14_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP14_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP15_C03",
+      "codigo": "gesto_machucado",
+      "descricao": "Intenção 'machucado' fora dos cinco gestos catalogados; pesquisar e testar sem substituir silenciosamente.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP15_C05",
+      "codigo": "gesto_machucado",
+      "descricao": "Intenção 'machucado' fora dos cinco gestos catalogados; pesquisar e testar sem substituir silenciosamente.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP15_C05",
+      "codigo": "camera_12s",
+      "descricao": "Nota pede manter a câmera na fala 4 por 12s; a voz dura 8s. Preservar ambos, não estender/comprimir a fala.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP15_C08",
+      "codigo": "montagem_tempos",
+      "descricao": "Duas tomadas de 4s totalizam 8s; narração de 10s e estimativa de 12s permanecem separadas, montagem a definir.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP15_C09",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 12000ms menor que blocos declarados 19000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    },
+    {
+      "cena": "EP15_C05",
+      "tipo": "camera_fixa_independente_da_voz",
+      "personagem": "DINJER",
+      "inicioConteudoMs": 11000,
+      "fimConteudoMs": 23000,
+      "duracaoCameraMs": 12000,
+      "duracaoVozMs": 8000,
+      "adicionarSilencio": false,
+      "origem": "> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

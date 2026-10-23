@@ -1,0 +1,302 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP05_C02",
+  "episodio": 5,
+  "numero": 2,
+  "nome": "A LIGAÇÃO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 640,
+    "linhaFim": 648,
+    "sha256BlocoUtf8": "FEE5F7DC69C47913E6AB960B3A25E08B95EC18AF224AC1B2A6CEA313D872DF4B",
+    "raw": "### EP05_C02 · A LIGAÇÃO\n`local:` ROCA_GRAPESEED · `hora:` 15:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 5s · `gravar:` SIM\n\n**Ação:** O celular toca. Djanira olha a tela e atende.\n\n**NARRAÇÃO** — DJANIRA — 5s *(sem boca)*:\n> \"E aí, depois de um mês e meio sumida, ela ligou.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "15:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 5000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      641,
+      642
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E aí, depois de um mês e meio sumida, ela ligou.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 5s *(sem boca)*:",
+      "textoOriginal": "> \"E aí, depois de um mês e meio sumida, ela ligou.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 646,
+      "linhaTexto": 647,
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 5000,
+    "blocosDeclaradosMs": 5000,
+    "conteudoPlanejadoMs": 5000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 8000,
+    "fimUltimaLegendaMs": 8000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 644,
+      "raw": "**Ação:** O celular toca. Djanira olha a tela e atende.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:celular",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:ligacao",
+      "tipo": "atuacao_integral",
+      "descricao": "Telefone/mão, atender/conversar/desligar, toque e ação simultânea; celular de texto não substitui ligação.",
+      "candidatos": [
+        "ligacao_entrada_f",
+        "ligacao_f",
+        "ligacao_saida_f"
+      ]
+    },
+    {
+      "codigo": "adaptador:EP05_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "pegar_celular_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "anim@amb@business@bgen@bgen_no_work@",
+      "animacao": "stand_phone_phonepickup-noworkfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 134260,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@business@bgen@bgen_no_work@ stand_phone_phonepickup-noworkfemale"
+      },
+      "restricoes": [
+        "Prop próprio no osso da mão; origem da peça/entrada precisa de calibração."
+      ]
+    },
+    {
+      "codigo": "celular_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Entrada/texto/saída com prop próprio; nenhuma transferência bancária real."
+      ]
+    },
+    {
+      "codigo": "celular_texto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_read_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55788,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_read_base"
+      },
+      "restricoes": [
+        "Posição/rotação do telefone e mão pendentes; Pix é encenado, sem interface bancária."
+      ]
+    },
+    {
+      "codigo": "celular_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55789,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_out"
+      },
+      "restricoes": [
+        "Remover/ocultar somente telefone próprio ao fim ou reset."
+      ]
+    },
+    {
+      "codigo": "ligacao_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55780,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_in"
+      },
+      "restricoes": [
+        "Duas locações na EP05_C03 são duas tomadas; não juntar as personagens no mesmo local."
+      ]
+    },
+    {
+      "codigo": "ligacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_listen_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55786,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_listen_base"
+      },
+      "restricoes": [
+        "Boca só no diálogo, nunca narração; prop mão/cabeça precisa de teste."
+      ]
+    },
+    {
+      "codigo": "ligacao_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55791,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_out"
+      },
+      "restricoes": [
+        "Troca para caminhada não deve deixar tarefa/clipset de telefone ativo."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

@@ -1,0 +1,23 @@
+1
+00:00:15,000 --> 00:00:21,000
+Narrador: Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.
+
+2
+00:00:21,000 --> 00:00:30,000
+Dinjer: Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?
+
+3
+00:00:30,000 --> 00:00:36,000
+Djanira: Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?
+
+4
+00:00:36,000 --> 00:00:39,000
+Dinjer: Prometo pela vida da minha mãe.
+
+5
+00:00:39,000 --> 00:00:42,000
+Djanira: Então tá bom. Vou fazer o Pix.
+
+6
+00:00:42,000 --> 00:00:45,000
+Dinjer: Amiga, muito obrigada. Te amo!

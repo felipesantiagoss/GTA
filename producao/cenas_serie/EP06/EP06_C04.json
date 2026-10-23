@@ -1,0 +1,354 @@
+{
+  "versao": 1,
+  "id": "EP06_C04",
+  "episodio": 6,
+  "numero": 4,
+  "nome": "A APRESENTAÇÃO",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:40",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0.04,
+        "frente": -0.95,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true,
+    "ajustes": {
+      "aproximar": 1,
+      "lado": 0.8
+    },
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 14,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 20,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 29,
+        "plano": "MEDIA",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 35,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 39,
+        "plano": "MEDIA",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 45,
+        "plano": "MEDIA",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 57,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 61,
+        "plano": "MEDIA",
+        "personagem": "O_CHEFE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 20,
+      "plano": "DOIS"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira.",
+      "personagem": "DINJER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Como é que o senhor sabe dos mil reais?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali.",
+      "personagem": "O_CHEFE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 12,
+      "plano": "MEDIA",
+      "texto": "Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros.",
+      "personagem": "O_CHEFE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "E por que é que o senhor faria isso por mim?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": -1.1,
+        "frente": -0.95,
+        "altura": 0
+      },
+      "velocidade": 1.1
+    },
+    {
+      "tipo": "virar",
+      "personagem": "DINJER",
+      "inicioSegundos": 7,
+      "duracaoSegundos": 1,
+      "alvo": "DJANIRA_POBRE"
+    },
+    {
+      "tipo": "virar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 7,
+      "duracaoSegundos": 1,
+      "alvo": "DINJER"
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 8,
+      "duracaoSegundos": 6,
+      "recurso": "abraco_a",
+      "loop": false,
+      "corpoInteiro": true,
+      "manterPoseFinal": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 8,
+      "duracaoSegundos": 6,
+      "recurso": "abraco_b",
+      "loop": false,
+      "corpoInteiro": true,
+      "manterPoseFinal": true
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 14,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -1.1,
+        "frente": -0.65,
+        "altura": 0
+      },
+      "velocidade": 0.9
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 14,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 0.9
+    },
+    {
+      "tipo": "virar",
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 18,
+      "duracaoSegundos": 2,
+      "alvo": "DJANIRA_POBRE"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_VIP",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DINJER",
+      "objeto": "CADEIRA_DINJER",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "O_CHEFE",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "transicoesPose": [
+    {
+      "personagem": "DINJER",
+      "tipo": "levantar",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "recurso": "levantar_cadeira_livre_f"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "tipo": "levantar",
+      "inicioSegundos": 14,
+      "duracaoSegundos": 4,
+      "recurso": "levantar_cadeira_m"
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 66,
+      "expressao": "feliz"
+    }
+  ]
+}

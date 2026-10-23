@@ -1,0 +1,148 @@
+{
+  "versao": 1,
+  "tipoDocumento": "rascunho_piloto",
+  "id": "EP01_C08",
+  "estado": "pendente_recursos_reais_e_teste_no_jogo",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 307,
+    "linhaFim": 327,
+    "sha256BlocoUtf8": "954366A6031F1884C86542B54484CE8F7B1A237B50E20C5E8075760D54C9D0F8",
+    "raw": "### EP01_C08 · O PEDIDO\n`local:` ROCA_GRAPESEED · `hora:` 17:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM\n\n> 🔴 **Esta é a cena de teste do sistema.** Gere esta primeiro.\n\n**Ação:** Dinjer chega de moto, desce, anda com jeito de passarela até a Djanira e para na frente dela. As duas conversam. No fim, Djanira mexe no celular fazendo o Pix.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca, antes do diálogo começar)*:\n> \"Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.\"\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?\" | 9s | implorando |\n| 2 | DJANIRA | \"Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?\" | 6s | neutro |\n| 3 | DINJER | \"Prometo pela vida da minha mãe.\" | 3s | implorando |\n| 4 | DJANIRA | \"Então tá bom. Vou fazer o Pix.\" | 3s | neutro |\n| 5 | DINJER | \"Amiga, muito obrigada. Te amo!\" | 3s | explicando |\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "17:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 28000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      308,
+      309
+    ]
+  },
+  "acoesOriginais": [
+    {
+      "linha": 313,
+      "raw": "**Ação:** Dinjer chega de moto, desce, anda com jeito de passarela até a Djanira e para na frente dela. As duas conversam. No fim, Djanira mexe no celular fazendo o Pix.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "cenaRascunhoSHA256": "F7B4080C0177BA686827A80AAF7FDC3ED8E07A9D2549E1780D2EDDD4205B427D",
+  "encenacao": "pedido_v1",
+  "vozOriginal": [
+    {
+      "tipo": "narracao",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.",
+      "linhaOriginal": 315,
+      "inicioConteudoMs": 12000,
+      "fimConteudoMs": 18000,
+      "inicioF7Ms": 15000,
+      "fimF7Ms": 21000,
+      "boca": false
+    },
+    {
+      "tipo": "fala",
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?",
+      "linhaOriginal": 322,
+      "inicioConteudoMs": 18000,
+      "fimConteudoMs": 27000,
+      "inicioF7Ms": 21000,
+      "fimF7Ms": 30000,
+      "boca": true
+    },
+    {
+      "tipo": "fala",
+      "quemOriginal": "DJANIRA",
+      "texto": "Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?",
+      "linhaOriginal": 323,
+      "inicioConteudoMs": 27000,
+      "fimConteudoMs": 33000,
+      "inicioF7Ms": 30000,
+      "fimF7Ms": 36000,
+      "boca": true
+    },
+    {
+      "tipo": "fala",
+      "quemOriginal": "DINJER",
+      "texto": "Prometo pela vida da minha mãe.",
+      "linhaOriginal": 324,
+      "inicioConteudoMs": 33000,
+      "fimConteudoMs": 36000,
+      "inicioF7Ms": 36000,
+      "fimF7Ms": 39000,
+      "boca": true
+    },
+    {
+      "tipo": "fala",
+      "quemOriginal": "DJANIRA",
+      "texto": "Então tá bom. Vou fazer o Pix.",
+      "linhaOriginal": 325,
+      "inicioConteudoMs": 36000,
+      "fimConteudoMs": 39000,
+      "inicioF7Ms": 39000,
+      "fimF7Ms": 42000,
+      "boca": true
+    },
+    {
+      "tipo": "fala",
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, muito obrigada. Te amo!",
+      "linhaOriginal": 326,
+      "inicioConteudoMs": 39000,
+      "fimConteudoMs": 42000,
+      "inicioF7Ms": 42000,
+      "fimF7Ms": 45000,
+      "boca": true
+    }
+  ],
+  "tempos": {
+    "prefixoSemVozMs": 12000,
+    "vozOriginalMs": 30000,
+    "sufixoSemVozMs": 4000,
+    "conteudoMs": 46000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 49000,
+    "inicioPrimeiraLegendaF7Ms": 15000,
+    "fimUltimaLegendaF7Ms": 45000
+  },
+  "adaptacoesExplicitas": [
+    "12s sem voz para chegada de moto, descida e caminhada antes da narração.",
+    "4s sem voz depois do último diálogo para Djanira usar o celular/Pix.",
+    "Marcas relativas de conversa -1.1/+1.1m; coordenadas globais vêm somente de F3.",
+    "Estimativa original28s não comprime os30s de voz; hora17:00/clima limpo preservados.",
+    "Narração exibida como Narrador; quemOriginal=DJANIRA é preservado para dublagem. Boca só nas cinco falas. Pix é atuação; não há transferência financeira real."
+  ],
+  "backend": {
+    "fonte": "src/PilotoPedidoDiretor.cs",
+    "verificacaoNoJogo": "F6: modelo, streaming, animações, chão e prontidão; F7: chegada real e descida sem warp.",
+    "moto": "faggio",
+    "celular": "prop_npc_phone_02",
+    "andar": "move_f@posh@",
+    "animacaoCelular": "cellphone@female/cellphone_text_read_base",
+    "estadoVisual": "pendente; os identificadores possuem origem técnica, não comprovam o resultado visual"
+  },
+  "publicacao": {
+    "cena": "cenas/EP01_C08.json",
+    "fila": "cenas/fila_piloto.json",
+    "politica": "Somente arquivos ausentes ou idênticos; preservar JSON editado, marcas, SRT e tomadas."
+  },
+  "extras": "Nenhum figurante/fala novo; as pausas são encenação explícita fora dos seis blocos originais."
+}

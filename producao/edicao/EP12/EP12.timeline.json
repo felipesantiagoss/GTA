@@ -1,0 +1,222 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 12,
+  "nomeOriginal": "\"A CLIENTE VIP\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 96000,
+  "clipes": [
+    {
+      "id": "EP12_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 8000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP12_C01.base.srt"
+    },
+    {
+      "id": "EP12_C02",
+      "inicioEpisodioBaseMs": 8000,
+      "fimEpisodioBaseMs": 14000,
+      "duracaoPlanejadaMs": 6000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP12_C02.base.srt"
+    },
+    {
+      "id": "EP12_C03",
+      "inicioEpisodioBaseMs": 14000,
+      "fimEpisodioBaseMs": 55000,
+      "duracaoPlanejadaMs": 41000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP12_C03.base.srt"
+    },
+    {
+      "id": "EP12_C04",
+      "inicioEpisodioBaseMs": 55000,
+      "fimEpisodioBaseMs": 69000,
+      "duracaoPlanejadaMs": 14000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP12_C04.base.srt"
+    },
+    {
+      "id": "EP12_C05",
+      "inicioEpisodioBaseMs": 69000,
+      "fimEpisodioBaseMs": 76000,
+      "duracaoPlanejadaMs": 7000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP12_C05.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 76000,
+      "fimEpisodioBaseMs": 96000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP12_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "legenda": "Narrador: Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto."
+    },
+    {
+      "cena": "EP12_C02",
+      "bloco": 1,
+      "inicioMs": 8000,
+      "fimMs": 14000,
+      "legenda": "Narrador: Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 1,
+      "inicioMs": 14000,
+      "fimMs": 18000,
+      "legenda": "Dinjer: Boa noite, senhora. Champanhe por conta da casa?"
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 2,
+      "inicioMs": 18000,
+      "fimMs": 21000,
+      "legenda": "Djanira: Você trabalha aqui há muito tempo?"
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 3,
+      "inicioMs": 21000,
+      "fimMs": 30000,
+      "legenda": "Dinjer: Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 4,
+      "inicioMs": 30000,
+      "fimMs": 32000,
+      "legenda": "Djanira: E por que parou?"
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 5,
+      "inicioMs": 32000,
+      "fimMs": 36000,
+      "legenda": "Dinjer: Ah... é complicado. Coisa de patrão."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 6,
+      "inicioMs": 36000,
+      "fimMs": 41000,
+      "legenda": "Djanira: Me diz uma coisa. Você já fez alguma coisa de que se arrepende?"
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 7,
+      "inicioMs": 41000,
+      "fimMs": 44000,
+      "legenda": "Dinjer: Ai, senhora, eu faço isso todo dia."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 8,
+      "inicioMs": 44000,
+      "fimMs": 47000,
+      "legenda": "Djanira: E teve alguma que doeu?"
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 9,
+      "inicioMs": 47000,
+      "fimMs": 49000,
+      "legenda": "Dinjer: ...Uma."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 10,
+      "inicioMs": 49000,
+      "fimMs": 50000,
+      "legenda": "Djanira: Conta."
+    },
+    {
+      "cena": "EP12_C03",
+      "bloco": 11,
+      "inicioMs": 50000,
+      "fimMs": 55000,
+      "legenda": "Dinjer: Eu não posso, senhora. Se eu contar, eu morro."
+    },
+    {
+      "cena": "EP12_C04",
+      "bloco": 1,
+      "inicioMs": 55000,
+      "fimMs": 69000,
+      "legenda": "Narrador: Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte."
+    },
+    {
+      "cena": "EP12_C05",
+      "bloco": 1,
+      "inicioMs": 69000,
+      "fimMs": 76000,
+      "legenda": "Narrador: Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1215,
+        "linhaFim": 1216,
+        "sha256BlocoUtf8": "382949B2A6FC672C89A18BB51356DE97B0F06D574807AEAB1B45C9ECED66AE35",
+        "raw": "**ANTERIORMENTE**: EP11_C03 (a transformação) · EP11_C05 (a segunda linha)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP11_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP11_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP12_C03",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 36000ms menor que blocos declarados 41000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    },
+    {
+      "cena": "EP12_C05",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 5000ms menor que blocos declarados 7000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

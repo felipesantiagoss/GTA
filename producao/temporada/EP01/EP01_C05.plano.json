@@ -1,0 +1,176 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP01_C05",
+  "episodio": 1,
+  "numero": 5,
+  "nome": "O SEGREDO DA AVÓ",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 260,
+    "linhaFim": 272,
+    "sha256BlocoUtf8": "2ED8D132009707C119E0E4E6A0988171CB92741B13ACA1435F16531580375CC2",
+    "raw": "### EP01_C05 · O SEGREDO DA AVÓ\n`local:` HOSPITAL_SANDY → CASSINO_FORA · `hora:` 10:00 · `clima:` limpo\n`elenco:` DONA_IRACI · `cam:` ATRAS → LONGE · `dur:` 8s · `gravar:` SIM\n\n⚠️ Se o interior do cassino não abrir, grave só a **fachada** com ela entrando. Funciona igual.\n\n**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"\n\n> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude.\n\n"
+  },
+  "original": {
+    "local": "HOSPITAL_SANDY → CASSINO_FORA",
+    "locaisCodigos": [
+      "HOSPITAL_SANDY",
+      "CASSINO_FORA"
+    ],
+    "hora": "10:00",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI",
+    "elencoCodigos": [
+      "DONA_IRACI"
+    ],
+    "camera": "ATRAS → LONGE",
+    "planosSemTemposDefinidos": [
+      "ATRAS",
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      261,
+      262
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 266,
+      "raw": "**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 264,
+      "raw": "⚠️ Se o interior do cassino não abrir, grave só a **fachada** com ela entrando. Funciona igual."
+    },
+    {
+      "linha": 271,
+      "raw": "> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 268,
+      "linhaTexto": 269,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:HOSPITAL_SANDY",
+      "familia": "ambiente",
+      "descricao": "Marca real HOSPITAL_SANDY; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASSINO_FORA",
+      "familia": "ambiente",
+      "descricao": "Marca real CASSINO_FORA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.",
+      "origem": "linha 266",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP14_C01",
+  "episodio": 14,
+  "numero": 1,
+  "nome": "O PORTÃO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1381,
+    "linhaFim": 1389,
+    "sha256BlocoUtf8": "193ABF1E5A4301F9306856C282DBE735867A5FA1FD311E17C5BF1E77237D479F",
+    "raw": "### EP14_C01 · O PORTÃO\n`local:` MANSAO_DJANIRA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Dinjer batendo no portão, desesperada, ainda de uniforme. Expressão `estressado`.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:00",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1382,
+      1383
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+      "textoOriginal": "> \"Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1387,
+      "linhaTexto": 1388,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1385,
+      "raw": "**Ação:** Dinjer batendo no portão, desesperada, ainda de uniforme. Expressão `estressado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_DJANIRA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:porta",
+      "tipo": "atuacao_integral",
+      "descricao": "Porta/portão real, aproximação e direção; abertura/fechamento físico e três batidas quando declaradas.",
+      "candidatos": [
+        "bater_porta"
+      ]
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP14_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

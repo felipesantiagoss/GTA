@@ -1,0 +1,165 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP10_C05",
+  "episodio": 10,
+  "numero": 5,
+  "nome": "A INVISÍVEL",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1103,
+    "linhaFim": 1111,
+    "sha256BlocoUtf8": "6558BA332FA3DA6A67FBF549F97D7B65FDDDBADD88D7D098DD8A37F330421820",
+    "raw": "### EP10_C05 · A INVISÍVEL\n`local:` CENTRO_LEGION · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"\n\n"
+  },
+  "original": {
+    "local": "CENTRO_LEGION",
+    "locaisCodigos": [
+      "CENTRO_LEGION"
+    ],
+    "hora": "08:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1104,
+      1105
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1107,
+      "raw": "**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1109,
+      "linhaTexto": 1110,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CENTRO_LEGION",
+      "familia": "ambiente",
+      "descricao": "Marca real CENTRO_LEGION; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.",
+      "origem": "linha 1107",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "presenca:pessoas na calçada; sem perfis no elenco",
+      "familia": "figurantes",
+      "descricao": "pessoas na calçada; sem perfis no elenco",
+      "origem": "ação original; falta de perfil declarada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "versao": 1,
+  "id": "EP11_C04",
+  "episodio": 11,
+  "numero": 4,
+  "nome": "A CAMA MACIA",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "LONGE",
+      "texto": "Na primeira noite eu dormi no chão. A cama era macia demais. Meu corpo não sabia mais dormir em cama.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "chateado"
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": null,
+      "recurso": "sentada_chao_f",
+      "tipo": "chao"
+    }
+  ]
+}

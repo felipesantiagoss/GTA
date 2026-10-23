@@ -1,0 +1,346 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gta-diretor.local/esquemas/fila-v1.schema.json",
+  "title": "Fila de cenas v1",
+  "$comment": "Python/runtime conferem UTF-8, limites, chaves duplicadas, basename fila_teste.json/fila_elenco.json/fila_EPnn.json e fila_piloto.json (episodio1; somenteEP01_C08.json), repetição casefold e todas as cenas/catálogos antes de aceitar. A ordem declarada é preservada; marcas reais e SRT não são modificados.",
+  "type": "object",
+  "properties": {
+    "versao": {
+      "type": "integer",
+      "const": 1
+    },
+    "episodio": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 15
+    },
+    "nome": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "\\S"
+    },
+    "cenas": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "versao",
+    "episodio",
+    "nome",
+    "cenas"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 0
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^teste_(json|coreografia|fila_(0[1-9]|[1-9][0-9])|elenco_(pobre|rica))\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 1
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP01_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 2
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP02_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 3
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP03_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 4
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP04_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 5
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP05_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 6
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP06_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 7
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP07_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 8
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP08_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 9
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP09_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 10
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP10_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 11
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP11_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 12
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP12_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 13
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP13_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 14
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP14_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "episodio": {
+            "const": 15
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "cenas": {
+            "items": {
+              "type": "string",
+              "pattern": "^EP15_C(0[1-9]|[1-9][0-9])\\.json$"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

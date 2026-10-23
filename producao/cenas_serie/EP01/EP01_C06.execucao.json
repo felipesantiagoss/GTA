@@ -1,0 +1,246 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C06",
+  "episodio": 1,
+  "numero": 6,
+  "nome": "A DINJER NO TRABALHO",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 275,
+    "linhaFim": 283,
+    "sha256BlocoUtf8": "8F37344A39862CDFD2B865FD87D9FF71E6AAB2859C5937715ED068DABFBB65A7",
+    "raw": "### EP01_C06 · A DINJER NO TRABALHO\n`local:` AEROPORTO_TERMINAL · `hora:` 09:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_TERMINAL",
+    "locaisCodigos": [
+      "AEROPORTO_TERMINAL"
+    ],
+    "hora": "09:00",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "LONGE → MEDIA",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      276,
+      277
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": [
+      "Terminal frontal real: ônibus/desembarque em LONGE e acompanhamento ATRAS desde3s, ajustes-2/0,6/0,2. Preservar narração9s e chegada física dentro dela."
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 281,
+      "linhaTexto": 282,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 279,
+      "raw": "**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Remontagem mantém narração original9s sem boca e contagem3s: ônibusbus próprio, desembarque físico com limite5s dentro dos9s e caminhada real estilo move_f@posh@ até o terminal, com chão/chegada medidos e sem warp. CâmeraLONGE estabelece ônibus/desembarque, ATRAS acompanha Dinjer desde3s; ajustes aproximar−2/lado0,6/altura0,2, plano finalLONGE. Expressão candidata confiante; passagem/veículo/rota precisam ficar livres e falhas físicas interrompem a tomada."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:AEROPORTO_TERMINAL",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "andar_passarela_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@sexy@a",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68939,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@sexy@a walk"
+      },
+      "restricoes": [
+        "Só candidato de estilo; não prometer passarela ou gait feminino até testar carregamento/visual."
+      ]
+    },
+    {
+      "codigo": "andar_salto_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@heels@c",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68841,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@heels@c walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável; não trocar outfit registrado para usar salto."
+      ]
+    },
+    {
+      "codigo": "andar_chefe_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@business@a",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69144,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@business@a walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem andar playboy."
+      ]
+    },
+    {
+      "codigo": "andar_capanga_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@tough_guy@",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69564,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@tough_guy@ walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem autoriza combate."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C06.json",
+  "runtimeSHA256": "A891733E5FB11C05BDEEC36C3FA0725756102091446A427F82261B63700B99BF",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 9000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 12000,
+    "blocosOriginaisMs": 9000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "remontagemAutorizada": {
+    "fonte": "pedido atual no chat",
+    "semTextoNaImagem": true,
+    "semVinheta": true,
+    "acaoTecnica": "Terminal frontal real: ônibus/desembarque em LONGE e acompanhamento ATRAS desde3s, ajustes-2/0,6/0,2. Preservar narração9s e chegada física dentro dela.",
+    "corteAtrasMs": 3000,
+    "ajustesCamera": {
+      "aproximar": -2,
+      "lado": 0.6,
+      "altura": 0.2
+    }
+  },
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C06_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C06_LIMPO.mp4",
+    "sha256": "DA53AF1BA7110E8C96804349CFA59DD46B7699554B64B796F6C0FA0B678639E2",
+    "duracaoMs": 9032,
+    "sessoesReais": [
+      "bc66a5bcab1b4cb989672c1ecca1d9ce"
+    ],
+    "fontesJsonSHA256": [
+      "A891733E5FB11C05BDEEC36C3FA0725756102091446A427F82261B63700B99BF"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

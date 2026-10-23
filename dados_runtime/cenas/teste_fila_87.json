@@ -1,0 +1,70 @@
+{
+  "versao": 1,
+  "id": "teste_fila_87",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "ENSAIO TECNICO CONTAGEM UPPER SOBRE BASE FEMININA",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "00:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.95,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 90
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 24
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "MESA_TRIAL_GORJETA",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_TRIAL_GORJETA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0.95,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ]
+}

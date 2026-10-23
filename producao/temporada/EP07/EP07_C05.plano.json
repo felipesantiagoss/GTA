@@ -1,0 +1,210 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP07_C05",
+  "episodio": 7,
+  "numero": 5,
+  "nome": "A QUEDA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 857,
+    "linhaFim": 868,
+    "sha256BlocoUtf8": "1DBF648FA77D4936770AB8574F88AE3926E472B50C167FA99E251DABF085663F",
+    "raw": "### EP07_C05 · A QUEDA\n`local:` AEROPORTO_AR → CANAL_LS · `hora:` 21:10 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` OLHOS · `dur:` 10s · `gravar:` SIM\n\n> 💡 **Reaproveite a EP01_C01.** É a mesma queda, agora explicada. Se quiser regravar com outro ângulo, melhor ainda.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.\"\n\n**NARRADOR** — 7s:\n> \"Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_AR → CANAL_LS",
+    "locaisCodigos": [
+      "AEROPORTO_AR",
+      "CANAL_LS"
+    ],
+    "hora": "21:10",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "OLHOS",
+    "planosSemTemposDefinidos": [
+      "OLHOS"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      858,
+      859
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [],
+  "notasOriginais": [
+    {
+      "linha": 861,
+      "raw": "> 💡 **Reaproveite a EP01_C01.** É a mesma queda, agora explicada. Se quiser regravar com outro ângulo, melhor ainda."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 863,
+      "linhaTexto": 864,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 866,
+      "linhaTexto": 867,
+      "inicioMs": 6000,
+      "fimMs": 13000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 13000,
+    "conteudoPlanejadoMs": 13000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 16000,
+    "fimUltimaLegendaMs": 16000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [
+    {
+      "cena": "EP01_C01",
+      "linha": 861,
+      "raw": "> 💡 **Reaproveite a EP01_C01.** É a mesma queda, agora explicada. Se quiser regravar com outro ângulo, melhor ainda.",
+      "tipo": "imagem",
+      "opcionalRegravar": true
+    }
+  ],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 10000ms menor que blocos declarados 13000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_AR",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_AR; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CANAL_LS",
+      "familia": "ambiente",
+      "descricao": "Marca real CANAL_LS; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:bloqueio",
+      "familia": "corpo",
+      "descricao": "Resolver poses, marcas e atuação pelas notas originais; não substituir por atores parados genéricos.",
+      "origem": "notas da cena",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "veiculo:avião particular (tomada reaproveitada)",
+      "familia": "veiculos",
+      "descricao": "avião particular (tomada reaproveitada): modelo, assentos/portas, motorista, percurso e restauração.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:queda_agua",
+      "familia": "movimento",
+      "descricao": "Teste técnico separado: avião/queda, invencibilidade, água, saída e rampa conforme a cena.",
+      "origem": "ação técnica e reaproveitamento originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:reaproveitamento",
+      "familia": "edicao",
+      "descricao": "Vincular a tomada/frame original indicado; não gravar uma substituição sem registrá-la.",
+      "origem": "notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

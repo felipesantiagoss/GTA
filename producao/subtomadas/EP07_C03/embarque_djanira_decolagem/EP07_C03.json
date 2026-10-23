@@ -1,0 +1,87 @@
+{
+  "versao": 1,
+  "id": "EP07_C03",
+  "episodio": 7,
+  "numero": 3,
+  "nome": "A DECOLAGEM",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "20:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 5
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 2.4,
+        "frente": -2.5,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 2,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": -3.5,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 10,
+      "plano": "LONGE",
+      "texto": "Eu subi naquele avião mesmo assim. Porque quando você é pobre, você aprende a fingir que não viu. É assim que a gente sobrevive.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 30,
+      "plano": "LONGE"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5,
+      "plano": "LONGE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 45,
+      "expressao": "feliz"
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 45,
+      "expressao": "chateado"
+    }
+  ]
+}

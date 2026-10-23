@@ -1,0 +1,196 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP14_C05",
+  "episodio": 14,
+  "numero": 5,
+  "nome": "ELE SABE",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1444,
+    "linhaFim": 1461,
+    "sha256BlocoUtf8": "D96B1C2454B05A25C18055D78A4A9F51F80DF06525D7C9272571E8245F80721F",
+    "raw": "### EP14_C05 · ELE SABE\n`local:` MANSAO_DJANIRA · `hora:` 23:40 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM\n\n**Ação:** Dinjer já na porta, para e fala sem se virar.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\" | 10s | neutro |\n| 2 | DJANIRA | \"Então diz pra ele que eu aceito.\" | 3s | neutro |\n| 3 | DINJER | \"Você não pode ir. Você não sabe quem ele é.\" | 5s | implorando |\n| 4 | DJANIRA | \"Eu sei exatamente quem ele é. Eu descobri antes de você.\" | 5s | neutro |\n\n**NARRADOR** — 7s:\n> \"Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:40",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 22000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1445,
+      1446
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.",
+      "textoOriginal": "\"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1454,
+      "raw": "| 1 | DINJER | \"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\" | 10s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Então diz pra ele que eu aceito.",
+      "textoOriginal": "\"Então diz pra ele que eu aceito.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1455,
+      "raw": "| 2 | DJANIRA | \"Então diz pra ele que eu aceito.\" | 3s | neutro |",
+      "inicioMs": 10000,
+      "fimMs": 13000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "Você não pode ir. Você não sabe quem ele é.",
+      "textoOriginal": "\"Você não pode ir. Você não sabe quem ele é.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1456,
+      "raw": "| 3 | DINJER | \"Você não pode ir. Você não sabe quem ele é.\" | 5s | implorando |",
+      "inicioMs": 13000,
+      "fimMs": 18000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu sei exatamente quem ele é. Eu descobri antes de você.",
+      "textoOriginal": "\"Eu sei exatamente quem ele é. Eu descobri antes de você.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1457,
+      "raw": "| 4 | DJANIRA | \"Eu sei exatamente quem ele é. Eu descobri antes de você.\" | 5s | neutro |",
+      "inicioMs": 18000,
+      "fimMs": 23000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1459,
+      "linhaTexto": 1460,
+      "inicioMs": 23000,
+      "fimMs": 30000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 22000,
+    "blocosDeclaradosMs": 30000,
+    "conteudoPlanejadoMs": 30000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 33000,
+    "fimUltimaLegendaMs": 33000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1448,
+      "raw": "**Ação:** Dinjer já na porta, para e fala sem se virar.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_DJANIRA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP14_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

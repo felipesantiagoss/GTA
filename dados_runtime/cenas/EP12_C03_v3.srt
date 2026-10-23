@@ -1,0 +1,44 @@
+1
+00:00:03,000 --> 00:00:07,000
+Dinjer: Boa noite, senhora. Champanhe por conta da casa?
+
+2
+00:00:07,000 --> 00:00:10,000
+Djanira: Você trabalha aqui há muito tempo?
+
+3
+00:00:10,000 --> 00:00:19,000
+Dinjer: Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.
+
+4
+00:00:19,000 --> 00:00:21,000
+Djanira: E por que parou?
+
+5
+00:00:21,000 --> 00:00:25,000
+Dinjer: Ah... é complicado. Coisa de patrão.
+
+6
+00:00:25,000 --> 00:00:30,000
+Djanira: Me diz uma coisa. Você já fez alguma coisa de que se arrepende?
+
+7
+00:00:30,000 --> 00:00:33,000
+Dinjer: Ai, senhora, eu faço isso todo dia.
+
+8
+00:00:33,000 --> 00:00:36,000
+Djanira: E teve alguma que doeu?
+
+9
+00:00:36,000 --> 00:00:38,000
+Dinjer: ...Uma.
+
+10
+00:00:38,000 --> 00:00:39,000
+Djanira: Conta.
+
+11
+00:00:39,000 --> 00:00:44,000
+Dinjer: Eu não posso, senhora. Se eu contar, eu morro.
+

@@ -1,0 +1,263 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP01_C07",
+  "episodio": 1,
+  "numero": 7,
+  "nome": "O BARRACO NO HANGAR",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 286,
+    "linhaFim": 304,
+    "sha256BlocoUtf8": "E939FCCCDE2BE1F0507490353FE5CEAA7E8F0E9ED62F15764B0412E7B345E082",
+    "raw": "### EP01_C07 · O BARRACO NO HANGAR\n`local:` AEROPORTO_HANGAR · `hora:` 11:00 · `clima:` limpo\n`elenco:` DINJER, COLEGA_1, COLEGA_2, COLEGA_3 · `cam:` auto · `dur:` 20s · `gravar:` SIM\n\n⚠️ **Não use combate real.** Use animações de luta encadeadas, que repetem igual todas as vezes.\n\n**Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | COLEGA_1 | \"Eu pegaria ela só no off mesmo.\" | 3s | explicando |\n| 2 | DINJER | \"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\" | 9s | irritado |\n| 3 | COLEGA_2 | \"Só faltou falar comunista.\" | 3s | explicando |\n| 4 | DINJER | \"Me respeita, cara. Tá tirando onda?\" | 3s | irritado |\n\n**Ação final:** 2 segundos de empurra-empurra. Corte seco.\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_HANGAR",
+    "locaisCodigos": [
+      "AEROPORTO_HANGAR"
+    ],
+    "hora": "11:00",
+    "clima": "limpo",
+    "elenco": "DINJER, COLEGA_1, COLEGA_2, COLEGA_3",
+    "elencoCodigos": [
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2",
+      "COLEGA_3"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 20000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      287,
+      288
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2",
+      "COLEGA_3"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 292,
+      "raw": "**Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    },
+    {
+      "linha": 303,
+      "raw": "**Ação final:** 2 segundos de empurra-empurra. Corte seco.",
+      "tipo": "final",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 290,
+      "raw": "⚠️ **Não use combate real.** Use animações de luta encadeadas, que repetem igual todas as vezes."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "COLEGA_1",
+      "texto": "Eu pegaria ela só no off mesmo.",
+      "textoOriginal": "\"Eu pegaria ela só no off mesmo.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 298,
+      "raw": "| 1 | COLEGA_1 | \"Eu pegaria ela só no off mesmo.\" | 3s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 3000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DINJER",
+      "texto": "Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.",
+      "textoOriginal": "\"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 299,
+      "raw": "| 2 | DINJER | \"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\" | 9s | irritado |",
+      "inicioMs": 3000,
+      "fimMs": 12000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "COLEGA_2",
+      "texto": "Só faltou falar comunista.",
+      "textoOriginal": "\"Só faltou falar comunista.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 300,
+      "raw": "| 3 | COLEGA_2 | \"Só faltou falar comunista.\" | 3s | explicando |",
+      "inicioMs": 12000,
+      "fimMs": 15000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DINJER",
+      "texto": "Me respeita, cara. Tá tirando onda?",
+      "textoOriginal": "\"Me respeita, cara. Tá tirando onda?\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 301,
+      "raw": "| 4 | DINJER | \"Me respeita, cara. Tá tirando onda?\" | 3s | irritado |",
+      "inicioMs": 15000,
+      "fimMs": 18000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "acao_final",
+      "boca": false,
+      "texto": null,
+      "linhaInicio": 303,
+      "indicacoesOriginais": "**Ação final:** 2 segundos de empurra-empurra. Corte seco.",
+      "inicioMs": 18000,
+      "fimMs": 20000,
+      "duracaoMs": 2000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 20000,
+    "blocosDeclaradosMs": 20000,
+    "conteudoPlanejadoMs": 20000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 23000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:COLEGA_1",
+      "familia": "visuais",
+      "descricao": "Visual de produção COLEGA_1, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:COLEGA_2",
+      "familia": "visuais",
+      "descricao": "Visual de produção COLEGA_2, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:COLEGA_3",
+      "familia": "visuais",
+      "descricao": "Visual de produção COLEGA_3, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_HANGAR",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_HANGAR; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada.",
+      "origem": "linha 292",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:2",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação final:** 2 segundos de empurra-empurra. Corte seco.",
+      "origem": "linha 303",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:terceiro_interlocutor",
+      "familia": "camera",
+      "descricao": "Eixo e alvo explícitos para interlocutores além dos dois primeiros; contrato atual não os executa automaticamente.",
+      "origem": "elenco e diálogo originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

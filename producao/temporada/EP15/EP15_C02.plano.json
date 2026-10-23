@@ -1,0 +1,220 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C02",
+  "episodio": 15,
+  "numero": 2,
+  "nome": "A MESA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1482,
+    "linhaFim": 1499,
+    "sha256BlocoUtf8": "21F7C170A2CDB7563DC1A4D834FF152CD11434C386EF4BBD55530620D1B76BF0",
+    "raw": "### EP15_C02 · A MESA\n`local:` MANSAO_CHEFE · `hora:` 20:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM\n\n> 🔴 **Deixe a DINJER em quadro, ao fundo, parada, de uniforme, durante a cena inteira.** O público esquece que ela está ali. Quando a Djanira se virar para ela na cena C05, o susto dobra.\n\n**Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.\"\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\" | 11s | explicando |\n| 2 | DJANIRA | \"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\" | 5s | neutro |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "20:15",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, O_CHEFE, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 22000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1483,
+      1484
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1488,
+      "raw": "**Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1486,
+      "raw": "> 🔴 **Deixe a DINJER em quadro, ao fundo, parada, de uniforme, durante a cena inteira.** O público esquece que ela está ali. Quando a Djanira se virar para ela na cena C05, o susto dobra."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1490,
+      "linhaTexto": 1491,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.",
+      "textoOriginal": "\"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1497,
+      "raw": "| 1 | O_CHEFE | \"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\" | 11s | explicando |",
+      "inicioMs": 6000,
+      "fimMs": 17000,
+      "duracaoMs": 11000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu sou muito boa em ser invisível. Eu tive três anos de treino.",
+      "textoOriginal": "\"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1498,
+      "raw": "| 2 | DJANIRA | \"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\" | 5s | neutro |",
+      "inicioMs": 17000,
+      "fimMs": 22000,
+      "duracaoMs": 5000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 22000,
+    "blocosDeclaradosMs": 22000,
+    "conteudoPlanejadoMs": 22000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 25000,
+    "fimUltimaLegendaMs": 25000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja.",
+      "origem": "linha 1488",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:bandeja",
+      "familia": "objetos",
+      "descricao": "bandeja: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:bebida/copo",
+      "familia": "objetos",
+      "descricao": "bebida/copo: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+1
+00:00:03,000 --> 00:00:07,000
+Narrador: Fila 2: o homem anda um metro à frente.
+
+2
+00:00:07,000 --> 00:00:10,000
+Homem: Fila 2. Esta é a segunda cena.
+
+3
+00:00:10,000 --> 00:00:13,000
+Mulher: Fila 2. Vamos repetir a tomada.
+
+4
+00:00:13,000 --> 00:00:15,000
+Narrador: Fim da segunda cena da fila.
+

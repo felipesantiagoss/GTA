@@ -1,0 +1,3531 @@
+{
+  "type": "object",
+  "properties": {
+    "encenacao": {
+      "enum": [
+        "pedido_v1",
+        "ensaio_coreografia_v1",
+        "serie_v1"
+      ],
+      "$comment": "Python/C# conferem recursos, fontes, marcas, roteiro, pareamento e conflitos. serie_v1 exige direcao; ensaio_coreografia_v1 é exclusivo de teste_coreografia."
+    },
+    "versao": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(teste_(json|coreografia|fila_(0[1-9]|[1-9][0-9])|elenco_(pobre|rica))|VINHETA_01|EP01_EXTRA_IRACI_BAR|EP01_EXTRA_DINJER_DEDO|EP(0[1-9]|1[0-5])_C(0[1-9]|[1-9][0-9]))$"
+    },
+    "episodio": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 15
+    },
+    "numero": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 99
+    },
+    "nome": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "\\S"
+    },
+    "ambiente": {
+      "type": "object",
+      "properties": {
+        "local": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+          "minLength": 1,
+          "maxLength": 48
+        },
+        "hora": {
+          "type": "string",
+          "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+        },
+        "clima": {
+          "enum": [
+            "limpo",
+            "ensolarado",
+            "nublado",
+            "encoberto",
+            "chuva",
+            "trovoada",
+            "nevoa",
+            "smog",
+            "abrindo",
+            "neutro"
+          ]
+        },
+        "raioLimpeza": {
+          "type": "number",
+          "minimum": 5,
+          "maximum": 100
+        },
+        "distanciaFrente": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 10,
+          "default": 4
+        }
+      },
+      "required": [
+        "local",
+        "hora",
+        "clima"
+      ],
+      "additionalProperties": false
+    },
+    "elenco": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "personagem": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+            "minLength": 1,
+            "maxLength": 48
+          },
+          "marca": {
+            "$ref": "#/$defs/marca"
+          },
+          "olharPara": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "rotacao": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "multipleOf": 0.001
+          }
+        },
+        "required": [
+          "personagem",
+          "marca"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "camera": {
+      "type": "object",
+      "properties": {
+        "objeto": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+        },
+        "fovObjeto": {
+          "type": "number",
+          "minimum": 15,
+          "maximum": 55,
+          "default": 30
+        },
+        "elevacaoObjetoGraus": {
+          "type": "number",
+          "minimum": 10,
+          "maximum": 80,
+          "default": 45
+        },
+        "modo": {
+          "enum": [
+            "automatico",
+            "programado"
+          ]
+        },
+        "planoInicial": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ]
+        },
+        "personagem": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+              "minLength": 1,
+              "maxLength": 48
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "planoFala": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ],
+          "default": "MEDIA"
+        },
+        "planoNarracao": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ],
+          "description": "Padrão DOIS com2–5 atores; MEDIA solo; LONGE sem elenco."
+        },
+        "planoFinal": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ],
+          "description": "Padrão DOIS com2–5 atores; MEDIA solo; LONGE sem elenco."
+        },
+        "inverterEixo": {
+          "type": "boolean",
+          "default": false
+        },
+        "transicaoSuave": {
+          "type": "boolean",
+          "default": false
+        },
+        "ajustes": {
+          "type": "object",
+          "properties": {
+            "lado": {
+              "type": "number",
+              "minimum": -2,
+              "maximum": 2,
+              "default": 0
+            },
+            "altura": {
+              "type": "number",
+              "minimum": -2,
+              "maximum": 2,
+              "default": 0
+            },
+            "aproximar": {
+              "type": "number",
+              "minimum": -2,
+              "maximum": 2,
+              "default": 0
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "cortes": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "prefixItems": [
+            {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/corte"
+                },
+                {
+                  "properties": {
+                    "inicioSegundos": {
+                      "const": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "items": {
+            "$ref": "#/$defs/corte"
+          }
+        }
+      },
+      "required": [
+        "modo",
+        "planoInicial",
+        "personagem"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "anyOf": [
+              {
+                "required": [
+                  "fovObjeto"
+                ]
+              },
+              {
+                "required": [
+                  "elevacaoObjetoGraus"
+                ]
+              }
+            ]
+          },
+          "then": {
+            "required": [
+              "objeto"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "objeto"
+            ]
+          },
+          "then": {
+            "properties": {
+              "modo": {
+                "const": "automatico"
+              }
+            }
+          },
+          "$comment": "Python/C# verify the target is an own initially visible object. Native camera verifies measured bounds and frustum; it does not prove an open envelope."
+        },
+        {
+          "if": {
+            "properties": {
+              "modo": {
+                "const": "programado"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "cortes"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "cortes"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "roteiro": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/fala"
+          },
+          {
+            "$ref": "#/$defs/narracao"
+          },
+          {
+            "$ref": "#/$defs/pausa"
+          }
+        ]
+      }
+    },
+    "acoes": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 20,
+      "default": [],
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "esperar"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "andarAte"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              },
+              "destino": {
+                "$ref": "#/$defs/marca"
+              },
+              "velocidade": {
+                "type": "number",
+                "minimum": 0.2,
+                "maximum": 2,
+                "default": 1
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "destino"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "virarPara"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              },
+              "alvo": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "alvo"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "animacao"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              },
+              "animacao": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 48,
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "animacao"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "direcao": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 64,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "tipo": {
+                "const": "clipe"
+              },
+              "recurso": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]{0,47}$"
+              },
+              "loop": {
+                "type": "boolean",
+                "default": true
+              },
+              "corpoInteiro": {
+                "type": "boolean",
+                "default": true
+              },
+              "manterPoseFinal": {
+                "type": "boolean",
+                "default": true
+              },
+              "grupoPareado": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,47}$"
+              },
+              "sobrePoseSentada": {
+                "type": "boolean",
+                "default": false
+              },
+              "preservarDuranteFala": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "recurso"
+            ],
+            "additionalProperties": false,
+            "allOf": [
+              {
+                "if": {
+                  "required": [
+                    "grupoPareado"
+                  ]
+                },
+                "then": {
+                  "properties": {
+                    "corpoInteiro": {
+                      "const": true
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "sobrePoseSentada": {
+                      "const": true
+                    }
+                  },
+                  "required": [
+                    "sobrePoseSentada"
+                  ]
+                },
+                "then": {
+                  "required": [
+                    "loop",
+                    "corpoInteiro",
+                    "manterPoseFinal"
+                  ],
+                  "properties": {
+                    "loop": {
+                      "const": false
+                    },
+                    "corpoInteiro": {
+                      "const": false
+                    },
+                    "manterPoseFinal": {
+                      "const": false
+                    }
+                  },
+                  "not": {
+                    "required": [
+                      "grupoPareado"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "tipo": {
+                "const": "andar"
+              },
+              "destino": {
+                "$ref": "#/$defs/marca"
+              },
+              "velocidade": {
+                "type": "number",
+                "minimum": 0.2,
+                "maximum": 2,
+                "default": 1
+              },
+              "recurso": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]{0,47}$"
+              },
+              "clipeDurantePercurso": {
+                "enum": [
+                  "carregar_bandeja",
+                  "ligacao_f",
+                  "ligacao_m",
+                  "carregar_sacola_autor",
+                  "servir_champanhe_autor"
+                ]
+              },
+              "preservarDuranteFala": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "destino"
+            ],
+            "additionalProperties": false,
+            "allOf": [
+              {
+                "if": {
+                  "required": [
+                    "preservarDuranteFala"
+                  ]
+                },
+                "then": {
+                  "required": [
+                    "clipeDurantePercurso"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "tipo": {
+                "const": "virar"
+              },
+              "alvo": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "destino": {
+                "$ref": "#/$defs/marca"
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos"
+            ],
+            "additionalProperties": false,
+            "oneOf": [
+              {
+                "required": [
+                  "alvo"
+                ],
+                "not": {
+                  "required": [
+                    "destino"
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "destino"
+                ],
+                "not": {
+                  "required": [
+                    "alvo"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "tipo": {
+                "const": "celular"
+              },
+              "recurso": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]{0,47}$"
+              },
+              "loop": {
+                "type": "boolean",
+                "default": true
+              },
+              "corpoInteiro": {
+                "type": "boolean",
+                "default": false
+              },
+              "manterPoseFinal": {
+                "type": "boolean",
+                "default": true
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "recurso"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "$comment": "Recursos vêm somente de corpos_serie.json. Origem/hash/linha, fim<=180s, conflitos de ator/fala e grupos de2 são verificados pelos validadores."
+    },
+    "interpretacao": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "properties": {
+          "personagem": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+          },
+          "inicioSegundos": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 180,
+            "multipleOf": 0.001
+          },
+          "duracaoSegundos": {
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 180,
+            "multipleOf": 0.001
+          },
+          "expressao": {
+            "enum": [
+              "normal",
+              "chateado",
+              "feliz",
+              "machucado",
+              "comraiva",
+              "estressado",
+              "convencido"
+            ]
+          },
+          "olhar": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "padrao"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "ator"
+                  },
+                  "alvo": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                  }
+                },
+                "required": [
+                  "tipo",
+                  "alvo"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "objeto"
+                  },
+                  "alvo": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                  }
+                },
+                "required": [
+                  "tipo",
+                  "alvo"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "chao"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "horizonte"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "marca"
+                  },
+                  "destino": {
+                    "$ref": "#/$defs/marca"
+                  }
+                },
+                "required": [
+                  "tipo",
+                  "destino"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "tipo": {
+                    "const": "desvio"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "required": [
+          "personagem",
+          "inicioSegundos",
+          "duracaoSegundos"
+        ],
+        "additionalProperties": false,
+        "anyOf": [
+          {
+            "required": [
+              "expressao"
+            ]
+          },
+          {
+            "required": [
+              "olhar"
+            ],
+            "properties": {
+              "olhar": {
+                "properties": {
+                  "tipo": {
+                    "not": {
+                      "const": "padrao"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "$comment": "Periodos por ator nao se sobrepoem. Boca tem prioridade sobre a expressao; olhar especifico prevalece sobre olhar automatico. Recursos faciais fixos com origem/SHA/linha."
+    },
+    "objetos": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+          },
+          "recurso": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{0,47}$"
+          },
+          "marca": {
+            "$ref": "#/$defs/marca"
+          },
+          "rotacao": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "default": 0
+          },
+          "assentarNoChao": {
+            "type": "boolean",
+            "default": true
+          },
+          "visivelInicial": {
+            "type": "boolean",
+            "default": true
+          },
+          "attachmentInicial": {
+            "$ref": "#/$defs/attachmentObjeto"
+          },
+          "eventos": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 32,
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "anexar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    },
+                    "personagem": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "mao": {
+                      "enum": [
+                        "direita",
+                        "esquerda"
+                      ]
+                    },
+                    "offset": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "rotacao": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos",
+                    "personagem",
+                    "mao",
+                    "offset",
+                    "rotacao"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "transferir"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    },
+                    "personagem": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "mao": {
+                      "enum": [
+                        "direita",
+                        "esquerda"
+                      ]
+                    },
+                    "offset": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "rotacao": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "esperaMaximaSegundos": {
+                      "type": "number",
+                      "minimum": 0.001,
+                      "maximum": 2,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos",
+                    "personagem",
+                    "mao",
+                    "offset",
+                    "rotacao"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "soltar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "ocultar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "mostrar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "guardar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    },
+                    "personagem": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "recurso": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]{0,47}$"
+                    },
+                    "esperaMaximaSegundos": {
+                      "type": "number",
+                      "minimum": 0.001,
+                      "maximum": 2,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos",
+                    "personagem",
+                    "recurso",
+                    "esperaMaximaSegundos"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "colocar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    },
+                    "personagem": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "recurso": {
+                      "enum": [
+                        "entrega_a",
+                        "entrega_b"
+                      ]
+                    },
+                    "apoio": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "esperaMaximaSegundos": {
+                      "type": "number",
+                      "minimum": 0.001,
+                      "maximum": 2,
+                      "multipleOf": 0.001
+                    },
+                    "mao": {
+                      "enum": [
+                        "direita",
+                        "esquerda"
+                      ]
+                    },
+                    "superficie": {
+                      "type": "object",
+                      "properties": {
+                        "direita": {
+                          "type": "number",
+                          "minimum": -10,
+                          "maximum": 10,
+                          "multipleOf": 0.001
+                        },
+                        "frente": {
+                          "type": "number",
+                          "minimum": -10,
+                          "maximum": 10,
+                          "multipleOf": 0.001
+                        }
+                      },
+                      "required": [
+                        "direita",
+                        "frente"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos",
+                    "personagem",
+                    "recurso",
+                    "apoio",
+                    "esperaMaximaSegundos"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "const": "pegar"
+                    },
+                    "inicioSegundos": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 180,
+                      "multipleOf": 0.001
+                    },
+                    "personagem": {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    "mao": {
+                      "enum": [
+                        "direita",
+                        "esquerda"
+                      ]
+                    },
+                    "offset": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -0.5,
+                          "maximum": 0.5
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "rotacao": {
+                      "type": "object",
+                      "properties": {
+                        "x": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "y": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        "z": {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        }
+                      },
+                      "required": [
+                        "x",
+                        "y",
+                        "z"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "recurso": {
+                      "type": "string",
+                      "enum": [
+                        "entrega_a",
+                        "entrega_b"
+                      ]
+                    },
+                    "esperaMaximaSegundos": {
+                      "type": "number",
+                      "minimum": 0.001,
+                      "maximum": 2,
+                      "multipleOf": 0.001
+                    }
+                  },
+                  "required": [
+                    "tipo",
+                    "inicioSegundos",
+                    "personagem",
+                    "mao",
+                    "recurso",
+                    "esperaMaximaSegundos"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          "apoioInicial": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+          },
+          "superficieInicial": {
+            "type": "object",
+            "properties": {
+              "direita": {
+                "type": "number",
+                "minimum": -10,
+                "maximum": 10,
+                "multipleOf": 0.001
+              },
+              "frente": {
+                "type": "number",
+                "minimum": -10,
+                "maximum": 10,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "direita",
+              "frente"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "recurso",
+          "marca"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "apoioInicial"
+              ]
+            },
+            "then": {
+              "required": [
+                "assentarNoChao"
+              ],
+              "properties": {
+                "assentarNoChao": {
+                  "const": false
+                },
+                "visivelInicial": {
+                  "const": true
+                }
+              },
+              "not": {
+                "required": [
+                  "attachmentInicial"
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "superficieInicial"
+              ]
+            },
+            "then": {
+              "required": [
+                "apoioInicial"
+              ]
+            }
+          }
+        ]
+      },
+      "$comment": "Bindings fixos do catalogo objetos_serie; fontes/hash/linha antesCleanup. Parser verifica IDs unicos, apoios, donos/eventos, tempo anterior ao fim e normaoffset. Props nao prolongam a tomada."
+    },
+    "poses": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 5,
+      "items": {
+        "$ref": "#/$defs/pose"
+      },
+      "$comment": "Initial poses only; Python/C# check own supports, actor conflicts and real source evidence. No animation transition or scene duration is implied. Compatible seated upper-body overlays require sobrePoseSentada and literal candidate whitelist."
+    },
+    "transicoesPose": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "personagem": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+          },
+          "tipo": {
+            "enum": [
+              "levantar",
+              "sentar"
+            ]
+          },
+          "recurso": {
+            "enum": [
+              "levantar_cadeira_f",
+              "levantar_cadeira_livre_f",
+              "levantar_cadeira_m",
+              "levantar_chao_f",
+              "sentar_cadeira_f",
+              "sentar_cadeira_livre_f",
+              "sentar_cadeira_m",
+              "sentar_chao_f"
+            ]
+          },
+          "inicioSegundos": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 180,
+            "multipleOf": 0.001
+          },
+          "duracaoSegundos": {
+            "type": "number",
+            "minimum": 0.5,
+            "maximum": 8,
+            "multipleOf": 0.001
+          }
+        },
+        "required": [
+          "personagem",
+          "tipo",
+          "recurso",
+          "inicioSegundos",
+          "duracaoSegundos"
+        ],
+        "additionalProperties": false,
+        "oneOf": [
+          {
+            "properties": {
+              "tipo": {
+                "const": "levantar"
+              },
+              "recurso": {
+                "enum": [
+                  "levantar_cadeira_f",
+                  "levantar_cadeira_livre_f",
+                  "levantar_cadeira_m",
+                  "levantar_chao_f"
+                ]
+              }
+            }
+          },
+          {
+            "properties": {
+              "tipo": {
+                "const": "sentar"
+              },
+              "recurso": {
+                "enum": [
+                  "sentar_cadeira_f",
+                  "sentar_cadeira_livre_f",
+                  "sentar_cadeira_m",
+                  "sentar_chao_f"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "$comment": "Exit clips require matching initial pose, actual source evidence, native duration and upright ground before completion; no action warp."
+    },
+    "veiculos": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+          },
+          "recurso": {
+            "enum": [
+              "FAGGIO",
+              "BATI",
+              "SANCHEZ",
+              "BUS",
+              "COACH",
+              "TAILGATER",
+              "SUPERD",
+              "PACKER",
+              "HAULER"
+            ]
+          },
+          "marca": {
+            "type": "object",
+            "properties": {
+              "direita": {
+                "type": "number",
+                "minimum": -150,
+                "maximum": 150,
+                "multipleOf": 0.001
+              },
+              "frente": {
+                "type": "number",
+                "minimum": -150,
+                "maximum": 150,
+                "multipleOf": 0.001
+              },
+              "altura": {
+                "type": "number",
+                "minimum": -60,
+                "maximum": 60,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "direita",
+              "frente",
+              "altura"
+            ],
+            "additionalProperties": false
+          },
+          "rotacao": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "multipleOf": 0.001
+          },
+          "motoristaExtra": {
+            "type": "boolean"
+          },
+          "trajetoDireto": {
+            "type": "boolean"
+          },
+          "assentosIniciais": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "properties": {
+                "personagem": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                },
+                "assento": {
+                  "type": "integer",
+                  "minimum": -1,
+                  "maximum": 15
+                }
+              },
+              "required": [
+                "personagem",
+                "assento"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "acoes": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 32,
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipo": {
+                  "enum": [
+                    "entrar",
+                    "sair",
+                    "dirigir"
+                  ]
+                },
+                "personagem": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "inicioSegundos": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 180,
+                  "multipleOf": 0.001
+                },
+                "duracaoSegundos": {
+                  "type": "number",
+                  "minimum": 0.25,
+                  "maximum": 60,
+                  "multipleOf": 0.001
+                },
+                "assento": {
+                  "type": "integer",
+                  "minimum": -1,
+                  "maximum": 15
+                },
+                "rota": {
+                  "type": "array",
+                  "minItems": 1,
+                  "maxItems": 16,
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "direita": {
+                        "type": "number",
+                        "minimum": -150,
+                        "maximum": 150,
+                        "multipleOf": 0.001
+                      },
+                      "frente": {
+                        "type": "number",
+                        "minimum": -150,
+                        "maximum": 150,
+                        "multipleOf": 0.001
+                      },
+                      "altura": {
+                        "type": "number",
+                        "minimum": -60,
+                        "maximum": 60,
+                        "multipleOf": 0.001
+                      }
+                    },
+                    "required": [
+                      "direita",
+                      "frente",
+                      "altura"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "velocidade": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 20,
+                  "multipleOf": 0.001
+                },
+                "raioChegada": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 3,
+                  "multipleOf": 0.001
+                },
+                "raioParada": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 3,
+                  "multipleOf": 0.001
+                }
+              },
+              "required": [
+                "tipo",
+                "personagem",
+                "inicioSegundos",
+                "duracaoSegundos"
+              ],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "tipo": {
+                        "const": "dirigir"
+                      }
+                    },
+                    "required": [
+                      "tipo"
+                    ]
+                  },
+                  "then": {
+                    "required": [
+                      "rota"
+                    ],
+                    "properties": {
+                      "assento": {
+                        "const": -1
+                      }
+                    }
+                  },
+                  "else": {
+                    "not": {
+                      "anyOf": [
+                        {
+                          "required": [
+                            "rota"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "velocidade"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "raioChegada"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "raioParada"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "recurso",
+          "marca",
+          "acoes"
+        ],
+        "additionalProperties": false
+      },
+      "$comment": "Actual owned car/bus/bike/truck plus captured-relative routes; Python/C# reject actor/vehicle conflicts; native seats/ground/arrival required."
+    },
+    "portas": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 16,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "bater"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              },
+              "batidas": {
+                "const": 3
+              },
+              "recurso": {
+                "const": "bater_porta"
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "batidas",
+              "recurso"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "abrir"
+              },
+              "personagem": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "fechar"
+              },
+              "personagem": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tipo": {
+                "const": "atravessar"
+              },
+              "personagem": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+              },
+              "inicioSegundos": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 180,
+                "multipleOf": 0.001
+              },
+              "duracaoSegundos": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 30,
+                "multipleOf": 0.001
+              },
+              "destino": {
+                "$ref": "#/$defs/marca"
+              },
+              "velocidade": {
+                "type": "number",
+                "minimum": 0.2,
+                "maximum": 2,
+                "multipleOf": 0.001
+              }
+            },
+            "required": [
+              "tipo",
+              "personagem",
+              "inicioSegundos",
+              "duracaoSegundos",
+              "destino"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "saidaAgua": {
+      "const": true
+    },
+    "empurraoAviao": {
+      "const": true
+    },
+    "armarioModular": {
+      "const": true
+    }
+  },
+  "required": [
+    "versao",
+    "id",
+    "episodio",
+    "numero",
+    "nome",
+    "ambiente",
+    "elenco",
+    "camera",
+    "roteiro"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diretor GTA — cena JSON v1 com direção catalogada",
+  "$comment": "Schema para edição; Python/C# verificam catálogo, pronto, hashes/visuais, referências, distância, duração e ordem temporal. Não cria aprovação visual. XML interno omite atributos cujo alvo JSON é null.",
+  "$defs": {
+    "marca": {
+      "type": "object",
+      "properties": {
+        "direita": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 10
+        },
+        "frente": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 10
+        },
+        "altura": {
+          "type": "number",
+          "minimum": -2,
+          "maximum": 2,
+          "default": 0
+        }
+      },
+      "required": [
+        "direita",
+        "frente"
+      ],
+      "additionalProperties": false
+    },
+    "corte": {
+      "type": "object",
+      "properties": {
+        "inicioSegundos": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 180,
+          "multipleOf": 0.001
+        },
+        "plano": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ]
+        },
+        "personagem": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+              "minLength": 1,
+              "maxLength": 48
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "inicioSegundos",
+        "plano",
+        "personagem"
+      ],
+      "additionalProperties": false
+    },
+    "fala": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "const": "fala"
+        },
+        "texto": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 350,
+          "pattern": "\\S"
+        },
+        "duracaoSegundos": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 30,
+          "multipleOf": 0.001
+        },
+        "plano": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ]
+        },
+        "personagem": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+          "minLength": 1,
+          "maxLength": 48
+        },
+        "gesto": {
+          "type": "string",
+          "enum": [
+            "neutro",
+            "explicando",
+            "negando",
+            "implorando",
+            "irritado",
+            "machucado"
+          ]
+        }
+      },
+      "required": [
+        "tipo",
+        "texto",
+        "duracaoSegundos",
+        "personagem",
+        "gesto"
+      ],
+      "additionalProperties": false
+    },
+    "narracao": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "const": "narracao"
+        },
+        "texto": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 350,
+          "pattern": "\\S"
+        },
+        "duracaoSegundos": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 30,
+          "multipleOf": 0.001
+        },
+        "plano": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ]
+        },
+        "narrador": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 48,
+          "pattern": "\\S",
+          "default": "Narrador"
+        }
+      },
+      "required": [
+        "tipo",
+        "texto",
+        "duracaoSegundos"
+      ],
+      "additionalProperties": false
+    },
+    "pausa": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "const": "pausa"
+        },
+        "duracaoSegundos": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 46,
+          "multipleOf": 0.001
+        },
+        "plano": {
+          "type": "string",
+          "enum": [
+            "LONGE",
+            "DOIS",
+            "MEDIA",
+            "PERTO",
+            "BAIXA",
+            "ALTA",
+            "ATRAS",
+            "OLHOS"
+          ]
+        },
+        "personagem": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+              "minLength": 1,
+              "maxLength": 48
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "tipo",
+        "duracaoSegundos"
+      ],
+      "additionalProperties": false
+    },
+    "attachmentObjeto": {
+      "type": "object",
+      "properties": {
+        "personagem": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$"
+        },
+        "mao": {
+          "enum": [
+            "direita",
+            "esquerda"
+          ]
+        },
+        "offset": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": -0.5,
+              "maximum": 0.5
+            },
+            "y": {
+              "type": "number",
+              "minimum": -0.5,
+              "maximum": 0.5
+            },
+            "z": {
+              "type": "number",
+              "minimum": -0.5,
+              "maximum": 0.5
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "additionalProperties": false
+        },
+        "rotacao": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            },
+            "y": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            },
+            "z": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "personagem",
+        "mao",
+        "offset",
+        "rotacao"
+      ],
+      "additionalProperties": false,
+      "$comment": "Norma total do offset deve ser <=0.5m, validada Python/C#."
+    },
+    "pose": {
+      "type": "object",
+      "required": [
+        "personagem",
+        "objeto",
+        "recurso",
+        "tipo"
+      ],
+      "properties": {
+        "abracarObjeto": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+          "$comment": "Python/C# require an own visible shopping bag attached to the same actor without events; native hands and torso must stay near its measured bounds."
+        },
+        "personagem": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+          "minLength": 1,
+          "maxLength": 48
+        },
+        "objeto": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+              "minLength": 1,
+              "maxLength": 48
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "recurso": {
+          "enum": [
+            "sentada_cadeira_f",
+            "sentada_cadeira_livre_f",
+            "sentado_cadeira_m",
+            "sentada_meio_fio_f",
+            "deitada_cama_f",
+            "sono_f",
+            "sentada_chao_f"
+          ]
+        },
+        "tipo": {
+          "enum": [
+            "sentada",
+            "deitada",
+            "chao"
+          ]
+        },
+        "superficie": {
+          "type": "object",
+          "required": [
+            "direita",
+            "frente"
+          ],
+          "properties": {
+            "direita": {
+              "type": "number",
+              "minimum": -10,
+              "maximum": 10
+            },
+            "frente": {
+              "type": "number",
+              "minimum": -10,
+              "maximum": 10
+            }
+          },
+          "additionalProperties": false
+        },
+        "rotacao": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "default": 0
+        }
+      },
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "tipo": {
+              "const": "sentada"
+            },
+            "recurso": {
+              "enum": [
+                "sentada_cadeira_f",
+                "sentado_cadeira_m",
+                "sentada_meio_fio_f",
+                "sentada_cadeira_livre_f"
+              ]
+            }
+          }
+        },
+        {
+          "properties": {
+            "tipo": {
+              "const": "deitada"
+            },
+            "recurso": {
+              "enum": [
+                "deitada_cama_f",
+                "sono_f"
+              ]
+            }
+          }
+        },
+        {
+          "properties": {
+            "tipo": {
+              "const": "chao"
+            },
+            "recurso": {
+              "enum": [
+                "sentada_chao_f",
+                "sentada_meio_fio_f"
+              ]
+            }
+          }
+        }
+      ],
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "abracarObjeto"
+            ]
+          },
+          "then": {
+            "properties": {
+              "recurso": {
+                "const": "sono_f"
+              },
+              "tipo": {
+                "const": "deitada"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "tipo": {
+                "const": "chao"
+              }
+            },
+            "required": [
+              "tipo"
+            ]
+          },
+          "then": {
+            "properties": {
+              "objeto": {
+                "type": "null"
+              },
+              "recurso": {
+                "enum": [
+                  "sentada_chao_f",
+                  "sentada_meio_fio_f"
+                ]
+              }
+            },
+            "not": {
+              "required": [
+                "superficie"
+              ]
+            }
+          },
+          "else": {
+            "properties": {
+              "objeto": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]{0,47}$",
+                "minLength": 1,
+                "maxLength": 48
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "pattern": "^(teste_(json|coreografia|fila_(0[1-9]|[1-9][0-9])|elenco_(pobre|rica))|VINHETA_01)$"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "episodio": {
+            "const": 0
+          },
+          "numero": {
+            "const": 0
+          }
+        }
+      },
+      "else": {
+        "if": {
+          "properties": {
+            "id": {
+              "enum": [
+                "EP01_EXTRA_IRACI_BAR",
+                "EP01_EXTRA_DINJER_DEDO"
+              ]
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "episodio": {
+              "const": 1
+            },
+            "numero": {
+              "const": 0
+            }
+          }
+        },
+        "else": {
+          "properties": {
+            "episodio": {
+              "minimum": 1
+            },
+            "numero": {
+              "minimum": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "elenco": {
+            "maxItems": 0
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "camera": {
+            "properties": {
+              "personagem": {
+                "type": "null"
+              },
+              "planoInicial": {
+                "enum": [
+                  "LONGE",
+                  "MEDIA",
+                  "BAIXA",
+                  "ALTA"
+                ]
+              },
+              "planoFala": {
+                "enum": [
+                  "LONGE",
+                  "MEDIA",
+                  "BAIXA",
+                  "ALTA"
+                ]
+              },
+              "planoNarracao": {
+                "enum": [
+                  "LONGE",
+                  "MEDIA",
+                  "BAIXA",
+                  "ALTA"
+                ]
+              },
+              "planoFinal": {
+                "enum": [
+                  "LONGE",
+                  "MEDIA",
+                  "BAIXA",
+                  "ALTA"
+                ]
+              },
+              "cortes": {
+                "items": {
+                  "properties": {
+                    "personagem": {
+                      "type": "null"
+                    },
+                    "plano": {
+                      "enum": [
+                        "LONGE",
+                        "MEDIA",
+                        "BAIXA",
+                        "ALTA"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "roteiro": {
+            "items": {
+              "allOf": [
+                {
+                  "not": {
+                    "properties": {
+                      "tipo": {
+                        "const": "fala"
+                      }
+                    },
+                    "required": [
+                      "tipo"
+                    ]
+                  }
+                },
+                {
+                  "properties": {
+                    "plano": {
+                      "enum": [
+                        "LONGE",
+                        "MEDIA",
+                        "BAIXA",
+                        "ALTA"
+                      ]
+                    },
+                    "personagem": {
+                      "type": "null"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "direcao": {
+            "maxItems": 0
+          },
+          "interpretacao": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "camera": {
+            "properties": {
+              "personagem": {
+                "type": "string"
+              },
+              "cortes": {
+                "items": {
+                  "properties": {
+                    "personagem": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "roteiro": {
+            "items": {
+              "if": {
+                "properties": {
+                  "tipo": {
+                    "const": "pausa"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "personagem": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        },
+        "required": [
+          "encenacao"
+        ]
+      },
+      "then": {
+        "required": [
+          "direcao"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "direcao"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "teste_coreografia"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "ensaio_coreografia_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "encenacao": {
+            "const": "ensaio_coreografia_v1"
+          }
+        },
+        "required": [
+          "encenacao"
+        ]
+      },
+      "then": {
+        "properties": {
+          "id": {
+            "const": "teste_coreografia"
+          },
+          "episodio": {
+            "const": 0
+          },
+          "numero": {
+            "const": 0
+          },
+          "ambiente": {
+            "properties": {
+              "local": {
+                "const": "TESTE_AMBIENTE"
+              }
+            }
+          },
+          "elenco": {
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+              {
+                "properties": {
+                  "personagem": {
+                    "const": "CAPANGA_1"
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "personagem": {
+                    "const": "DJANIRA_POBRE"
+                  }
+                }
+              }
+            ]
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "roteiro": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "tipo": {
+                  "const": "narracao"
+                },
+                "duracaoSegundos": {
+                  "const": 10
+                }
+              }
+            }
+          }
+        },
+        "$comment": "Python/runtime também exigem marcas -0.55/+0.55, frente/altura0; não há combate da IA."
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "interpretacao"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "objetos"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "not": {
+        "required": [
+          "objetos",
+          "direcao"
+        ],
+        "properties": {
+          "objetos": {
+            "contains": {
+              "properties": {
+                "recurso": {
+                  "const": "celular"
+                }
+              },
+              "required": [
+                "recurso"
+              ]
+            }
+          },
+          "direcao": {
+            "contains": {
+              "properties": {
+                "tipo": {
+                  "const": "celular"
+                }
+              },
+              "required": [
+                "tipo"
+              ]
+            }
+          }
+        }
+      },
+      "$comment": "Objeto celular e direcao celular nao podem coexistir: backend de direcao ja cria telefone proprio."
+    },
+    {
+      "if": {
+        "required": [
+          "poses"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "poses"
+        ],
+        "properties": {
+          "poses": {
+            "minItems": 1
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "objetos"
+        ],
+        "properties": {
+          "objetos": {
+            "minItems": 1
+          },
+          "elenco": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "EP01_C01"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao",
+          "direcao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          },
+          "ambiente": {
+            "properties": {
+              "local": {
+                "const": "CANAL_LS"
+              }
+            }
+          },
+          "elenco": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "personagem": {
+                  "const": "DJANIRA_POBRE"
+                },
+                "marca": {
+                  "properties": {
+                    "direita": {
+                      "const": 0
+                    },
+                    "frente": {
+                      "const": 0
+                    },
+                    "altura": {
+                      "const": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "direcao": {
+            "maxItems": 0
+          },
+          "interpretacao": {
+            "maxItems": 0
+          },
+          "objetos": {
+            "maxItems": 0
+          },
+          "poses": {
+            "maxItems": 0
+          },
+          "camera": {
+            "required": [
+              "planoFinal"
+            ],
+            "properties": {
+              "modo": {
+                "const": "automatico"
+              },
+              "planoInicial": {
+                "const": "LONGE"
+              },
+              "planoFinal": {
+                "const": "OLHOS"
+              }
+            }
+          },
+          "roteiro": {
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+              {
+                "properties": {
+                  "tipo": {
+                    "const": "narracao"
+                  },
+                  "duracaoSegundos": {
+                    "const": 14
+                  },
+                  "texto": {
+                    "const": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia."
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "tipo": {
+                    "const": "pausa"
+                  },
+                  "duracaoSegundos": {
+                    "const": 46
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "roteiro": {
+            "items": {
+              "if": {
+                "properties": {
+                  "tipo": {
+                    "const": "pausa"
+                  }
+                },
+                "required": [
+                  "tipo"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "duracaoSegundos": {
+                    "maximum": 30
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "$comment": "C01: voz original14s+reserva46s, quatro marcas reais, física completa e câmera própria. Nenhum outro ID ganha pausa acima30s."
+    },
+    {
+      "if": {
+        "required": [
+          "transicoesPose"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "veiculos"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "portas"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "encenacao": {
+            "const": "serie_v1"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "saidaAgua"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "id": {
+            "const": "EP08_C01"
+          },
+          "encenacao": {
+            "const": "serie_v1"
+          },
+          "ambiente": {
+            "properties": {
+              "local": {
+                "const": "CANAL_LS"
+              }
+            }
+          },
+          "elenco": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "personagem": {
+                  "const": "DJANIRA_POBRE"
+                },
+                "marca": {
+                  "properties": {
+                    "direita": {
+                      "const": 0
+                    },
+                    "frente": {
+                      "const": 0
+                    },
+                    "altura": {
+                      "const": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "direcao": {
+            "maxItems": 0
+          },
+          "objetos": {
+            "maxItems": 0
+          },
+          "poses": {
+            "maxItems": 0
+          },
+          "transicoesPose": {
+            "maxItems": 0
+          },
+          "veiculos": {
+            "maxItems": 0
+          },
+          "portas": {
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "empurraoAviao"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao"
+        ],
+        "properties": {
+          "id": {
+            "const": "EP07_C05"
+          },
+          "encenacao": {
+            "const": "serie_v1"
+          },
+          "ambiente": {
+            "properties": {
+              "local": {
+                "const": "CANAL_LS"
+              }
+            }
+          },
+          "elenco": {
+            "minItems": 3,
+            "maxItems": 3,
+            "allOf": [
+              {
+                "contains": {
+                  "properties": {
+                    "personagem": {
+                      "const": "DJANIRA_POBRE"
+                    }
+                  },
+                  "required": [
+                    "personagem"
+                  ]
+                }
+              },
+              {
+                "contains": {
+                  "properties": {
+                    "personagem": {
+                      "const": "O_CHEFE"
+                    }
+                  },
+                  "required": [
+                    "personagem"
+                  ]
+                }
+              },
+              {
+                "contains": {
+                  "properties": {
+                    "personagem": {
+                      "const": "DINJER"
+                    }
+                  },
+                  "required": [
+                    "personagem"
+                  ]
+                }
+              }
+            ]
+          },
+          "roteiro": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "tipo": {
+                  "const": "pausa"
+                },
+                "duracaoSegundos": {
+                  "const": 5
+                }
+              }
+            }
+          },
+          "camera": {
+            "properties": {
+              "modo": {
+                "const": "automatico"
+              }
+            }
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "direcao": {
+            "maxItems": 0
+          },
+          "interpretacao": {
+            "maxItems": 0
+          },
+          "objetos": {
+            "maxItems": 0
+          },
+          "poses": {
+            "maxItems": 0
+          },
+          "transicoesPose": {
+            "maxItems": 0
+          },
+          "veiculos": {
+            "maxItems": 0
+          },
+          "portas": {
+            "maxItems": 0
+          },
+          "saidaAgua": {
+            "not": {}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "armarioModular"
+        ]
+      },
+      "then": {
+        "required": [
+          "encenacao",
+          "objetos",
+          "interpretacao"
+        ],
+        "properties": {
+          "id": {
+            "const": "EP05_C04"
+          },
+          "encenacao": {
+            "const": "serie_v1"
+          },
+          "ambiente": {
+            "properties": {
+              "local": {
+                "const": "CASA_VO_INTERIOR"
+              }
+            }
+          },
+          "elenco": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "personagem": {
+                  "const": "DJANIRA_POBRE"
+                },
+                "olharPara": {
+                  "type": "null"
+                }
+              }
+            }
+          },
+          "roteiro": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "required": [
+                "narrador"
+              ],
+              "properties": {
+                "tipo": {
+                  "const": "narracao"
+                },
+                "duracaoSegundos": {
+                  "const": 8
+                },
+                "texto": {
+                  "const": "Minha melhor roupa. Eu abri o armário e fiquei olhando pra ele um tempo. Eu tinha duas roupas. Uma de trabalhar e uma de ir na igreja."
+                },
+                "narrador": {
+                  "const": "Narrador"
+                }
+              }
+            }
+          },
+          "camera": {
+            "properties": {
+              "objeto": {
+                "not": {}
+              }
+            }
+          },
+          "objetos": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "id": {
+                  "const": "ARMARIO_DJANIRA"
+                },
+                "recurso": {
+                  "const": "porta_armario"
+                },
+                "assentarNoChao": {
+                  "const": true
+                },
+                "visivelInicial": {
+                  "const": true
+                },
+                "attachmentInicial": {
+                  "not": {}
+                },
+                "apoioInicial": {
+                  "not": {}
+                },
+                "eventos": {
+                  "maxItems": 0
+                }
+              }
+            }
+          },
+          "interpretacao": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "required": [
+                "expressao"
+              ],
+              "properties": {
+                "personagem": {
+                  "const": "DJANIRA_POBRE"
+                },
+                "inicioSegundos": {
+                  "const": 0
+                },
+                "duracaoSegundos": {
+                  "const": 8
+                },
+                "expressao": {
+                  "const": "chateado"
+                },
+                "olhar": {
+                  "not": {}
+                }
+              }
+            }
+          },
+          "saidaAgua": {
+            "not": {}
+          },
+          "empurraoAviao": {
+            "not": {}
+          },
+          "acoes": {
+            "maxItems": 0
+          },
+          "direcao": {
+            "maxItems": 0
+          },
+          "poses": {
+            "maxItems": 0
+          },
+          "transicoesPose": {
+            "maxItems": 0
+          },
+          "veiculos": {
+            "maxItems": 0
+          },
+          "portas": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

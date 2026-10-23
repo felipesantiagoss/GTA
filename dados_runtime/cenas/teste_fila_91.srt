@@ -1,0 +1,16 @@
+1
+00:00:07,000 --> 00:00:11,000
+Djanira: Este é o visual de Djanira.
+
+2
+00:00:11,000 --> 00:00:15,000
+Djanira: Este é o visual de Djanira.
+
+3
+00:00:15,000 --> 00:00:19,000
+Dinjer: Este é o visual de Dinjer.
+
+4
+00:00:19,000 --> 00:00:23,000
+Dona Iraci: Este é o visual de Dona Iraci.
+

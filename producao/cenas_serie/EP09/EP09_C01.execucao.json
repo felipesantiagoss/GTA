@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP09_C01",
+  "episodio": 9,
+  "numero": 1,
+  "nome": "O ENTERRO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 973,
+    "linhaFim": 981,
+    "sha256BlocoUtf8": "026FE6FE0519ED04DF12DE71A1270ACC81EC59C10273B9FB15A8850A56511C90",
+    "raw": "### EP09_C01 · O ENTERRO\n`local:` IGREJA_CHAPARRAL · `hora:` 10:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 13s · `gravar:` SIM\n\n**Ação:** Djanira sozinha na frente de uma cova. Ninguém mais em cena. É a solidão que conta a história.\n\n**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:\n> \"Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.\"\n\n"
+  },
+  "original": {
+    "local": "IGREJA_CHAPARRAL",
+    "locaisCodigos": [
+      "IGREJA_CHAPARRAL"
+    ],
+    "hora": "10:00",
+    "clima": "nublado",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 13000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      974,
+      975
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:",
+      "textoOriginal": "> \"Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 979,
+      "linhaTexto": 980,
+      "inicioMs": 0,
+      "fimMs": 13000,
+      "duracaoMs": 13000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 13000,
+    "blocosDeclaradosMs": 13000,
+    "conteudoPlanejadoMs": 13000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 16000,
+    "fimUltimaLegendaMs": 16000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 977,
+      "raw": "**Ação:** Djanira sozinha na frente de uma cova. Ninguém mais em cena. É a solidão que conta a história.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:IGREJA_CHAPARRAL",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:ambiente_mobiliario",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP09_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

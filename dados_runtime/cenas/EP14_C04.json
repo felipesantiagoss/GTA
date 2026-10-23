@@ -1,0 +1,106 @@
+{
+  "versao": 1,
+  "id": "EP14_C04",
+  "episodio": 14,
+  "numero": 4,
+  "nome": "DE JOELHOS",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "23:25",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 10,
+      "plano": "DOIS",
+      "personagem": "DINJER"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "E você acreditou.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Eu precisava acreditar, Djanira! Eu precisava!",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 10,
+      "recurso": "ajoelhar_entrada_f",
+      "loop": false,
+      "corpoInteiro": true,
+      "manterPoseFinal": true
+    }
+  ],
+  "interpretacao": []
+}

@@ -1,0 +1,16 @@
+{
+  "versao": 1,
+  "id": "EP01_EXTRA_IRACI_BAR",
+  "episodio": 1,
+  "numero": 0,
+  "nome": "EXTRA — IRACI BEBENDO NO BAR",
+  "ambiente": {"local": "EXTRA_BAR_IRACI", "hora": "23:00", "clima": "limpo", "raioLimpeza": 40, "distanciaFrente": 1},
+  "elenco": [{"personagem": "DONA_IRACI", "marca": {"direita": 0, "frente": 0, "altura": 0}}],
+  "camera": {"modo": "programado", "planoInicial": "MEDIA", "personagem": "DONA_IRACI", "planoFinal": "MEDIA", "cortes": [{"inicioSegundos": 0, "plano": "MEDIA", "personagem": "DONA_IRACI"}]},
+  "roteiro": [{"tipo": "pausa", "duracaoSegundos": 8}],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [{"tipo": "clipe", "personagem": "DONA_IRACI", "inicioSegundos": 0, "duracaoSegundos": 8, "recurso": "beber_gole_f", "loop": true, "corpoInteiro": true, "manterPoseFinal": true}],
+  "objetos": [{"id": "BEBIDA_IRACI", "recurso": "garrafa_cerveja", "marca": {"direita": 0, "frente": 0, "altura": 0}, "rotacao": 0, "assentarNoChao": false, "visivelInicial": true, "attachmentInicial": {"personagem": "DONA_IRACI", "mao": "direita", "offset": {"x": 0, "y": 0, "z": 0.05}, "rotacao": {"x": 15, "y": 15, "z": 0}}, "eventos": []}],
+  "interpretacao": [{"personagem": "DONA_IRACI", "inicioSegundos": 0, "duracaoSegundos": 8, "expressao": "feliz"}]
+}

@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP10_C02",
+  "episodio": 10,
+  "numero": 2,
+  "nome": "OS SERVIÇOS",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1070,
+    "linhaFim": 1078,
+    "sha256BlocoUtf8": "173E0A9066963845C84589B06E618FA9D881D87B7E524D309529D1541996719D",
+    "raw": "### EP10_C02 · OS SERVIÇOS\n`local:` RUA_STRAWBERRY · `hora:` 05:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira num ponto de ônibus, esperando, de uniforme de faxina.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.\"\n\n"
+  },
+  "original": {
+    "local": "RUA_STRAWBERRY",
+    "locaisCodigos": [
+      "RUA_STRAWBERRY"
+    ],
+    "hora": "05:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1071,
+      1072
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1076,
+      "linhaTexto": 1077,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1074,
+      "raw": "**Ação:** Djanira num ponto de ônibus, esperando, de uniforme de faxina.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:RUA_STRAWBERRY",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:figurino_conflito",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP10_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

@@ -1,0 +1,3262 @@
+{
+  "versao": 1,
+  "tipoDocumento": "adaptadores_ep08_ep15",
+  "cenas": [
+    {
+      "id": "EP08_C01",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C01.json",
+      "sha256": "601DA7DA212F9EDA4B2CA1510C30BFE8B8651E994AE0800623991DC2AC6CE9BF",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 877,
+        "linhaFim": 885,
+        "sha256BlocoUtf8": "85B5FA059F8A4FF5891C3234D771BE43B7B9764C101BB33F324719801E5007D7",
+        "raw": "### EP08_C01 · SAINDO DA ÁGUA\n`local:` CANAL_LS · `hora:` 06:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira sai da água do canal, encharcada, subindo a rampa de concreto com dificuldade. Expressão `machucado`.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"A água me quebrou três costelas. Mas quebrar não é morrer.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 881,
+          "raw": "**Ação:** Djanira sai da água do canal, encharcada, subindo a rampa de concreto com dificuldade. Expressão `machucado`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "A água me quebrou três costelas. Mas quebrar não é morrer.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+          "textoOriginal": "> \"A água me quebrou três costelas. Mas quebrar não é morrer.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 883,
+          "linhaTexto": 884,
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        }
+      ],
+      "conteudoOriginalMs": 6000,
+      "conteudoFonteMs": 32000,
+      "adaptaçõesTecnicas": [
+        "Bruto32s permite emersão/rampa físicas; voz6s integral e recortes externos de6s após getters reais."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP08_C02",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C02.json",
+      "sha256": "239A8644E062B387EA6828CBA16EA386F71A30180E71CD8EBCA9C8265EB64F2F",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 888,
+        "linhaFim": 896,
+        "sha256BlocoUtf8": "AF4C5A7827C78BFAF1BF51B6E16FC8953DB3CFAF0AD80F947EEE3DF438B2C435",
+        "raw": "### EP08_C02 · DOIS DIAS DE VOLTA\n`local:` ESTRADA_SENORA · `hora:` 06:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 11s · `gravar:` SIM\n\n**Ação:** Djanira andando descalça na beira da estrada, ao nascer do sol. Câmera o mais longe possível.\n\n**NARRAÇÃO** — DJANIRA — 11s *(sem boca)*:\n> \"Eu levei dois dias pra voltar pra casa. A pé e de carona, com um sapato só e a roupa de igreja rasgada. Eu não chorei nenhuma vez. Eu só pensava na minha avó esperando na porta.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 892,
+          "raw": "**Ação:** Djanira andando descalça na beira da estrada, ao nascer do sol. Câmera o mais longe possível.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu levei dois dias pra voltar pra casa. A pé e de carona, com um sapato só e a roupa de igreja rasgada. Eu não chorei nenhuma vez. Eu só pensava na minha avó esperando na porta.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 11s *(sem boca)*:",
+          "textoOriginal": "> \"Eu levei dois dias pra voltar pra casa. A pé e de carona, com um sapato só e a roupa de igreja rasgada. Eu não chorei nenhuma vez. Eu só pensava na minha avó esperando na porta.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 894,
+          "linhaTexto": 895,
+          "inicioMs": 0,
+          "fimMs": 11000,
+          "duracaoMs": 11000
+        }
+      ],
+      "conteudoOriginalMs": 11000,
+      "conteudoFonteMs": 11000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP08_C03",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C03.json",
+      "sha256": "B3A344C5D98B5FDCFF258A02C9DF01F40ACF954F4E41E8FAD9A6321FD34FEC7B",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 899,
+        "linhaFim": 917,
+        "sha256BlocoUtf8": "E9E09770DD6FF5F05FC3425B9800DF0357E57108ECADBBC66313129FC223B0B8",
+        "raw": "### EP08_C03 · A REVELAÇÃO\n`local:` CASA_VO · `hora:` 20:00 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 42s · `gravar:` SIM\n\n> 🔴 **A cena mais importante do primeiro bloco.** Cortes lentos, planos fechados, deixe respirar.\n\n**Ação:** A avó deitada, muito pior. Chama a Djanira para perto e conta tudo.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\" | 8s | implorando |\n| 2 | DONA_IRACI | \"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\" | 6s | neutro |\n| 3 | DJANIRA | \"A senhora tá delirando, vó. É o remédio.\" | 4s | negando |\n| 4 | DONA_IRACI | \"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\" | 12s | explicando |\n| 5 | DJANIRA | \"Por que é que a senhora nunca me contou isso?\" | 4s | neutro |\n| 6 | DONA_IRACI | \"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\" | 8s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 905,
+          "raw": "**Ação:** A avó deitada, muito pior. Chama a Djanira para perto e conta tudo.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.",
+          "textoOriginal": "\"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 911,
+          "raw": "| 1 | DONA_IRACI | \"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\" | 8s | implorando |",
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Teu pai não morreu pobre. Teu pai morreu muito, muito rico.",
+          "textoOriginal": "\"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 912,
+          "raw": "| 2 | DONA_IRACI | \"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\" | 6s | neutro |",
+          "inicioMs": 8000,
+          "fimMs": 14000,
+          "duracaoMs": 6000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DJANIRA",
+          "texto": "A senhora tá delirando, vó. É o remédio.",
+          "textoOriginal": "\"A senhora tá delirando, vó. É o remédio.\"",
+          "gestoOriginal": "negando",
+          "boca": true,
+          "linhaInicio": 913,
+          "raw": "| 3 | DJANIRA | \"A senhora tá delirando, vó. É o remédio.\" | 4s | negando |",
+          "inicioMs": 14000,
+          "fimMs": 18000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.",
+          "textoOriginal": "\"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 914,
+          "raw": "| 4 | DONA_IRACI | \"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\" | 12s | explicando |",
+          "inicioMs": 18000,
+          "fimMs": 30000,
+          "duracaoMs": 12000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "DJANIRA",
+          "texto": "Por que é que a senhora nunca me contou isso?",
+          "textoOriginal": "\"Por que é que a senhora nunca me contou isso?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 915,
+          "raw": "| 5 | DJANIRA | \"Por que é que a senhora nunca me contou isso?\" | 4s | neutro |",
+          "inicioMs": 30000,
+          "fimMs": 34000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 6,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.",
+          "textoOriginal": "\"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 916,
+          "raw": "| 6 | DONA_IRACI | \"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\" | 8s | neutro |",
+          "inicioMs": 34000,
+          "fimMs": 42000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 42000,
+      "conteudoFonteMs": 42000,
+      "adaptaçõesTecnicas": [
+        "Djanira inicia ereta no ponto medido do enter_fwd, senta durante o chamado2–7s e precisa confirmar pelve/pés antes da sua fala14s.",
+        "CASA_VO_INTERIOR exige a submarca real do quarto; distanciaFrente1 e frente-1 anulam o avanço para apoiar cama/cadeira no piso capturado, sem XYZ inventado."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP08_C04",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C04.json",
+      "sha256": "18D39EE607D6D343B6504B0D60035557B35E5077A8E00AE8DA0BE8CCA07012D1",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 920,
+        "linhaFim": 936,
+        "sha256BlocoUtf8": "C309DDF2953C01DBB590298860F22E1676FF3518C431F3B8EB8E45BB2DEA1816",
+        "raw": "### EP08_C04 · A CONFISSÃO DO CASSINO\n`local:` CASA_VO · `hora:` 20:30 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n**Ação:** A avó desvia o olhar, envergonhada.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\" | 8s | neutro |\n| 2 | DJANIRA | \"A senhora ia aonde?\" | 3s | neutro |\n| 3 | DONA_IRACI | \"Eu ia jogar. No cassino.\" | 4s | neutro |\n| 4 | DONA_IRACI | \"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\" | 15s | implorando |\n\n> 💡 **Insira aqui o flashback da EP01_C05** — a avó saindo do hospital e entrando no cassino. Agora o público entende.\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 924,
+          "raw": "**Ação:** A avó desvia o olhar, envergonhada.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.",
+          "textoOriginal": "\"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 930,
+          "raw": "| 1 | DONA_IRACI | \"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\" | 8s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "A senhora ia aonde?",
+          "textoOriginal": "\"A senhora ia aonde?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 931,
+          "raw": "| 2 | DJANIRA | \"A senhora ia aonde?\" | 3s | neutro |",
+          "inicioMs": 8000,
+          "fimMs": 11000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Eu ia jogar. No cassino.",
+          "textoOriginal": "\"Eu ia jogar. No cassino.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 932,
+          "raw": "| 3 | DONA_IRACI | \"Eu ia jogar. No cassino.\" | 4s | neutro |",
+          "inicioMs": 11000,
+          "fimMs": 15000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.",
+          "textoOriginal": "\"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 933,
+          "raw": "| 4 | DONA_IRACI | \"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\" | 15s | implorando |",
+          "inicioMs": 15000,
+          "fimMs": 30000,
+          "duracaoMs": 15000
+        }
+      ],
+      "conteudoOriginalMs": 30000,
+      "conteudoFonteMs": 30000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP08_C05",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C05.json",
+      "sha256": "3E8B2943F9AC08DBC60FC1D695F325C4316B07843B135629EB6E5F45873B734D",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 939,
+        "linhaFim": 950,
+        "sha256BlocoUtf8": "CED52305B5CCAF72A5F5227E6BE33F6ACC9DCFC6E4799D56FA16AE6F9DB59961",
+        "raw": "### EP08_C05 · O PAPEL\n`local:` CASA_VO · `hora:` 21:00 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` PERTO · `dur:` 12s · `gravar:` SIM\n\n**Ação:** A avó entrega um papel dobrado na mão da Djanira. Close nas mãos.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\" | 9s | implorando |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 943,
+          "raw": "**Ação:** A avó entrega um papel dobrado na mão da Djanira. Close nas mãos.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DONA_IRACI",
+          "texto": "Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.",
+          "textoOriginal": "\"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 949,
+          "raw": "| 1 | DONA_IRACI | \"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\" | 9s | implorando |",
+          "inicioMs": 0,
+          "fimMs": 9000,
+          "duracaoMs": 9000
+        }
+      ],
+      "conteudoOriginalMs": 9000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "Carta usa prop_amanda_note_01 da PropList9538, alias carta_simples já catalogado; modelo, dobra, leitura e contato em mão ainda exigem imagem/getters, sem alegar transições prontas."
+      ],
+      "pendenciasFisicas": [
+        "Modelo papel existente não comprova dobra visível; abertura posterior precisa recurso confirmado."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP08_C06",
+      "arquivo": "producao\\cenas_serie\\EP08\\EP08_C06.json",
+      "sha256": "C8C1598DB910C85C1229A550BEC881526797D0B535B08491FAA5E37E1B30DE11",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 953,
+        "linhaFim": 964,
+        "sha256BlocoUtf8": "1133A74AD002EDC5F6A0A5F61D290F061242EEBC8BE2B02C311E5E666B931E1B",
+        "raw": "### EP08_C06 · A MORTE\n`local:` CASA_VO · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira parada na porta do quarto, de costas para a câmera. **Não mostre a avó.** Corte para o preto.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Minha avó morreu naquela noite. E eu fiquei com um papel na mão e ninguém no mundo.\"\n\n**NARRADOR** — 7s:\n> \"Um nome escrito num papel. Uma fortuna que ela não pode tocar. E uma menina sozinha no mundo. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 957,
+          "raw": "**Ação:** Djanira parada na porta do quarto, de costas para a câmera. **Não mostre a avó.** Corte para o preto.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Minha avó morreu naquela noite. E eu fiquei com um papel na mão e ninguém no mundo.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+          "textoOriginal": "> \"Minha avó morreu naquela noite. E eu fiquei com um papel na mão e ninguém no mundo.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 959,
+          "linhaTexto": 960,
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Um nome escrito num papel. Uma fortuna que ela não pode tocar. E uma menina sozinha no mundo. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"Um nome escrito num papel. Uma fortuna que ela não pode tocar. E uma menina sozinha no mundo. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 962,
+          "linhaTexto": 963,
+          "inicioMs": 7000,
+          "fimMs": 14000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 14000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [
+        "Marca na porta do quarto capturada olhando para dentro; costas do ator e câmera são relativas, corte preto externo.",
+        "Carta usa prop_amanda_note_01 da PropList9538, alias carta_simples já catalogado; modelo, dobra, leitura e contato em mão ainda exigem imagem/getters, sem alegar transições prontas."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C01",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C01.json",
+      "sha256": "DC5591254B635A9E08FBA6C90F5F51D595211955F27D365CF27A8ED304643D80",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 973,
+        "linhaFim": 981,
+        "sha256BlocoUtf8": "026FE6FE0519ED04DF12DE71A1270ACC81EC59C10273B9FB15A8850A56511C90",
+        "raw": "### EP09_C01 · O ENTERRO\n`local:` IGREJA_CHAPARRAL · `hora:` 10:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 13s · `gravar:` SIM\n\n**Ação:** Djanira sozinha na frente de uma cova. Ninguém mais em cena. É a solidão que conta a história.\n\n**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:\n> \"Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 977,
+          "raw": "**Ação:** Djanira sozinha na frente de uma cova. Ninguém mais em cena. É a solidão que conta a história.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:",
+          "textoOriginal": "> \"Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 979,
+          "linhaTexto": 980,
+          "inicioMs": 0,
+          "fimMs": 13000,
+          "duracaoMs": 13000
+        }
+      ],
+      "conteudoOriginalMs": 13000,
+      "conteudoFonteMs": 13000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [
+        "Capturar marca real diante de túmulo existente emIGREJA_CHAPARRAL; nenhum túmulo/coordenada simulado."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C02",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C02.json",
+      "sha256": "2B34D6D978642DDE466CF9EB5551AF180B3F8E21E85FC49B8EE25A43ECE305F9",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 984,
+        "linhaFim": 994,
+        "sha256BlocoUtf8": "1DC81334355A47FDE125E14D4A7C04CC332001595C37D69FBA4BE1F82EFCE2E0",
+        "raw": "### EP09_C02 · O PAPEL ABERTO\n`local:` CASA_VO · `hora:` 11:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira abre o papel dobrado. Close no papel e no rosto dela.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro.\"\n\n> 🔴 **Plantado aqui, colhido no Episódio 11.** Ela não lê a segunda linha. O público também não vê.\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 988,
+          "raw": "**Ação:** Djanira abre o papel dobrado. Close no papel e no rosto dela.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+          "textoOriginal": "> \"Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 990,
+          "linhaTexto": 991,
+          "inicioMs": 0,
+          "fimMs": 9000,
+          "duracaoMs": 9000
+        }
+      ],
+      "conteudoOriginalMs": 9000,
+      "conteudoFonteMs": 9000,
+      "adaptaçõesTecnicas": [
+        "Carta usa prop_amanda_note_01 da PropList9538, alias carta_simples já catalogado; modelo, dobra, leitura e contato em mão ainda exigem imagem/getters, sem alegar transições prontas."
+      ],
+      "pendenciasFisicas": [
+        "Desdobrar/abrir folha/envelope ainda sem par+mesh primário confirmado; leitura real do recurso candidato não prova essa transição."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C03",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C03.json",
+      "sha256": "9A1764D4D0A28D8150FAD712304457AC54DE04E52AC00FA85235846AC64B1829",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 997,
+        "linhaFim": 1005,
+        "sha256BlocoUtf8": "D035D696BF4FFB0009F073C370BCCE67DD411091CD2B75F28336292D5562F720",
+        "raw": "### EP09_C03 · O BANCO\n`local:` BANCO_MAZE · `hora:` 14:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira parada na calçada, olhando o prédio enorme. Câmera baixa — o prédio gigante, ela minúscula.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"E eu fui atrás do dinheiro.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1001,
+          "raw": "**Ação:** Djanira parada na calçada, olhando o prédio enorme. Câmera baixa — o prédio gigante, ela minúscula.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "E eu fui atrás do dinheiro.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+          "textoOriginal": "> \"E eu fui atrás do dinheiro.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1003,
+          "linhaTexto": 1004,
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        }
+      ],
+      "conteudoOriginalMs": 6000,
+      "conteudoFonteMs": 6000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C04",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C04.json",
+      "sha256": "778A254ADE37FC1088BDAB9318AC6DB70CFEE64C46C640CFB8E43811549E1FF9",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1008,
+        "linhaFim": 1023,
+        "sha256BlocoUtf8": "264CDD5C1A82484CFA9D35FB439D3F318FC7424D0158747654CD3B7C589A88CA",
+        "raw": "### EP09_C04 · TRÊS ANOS\n`local:` BANCO_MAZE · `hora:` 14:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 24s · `gravar:` SIM\n\n**Ação:** Djanira sentada na frente de um atendente.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | ATENDENTE | \"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\" | 8s | explicando |\n| 2 | DJANIRA | \"Como assim?\" | 2s | neutro |\n| 3 | ATENDENTE | \"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\" | 8s | explicando |\n| 4 | DJANIRA | \"Faltam quantos anos?\" | 3s | neutro |\n| 5 | ATENDENTE | \"Três.\" | 2s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1012,
+          "raw": "**Ação:** Djanira sentada na frente de um atendente.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "ATENDENTE",
+          "texto": "A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.",
+          "textoOriginal": "\"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1018,
+          "raw": "| 1 | ATENDENTE | \"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\" | 8s | explicando |",
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Como assim?",
+          "textoOriginal": "\"Como assim?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1019,
+          "raw": "| 2 | DJANIRA | \"Como assim?\" | 2s | neutro |",
+          "inicioMs": 8000,
+          "fimMs": 10000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "ATENDENTE",
+          "texto": "É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.",
+          "textoOriginal": "\"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1020,
+          "raw": "| 3 | ATENDENTE | \"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\" | 8s | explicando |",
+          "inicioMs": 10000,
+          "fimMs": 18000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DJANIRA",
+          "texto": "Faltam quantos anos?",
+          "textoOriginal": "\"Faltam quantos anos?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1021,
+          "raw": "| 4 | DJANIRA | \"Faltam quantos anos?\" | 3s | neutro |",
+          "inicioMs": 18000,
+          "fimMs": 21000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "ATENDENTE",
+          "texto": "Três.",
+          "textoOriginal": "\"Três.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1022,
+          "raw": "| 5 | ATENDENTE | \"Três.\" | 2s | neutro |",
+          "inicioMs": 21000,
+          "fimMs": 23000,
+          "duracaoMs": 2000
+        }
+      ],
+      "conteudoOriginalMs": 23000,
+      "conteudoFonteMs": 24000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C05",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C05.json",
+      "sha256": "19E773ECDF81DF83394BDB4127F9C7FF08ED9320C8117EDDDC27DD8431ADD5D4",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1026,
+        "linhaFim": 1034,
+        "sha256BlocoUtf8": "0F8E224DD8CB02FB3D87042477F584CE373EAB48348F110E84C6EA5071AAF344",
+        "raw": "### EP09_C05 · A SAÍDA DE CASA\n`local:` CASA_VO · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Djanira sai de casa com uma sacola, de costas. Câmera parada. Ela some do quadro sozinha.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1030,
+          "raw": "**Ação:** Djanira sai de casa com uma sacola, de costas. Câmera parada. Ela some do quadro sozinha.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+          "textoOriginal": "> \"No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1032,
+          "linhaTexto": 1033,
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 10000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP09_C06",
+      "arquivo": "producao\\cenas_serie\\EP09\\EP09_C06.json",
+      "sha256": "C821EA769614EE8466D82A14B21F30456B2053645F3811EE7DFE6FB26FA2A5A1",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1037,
+        "linhaFim": 1048,
+        "sha256BlocoUtf8": "8CF59A7827A5FF606357C9435AD675CE804D163F4C2BCC2690C2471EFD785F76",
+        "raw": "### EP09_C06 · O ÔNIBUS\n`local:` ESTRADA_SENORA · `hora:` 09:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.\"\n\n**NARRADOR** — 7s:\n> \"Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1041,
+          "raw": "**Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+          "textoOriginal": "> \"Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1043,
+          "linhaTexto": 1044,
+          "inicioMs": 0,
+          "fimMs": 12000,
+          "duracaoMs": 12000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1046,
+          "linhaTexto": 1047,
+          "inicioMs": 12000,
+          "fimMs": 19000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 19000,
+      "conteudoFonteMs": 19000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C01",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C01.json",
+      "sha256": "C7F875644D4DD6A2601E23FAD142A7FE593DDE9AFFF38706D5AB194E26129829",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1059,
+        "linhaFim": 1067,
+        "sha256BlocoUtf8": "9F0A26B18927DD950C3CAA60F0586FACF6E490B73D91262CE7CE0116190504AD",
+        "raw": "### EP10_C01 · O BANCO DE PRAÇA\n`local:` PRAIA_DELPERRO · `hora:` 03:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Djanira dormindo num banco, abraçada na sacola.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1063,
+          "raw": "**Ação:** Djanira dormindo num banco, abraçada na sacola.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+          "textoOriginal": "> \"No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1065,
+          "linhaTexto": 1066,
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 10000,
+      "adaptaçõesTecnicas": [
+        "Abraço exige duas mãos e tronco a até0.35m do volume real da sacola anexada, antes de Ready e em cada Tick; sono sozinho não comprova contato."
+      ],
+      "pendenciasFisicas": [
+        "Alinhamento de corpo/banco e contato das duas mãos/tronco na sacola precisam getters e imagem reais; nenhum offset deitado arbitrário."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C02",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C02.json",
+      "sha256": "F40476CFF9A900364018A13412A45CEAB7304809FCF8697E20FEE1807E0491F6",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1070,
+        "linhaFim": 1078,
+        "sha256BlocoUtf8": "173E0A9066963845C84589B06E618FA9D881D87B7E524D309529D1541996719D",
+        "raw": "### EP10_C02 · OS SERVIÇOS\n`local:` RUA_STRAWBERRY · `hora:` 05:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira num ponto de ônibus, esperando, de uniforme de faxina.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1074,
+          "raw": "**Ação:** Djanira num ponto de ônibus, esperando, de uniforme de faxina.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+          "textoOriginal": "> \"Eu lavei prato, limpei chão, carreguei caixa, entreguei panfleto. Eu fiz tudo que apareceu e nunca perguntei quanto pagava antes de aceitar.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1076,
+          "linhaTexto": 1077,
+          "inicioMs": 0,
+          "fimMs": 9000,
+          "duracaoMs": 9000
+        }
+      ],
+      "conteudoOriginalMs": 9000,
+      "conteudoFonteMs": 9000,
+      "adaptaçõesTecnicas": [
+        "Marca de ponto de ônibus real; conserva figurino pobre registrado em vez de gerar uniforme extra."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C03",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C03.json",
+      "sha256": "A3F1E8179E306BA0C21F54E0D6232527B65D4DC636A9D5C799F22E913F1DBC38",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1081,
+        "linhaFim": 1089,
+        "sha256BlocoUtf8": "66DE64BC68F0B9FDEDC1C5F1E9B800516B507B45ABAD2A4429CDD56E94463BF5",
+        "raw": "### EP10_C03 · AS QUATRO DA MANHÃ\n`local:` RUA_STRAWBERRY · `hora:` 04:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Djanira andando sozinha na rua vazia, ainda escuro.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1085,
+          "raw": "**Ação:** Djanira andando sozinha na rua vazia, ainda escuro.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+          "textoOriginal": "> \"Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1087,
+          "linhaTexto": 1088,
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 8000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C04",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C04.json",
+      "sha256": "C2317E4DB134DA17196D2692E0411A8B8C9395D463FC78EBEA8125CC06583ACC",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1092,
+        "linhaFim": 1100,
+        "sha256BlocoUtf8": "EF145026BC9C67552C6ED00CEC51BCA4BBEC126941385927BCB4DCFBA798119B",
+        "raw": "### EP10_C04 · O VIADUTO\n`local:` VIADUTO_LAPUERTA · `hora:` 23:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira andando embaixo do viaduto à noite.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu dormia embaixo de um viaduto sendo dona de um prédio que eu nunca vi.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1096,
+          "raw": "**Ação:** Djanira andando embaixo do viaduto à noite.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu dormia embaixo de um viaduto sendo dona de um prédio que eu nunca vi.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+          "textoOriginal": "> \"Eu dormia embaixo de um viaduto sendo dona de um prédio que eu nunca vi.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1098,
+          "linhaTexto": 1099,
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 7000,
+      "conteudoFonteMs": 7000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C05",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C05.json",
+      "sha256": "A64F8B389F2128EF7C6756F095C42EC29B51ACD60A4A7B16E09F605C2B2BE875",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1103,
+        "linhaFim": 1111,
+        "sha256BlocoUtf8": "6558BA332FA3DA6A67FBF549F97D7B65FDDDBADD88D7D098DD8A37F330421820",
+        "raw": "### EP10_C05 · A INVISÍVEL\n`local:` CENTRO_LEGION · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1107,
+          "raw": "**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+          "textoOriginal": "> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1109,
+          "linhaTexto": 1110,
+          "inicioMs": 0,
+          "fimMs": 9000,
+          "duracaoMs": 9000
+        }
+      ],
+      "conteudoOriginalMs": 9000,
+      "conteudoFonteMs": 9000,
+      "adaptaçõesTecnicas": [
+        "Três figurantes próprios reutilizam XMLs registrados; ninguém recebe boca por narração."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C06",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C06.json",
+      "sha256": "6E96B6B2A237B5A52A08D4B08A11DAD2CD498E025B76FA8F5BB85BEA57AA9C56",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1114,
+        "linhaFim": 1122,
+        "sha256BlocoUtf8": "4835065C2740891F954CCD35DDA1DBCB5906044EA1D5D4AB89CC532FF4BF2D45",
+        "raw": "### EP10_C06 · O CALENDÁRIO\n`local:` VIADUTO_LAPUERTA · `hora:` 22:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Close na Djanira riscando algo com a mão. O calendário em si você monta no CapCut.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1118,
+          "raw": "**Ação:** Close na Djanira riscando algo com a mão. O calendário em si você monta no CapCut.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+          "textoOriginal": "> \"E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1120,
+          "linhaTexto": 1121,
+          "inicioMs": 0,
+          "fimMs": 14000,
+          "duracaoMs": 14000
+        }
+      ],
+      "conteudoOriginalMs": 14000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [
+        "Autoria RPEmotes notepad: mão esquerda18905 e lápis no58866; texto/calendário noCapCut, gesto real de anotação."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP10_C07",
+      "arquivo": "producao\\cenas_serie\\EP10\\EP10_C07.json",
+      "sha256": "9C1A6A352598F2C36D7AE45A7B2F270DE4BF4FEF85620DE1E2F6A24F4010F1C5",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1125,
+        "linhaFim": 1136,
+        "sha256BlocoUtf8": "C74600E34487905CF207A6423609485A6A443F8A9FBD5E8DE17C44FC0498D035",
+        "raw": "### EP10_C07 · O ÚLTIMO DIA\n`local:` VIADUTO_LAPUERTA · `hora:` 22:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 4s · `gravar:` SIM\n\n**Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos.\n\n**NARRAÇÃO** — DJANIRA — 4s *(sem boca)*:\n> \"E aí faltou um.\"\n\n**NARRADOR** — 6s:\n> \"Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1129,
+          "raw": "**Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "E aí faltou um.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 4s *(sem boca)*:",
+          "textoOriginal": "> \"E aí faltou um.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1131,
+          "linhaTexto": 1132,
+          "inicioMs": 0,
+          "fimMs": 4000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 6s:",
+          "textoOriginal": "> \"Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1134,
+          "linhaTexto": 1135,
+          "inicioMs": 4000,
+          "fimMs": 10000,
+          "duracaoMs": 6000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 10000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP11_C01",
+      "arquivo": "producao\\cenas_serie\\EP11\\EP11_C01.json",
+      "sha256": "FC21F01E98586984C2692442A51994DD35FB1A0188C1A929FCFA2B406A056B4E",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1145,
+        "linhaFim": 1155,
+        "sha256BlocoUtf8": "BA09F94A056F851A3CB940BC1075EEE6448FB79DDE2BA871960741BBBD223B81",
+        "raw": "### EP11_C01 · A MESMA ROUPA\n`local:` BANCO_MAZE · `hora:` 09:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n> ⚠️ Ainda é a **DJANIRA_POBRE**. A troca acontece só na próxima cena.\n\n**Ação:** Djanira entrando no banco com a roupa velha e o chinelo. O segurança a segue com o olhar.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1151,
+          "raw": "**Ação:** Djanira entrando no banco com a roupa velha e o chinelo. O segurança a segue com o olhar.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+          "textoOriginal": "> \"Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1153,
+          "linhaTexto": 1154,
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 8000,
+      "adaptaçõesTecnicas": [
+        "Exceção autorizada: figurino pobre nos dois trechos anteriores à transformação deEP11C03;13XMLs preservados.",
+        "CAPANGA_4 ocupa somente papel técnico de segurança; visual fixo preservado, teste visual pendente."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP11_C02",
+      "arquivo": "producao\\cenas_serie\\EP11\\EP11_C02.json",
+      "sha256": "6256876F8A22F6D5EAA762BA87BE68EB5792AFE22E0A79C0BB374114C1AEC373",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1158,
+        "linhaFim": 1170,
+        "sha256BlocoUtf8": "42688A64A446CEA793470E676F62217E7A04D56CD1480860329BA4E74E554BBF",
+        "raw": "### EP11_C02 · QUANTO CUSTOU\n`local:` BANCO_MAZE · `hora:` 09:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 12s · `gravar:` SIM\n\n**Ação:** O atendente olha a tela e muda de expressão.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |\n| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1162,
+          "raw": "**Ação:** O atendente olha a tela e muda de expressão.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "ATENDENTE",
+          "texto": "A senhora... tem noção de quanto tem nessa conta?",
+          "textoOriginal": "\"A senhora... tem noção de quanto tem nessa conta?\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1168,
+          "raw": "| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |",
+          "inicioMs": 0,
+          "fimMs": 5000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Não. Mas eu tenho noção de quanto me custou.",
+          "textoOriginal": "\"Não. Mas eu tenho noção de quanto me custou.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1169,
+          "raw": "| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |",
+          "inicioMs": 5000,
+          "fimMs": 10000,
+          "duracaoMs": 5000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "Exceção autorizada: figurino pobre nos dois trechos anteriores à transformação deEP11C03;13XMLs preservados.",
+        "Laptop assentado antescontagem na superfície real medida do apoio próprio; câmera deve mostrar a tela e preservar rostoATENDENTE oculto conforme original."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP11_C03",
+      "arquivo": "producao\\cenas_serie\\EP11\\EP11_C03.json",
+      "sha256": "8900E9EAAAE50F0B9E4991725835815D20A8088C8A6CBD6198A08FBE61E47E4D",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1173,
+        "linhaFim": 1183,
+        "sha256BlocoUtf8": "C532BF6232BB87079348CC95AD093122300725E50FFF395845DC6E432DD59F7C",
+        "raw": "### EP11_C03 · A TRANSFORMAÇÃO\n`local:` MANSAO_DJANIRA · `hora:` 13:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE → MEDIA → PERTO · `dur:` 14s · `gravar:` SIM\n\n> 🔴 **Aqui troca o figurino.** A partir desta cena é sempre `DJANIRA_RICA`, andar `na passarela`, expressão `convencido`.\n\n**Ação:** Montagem de 5 ou 6 tomadas curtas: saindo do carro, na frente da mansão, no portão, andando de salto.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Todo mundo acha que dinheiro muda as pessoas. Não muda. Dinheiro só tira a educação que a pobreza obrigava a gente a ter. Eu comprei uma casa, comprei um carro, comprei roupa que não coçava. E eu não senti absolutamente nada.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1179,
+          "raw": "**Ação:** Montagem de 5 ou 6 tomadas curtas: saindo do carro, na frente da mansão, no portão, andando de salto.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Todo mundo acha que dinheiro muda as pessoas. Não muda. Dinheiro só tira a educação que a pobreza obrigava a gente a ter. Eu comprei uma casa, comprei um carro, comprei roupa que não coçava. E eu não senti absolutamente nada.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+          "textoOriginal": "> \"Todo mundo acha que dinheiro muda as pessoas. Não muda. Dinheiro só tira a educação que a pobreza obrigava a gente a ter. Eu comprei uma casa, comprei um carro, comprei roupa que não coçava. E eu não senti absolutamente nada.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1181,
+          "linhaTexto": 1182,
+          "inicioMs": 0,
+          "fimMs": 14000,
+          "duracaoMs": 14000
+        }
+      ],
+      "conteudoOriginalMs": 14000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP11_C04",
+      "arquivo": "producao\\cenas_serie\\EP11\\EP11_C04.json",
+      "sha256": "960C1E030FAF25CCC4D0908DF6E96D4CDBC6071D8465E0737C4C8A0CE4D2919B",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1186,
+        "linhaFim": 1194,
+        "sha256BlocoUtf8": "D4BBA2C7617FBB0F56019EB3693182E8CF49F65A93A44A2396C8782ABFC26D0E",
+        "raw": "### EP11_C04 · A CAMA MACIA\n`local:` MANSAO_DJANIRA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Djanira sentada sozinha, no chão, numa sala enorme e vazia.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Na primeira noite eu dormi no chão. A cama era macia demais. Meu corpo não sabia mais dormir em cama.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1190,
+          "raw": "**Ação:** Djanira sentada sozinha, no chão, numa sala enorme e vazia.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Na primeira noite eu dormi no chão. A cama era macia demais. Meu corpo não sabia mais dormir em cama.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+          "textoOriginal": "> \"Na primeira noite eu dormi no chão. A cama era macia demais. Meu corpo não sabia mais dormir em cama.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1192,
+          "linhaTexto": 1193,
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 8000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP11_C05",
+      "arquivo": "producao\\cenas_serie\\EP11\\EP11_C05.json",
+      "sha256": "44386C6A183748D04D398A3EF33868860B88B8FC10A84F54FDD7471E24B0CA6D",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1197,
+        "linhaFim": 1210,
+        "sha256BlocoUtf8": "0334888F294E7D5B547D6EC408A205A0E0C88187542116553C9C1B11E0DECEAC",
+        "raw": "### EP11_C05 · A SEGUNDA LINHA\n`local:` MANSAO_DJANIRA · `hora:` 20:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` PERTO · `dur:` 20s · `gravar:` SIM\n\n> 🔴 **O gancho de toda a segunda metade da temporada.**\n\n**Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado.\n\n**NARRAÇÃO** — DJANIRA — 20s *(sem boca)*:\n> \"A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.\"\n\n**NARRADOR** — 7s:\n> \"O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1203,
+          "raw": "**Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 20s *(sem boca)*:",
+          "textoOriginal": "> \"A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1205,
+          "linhaTexto": 1206,
+          "inicioMs": 0,
+          "fimMs": 20000,
+          "duracaoMs": 20000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1208,
+          "linhaTexto": 1209,
+          "inicioMs": 20000,
+          "fimMs": 27000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 27000,
+      "conteudoFonteMs": 27000,
+      "adaptaçõesTecnicas": [
+        "Carta usa prop_amanda_note_01 da PropList9538, alias carta_simples já catalogado; modelo, dobra, leitura e contato em mão ainda exigem imagem/getters, sem alegar transições prontas."
+      ],
+      "pendenciasFisicas": [
+        "Desdobrar/abrir folha/envelope ainda sem par+mesh primário confirmado; leitura real do recurso candidato não prova essa transição.",
+        "Sequência física ainda deve separar recebimento do envelope e retirada da carta: dois props na mão direita desde0s não representam pegar o papel depois de receber."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP12_C01",
+      "arquivo": "producao\\cenas_serie\\EP12\\EP12_C01.json",
+      "sha256": "1F0E00AE5D08F181F8ACCC8694382A20C789AECABB42725EE49993BEACB18686",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1219,
+        "linhaFim": 1229,
+        "sha256BlocoUtf8": "A79E81095B172521FA7EE08283C34A0441762EA168231BEF42333A78155C6A59",
+        "raw": "### EP12_C01 · A MESMA PORTA\n`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**\n\n**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1225,
+          "raw": "**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+          "textoOriginal": "> \"Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1227,
+          "linhaTexto": 1228,
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "Restaurar câmera registradaEP06_C02_BASE e manter a mesma marcaBOATE_FORA; sem recriar o enquadramento por aproximação."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP12_C02",
+      "arquivo": "producao\\cenas_serie\\EP12\\EP12_C02.json",
+      "sha256": "438A5B17DA0DB9372BF20FAC554ADE41A2970FFC4D9C5118A0DC3732BC53F2CF",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1232,
+        "linhaFim": 1240,
+        "sha256BlocoUtf8": "DAA72F05C39C79F105681A0306F67FF25206F7C7F3ADD4CB48B8D2CA0487A173",
+        "raw": "### EP12_C02 · A MESA DO CHEFE\n`local:` BOATE_DENTRO · `hora:` 23:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1236,
+          "raw": "**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+          "textoOriginal": "> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1238,
+          "linhaTexto": 1239,
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        }
+      ],
+      "conteudoOriginalMs": 6000,
+      "conteudoFonteMs": 6000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP12_C03",
+      "arquivo": "producao\\cenas_serie\\EP12\\EP12_C03.json",
+      "sha256": "26282BDD6C5B60D6AB126E8D3351FB925384CADDDB4F45A0E1410669113805F7",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1243,
+        "linhaFim": 1266,
+        "sha256BlocoUtf8": "0DDE2CB610CE25EDC652A55ACD25E25FF2BD741378F6895C0E133730E494A710",
+        "raw": "### EP12_C03 · ELA NÃO RECONHECE\n`local:` BOATE_DENTRO · `hora:` 23:20 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 36s · `gravar:` SIM\n\n> 💡 A Dinjer está com o mesmo uniforme de sempre. A Djanira mudou tudo menos o rosto. **A Dinjer olha e não reconhece.**\n\n**Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Boa noite, senhora. Champanhe por conta da casa?\" | 4s | neutro |\n| 2 | DJANIRA | \"Você trabalha aqui há muito tempo?\" | 3s | neutro |\n| 3 | DINJER | \"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\" | 9s | explicando |\n| 4 | DJANIRA | \"E por que parou?\" | 2s | neutro |\n| 5 | DINJER | \"Ah... é complicado. Coisa de patrão.\" | 4s | negando |\n| 6 | DJANIRA | \"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\" | 5s | neutro |\n| 7 | DINJER | \"Ai, senhora, eu faço isso todo dia.\" | 3s | explicando |\n| 8 | DJANIRA | \"E teve alguma que doeu?\" | 3s | neutro |\n| 9 | DINJER | \"...Uma.\" | 2s | neutro |\n| 10 | DJANIRA | \"Conta.\" | 1s | neutro |\n| 11 | DINJER | \"Eu não posso, senhora. Se eu contar, eu morro.\" | 5s | implorando |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1249,
+          "raw": "**Ação:** Dinjer chega para servir, com uma bandeja. Conversa de cliente e garçonete.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DINJER",
+          "texto": "Boa noite, senhora. Champanhe por conta da casa?",
+          "textoOriginal": "\"Boa noite, senhora. Champanhe por conta da casa?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1255,
+          "raw": "| 1 | DINJER | \"Boa noite, senhora. Champanhe por conta da casa?\" | 4s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 4000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Você trabalha aqui há muito tempo?",
+          "textoOriginal": "\"Você trabalha aqui há muito tempo?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1256,
+          "raw": "| 2 | DJANIRA | \"Você trabalha aqui há muito tempo?\" | 3s | neutro |",
+          "inicioMs": 4000,
+          "fimMs": 7000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DINJER",
+          "texto": "Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.",
+          "textoOriginal": "\"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1257,
+          "raw": "| 3 | DINJER | \"Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.\" | 9s | explicando |",
+          "inicioMs": 7000,
+          "fimMs": 16000,
+          "duracaoMs": 9000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DJANIRA",
+          "texto": "E por que parou?",
+          "textoOriginal": "\"E por que parou?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1258,
+          "raw": "| 4 | DJANIRA | \"E por que parou?\" | 2s | neutro |",
+          "inicioMs": 16000,
+          "fimMs": 18000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "DINJER",
+          "texto": "Ah... é complicado. Coisa de patrão.",
+          "textoOriginal": "\"Ah... é complicado. Coisa de patrão.\"",
+          "gestoOriginal": "negando",
+          "boca": true,
+          "linhaInicio": 1259,
+          "raw": "| 5 | DINJER | \"Ah... é complicado. Coisa de patrão.\" | 4s | negando |",
+          "inicioMs": 18000,
+          "fimMs": 22000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 6,
+          "quemOriginal": "DJANIRA",
+          "texto": "Me diz uma coisa. Você já fez alguma coisa de que se arrepende?",
+          "textoOriginal": "\"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1260,
+          "raw": "| 6 | DJANIRA | \"Me diz uma coisa. Você já fez alguma coisa de que se arrepende?\" | 5s | neutro |",
+          "inicioMs": 22000,
+          "fimMs": 27000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 7,
+          "quemOriginal": "DINJER",
+          "texto": "Ai, senhora, eu faço isso todo dia.",
+          "textoOriginal": "\"Ai, senhora, eu faço isso todo dia.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1261,
+          "raw": "| 7 | DINJER | \"Ai, senhora, eu faço isso todo dia.\" | 3s | explicando |",
+          "inicioMs": 27000,
+          "fimMs": 30000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 8,
+          "quemOriginal": "DJANIRA",
+          "texto": "E teve alguma que doeu?",
+          "textoOriginal": "\"E teve alguma que doeu?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1262,
+          "raw": "| 8 | DJANIRA | \"E teve alguma que doeu?\" | 3s | neutro |",
+          "inicioMs": 30000,
+          "fimMs": 33000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 9,
+          "quemOriginal": "DINJER",
+          "texto": "...Uma.",
+          "textoOriginal": "\"...Uma.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1263,
+          "raw": "| 9 | DINJER | \"...Uma.\" | 2s | neutro |",
+          "inicioMs": 33000,
+          "fimMs": 35000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 10,
+          "quemOriginal": "DJANIRA",
+          "texto": "Conta.",
+          "textoOriginal": "\"Conta.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1264,
+          "raw": "| 10 | DJANIRA | \"Conta.\" | 1s | neutro |",
+          "inicioMs": 35000,
+          "fimMs": 36000,
+          "duracaoMs": 1000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 11,
+          "quemOriginal": "DINJER",
+          "texto": "Eu não posso, senhora. Se eu contar, eu morro.",
+          "textoOriginal": "\"Eu não posso, senhora. Se eu contar, eu morro.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1265,
+          "raw": "| 11 | DINJER | \"Eu não posso, senhora. Se eu contar, eu morro.\" | 5s | implorando |",
+          "inicioMs": 36000,
+          "fimMs": 41000,
+          "duracaoMs": 5000
+        }
+      ],
+      "conteudoOriginalMs": 41000,
+      "conteudoFonteMs": 41000,
+      "adaptaçõesTecnicas": [
+        "Chegada física3m em4s com bandeja secundária e boca durantefala, mantendo a pose sentada deDjanira."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP12_C04",
+      "arquivo": "producao\\cenas_serie\\EP12\\EP12_C04.json",
+      "sha256": "276A6B19B2CEE87007D8F4396A7BCA30BCE118FE7A8DCA5FCF848A74CDE5CD91",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1269,
+        "linhaFim": 1277,
+        "sha256BlocoUtf8": "3CC66E731E94508513E5A3690E4385A28340F3B3BE383880055E829E16445B5B",
+        "raw": "### EP12_C04 · A GORJETA\n`local:` BOATE_DENTRO · `hora:` 00:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1273,
+          "raw": "**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+          "textoOriginal": "> \"Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1275,
+          "linhaTexto": 1276,
+          "inicioMs": 0,
+          "fimMs": 14000,
+          "duracaoMs": 14000
+        }
+      ],
+      "conteudoOriginalMs": 14000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [
+        "Pegar/abrir envelope/count dinheiro na mesa ainda exige contato/recursos próprios; leitura/choro não declaram essas ações prontas."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP12_C05",
+      "arquivo": "producao\\cenas_serie\\EP12\\EP12_C05.json",
+      "sha256": "EB09317677E1189DEA5E6BA00435EA8B3477B10C9DF01524AA6BCAFE7DCF0816",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1280,
+        "linhaFim": 1291,
+        "sha256BlocoUtf8": "F6AF83343AB4D2F94929F9B03A50D6CE3B0339F423D22CBC414D9E64D4935589",
+        "raw": "### EP12_C05 · O BILHETE\n`local:` BOATE_DENTRO · `hora:` 00:05 · `clima:` limpo\n`elenco:` DINJER · `cam:` PERTO · `dur:` 5s · `gravar:` SIM\n\n**Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut.\n\n**TEXTO NA TELA:**\n> \"Duas semanas. Juro.\"\n\n**NARRADOR** — 7s:\n> \"Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1284,
+          "raw": "**Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1289,
+          "linhaTexto": 1290,
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 7000,
+      "conteudoFonteMs": 7000,
+      "adaptaçõesTecnicas": [
+        "Original pede close já preparado de envelope/dinheiro/bilhete; não exige abertura ou leitura corporal nesta tomada. Objetos próprios usam superfície real medida da mesa.",
+        "Texto externo original no CapCut: Duas semanas. Juro. Narração7s integral e boca de Dinjer desligada."
+      ],
+      "pendenciasFisicas": [
+        "Confirmar por imagem envelope realmente aberto e dinheiro/bilhete visíveis dentro, com encaixe medido; o modelo atual e o close da AABB não comprovam interior aberto."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C01",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C01.json",
+      "sha256": "6C6262E8CBBF7C29DFAB0D4435A65339E5B65227EC5B208EFE2877C8470BD715",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1300,
+        "linhaFim": 1308,
+        "sha256BlocoUtf8": "DA777353BAD10F3AB92F73B4A777DA6C42AFFE72432C7B695B4DE25AF6E106C7",
+        "raw": "### EP13_C01 · TUDO DIFERENTE\n`local:` BOATE_DENTRO · `hora:` 21:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Dinjer chega para trabalhar e vê tudo mudado. Expressão `estressado`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"A primeira coisa que eu comprei depois da casa foi a boate onde ela trabalhava.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1304,
+          "raw": "**Ação:** Dinjer chega para trabalhar e vê tudo mudado. Expressão `estressado`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "A primeira coisa que eu comprei depois da casa foi a boate onde ela trabalhava.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+          "textoOriginal": "> \"A primeira coisa que eu comprei depois da casa foi a boate onde ela trabalhava.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1306,
+          "linhaTexto": 1307,
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 8000,
+      "adaptaçõesTecnicas": [
+        "Camera MEDIA recalculada a cada1s nos cortes0-7 acompanha a posicao real de Dinjer; LONGE entrou na parede e intervalo2s deixou ator na borda."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C02",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C02.json",
+      "sha256": "F00673E809F07146A6270B3E67CC074ABA09CBA7614DFE88FB87046DE6EDEB8D",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1311,
+        "linhaFim": 1319,
+        "sha256BlocoUtf8": "E9FE3325F51340BCAD285370443D8ED82F4588CC78E771F2F02A2873BE580196",
+        "raw": "### EP13_C02 · A DEMISSÃO\n`local:` BOATE_DENTRO · `hora:` 21:30 · `clima:` limpo\n`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3 · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1315,
+          "raw": "**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+          "textoOriginal": "> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1317,
+          "linhaTexto": 1318,
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [
+        "Entregas0–3.5/5–8.5/10–13.5s intercalam caminhada1.2m e giro dos receptores; bruto14s com voz10s para cortes reais."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C03",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C03.json",
+      "sha256": "A54724F4B3A94CA49B04305AC196FA69A55E832326B03D06B09710AD64FF1ED1",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1322,
+        "linhaFim": 1330,
+        "sha256BlocoUtf8": "BFF7C9EA195BC7FAC20310B4A43D19122F0931263B6229E0C70E4BA61ACD135F",
+        "raw": "### EP13_C03 · COMPRANDO TUDO\n`local:` GALPAO_CYPRESS · `hora:` 15:00 · `clima:` limpo\n`elenco:` *(nenhum)* · `cam:` LONGE · `dur:` 13s · `gravar:` SIM\n\n**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.\n\n**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:\n> \"Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1326,
+          "raw": "**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:",
+          "textoOriginal": "> \"Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1328,
+          "linhaTexto": 1329,
+          "inicioMs": 0,
+          "fimMs": 13000,
+          "duracaoMs": 13000
+        }
+      ],
+      "conteudoOriginalMs": 13000,
+      "conteudoFonteMs": 15000,
+      "adaptaçõesTecnicas": [
+        "Capturar três subtomadas reais: galpão vazio, caminhões saindo e portão fechando; montagem externa de13s conserva voz, sem elenco artificial."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C04",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C04.json",
+      "sha256": "C2B02D5B68CF2372DF547F6FDB863694D54E5F233097CF048CC4A1F95194FE01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1333,
+        "linhaFim": 1344,
+        "sha256BlocoUtf8": "7803B5D7038098F86402674852EDBD54A89F330C7E0A05898C6B505FBBA4861E",
+        "raw": "### EP13_C04 · O CHEFE DESCOBRE\n`local:` MANSAO_CHEFE · `hora:` 16:00 · `clima:` limpo\n`elenco:` O_CHEFE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\" | 8s | irritado |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1337,
+          "raw": "**Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!",
+          "textoOriginal": "\"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\"",
+          "gestoOriginal": "irritado",
+          "boca": true,
+          "linhaInicio": 1343,
+          "raw": "| 1 | O_CHEFE | \"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\" | 8s | irritado |",
+          "inicioMs": 0,
+          "fimMs": 8000,
+          "duracaoMs": 8000
+        }
+      ],
+      "conteudoOriginalMs": 8000,
+      "conteudoFonteMs": 8000,
+      "adaptaçõesTecnicas": [
+        "Chefe percorre os dois lados durante a ligação8s: andar primário e listenbase secundário mantêm a boca e o telefone próprio."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C05",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C05.json",
+      "sha256": "AC7207B07E7CCA2D8573ACC187B7FD009607AC7A40E6425A7FF72C9FB61A76C0",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1347,
+        "linhaFim": 1355,
+        "sha256BlocoUtf8": "209E81B310710F581BAEBFB693ED2B6367CEA58FE47BEF3647F985F53360C12F",
+        "raw": "### EP13_C05 · A FOTO NA PAREDE\n`local:` BOATE_DENTRO · `hora:` 14:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA → PERTO · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Dinjer limpando uma mesa na boate vazia. Olha para a parede. Aproxima o rosto. Entende. A foto emoldurada você monta no CapCut, usando um print da `DJANIRA_RICA`.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1351,
+          "raw": "**Ação:** Dinjer limpando uma mesa na boate vazia. Olha para a parede. Aproxima o rosto. Entende. A foto emoldurada você monta no CapCut, usando um print da `DJANIRA_RICA`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+          "textoOriginal": "> \"Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1353,
+          "linhaTexto": 1354,
+          "inicioMs": 0,
+          "fimMs": 12000,
+          "duracaoMs": 12000
+        }
+      ],
+      "conteudoOriginalMs": 12000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "A foto emoldurada será composta fora do jogo, como autoriza o roteiro, com um print real de DJANIRA_RICA; nenhum quadro genérico é criado no chão."
+      ],
+      "pendenciasFisicas": [
+        "Capturar a marca BOATE_DENTRO orientada para uma parede real, conferir o ponto relativo de olhar e o enquadramento; extrair print da rica original com SHA/PTS e compor o retrato na parede no CapCut."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP13_C06",
+      "arquivo": "producao\\cenas_serie\\EP13\\EP13_C06.json",
+      "sha256": "9B3848B2CDC6097750AAFE6618C5F6FC9ABF85972273AC3E7A03FDA2C8807560",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1358,
+        "linhaFim": 1372,
+        "sha256BlocoUtf8": "E6E74416C782707ABE0FF8B0E1388FF881981E89CD86B518B48BD3A903C4D0E3",
+        "raw": "### EP13_C06 · NO CHÃO\n`local:` BOATE_DENTRO · `hora:` 14:10 · `clima:` limpo\n`elenco:` DINJER · `cam:` ALTA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Não. Não, não, não. Ela morreu. Ela morreu.\" | 6s | negando |\n\n**NARRADOR** — 6s:\n> \"A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1362,
+          "raw": "**Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DINJER",
+          "texto": "Não. Não, não, não. Ela morreu. Ela morreu.",
+          "textoOriginal": "\"Não. Não, não, não. Ela morreu. Ela morreu.\"",
+          "gestoOriginal": "negando",
+          "boca": true,
+          "linhaInicio": 1368,
+          "raw": "| 1 | DINJER | \"Não. Não, não, não. Ela morreu. Ela morreu.\" | 6s | negando |",
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 6s:",
+          "textoOriginal": "> \"A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1370,
+          "linhaTexto": 1371,
+          "inicioMs": 6000,
+          "fimMs": 12000,
+          "duracaoMs": 6000
+        }
+      ],
+      "conteudoOriginalMs": 12000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "Câmera MEDIA autorizada após feixes da boate ocultarem a tomada ALTA real; poses, dois blocos6s e identidade permanecem. Novo enquadramento exige imagem antes de gravação aprovada."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP14_C01",
+      "arquivo": "producao\\cenas_serie\\EP14\\EP14_C01.json",
+      "sha256": "C77295673B3DDE5FD862080679DE1755CAC6ABA1CE50FD5DE20570D037A616B4",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1381,
+        "linhaFim": 1389,
+        "sha256BlocoUtf8": "193ABF1E5A4301F9306856C282DBE735867A5FA1FD311E17C5BF1E77237D479F",
+        "raw": "### EP14_C01 · O PORTÃO\n`local:` MANSAO_DJANIRA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Dinjer batendo no portão, desesperada, ainda de uniforme. Expressão `estressado`.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1385,
+          "raw": "**Ação:** Dinjer batendo no portão, desesperada, ainda de uniforme. Expressão `estressado`.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+          "textoOriginal": "> \"Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1387,
+          "linhaTexto": 1388,
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 7000,
+      "conteudoFonteMs": 7000,
+      "adaptaçõesTecnicas": [
+        "Mantém figurino/maquiagem fixos; registrar conflito original sem variante silenciosa."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP14_C02",
+      "arquivo": "producao\\cenas_serie\\EP14\\EP14_C02.json",
+      "sha256": "0C25689154A3F342654963BF3C6074514AF4B82300594F5FD69A44123320003D",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1392,
+        "linhaFim": 1406,
+        "sha256BlocoUtf8": "03367F79ACE5C5A1EA0BC96C366AACD475F5ECE85A36A99EB82461CC6D0CCD4F",
+        "raw": "### EP14_C02 · O REENCONTRO\n`local:` MANSAO_DJANIRA · `hora:` 23:10 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 20s · `gravar:` SIM\n\n> 💡 Posicione a Djanira **mais alta** que a Dinjer — em cima de um degrau, por exemplo. A câmera deve mostrar isso.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Djanira. Djanira, é você mesmo?\" | 4s | implorando |\n| 2 | DJANIRA | \"Você levou três anos pra olhar na minha cara direito.\" | 5s | neutro |\n| 3 | DINJER | \"Amiga, eu procurei você. Eu juro que eu procurei.\" | 5s | implorando |\n| 4 | DJANIRA | \"Não me chama de amiga.\" | 3s | irritado |\n\n"
+      },
+      "acoesOriginais": [],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DINJER",
+          "texto": "Djanira. Djanira, é você mesmo?",
+          "textoOriginal": "\"Djanira. Djanira, é você mesmo?\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1402,
+          "raw": "| 1 | DINJER | \"Djanira. Djanira, é você mesmo?\" | 4s | implorando |",
+          "inicioMs": 0,
+          "fimMs": 4000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Você levou três anos pra olhar na minha cara direito.",
+          "textoOriginal": "\"Você levou três anos pra olhar na minha cara direito.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1403,
+          "raw": "| 2 | DJANIRA | \"Você levou três anos pra olhar na minha cara direito.\" | 5s | neutro |",
+          "inicioMs": 4000,
+          "fimMs": 9000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DINJER",
+          "texto": "Amiga, eu procurei você. Eu juro que eu procurei.",
+          "textoOriginal": "\"Amiga, eu procurei você. Eu juro que eu procurei.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1404,
+          "raw": "| 3 | DINJER | \"Amiga, eu procurei você. Eu juro que eu procurei.\" | 5s | implorando |",
+          "inicioMs": 9000,
+          "fimMs": 14000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DJANIRA",
+          "texto": "Não me chama de amiga.",
+          "textoOriginal": "\"Não me chama de amiga.\"",
+          "gestoOriginal": "irritado",
+          "boca": true,
+          "linhaInicio": 1405,
+          "raw": "| 4 | DJANIRA | \"Não me chama de amiga.\" | 3s | irritado |",
+          "inicioMs": 14000,
+          "fimMs": 17000,
+          "duracaoMs": 3000
+        }
+      ],
+      "conteudoOriginalMs": 17000,
+      "conteudoFonteMs": 20000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [
+        "Marca deve ter degrau real sobDjanira, com alturas dos dois atores medidas; offsetZmanual não simula plataforma."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP14_C03",
+      "arquivo": "producao\\cenas_serie\\EP14\\EP14_C03.json",
+      "sha256": "CC801583F5E9ABA5D27A6065B2EA3CE2EAF323D9E9B51D68475DD1E43B262D8A",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1409,
+        "linhaFim": 1423,
+        "sha256BlocoUtf8": "7AEA8C21A5D561AFAA9AC748686D6358AE3BE6602A0AD8FC3CC2C195DC36A58F",
+        "raw": "### EP14_C03 · A PERGUNTA\n`local:` MANSAO_DJANIRA · `hora:` 23:20 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 24s · `gravar:` SIM\n\n> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |\n| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |\n| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |\n| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |\n\n"
+      },
+      "acoesOriginais": [],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.",
+          "textoOriginal": "\"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1419,
+          "raw": "| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Você sabia?",
+          "textoOriginal": "\"Você sabia?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1420,
+          "raw": "| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |",
+          "inicioMs": 10000,
+          "fimMs": 12000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "pausa",
+          "boca": false,
+          "texto": null,
+          "indicacoesOriginais": "*(Dinjer não responde. Câmera fica nela.)*",
+          "linhaInicio": 1421,
+          "raw": "| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |",
+          "inicioMs": 12000,
+          "fimMs": 16000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DJANIRA",
+          "texto": "Você sabia.",
+          "textoOriginal": "\"Você sabia.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1422,
+          "raw": "| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |",
+          "inicioMs": 16000,
+          "fimMs": 18000,
+          "duracaoMs": 2000
+        }
+      ],
+      "conteudoOriginalMs": 18000,
+      "conteudoFonteMs": 24000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP14_C04",
+      "arquivo": "producao\\cenas_serie\\EP14\\EP14_C04.json",
+      "sha256": "F2F50DDB6C2912610A4432AAD3D0E5D7BA641ECCA4AF9FD554CCC5CD09FCCEC5",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1426,
+        "linhaFim": 1441,
+        "sha256BlocoUtf8": "C997274AB37B255D0BED25AB5C9B6D2FDCB15541761EB4E2403796A9EA835D24",
+        "raw": "### EP14_C04 · DE JOELHOS\n`local:` MANSAO_DJANIRA · `hora:` 23:25 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM\n\n**Ação:** Dinjer cai de joelhos.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\" | 7s | implorando |\n| 2 | DJANIRA | \"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\" | 7s | irritado |\n| 3 | DINJER | \"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\" | 9s | implorando |\n| 4 | DJANIRA | \"E você acreditou.\" | 2s | neutro |\n| 5 | DINJER | \"Eu precisava acreditar, Djanira! Eu precisava!\" | 4s | implorando |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1430,
+          "raw": "**Ação:** Dinjer cai de joelhos.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DINJER",
+          "texto": "Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.",
+          "textoOriginal": "\"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1436,
+          "raw": "| 1 | DINJER | \"Eu não sabia que eles iam te matar. Eu juro pela minha mãe que eu não sabia.\" | 7s | implorando |",
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.",
+          "textoOriginal": "\"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\"",
+          "gestoOriginal": "irritado",
+          "boca": true,
+          "linhaInicio": 1437,
+          "raw": "| 2 | DJANIRA | \"Você já jurou pela sua mãe uma vez. Foi quando você pegou os meus mil reais.\" | 7s | irritado |",
+          "inicioMs": 7000,
+          "fimMs": 14000,
+          "duracaoMs": 7000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DINJER",
+          "texto": "Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.",
+          "textoOriginal": "\"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1438,
+          "raw": "| 3 | DINJER | \"Ele me mandou te levar pro avião. Ele falou que era só pra conversar. Ele falou que ia te dar um emprego.\" | 9s | implorando |",
+          "inicioMs": 14000,
+          "fimMs": 23000,
+          "duracaoMs": 9000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DJANIRA",
+          "texto": "E você acreditou.",
+          "textoOriginal": "\"E você acreditou.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1439,
+          "raw": "| 4 | DJANIRA | \"E você acreditou.\" | 2s | neutro |",
+          "inicioMs": 23000,
+          "fimMs": 25000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "DINJER",
+          "texto": "Eu precisava acreditar, Djanira! Eu precisava!",
+          "textoOriginal": "\"Eu precisava acreditar, Djanira! Eu precisava!\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1440,
+          "raw": "| 5 | DINJER | \"Eu precisava acreditar, Djanira! Eu precisava!\" | 4s | implorando |",
+          "inicioMs": 25000,
+          "fimMs": 29000,
+          "duracaoMs": 4000
+        }
+      ],
+      "conteudoOriginalMs": 29000,
+      "conteudoFonteMs": 37000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP14_C05",
+      "arquivo": "producao\\cenas_serie\\EP14\\EP14_C05.json",
+      "sha256": "510507CCAC9C60811252DEA5F00C83D9ECF29A44326A38A9D9377CB469AB0707",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1444,
+        "linhaFim": 1461,
+        "sha256BlocoUtf8": "D96B1C2454B05A25C18055D78A4A9F51F80DF06525D7C9272571E8245F80721F",
+        "raw": "### EP14_C05 · ELE SABE\n`local:` MANSAO_DJANIRA · `hora:` 23:40 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM\n\n**Ação:** Dinjer já na porta, para e fala sem se virar.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\" | 10s | neutro |\n| 2 | DJANIRA | \"Então diz pra ele que eu aceito.\" | 3s | neutro |\n| 3 | DINJER | \"Você não pode ir. Você não sabe quem ele é.\" | 5s | implorando |\n| 4 | DJANIRA | \"Eu sei exatamente quem ele é. Eu descobri antes de você.\" | 5s | neutro |\n\n**NARRADOR** — 7s:\n> \"Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1448,
+          "raw": "**Ação:** Dinjer já na porta, para e fala sem se virar.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DINJER",
+          "texto": "Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.",
+          "textoOriginal": "\"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1454,
+          "raw": "| 1 | DINJER | \"Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.\" | 10s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Então diz pra ele que eu aceito.",
+          "textoOriginal": "\"Então diz pra ele que eu aceito.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1455,
+          "raw": "| 2 | DJANIRA | \"Então diz pra ele que eu aceito.\" | 3s | neutro |",
+          "inicioMs": 10000,
+          "fimMs": 13000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DINJER",
+          "texto": "Você não pode ir. Você não sabe quem ele é.",
+          "textoOriginal": "\"Você não pode ir. Você não sabe quem ele é.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1456,
+          "raw": "| 3 | DINJER | \"Você não pode ir. Você não sabe quem ele é.\" | 5s | implorando |",
+          "inicioMs": 13000,
+          "fimMs": 18000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu sei exatamente quem ele é. Eu descobri antes de você.",
+          "textoOriginal": "\"Eu sei exatamente quem ele é. Eu descobri antes de você.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1457,
+          "raw": "| 4 | DJANIRA | \"Eu sei exatamente quem ele é. Eu descobri antes de você.\" | 5s | neutro |",
+          "inicioMs": 18000,
+          "fimMs": 23000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1459,
+          "linhaTexto": 1460,
+          "inicioMs": 23000,
+          "fimMs": 30000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 30000,
+      "conteudoFonteMs": 30000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C01",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C01.json",
+      "sha256": "AE6C9913D5C00946C630B8E54A015F0C30D7461FD3627926A61ED31DC19E65EA",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1471,
+        "linhaFim": 1479,
+        "sha256BlocoUtf8": "4404CCCF320CC67B7FE1D72D7EB0BF6E4DC9B3154BB9D79C44EC5687B7F72D2A",
+        "raw": "### EP15_C01 · A SUBIDA\n`local:` MANSAO_CHEFE · `hora:` 20:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Um carro subindo a estrada do morro até a mansão, à noite, com a cidade acesa lá embaixo.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1475,
+          "raw": "**Ação:** Um carro subindo a estrada do morro até a mansão, à noite, com a cidade acesa lá embaixo.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+          "textoOriginal": "> \"Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1477,
+          "linhaTexto": 1478,
+          "inicioMs": 0,
+          "fimMs": 7000,
+          "duracaoMs": 7000
+        }
+      ],
+      "conteudoOriginalMs": 7000,
+      "conteudoFonteMs": 7000,
+      "adaptaçõesTecnicas": [
+        "Marca e eixo devem estar na rua real do morro; ground/collision e chegada nativos, semaltura inventada."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C02",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C02.json",
+      "sha256": "A681053C03F551728149A4136907F7F78E58ECF9BE8E3BA6C80357C77E2E784A",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1482,
+        "linhaFim": 1499,
+        "sha256BlocoUtf8": "21F7C170A2CDB7563DC1A4D834FF152CD11434C386EF4BBD55530620D1B76BF0",
+        "raw": "### EP15_C02 · A MESA\n`local:` MANSAO_CHEFE · `hora:` 20:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 22s · `gravar:` SIM\n\n> 🔴 **Deixe a DINJER em quadro, ao fundo, parada, de uniforme, durante a cena inteira.** O público esquece que ela está ali. Quando a Djanira se virar para ela na cena C05, o susto dobra.\n\n**Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.\"\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\" | 11s | explicando |\n| 2 | DJANIRA | \"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\" | 5s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1488,
+          "raw": "**Ação:** Jantar. O Chefe de um lado, a Djanira do outro. Dinjer em pé ao fundo com uma bandeja.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+          "textoOriginal": "> \"Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1490,
+          "linhaTexto": 1491,
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.",
+          "textoOriginal": "\"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1497,
+          "raw": "| 1 | O_CHEFE | \"Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.\" | 11s | explicando |",
+          "inicioMs": 6000,
+          "fimMs": 17000,
+          "duracaoMs": 11000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu sou muito boa em ser invisível. Eu tive três anos de treino.",
+          "textoOriginal": "\"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1498,
+          "raw": "| 2 | DJANIRA | \"Eu sou muito boa em ser invisível. Eu tive três anos de treino.\" | 5s | neutro |",
+          "inicioMs": 17000,
+          "fimMs": 22000,
+          "duracaoMs": 5000
+        }
+      ],
+      "conteudoOriginalMs": 22000,
+      "conteudoFonteMs": 22000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C03",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C03.json",
+      "sha256": "E463F951C4CEAAC2E6A47BCFE291142991C892E2C500C6E10ABB703B5D1C7FF7",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1502,
+        "linhaFim": 1521,
+        "sha256BlocoUtf8": "379D2A17F5E64B66B00ACFC6BA32937D7F56169367553F3BC4C374B48C237BB1",
+        "raw": "### EP15_C03 · O PAPEL NA MESA\n`local:` MANSAO_CHEFE · `hora:` 20:30 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 26s · `gravar:` SIM\n\n> 🔴 **Depois da fala 1, deixe 3 segundos de silêncio.** O silêncio é a cena.\n\n**Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"O senhor conhece esse nome?\" | 3s | neutro |\n| — | *(silêncio)* | *(close no Chefe, expressão muda para `estressado`)* | 3s | — |\n| 2 | O_CHEFE | \"Onde é que a senhora conseguiu isso?\" | 4s | neutro |\n| 3 | DJANIRA | \"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\" | 8s | neutro |\n| 4 | O_CHEFE | \"...Djanira.\" | 2s | machucado |\n| 5 | DJANIRA | \"O senhor sabe o meu nome.\" | 3s | neutro |\n| 6 | O_CHEFE | \"Eu escolhi o teu nome.\" | 3s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1508,
+          "raw": "**Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DJANIRA",
+          "texto": "O senhor conhece esse nome?",
+          "textoOriginal": "\"O senhor conhece esse nome?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1514,
+          "raw": "| 1 | DJANIRA | \"O senhor conhece esse nome?\" | 3s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 3000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "pausa",
+          "boca": false,
+          "texto": null,
+          "indicacoesOriginais": "*(close no Chefe, expressão muda para `estressado`)*",
+          "linhaInicio": 1515,
+          "raw": "| — | *(silêncio)* | *(close no Chefe, expressão muda para `estressado`)* | 3s | — |",
+          "inicioMs": 3000,
+          "fimMs": 6000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Onde é que a senhora conseguiu isso?",
+          "textoOriginal": "\"Onde é que a senhora conseguiu isso?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1516,
+          "raw": "| 2 | O_CHEFE | \"Onde é que a senhora conseguiu isso?\" | 4s | neutro |",
+          "inicioMs": 6000,
+          "fimMs": 10000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DJANIRA",
+          "texto": "Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.",
+          "textoOriginal": "\"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1517,
+          "raw": "| 3 | DJANIRA | \"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\" | 8s | neutro |",
+          "inicioMs": 10000,
+          "fimMs": 18000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "O_CHEFE",
+          "texto": "...Djanira.",
+          "textoOriginal": "\"...Djanira.\"",
+          "gestoOriginal": "machucado",
+          "boca": true,
+          "linhaInicio": 1518,
+          "raw": "| 4 | O_CHEFE | \"...Djanira.\" | 2s | machucado |",
+          "inicioMs": 18000,
+          "fimMs": 20000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "DJANIRA",
+          "texto": "O senhor sabe o meu nome.",
+          "textoOriginal": "\"O senhor sabe o meu nome.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1519,
+          "raw": "| 5 | DJANIRA | \"O senhor sabe o meu nome.\" | 3s | neutro |",
+          "inicioMs": 20000,
+          "fimMs": 23000,
+          "duracaoMs": 3000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 6,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Eu escolhi o teu nome.",
+          "textoOriginal": "\"Eu escolhi o teu nome.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1520,
+          "raw": "| 6 | O_CHEFE | \"Eu escolhi o teu nome.\" | 3s | neutro |",
+          "inicioMs": 23000,
+          "fimMs": 26000,
+          "duracaoMs": 3000
+        }
+      ],
+      "conteudoOriginalMs": 26000,
+      "conteudoFonteMs": 26000,
+      "adaptaçõesTecnicas": [
+        "Carta usa prop_amanda_note_01 da PropList9538, alias carta_simples já catalogado; modelo, dobra, leitura e contato em mão ainda exigem imagem/getters, sem alegar transições prontas."
+      ],
+      "pendenciasFisicas": [
+        "Retirar papel do bolso exige contato de retirada anterior, não começar propjána mão; gesto machucado cry60561 precisa avaliação visual."
+      ],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C04",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C04.json",
+      "sha256": "313FF4EF82339FAD1B025FD23BADBCDEC4267A890CB4B3B2A55D95FA89E6FDEA",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1524,
+        "linhaFim": 1540,
+        "sha256BlocoUtf8": "B9C1D2BEF2641ACFEA5697E63072D812A372BA271BA2AC1C6E788C67044838CA",
+        "raw": "### EP15_C04 · O MOTIVO\n`local:` MANSAO_CHEFE · `hora:` 20:40 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM\n\n> 🔴 **O primeiro grande twist da temporada.**\n\n**Ação:** O Chefe se levanta e anda até a janela, de costas.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Então o senhor sabia quem eu era naquele avião.\" | 5s | neutro |\n| 2 | O_CHEFE | \"Eu sabia.\" | 2s | neutro |\n| 3 | O_CHEFE | \"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\" | 12s | neutro |\n| 4 | O_CHEFE | \"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\" | 15s | explicando |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1530,
+          "raw": "**Ação:** O Chefe se levanta e anda até a janela, de costas.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DJANIRA",
+          "texto": "Então o senhor sabia quem eu era naquele avião.",
+          "textoOriginal": "\"Então o senhor sabia quem eu era naquele avião.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1536,
+          "raw": "| 1 | DJANIRA | \"Então o senhor sabia quem eu era naquele avião.\" | 5s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 5000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Eu sabia.",
+          "textoOriginal": "\"Eu sabia.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1537,
+          "raw": "| 2 | O_CHEFE | \"Eu sabia.\" | 2s | neutro |",
+          "inicioMs": 5000,
+          "fimMs": 7000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.",
+          "textoOriginal": "\"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1538,
+          "raw": "| 3 | O_CHEFE | \"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\" | 12s | neutro |",
+          "inicioMs": 7000,
+          "fimMs": 19000,
+          "duracaoMs": 12000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.",
+          "textoOriginal": "\"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\"",
+          "gestoOriginal": "explicando",
+          "boca": true,
+          "linhaInicio": 1539,
+          "raw": "| 4 | O_CHEFE | \"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\" | 15s | explicando |",
+          "inicioMs": 19000,
+          "fimMs": 34000,
+          "duracaoMs": 15000
+        }
+      ],
+      "conteudoOriginalMs": 34000,
+      "conteudoFonteMs": 38000,
+      "adaptaçõesTecnicas": [
+        "Chefe caminha até a janela orientada pela marca, gira para frente relativa e fica de costas paraRica olhando horizonte após9s; janela real ainda exige conferência no local.",
+        "Prefixo técnico4s para saída real; falas5/2/12/15 intactas, cortes externos depois dos getters."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C05",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C05.json",
+      "sha256": "76BB124F9D30D3A23EE85E63128CA8F9398F93C14E84928A642EA72F2086F1FF",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1543,
+        "linhaFim": 1562,
+        "sha256BlocoUtf8": "6E6EA9B62E9C5631158400377B4DE1027065D6BAEDF56DC015CEBA4C6F84E4B2",
+        "raw": "### EP15_C05 · E VOCÊ?\n`local:` MANSAO_CHEFE · `hora:` 20:50 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar.\n\n**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |\n| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |\n| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |\n| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |\n| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |\n| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |\n| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1549,
+          "raw": "**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "DJANIRA",
+          "texto": "E você? Você sabia por quê?",
+          "textoOriginal": "\"E você? Você sabia por quê?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1555,
+          "raw": "| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |",
+          "inicioMs": 0,
+          "fimMs": 4000,
+          "duracaoMs": 4000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DINJER",
+          "texto": "Djanira, não...",
+          "textoOriginal": "\"Djanira, não...\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1556,
+          "raw": "| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |",
+          "inicioMs": 4000,
+          "fimMs": 6000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 3,
+          "quemOriginal": "DJANIRA",
+          "texto": "Fala. Você me deve uma resposta há três anos.",
+          "textoOriginal": "\"Fala. Você me deve uma resposta há três anos.\"",
+          "gestoOriginal": "irritado",
+          "boca": true,
+          "linhaInicio": 1557,
+          "raw": "| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |",
+          "inicioMs": 6000,
+          "fimMs": 11000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 4,
+          "quemOriginal": "DINJER",
+          "texto": "Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.",
+          "textoOriginal": "\"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1558,
+          "raw": "| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |",
+          "inicioMs": 11000,
+          "fimMs": 19000,
+          "duracaoMs": 8000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 5,
+          "quemOriginal": "DJANIRA",
+          "texto": "Que dívida?",
+          "textoOriginal": "\"Que dívida?\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1559,
+          "raw": "| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |",
+          "inicioMs": 19000,
+          "fimMs": 21000,
+          "duracaoMs": 2000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 6,
+          "quemOriginal": "DINJER",
+          "texto": "Mil reais, Djanira. Eu devia mil reais pra ele.",
+          "textoOriginal": "\"Mil reais, Djanira. Eu devia mil reais pra ele.\"",
+          "gestoOriginal": "machucado",
+          "boca": true,
+          "linhaInicio": 1560,
+          "raw": "| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |",
+          "inicioMs": 21000,
+          "fimMs": 27000,
+          "duracaoMs": 6000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 7,
+          "quemOriginal": "DINJER",
+          "texto": "Os teus mil reais.",
+          "textoOriginal": "\"Os teus mil reais.\"",
+          "gestoOriginal": "machucado",
+          "boca": true,
+          "linhaInicio": 1561,
+          "raw": "| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |",
+          "inicioMs": 27000,
+          "fimMs": 30000,
+          "duracaoMs": 3000
+        }
+      ],
+      "conteudoOriginalMs": 30000,
+      "conteudoFonteMs": 34000,
+      "adaptaçõesTecnicas": [
+        "Texto/duração8s da fala4 preservados; cameraDINJER mantém12s a partir dela, como instrução literal; não alongar fala."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C06",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C06.json",
+      "sha256": "F8BD00A9E47546943408945261B71703A35329B672BD3314314D04FBF61DB3F6",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1565,
+        "linhaFim": 1573,
+        "sha256BlocoUtf8": "7F6B8E895DBD5E60878CF0CEDD97A065765DC6134A15A3186D61A4747D571D17",
+        "raw": "### EP15_C06 · A VOLTA COMPLETA\n`local:` MANSAO_CHEFE · `hora:` 21:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Djanira parada no meio da sala, entre o pai e a amiga. Sem reação.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1569,
+          "raw": "**Ação:** Djanira parada no meio da sala, entre o pai e a amiga. Sem reação.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+          "textoOriginal": "> \"O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1571,
+          "linhaTexto": 1572,
+          "inicioMs": 0,
+          "fimMs": 14000,
+          "duracaoMs": 14000
+        }
+      ],
+      "conteudoOriginalMs": 14000,
+      "conteudoFonteMs": 14000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C07",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C07.json",
+      "sha256": "CF1ECBCFF01A056D362B04BDCFBBE7A54B1EDAC886A3021BE2B316650F1AFB7B",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1576,
+        "linhaFim": 1588,
+        "sha256BlocoUtf8": "6B95492DC3C4EFF89C8810C9A3B0FB9FC3A01895E36960A5255A93D3DB2D5779",
+        "raw": "### EP15_C07 · A SAÍDA\n`local:` MANSAO_CHEFE · `hora:` 21:05 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira anda até a porta e sai, sem olhar para trás.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Djanira. Djanira, espera. A gente pode conversar.\" | 5s | implorando |\n| 2 | DJANIRA | \"O senhor teve dezoito anos pra conversar.\" | 5s | neutro |\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1580,
+          "raw": "**Ação:** Djanira anda até a porta e sai, sem olhar para trás.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 1,
+          "quemOriginal": "O_CHEFE",
+          "texto": "Djanira. Djanira, espera. A gente pode conversar.",
+          "textoOriginal": "\"Djanira. Djanira, espera. A gente pode conversar.\"",
+          "gestoOriginal": "implorando",
+          "boca": true,
+          "linhaInicio": 1586,
+          "raw": "| 1 | O_CHEFE | \"Djanira. Djanira, espera. A gente pode conversar.\" | 5s | implorando |",
+          "inicioMs": 0,
+          "fimMs": 5000,
+          "duracaoMs": 5000
+        },
+        {
+          "tipo": "fala",
+          "tipoOriginal": "DIÁLOGO",
+          "numeroOriginal": 2,
+          "quemOriginal": "DJANIRA",
+          "texto": "O senhor teve dezoito anos pra conversar.",
+          "textoOriginal": "\"O senhor teve dezoito anos pra conversar.\"",
+          "gestoOriginal": "neutro",
+          "boca": true,
+          "linhaInicio": 1587,
+          "raw": "| 2 | DJANIRA | \"O senhor teve dezoito anos pra conversar.\" | 5s | neutro |",
+          "inicioMs": 5000,
+          "fimMs": 10000,
+          "duracaoMs": 5000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [
+        "Djanira começa a sair durantefala doChefe, fala5s de costas sem novo movimento primário; semolharparatrás."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C08",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C08.json",
+      "sha256": "467EAE8DCF471A6C69967CA1FBDED7BB527EF08E38FBB7CD8C884C7F24921C6A",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1591,
+        "linhaFim": 1599,
+        "sha256BlocoUtf8": "8FB47FECD74DA64DFC54E5F0155CCF7F70A7AEF74009E424B9A5A0C133055E8B",
+        "raw": "### EP15_C08 · OS QUE FICARAM\n`local:` MANSAO_CHEFE · `hora:` 21:10 · `clima:` limpo\n`elenco:` O_CHEFE, DINJER · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1595,
+          "raw": "**Ação:** Duas tomadas de 4 segundos, sem música, só som ambiente. Primeiro o Chefe sentado sozinho na mesa enorme. Depois a Dinjer ainda em pé, no mesmo lugar, de uniforme, com a bandeja na mão.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+          "textoOriginal": "> \"E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1597,
+          "linhaTexto": 1598,
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        }
+      ],
+      "conteudoOriginalMs": 10000,
+      "conteudoFonteMs": 12000,
+      "adaptaçõesTecnicas": [],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    },
+    {
+      "id": "EP15_C09",
+      "arquivo": "producao\\cenas_serie\\EP15\\EP15_C09.json",
+      "sha256": "D084799E32F9CE2B9B4B5F9E17B0E61FD51AFD93CFA089780E31BE87C5AB62DD",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1602,
+        "linhaFim": 1613,
+        "sha256BlocoUtf8": "FB89167167CB5E48333241F03EDBEC34425D22EB00306467049890C011D0BBE9",
+        "raw": "### EP15_C09 · A ÚLTIMA IMAGEM\n`local:` MANSAO_CHEFE · `hora:` 21:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.\"\n\n**NARRADOR** — 9s:\n> \"A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1606,
+          "raw": "**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "blocosOriginais": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+          "textoOriginal": "> \"Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 1608,
+          "linhaTexto": 1609,
+          "inicioMs": 0,
+          "fimMs": 10000,
+          "duracaoMs": 10000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 9s:",
+          "textoOriginal": "> \"A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 1611,
+          "linhaTexto": 1612,
+          "inicioMs": 10000,
+          "fimMs": 19000,
+          "duracaoMs": 9000
+        }
+      ],
+      "conteudoOriginalMs": 19000,
+      "conteudoFonteMs": 19000,
+      "adaptaçõesTecnicas": [
+        "Condução física no morro real; corte preto externo, narr10+narrador9 preservados sem compressão."
+      ],
+      "pendenciasFisicas": [],
+      "vozesFieis": true,
+      "gravado": false,
+      "testeVisual": "pendente"
+    }
+  ],
+  "total": 49,
+  "fontes": {
+    "roteiro": {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhas": 1695,
+      "utf8Bom": false
+    },
+    "promptPrioritario": {
+      "arquivo": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+      "sha256": "60A431444DB31BDC5A18A7E0A18F3C460E005A446107EC0F1142CCA6FDD6BA9B",
+      "linhas": 388,
+      "utf8Bom": false
+    }
+  },
+  "figurinossorteados": false,
+  "publicadoRuntime": false,
+  "contratosNovos": [
+    "veiculos",
+    "transicoesPose",
+    "poses.tipo=chao",
+    "elenco.rotacao",
+    "direcao.preservarDuranteFala",
+    "objetos.eventos.colocar",
+    "portas",
+    "saidaAgua"
+  ],
+  "estado": "fontes_preparadas; pendencias físicas por cena impedem afirmar encenação integral; montagem e gravação reais pendentes"
+}

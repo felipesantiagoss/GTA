@@ -1,0 +1,8 @@
+1
+00:00:03,000 --> 00:00:08,000
+Atendente: A senhora... tem noção de quanto tem nessa conta?
+
+2
+00:00:08,000 --> 00:00:13,000
+Djanira: Não. Mas eu tenho noção de quanto me custou.
+

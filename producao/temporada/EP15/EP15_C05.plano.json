@@ -1,0 +1,271 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C05",
+  "episodio": 15,
+  "numero": 5,
+  "nome": "E VOCÊ?",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1543,
+    "linhaFim": 1562,
+    "sha256BlocoUtf8": "6E6EA9B62E9C5631158400377B4DE1027065D6BAEDF56DC015CEBA4C6F84E4B2",
+    "raw": "### EP15_C05 · E VOCÊ?\n`local:` MANSAO_CHEFE · `hora:` 20:50 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar.\n\n**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |\n| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |\n| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |\n| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |\n| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |\n| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |\n| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "20:50",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 30000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1544,
+      1545
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1549,
+      "raw": "**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1547,
+      "raw": "> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "E você? Você sabia por quê?",
+      "textoOriginal": "\"E você? Você sabia por quê?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1555,
+      "raw": "| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DINJER",
+      "texto": "Djanira, não...",
+      "textoOriginal": "\"Djanira, não...\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1556,
+      "raw": "| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |",
+      "inicioMs": 4000,
+      "fimMs": 6000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Fala. Você me deve uma resposta há três anos.",
+      "textoOriginal": "\"Fala. Você me deve uma resposta há três anos.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 1557,
+      "raw": "| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |",
+      "inicioMs": 6000,
+      "fimMs": 11000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DINJER",
+      "texto": "Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.",
+      "textoOriginal": "\"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1558,
+      "raw": "| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |",
+      "inicioMs": 11000,
+      "fimMs": 19000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DJANIRA",
+      "texto": "Que dívida?",
+      "textoOriginal": "\"Que dívida?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1559,
+      "raw": "| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |",
+      "inicioMs": 19000,
+      "fimMs": 21000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DINJER",
+      "texto": "Mil reais, Djanira. Eu devia mil reais pra ele.",
+      "textoOriginal": "\"Mil reais, Djanira. Eu devia mil reais pra ele.\"",
+      "gestoOriginal": "machucado",
+      "boca": true,
+      "linhaInicio": 1560,
+      "raw": "| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |",
+      "inicioMs": 21000,
+      "fimMs": 27000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 7,
+      "quemOriginal": "DINJER",
+      "texto": "Os teus mil reais.",
+      "textoOriginal": "\"Os teus mil reais.\"",
+      "gestoOriginal": "machucado",
+      "boca": true,
+      "linhaInicio": 1561,
+      "raw": "| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |",
+      "inicioMs": 27000,
+      "fimMs": 30000,
+      "duracaoMs": 3000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 30000,
+    "blocosDeclaradosMs": 30000,
+    "conteudoPlanejadoMs": 30000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 33000,
+    "fimUltimaLegendaMs": 33000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "gesto_machucado",
+      "descricao": "Intenção 'machucado' fora dos cinco gestos catalogados; pesquisar e testar sem substituir silenciosamente.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "codigo": "camera_12s",
+      "descricao": "Nota pede manter a câmera na fala 4 por 12s; a voz dura 8s. Preservar ambos, não estender/comprimir a fala.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.",
+      "origem": "linha 1549",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

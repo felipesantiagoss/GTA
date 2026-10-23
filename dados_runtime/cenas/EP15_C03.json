@@ -1,0 +1,260 @@
+{
+  "versao": 1,
+  "id": "EP15_C03",
+  "episodio": 15,
+  "numero": 3,
+  "nome": "O PAPEL NA MESA",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "20:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "O senhor conhece esse nome?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 3,
+      "plano": "DOIS"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Onde é que a senhora conseguiu isso?",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "...Djanira.",
+      "personagem": "O_CHEFE",
+      "gesto": "machucado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "O senhor sabe o meu nome.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Eu escolhi o teu nome.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "carregar_bandeja",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 26,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_RICA",
+      "recurso": "entrega_a",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3.5,
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": true,
+      "sobrePoseSentada": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 26,
+      "expressao": "estressado"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 3,
+      "expressao": "estressado"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_JANTAR",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0.8,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "BANDEJA_SERVICO",
+      "recurso": "bandeja_servico",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0.01,
+          "y": -0.04,
+          "z": -0.139
+        },
+        "rotacao": {
+          "x": 20.0000007,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    },
+    {
+      "id": "PAPEL_HERANCA",
+      "recurso": "carta_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_RICA",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "colocar",
+          "inicioSegundos": 1,
+          "personagem": "DJANIRA_RICA",
+          "recurso": "entrega_a",
+          "apoio": "MESA_JANTAR",
+          "esperaMaximaSegundos": 2
+        }
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada"
+    }
+  ]
+}

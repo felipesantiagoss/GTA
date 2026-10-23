@@ -1,0 +1,123 @@
+{
+  "versao": 1,
+  "id": "EP15_C07",
+  "episodio": 15,
+  "numero": 7,
+  "nome": "A SAÍDA",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "21:05",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 0.6,
+        "frente": -2.5,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "ATRAS",
+    "personagem": "O_CHEFE",
+    "inverterEixo": true,
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "ATRAS",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 2,
+        "plano": "ATRAS",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "ATRAS",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 5,
+        "plano": "ATRAS",
+        "personagem": "O_CHEFE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Djanira. Djanira, espera. A gente pode conversar.",
+      "personagem": "O_CHEFE",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "O senhor teve dezoito anos pra conversar.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 2,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "horizonte"
+      }
+    }
+  ],
+  "portas": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "tipo": "abrir",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 2
+    },
+    {
+      "personagem": "DJANIRA_RICA",
+      "tipo": "atravessar",
+      "inicioSegundos": 2,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 1.1
+    }
+  ]
+}

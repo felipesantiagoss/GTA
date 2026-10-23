@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="pt-BR">Estrutura da cena mínima, versão 1. Não comprova que modelos e posições funcionam no jogo.</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="Identificador">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="48" />
+      <xs:pattern value="[a-z][a-z0-9_]{0,47}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NomeModelo">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="64" />
+      <xs:pattern value="[a-z0-9_]{1,64}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TextoObrigatorio">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:pattern value="[\s\S]*\S[\s\S]*" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BooleanoLiteral">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="true" />
+      <xs:enumeration value="false" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CodigoLocal">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="48" />
+      <xs:pattern value="[A-Z][A-Z0-9_]{0,47}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Hora">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="23" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Minuto">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="59" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NumeroFinito">
+    <xs:restriction base="xs:double">
+      <xs:pattern value="[+-]?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))([eE][+-]?[0-9]+)?" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Densidade">
+    <xs:restriction base="NumeroFinito">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DistanciaFrente">
+    <xs:restriction base="NumeroFinito">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DeslocamentoPlano">
+    <xs:restriction base="NumeroFinito">
+      <xs:minInclusive value="-10" />
+      <xs:maxInclusive value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DeslocamentoAltura">
+    <xs:restriction base="NumeroFinito">
+      <xs:minInclusive value="-2" />
+      <xs:maxInclusive value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="Clima">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CLEAR" />
+      <xs:enumeration value="EXTRASUNNY" />
+      <xs:enumeration value="CLOUDS" />
+      <xs:enumeration value="OVERCAST" />
+      <xs:enumeration value="RAIN" />
+      <xs:enumeration value="THUNDER" />
+      <xs:enumeration value="FOGGY" />
+      <xs:enumeration value="SMOG" />
+      <xs:enumeration value="CLEARING" />
+      <xs:enumeration value="NEUTRAL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Cena">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ambiente">
+          <xs:complexType>
+            <xs:attribute name="hora" type="Hora" use="required" />
+            <xs:attribute name="minuto" type="Minuto" use="required" />
+            <xs:attribute name="clima" type="Clima" use="required" />
+            <xs:attribute name="densidadeTransito" type="Densidade" use="required" />
+            <xs:attribute name="densidadePedestres" type="Densidade" use="required" />
+            <xs:attribute name="bloquearPolicia" type="BooleanoLiteral" use="required" />
+            <xs:attribute name="limparArea" type="BooleanoLiteral" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Local">
+          <xs:complexType>
+            <!-- XSD 1.0 valida o tipo. Python/runtime exigem id para marcado e proíbem id para jogador. -->
+            <xs:attribute name="referencia" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="jogador" />
+                  <xs:enumeration value="marcado" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="distanciaFrente" type="DistanciaFrente" use="required" />
+            <xs:attribute name="id" type="CodigoLocal" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Personagens">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Personagem" minOccurs="0" maxOccurs="5">
+                <xs:complexType>
+                  <xs:attribute name="id" type="Identificador" use="required" />
+                  <xs:attribute name="nome" type="TextoObrigatorio" use="required" />
+                  <xs:attribute name="modelo" type="NomeModelo" use="required" />
+                  <xs:attribute name="direita" type="DeslocamentoPlano" use="required" />
+                  <xs:attribute name="frente" type="DeslocamentoPlano" use="required" />
+                  <xs:attribute name="altura" type="DeslocamentoAltura" use="required" />
+                  <xs:attribute name="olharPara" type="Identificador" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Camera" minOccurs="0">
+          <xs:complexType>
+            <xs:attribute name="plano" type="PlanoCamera" use="required" />
+            <!-- Sem elenco, omitir personagem. Python/runtime condicionam os presets ao ambiente. -->
+            <xs:attribute name="personagem" type="Identificador" use="optional" />
+            <xs:attribute name="inverterEixo" type="BooleanoLiteral" use="required" />
+            <xs:attribute name="deslocLado" type="AjusteCamera" use="required" />
+            <xs:attribute name="deslocAltura" type="AjusteCamera" use="required" />
+            <xs:attribute name="aproximar" type="AjusteCamera" use="required" />
+            <xs:attribute name="transicaoSuave" type="BooleanoLiteral" use="required" />
+            <!-- Defaults da câmera automática são aplicados pelo runtime, preservando XML antigos. -->
+            <xs:attribute name="automatica" type="BooleanoLiteral" use="optional" />
+            <xs:attribute name="planoFala" type="PlanoCamera" use="optional" />
+            <xs:attribute name="planoNarracao" type="PlanoCamera" use="optional" />
+            <xs:attribute name="planoFinal" type="PlanoCamera" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Roteiro" minOccurs="0">
+          <xs:complexType>
+            <xs:choice minOccurs="1" maxOccurs="20">
+              <xs:element name="Narracao">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="TextoFala">
+                      <xs:attribute name="duracaoSegundos" type="DuracaoFala" use="required" />
+                      <xs:attribute name="narrador" type="NomeNarrador" use="optional" />
+                      <xs:attribute name="plano" type="PlanoCamera" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Fala">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="TextoFala">
+                      <xs:attribute name="duracaoSegundos" type="DuracaoFala" use="required" />
+                      <xs:attribute name="personagem" type="Identificador" use="required" />
+                      <xs:attribute name="gesto" type="IntencaoGesto" use="required" />
+                      <xs:attribute name="plano" type="PlanoCamera" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Pausa">
+                <xs:complexType>
+                  <!-- A pausa de 46s da queda EP01_C01 e condicionada pelo leitor JSON/runtime. -->
+                  <xs:attribute name="duracaoSegundos" type="DuracaoPausa" use="required" />
+                  <xs:attribute name="plano" type="PlanoCamera" use="optional" />
+                  <xs:attribute name="personagem" type="Identificador" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="versao" use="required" fixed="1">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="id" type="Identificador" use="required" />
+      <xs:attribute name="nome" type="TextoObrigatorio" use="required" />
+    </xs:complexType>
+    <!-- A chave também exige IDs únicos. A restrição olharPara != id é conferida pelos validadores. -->
+    <xs:key name="PersonagemPorId">
+      <xs:selector xpath="Personagens/Personagem" />
+      <xs:field xpath="@id" />
+    </xs:key>
+    <xs:keyref name="AlvoDoOlharExiste" refer="PersonagemPorId">
+      <xs:selector xpath="Personagens/Personagem" />
+      <xs:field xpath="@olharPara" />
+    </xs:keyref>
+    <xs:keyref name="QuemFalaExiste" refer="PersonagemPorId">
+      <xs:selector xpath="Roteiro/Fala" />
+      <xs:field xpath="@personagem" />
+    </xs:keyref>
+    <xs:keyref name="AtorDaCameraExiste" refer="PersonagemPorId">
+      <xs:selector xpath="Camera" />
+      <xs:field xpath="@personagem" />
+    </xs:keyref>
+    <xs:keyref name="AtorDaPausaExiste" refer="PersonagemPorId">
+      <xs:selector xpath="Roteiro/Pausa" />
+      <xs:field xpath="@personagem" />
+    </xs:keyref>
+  </xs:element>
+  <xs:simpleType name="IntencaoGesto">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="neutro" />
+      <xs:enumeration value="explicando" />
+      <xs:enumeration value="negando" />
+      <xs:enumeration value="implorando" />
+      <xs:enumeration value="irritado" />
+      <xs:enumeration value="machucado" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TextoFala">
+    <xs:restriction base="TextoObrigatorio">
+      <xs:maxLength value="350" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DuracaoFala">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.5" />
+      <xs:maxInclusive value="30" />
+      <xs:fractionDigits value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DuracaoPausa">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.5" />
+      <xs:maxInclusive value="46" />
+      <xs:fractionDigits value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="PlanoCamera">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="LONGE" />
+      <xs:enumeration value="DOIS" />
+      <xs:enumeration value="MEDIA" />
+      <xs:enumeration value="PERTO" />
+      <xs:enumeration value="BAIXA" />
+      <xs:enumeration value="ALTA" />
+      <xs:enumeration value="ATRAS" />
+      <xs:enumeration value="OLHOS" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="AjusteCamera">
+    <xs:restriction base="NumeroFinito">
+      <xs:minInclusive value="-2" />
+      <xs:maxInclusive value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NomeNarrador">
+    <xs:restriction base="TextoObrigatorio">
+      <xs:maxLength value="48" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,170 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 13,
+  "nomeOriginal": "\"A DONA DA CASA\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 83000,
+  "clipes": [
+    {
+      "id": "EP13_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 8000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C01.base.srt"
+    },
+    {
+      "id": "EP13_C02",
+      "inicioEpisodioBaseMs": 8000,
+      "fimEpisodioBaseMs": 18000,
+      "duracaoPlanejadaMs": 10000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C02.base.srt"
+    },
+    {
+      "id": "EP13_C03",
+      "inicioEpisodioBaseMs": 18000,
+      "fimEpisodioBaseMs": 31000,
+      "duracaoPlanejadaMs": 13000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C03.base.srt"
+    },
+    {
+      "id": "EP13_C04",
+      "inicioEpisodioBaseMs": 31000,
+      "fimEpisodioBaseMs": 39000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C04.base.srt"
+    },
+    {
+      "id": "EP13_C05",
+      "inicioEpisodioBaseMs": 39000,
+      "fimEpisodioBaseMs": 51000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C05.base.srt"
+    },
+    {
+      "id": "EP13_C06",
+      "inicioEpisodioBaseMs": 51000,
+      "fimEpisodioBaseMs": 63000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP13_C06.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 63000,
+      "fimEpisodioBaseMs": 83000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP13_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "legenda": "Narrador: A primeira coisa que eu comprei depois da casa foi a boate onde ela trabalhava."
+    },
+    {
+      "cena": "EP13_C02",
+      "bloco": 1,
+      "inicioMs": 8000,
+      "fimMs": 18000,
+      "legenda": "Narrador: Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver."
+    },
+    {
+      "cena": "EP13_C03",
+      "bloco": 1,
+      "inicioMs": 18000,
+      "fimMs": 31000,
+      "legenda": "Narrador: Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele."
+    },
+    {
+      "cena": "EP13_C04",
+      "bloco": 1,
+      "inicioMs": 31000,
+      "fimMs": 39000,
+      "legenda": "O Chefe: Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!"
+    },
+    {
+      "cena": "EP13_C05",
+      "bloco": 1,
+      "inicioMs": 39000,
+      "fimMs": 51000,
+      "legenda": "Narrador: Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão."
+    },
+    {
+      "cena": "EP13_C06",
+      "bloco": 1,
+      "inicioMs": 51000,
+      "fimMs": 57000,
+      "legenda": "Dinjer: Não. Não, não, não. Ela morreu. Ela morreu."
+    },
+    {
+      "cena": "EP13_C06",
+      "bloco": 2,
+      "inicioMs": 57000,
+      "fimMs": 63000,
+      "legenda": "Narrador: A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1296,
+        "linhaFim": 1297,
+        "sha256BlocoUtf8": "7C161A4FD0C96ECDC8100B9C4143F9839ADE19111E702D981AE89B01F1131F2A",
+        "raw": "**ANTERIORMENTE**: EP12_C03 (\"se eu contar, eu morro\") · EP12_C05 (o bilhete)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP12_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP12_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP13_C06",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 8000ms menor que blocos declarados 12000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

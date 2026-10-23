@@ -1,0 +1,167 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP04_C03",
+  "episodio": 4,
+  "numero": 3,
+  "nome": "A SAÍDA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 572,
+    "linhaFim": 580,
+    "sha256BlocoUtf8": "BD7B79CCDD905B8ABD3D2AA2EF1A4CE32A9E5972381D64AE337D1A5C7CC430F4",
+    "raw": "### EP04_C03 · A SAÍDA\n`local:` AEROPORTO_TERMINAL · `hora:` 10:40 · `clima:` limpo\n`elenco:` DINJER, DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Dinjer vai embora andando na passarela com os colegas, rindo. Djanira fica parada no meio do saguão.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Ela foi embora rindo. E os colegas dela riram junto. Eu fiquei ali, sendo olhada como quem tinha ido pedir esmola.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_TERMINAL",
+    "locaisCodigos": [
+      "AEROPORTO_TERMINAL"
+    ],
+    "hora": "10:40",
+    "clima": "limpo",
+    "elenco": "DINJER, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DINJER",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      573,
+      574
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 576,
+      "raw": "**Ação:** Dinjer vai embora andando na passarela com os colegas, rindo. Djanira fica parada no meio do saguão.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ela foi embora rindo. E os colegas dela riram junto. Eu fiquei ali, sendo olhada como quem tinha ido pedir esmola.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"Ela foi embora rindo. E os colegas dela riram junto. Eu fiquei ali, sendo olhada como quem tinha ido pedir esmola.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 578,
+      "linhaTexto": 579,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_TERMINAL",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_TERMINAL; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer vai embora andando na passarela com os colegas, rindo. Djanira fica parada no meio do saguão.",
+      "origem": "linha 576",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "presenca:colegas saindo com Dinjer; ausentes do elenco declarado",
+      "familia": "figurantes",
+      "descricao": "colegas saindo com Dinjer; ausentes do elenco declarado",
+      "origem": "ação original; falta de perfil declarada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

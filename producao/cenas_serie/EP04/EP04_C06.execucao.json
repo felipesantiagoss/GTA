@@ -1,0 +1,139 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP04_C06",
+  "episodio": 4,
+  "numero": 6,
+  "nome": "A CONTA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 609,
+    "linhaFim": 620,
+    "sha256BlocoUtf8": "F50B7454693B90C2ED1B5635ADE3F92C8FDBE9F3E469092024A23A5178B3EC1E",
+    "raw": "### EP04_C06 · A CONTA\n`local:` CASA_VO · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Close na Djanira segurando uma caixa de remédio vazia. Expressão `machucado`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Naquela noite eu não dormi. Não era raiva. Era conta. Eu fiquei a noite inteira fazendo conta de como salvar a minha avó com zero reais.\"\n\n**NARRADOR** — 8s:\n> \"Ela perdeu o dinheiro, o respeito e está prestes a perder a casa. Mas o pior ainda não aconteceu. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "23:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      610,
+      611
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Naquela noite eu não dormi. Não era raiva. Era conta. Eu fiquei a noite inteira fazendo conta de como salvar a minha avó com zero reais.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Naquela noite eu não dormi. Não era raiva. Era conta. Eu fiquei a noite inteira fazendo conta de como salvar a minha avó com zero reais.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 615,
+      "linhaTexto": 616,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Ela perdeu o dinheiro, o respeito e está prestes a perder a casa. Mas o pior ainda não aconteceu. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 8s:",
+      "textoOriginal": "> \"Ela perdeu o dinheiro, o respeito e está prestes a perder a casa. Mas o pior ainda não aconteceu. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 618,
+      "linhaTexto": 619,
+      "inicioMs": 8000,
+      "fimMs": 16000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 16000,
+    "conteudoPlanejadoMs": 16000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 19000,
+    "fimUltimaLegendaMs": 19000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 613,
+      "raw": "**Ação:** Close na Djanira segurando uma caixa de remédio vazia. Expressão `machucado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:remedio",
+      "tipo": "atuacao_integral",
+      "descricao": "Caixa de remédio vazia real; comprimidos candidatos não correspondem a uma caixa vazia.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP04_C06",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

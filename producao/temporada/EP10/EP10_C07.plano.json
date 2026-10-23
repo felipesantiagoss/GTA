@@ -1,0 +1,168 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP10_C07",
+  "episodio": 10,
+  "numero": 7,
+  "nome": "O ÚLTIMO DIA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1125,
+    "linhaFim": 1136,
+    "sha256BlocoUtf8": "C74600E34487905CF207A6423609485A6A443F8A9FBD5E8DE17C44FC0498D035",
+    "raw": "### EP10_C07 · O ÚLTIMO DIA\n`local:` VIADUTO_LAPUERTA · `hora:` 22:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 4s · `gravar:` SIM\n\n**Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos.\n\n**NARRAÇÃO** — DJANIRA — 4s *(sem boca)*:\n> \"E aí faltou um.\"\n\n**NARRADOR** — 6s:\n> \"Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "VIADUTO_LAPUERTA",
+    "locaisCodigos": [
+      "VIADUTO_LAPUERTA"
+    ],
+    "hora": "22:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 4000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1126,
+      1127
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1129,
+      "raw": "**Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E aí faltou um.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 4s *(sem boca)*:",
+      "textoOriginal": "> \"E aí faltou um.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1131,
+      "linhaTexto": 1132,
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 6s:",
+      "textoOriginal": "> \"Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1134,
+      "linhaTexto": 1135,
+      "inicioMs": 4000,
+      "fimMs": 10000,
+      "duracaoMs": 6000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 4000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 4000ms menor que blocos declarados 10000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:VIADUTO_LAPUERTA",
+      "familia": "ambiente",
+      "descricao": "Marca real VIADUTO_LAPUERTA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Close no rosto dela. Um sorriso mínimo, o primeiro em três anos.",
+      "origem": "linha 1129",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

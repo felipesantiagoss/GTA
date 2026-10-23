@@ -1,0 +1,85 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 6,
+  "nomeOriginal": "\"A BOATE\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP06_C01",
+    "EP06_C02",
+    "EP06_C03",
+    "EP06_C04",
+    "EP06_C05",
+    "EP06_C06"
+  ],
+  "cenas": [
+    {
+      "id": "EP06_C01",
+      "plano": "EP06_C01.plano.json",
+      "srtBase": "EP06_C01.base.srt"
+    },
+    {
+      "id": "EP06_C02",
+      "plano": "EP06_C02.plano.json",
+      "srtBase": "EP06_C02.base.srt"
+    },
+    {
+      "id": "EP06_C03",
+      "plano": "EP06_C03.plano.json",
+      "srtBase": "EP06_C03.base.srt"
+    },
+    {
+      "id": "EP06_C04",
+      "plano": "EP06_C04.plano.json",
+      "srtBase": "EP06_C04.base.srt"
+    },
+    {
+      "id": "EP06_C05",
+      "plano": "EP06_C05.plano.json",
+      "srtBase": "EP06_C05.base.srt"
+    },
+    {
+      "id": "EP06_C06",
+      "plano": "EP06_C06.plano.json",
+      "srtBase": "EP06_C06.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 706,
+        "linhaFim": 707,
+        "sha256BlocoUtf8": "C992802105C4EC693844040678C0735EBC63FE8160A60C0CB967F0F0E9F94A7C",
+        "raw": "**ANTERIORMENTE**: EP05_C03 (a proposta) · EP05_C05 (o aviso da avó)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP05_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP05_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 704,
+    "linhaFim": 790,
+    "sha256BlocoUtf8": "9A8A9085358C057D7B816A5F2A54DA4FFF154F86EE384F34297789DB059776D4",
+    "raw": null
+  }
+}

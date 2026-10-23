@@ -1,0 +1,933 @@
+{
+  "versao": 1,
+  "tipoDocumento": "material_edicao_pre_producao",
+  "serie": "A_CALOTEIRA_1_TEMP",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "fontes": {
+    "roteiro": {
+      "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+      "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+      "linhas": 1695,
+      "utf8Bom": false
+    },
+    "promptPrioritario": {
+      "arquivo": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+      "sha256": "60A431444DB31BDC5A18A7E0A18F3C460E005A446107EC0F1142CCA6FDD6BA9B",
+      "linhas": 388,
+      "utf8Bom": false
+    }
+  },
+  "audioRealGerado": false,
+  "videoRealGerado": false,
+  "sincronismoAutomatico": false,
+  "criterioTimeline": "Ordem original, clipes após retirada manual da preparação/contagem pela referência realF7; tempos planejados, sem recaps/cartelas de duração indefinida.",
+  "episodios": [
+    {
+      "numero": 1,
+      "nome": "\"O EMPRÉSTIMO\"",
+      "guia": "EP01/GUIA_CAPCUT.md",
+      "timeline": "EP01/EP01.timeline.json",
+      "vozes": "EP01/EP01.vozes.csv",
+      "srtContinuidade": "EP01/EP01.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 134000,
+      "cenas": [
+        "EP01_C01",
+        "EP01_C02",
+        "EP01_C03",
+        "EP01_C04",
+        "EP01_C05",
+        "EP01_C06",
+        "EP01_C07",
+        "EP01_C08",
+        "EP01_C09"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 2,
+      "nome": "\"O DINHEIRO SUMIU\"",
+      "guia": "EP02/GUIA_CAPCUT.md",
+      "timeline": "EP02/EP02.timeline.json",
+      "vozes": "EP02/EP02.vozes.csv",
+      "srtContinuidade": "EP02/EP02.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 104000,
+      "cenas": [
+        "EP02_C01",
+        "EP02_C02",
+        "EP02_C03",
+        "EP02_C04",
+        "EP02_C05",
+        "EP02_C06",
+        "EP02_C07"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 3,
+      "nome": "\"A COBRANÇA\"",
+      "guia": "EP03/GUIA_CAPCUT.md",
+      "timeline": "EP03/EP03.timeline.json",
+      "vozes": "EP03/EP03.vozes.csv",
+      "srtContinuidade": "EP03/EP03.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 94000,
+      "cenas": [
+        "EP03_C01",
+        "EP03_C02",
+        "EP03_C03",
+        "EP03_C04",
+        "EP03_C05",
+        "EP03_C06",
+        "EP03_C07"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 4,
+      "nome": "\"NO TRABALHO DELA\"",
+      "guia": "EP04/GUIA_CAPCUT.md",
+      "timeline": "EP04/EP04.timeline.json",
+      "vozes": "EP04/EP04.vozes.csv",
+      "srtContinuidade": "EP04/EP04.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 104000,
+      "cenas": [
+        "EP04_C01",
+        "EP04_C02",
+        "EP04_C03",
+        "EP04_C04",
+        "EP04_C05",
+        "EP04_C06"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 5,
+      "nome": "\"O CONVITE\"",
+      "guia": "EP05/GUIA_CAPCUT.md",
+      "timeline": "EP05/EP05.timeline.json",
+      "vozes": "EP05/EP05.vozes.csv",
+      "srtContinuidade": "EP05/EP05.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 110000,
+      "cenas": [
+        "EP05_C01",
+        "EP05_C02",
+        "EP05_C03",
+        "EP05_C04",
+        "EP05_C05"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 6,
+      "nome": "\"A BOATE\"",
+      "guia": "EP06/GUIA_CAPCUT.md",
+      "timeline": "EP06/EP06.timeline.json",
+      "vozes": "EP06/EP06.vozes.csv",
+      "srtContinuidade": "EP06/EP06.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 112000,
+      "cenas": [
+        "EP06_C01",
+        "EP06_C02",
+        "EP06_C03",
+        "EP06_C04",
+        "EP06_C05",
+        "EP06_C06"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 7,
+      "nome": "\"O VOO\"",
+      "guia": "EP07/GUIA_CAPCUT.md",
+      "timeline": "EP07/EP07.timeline.json",
+      "vozes": "EP07/EP07.vozes.csv",
+      "srtContinuidade": "EP07/EP07.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 102000,
+      "cenas": [
+        "EP07_C01",
+        "EP07_C02",
+        "EP07_C03",
+        "EP07_C04",
+        "EP07_C05"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 8,
+      "nome": "\"O QUE A VÓ GUARDOU\"",
+      "guia": "EP08/GUIA_CAPCUT.md",
+      "timeline": "EP08/EP08.timeline.json",
+      "vozes": "EP08/EP08.vozes.csv",
+      "srtContinuidade": "EP08/EP08.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 135000,
+      "cenas": [
+        "EP08_C01",
+        "EP08_C02",
+        "EP08_C03",
+        "EP08_C04",
+        "EP08_C05",
+        "EP08_C06"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 9,
+      "nome": "\"VINTE E UM\"",
+      "guia": "EP09/GUIA_CAPCUT.md",
+      "timeline": "EP09/EP09.timeline.json",
+      "vozes": "EP09/EP09.vozes.csv",
+      "srtContinuidade": "EP09/EP09.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 101000,
+      "cenas": [
+        "EP09_C01",
+        "EP09_C02",
+        "EP09_C03",
+        "EP09_C04",
+        "EP09_C05",
+        "EP09_C06"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 10,
+      "nome": "\"TRÊS ANOS\"",
+      "guia": "EP10/GUIA_CAPCUT.md",
+      "timeline": "EP10/EP10.timeline.json",
+      "vozes": "EP10/EP10.vozes.csv",
+      "srtContinuidade": "EP10/EP10.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 87000,
+      "cenas": [
+        "EP10_C01",
+        "EP10_C02",
+        "EP10_C03",
+        "EP10_C04",
+        "EP10_C05",
+        "EP10_C06",
+        "EP10_C07"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 11,
+      "nome": "\"A HERDEIRA\"",
+      "guia": "EP11/GUIA_CAPCUT.md",
+      "timeline": "EP11/EP11.timeline.json",
+      "vozes": "EP11/EP11.vozes.csv",
+      "srtContinuidade": "EP11/EP11.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 89000,
+      "cenas": [
+        "EP11_C01",
+        "EP11_C02",
+        "EP11_C03",
+        "EP11_C04",
+        "EP11_C05"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 12,
+      "nome": "\"A CLIENTE VIP\"",
+      "guia": "EP12/GUIA_CAPCUT.md",
+      "timeline": "EP12/EP12.timeline.json",
+      "vozes": "EP12/EP12.vozes.csv",
+      "srtContinuidade": "EP12/EP12.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 96000,
+      "cenas": [
+        "EP12_C01",
+        "EP12_C02",
+        "EP12_C03",
+        "EP12_C04",
+        "EP12_C05"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 13,
+      "nome": "\"A DONA DA CASA\"",
+      "guia": "EP13/GUIA_CAPCUT.md",
+      "timeline": "EP13/EP13.timeline.json",
+      "vozes": "EP13/EP13.vozes.csv",
+      "srtContinuidade": "EP13/EP13.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 83000,
+      "cenas": [
+        "EP13_C01",
+        "EP13_C02",
+        "EP13_C03",
+        "EP13_C04",
+        "EP13_C05",
+        "EP13_C06"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 14,
+      "nome": "\"VOCÊ SABIA\"",
+      "guia": "EP14/GUIA_CAPCUT.md",
+      "timeline": "EP14/EP14.timeline.json",
+      "vozes": "EP14/EP14.vozes.csv",
+      "srtContinuidade": "EP14/EP14.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 130000,
+      "cenas": [
+        "EP14_C01",
+        "EP14_C02",
+        "EP14_C03",
+        "EP14_C04",
+        "EP14_C05"
+      ],
+      "estado": "preparacao"
+    },
+    {
+      "numero": 15,
+      "nome": "GRANDE FINAL",
+      "guia": "EP15/GUIA_CAPCUT.md",
+      "timeline": "EP15/EP15.timeline.json",
+      "vozes": "EP15/EP15.vozes.csv",
+      "srtContinuidade": "EP15/EP15.continuidade_base.srt",
+      "duracaoPlanejadaClipesMs": 196000,
+      "cenas": [
+        "EP15_C01",
+        "EP15_C02",
+        "EP15_C03",
+        "EP15_C04",
+        "EP15_C05",
+        "EP15_C06",
+        "EP15_C07",
+        "EP15_C08",
+        "EP15_C09"
+      ],
+      "estado": "preparacao"
+    }
+  ],
+  "contagem": {
+    "episodios": 15,
+    "planosOriginais": 95,
+    "blocosOriginais": 197,
+    "blocosVoz": 194,
+    "pausas": 2
+  },
+  "arquivosDerivados": [
+    {
+      "arquivo": "EP01/EP01.continuidade_base.srt",
+      "sha256": "E1EEA6D38E8AB58CE81D5AA97FE56616EA2E1473CF3FE505F32976FDF574831B"
+    },
+    {
+      "arquivo": "EP01/EP01.timeline.json",
+      "sha256": "96E5EAAE5FA287AF12A627A10F0D15F24A112E90C19D406D77A56B39CED026B0"
+    },
+    {
+      "arquivo": "EP01/EP01.vozes.csv",
+      "sha256": "6760E12B031B6A52CEC20D7A50B5C03703A72850483AB690A894986CB7004A0C"
+    },
+    {
+      "arquivo": "EP01/GUIA_CAPCUT.md",
+      "sha256": "F935DA2D006F8DC2AE9B8AEDC116DD30C96BBD1AC32D14AD9403C099B3B6E612"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C01.base.srt",
+      "sha256": "A0CE244F92954F9181EA1D1496D99A43AC72E11960FFD149D1E3517700C5B494"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C02.base.srt",
+      "sha256": "ADE6B0A6FE309E0D73D01A31B9C1E1652448B2F53BD0525BC1A9139C11E7B1FA"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C03.base.srt",
+      "sha256": "AC0E6C11CDB9709C93F4DC332030E3607EA8D919501293EAB2739CA0BF411D38"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C04.base.srt",
+      "sha256": "5351583C52AE00AE546A0731A39714CCBB9ADF65AE86F84E083D2551F067D08B"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C05.base.srt",
+      "sha256": "CBFAB61A95A50D3CA1E4158B7B71C1CF4173B07ECD92C45BD20E345C3A09F362"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C06.base.srt",
+      "sha256": "88E4EA5E873C9F78B366E90C9904ECABCD8DEBA011D52BB0490A1C8F61C0F9A9"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C07.base.srt",
+      "sha256": "22108FE796C7D056695CC2A04223A233D2792CC5EC9817125737914E2C2C6961"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C08.base.srt",
+      "sha256": "A7F4DD14DC06D0B5B4144B61123EC2BA97826F93A92950F547E80A07BFE752F7"
+    },
+    {
+      "arquivo": "EP01/srt_base/EP01_C09.base.srt",
+      "sha256": "52A45EBDE55D0EDCC0C4832135E92AF53C5D27198E4712DD6FDFE04BB8E3AECC"
+    },
+    {
+      "arquivo": "EP02/EP02.continuidade_base.srt",
+      "sha256": "90411C2BF2C1EF5A00C2379E42DCA75B861C6991907827D2B6F4CF6FEF262D28"
+    },
+    {
+      "arquivo": "EP02/EP02.timeline.json",
+      "sha256": "E1E87FD8EA9EF3BC5AFC88C23FFB6E2D6E204481A89028CF175F8236B5530A03"
+    },
+    {
+      "arquivo": "EP02/EP02.vozes.csv",
+      "sha256": "511C9D54356FE205DA222844856F4257F7DF617E8EBFFAB3CB1975C8B5BC3B78"
+    },
+    {
+      "arquivo": "EP02/GUIA_CAPCUT.md",
+      "sha256": "1DB51080AB636DB327934A6D23A933689686F753BA4785DFB33515A5032F8705"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C01.base.srt",
+      "sha256": "8AEDE4E1B1E1CAC848A28B83D8EFF6BEF4FE39A23CF709F15B54FCC9E22B977B"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C02.base.srt",
+      "sha256": "63135012680105F68BE91EACE2A06423C494D3814DD7F0568BB4E8C2AD908F81"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C03.base.srt",
+      "sha256": "B81C1BC2A4ADA32A5870583BF45C52F8E344CCD84C6B7854E0EE3581EE045F7E"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C04.base.srt",
+      "sha256": "145D5FF6B44964493E271261691FB67522FDC816272980C5B37BFB3983875FA5"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C05.base.srt",
+      "sha256": "CC8E858CD161D695B20D1F6913864912D27CA31BF7335F85565306BD0B1ED653"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C06.base.srt",
+      "sha256": "5AD8D82B18B7C56D68DF174B4849735C4CD5DF346566A7AEB44B581E640403F2"
+    },
+    {
+      "arquivo": "EP02/srt_base/EP02_C07.base.srt",
+      "sha256": "645E6E544590247E98E73127C6B47EAFBAF75257B1891980E028655E1F3DCB48"
+    },
+    {
+      "arquivo": "EP03/EP03.continuidade_base.srt",
+      "sha256": "786DB577B3861DC46D60DCC029AC60A39A4B1472080277693624D0EE444280CF"
+    },
+    {
+      "arquivo": "EP03/EP03.timeline.json",
+      "sha256": "959FF1FA3E5C22754FC8CA70D11351AE1FD89BC065F824235AB0277998007B99"
+    },
+    {
+      "arquivo": "EP03/EP03.vozes.csv",
+      "sha256": "5A609A1D410AEB9ECC43FCDD73F712D9BD852E0CEDB7BD9B49D3967FE6A671AD"
+    },
+    {
+      "arquivo": "EP03/GUIA_CAPCUT.md",
+      "sha256": "FEC0B412DD031EEE065E9186442B67380EE6551620D68AFD3EFA54F53A87FD96"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C01.base.srt",
+      "sha256": "B3BADB98A38940988DB20873B74127EB1CA61551F1AB91BE481BA95586706EAD"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C02.base.srt",
+      "sha256": "3516C3CD57D054FBF8AA9F62E7D7465444574F0DFDDBF55A221CDD9395D140F4"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C03.base.srt",
+      "sha256": "DDBF8A8EE39548D5EC6ADEA5BA15D2D0D28F5400078B9E4E32D4EFF801AE28C0"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C04.base.srt",
+      "sha256": "3AD68B55ED0375F25175B9D8AEB9AAA3FD2475FF5E458E545D31CF2AF77C38BA"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C05.base.srt",
+      "sha256": "1C9A47A54ACA470B6E038E073BE2352318005CA452E12364AE36D6BEB2EA964D"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C06.base.srt",
+      "sha256": "00D9BC41FF214042EF121070D873FC1E4B1B841FFDD43A4CC16DE985DC273AA2"
+    },
+    {
+      "arquivo": "EP03/srt_base/EP03_C07.base.srt",
+      "sha256": "DFDCD54A489178B62BBDC0BC208F7F3D862D9ADD87EBB89256F99D3EE8C6B713"
+    },
+    {
+      "arquivo": "EP04/EP04.continuidade_base.srt",
+      "sha256": "59B4E09E4C8D31E562243D336F94EA020249053AC6301C0A936441DEDA3D09E6"
+    },
+    {
+      "arquivo": "EP04/EP04.timeline.json",
+      "sha256": "C53EFCF77643C5697B86AD06E7272C9B986CA99FB586AC221E82418B550D6322"
+    },
+    {
+      "arquivo": "EP04/EP04.vozes.csv",
+      "sha256": "7705CBC6FCD0CEB85A9F69505F0C17138A989CC8BE897F7487D52350839B3425"
+    },
+    {
+      "arquivo": "EP04/GUIA_CAPCUT.md",
+      "sha256": "5F6B4DA5222037F327F84F48BC913062E640A3F61032AC265AAECC451D6400EC"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C01.base.srt",
+      "sha256": "EA907DFB8C01BDE7256F38AD4442C2840FDFEF05A9E8FA08FBBA63B9E2E13EF0"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C02.base.srt",
+      "sha256": "3978F5582B0F1F0E9BE17B0AF2412C9387A8FFF1012EDC74325590C751CB6BF0"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C03.base.srt",
+      "sha256": "E1C55664AF75F3B320A5DC0D48AF7754411A83CB0565A29F43A92FE2BC9C6178"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C04.base.srt",
+      "sha256": "612F3FE813EB80A162AD4EF3D611B990A1465AAC43EA256D7878C70EC58549F5"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C05.base.srt",
+      "sha256": "EC0CD17E27761C5A325463DC48183A6C3893067F6688F1D74D13BCDA894C7040"
+    },
+    {
+      "arquivo": "EP04/srt_base/EP04_C06.base.srt",
+      "sha256": "62355D2DE90659104504C4BBD15D06607BC5146BDC1DF18A502AA55699D0B455"
+    },
+    {
+      "arquivo": "EP05/EP05.continuidade_base.srt",
+      "sha256": "18585258F47B0B24179B080008E4ED2C327ACC01B354908988D9A9E6CC2B19DB"
+    },
+    {
+      "arquivo": "EP05/EP05.timeline.json",
+      "sha256": "824F9B32CFD14C17CB08887854B543DE25AE6787BF2DE3F7A1547784E89D3E0E"
+    },
+    {
+      "arquivo": "EP05/EP05.vozes.csv",
+      "sha256": "5D7FEDDC939536805FFA8FBCBEBBA3C4A2FAAF9CC9E2C950CDE4241CEC48D2D1"
+    },
+    {
+      "arquivo": "EP05/GUIA_CAPCUT.md",
+      "sha256": "74EE32CB8B3503160D75F36C3CC366EB06CFB483245559931C9C134BE131DF9F"
+    },
+    {
+      "arquivo": "EP05/srt_base/EP05_C01.base.srt",
+      "sha256": "95F02499DE3C21A1713DEE48744D91ECC7678A2D846753F50E6EC324B86ADC15"
+    },
+    {
+      "arquivo": "EP05/srt_base/EP05_C02.base.srt",
+      "sha256": "5BFDFF14BABE3F23F3E7DCAB85017328BE5EE0ABCF7AAAE799F7DF81CA68D865"
+    },
+    {
+      "arquivo": "EP05/srt_base/EP05_C03.base.srt",
+      "sha256": "5FAE61CF188187B1F45FD9C05AE7564BE1113AF19C394DACD47BFA463399F58C"
+    },
+    {
+      "arquivo": "EP05/srt_base/EP05_C04.base.srt",
+      "sha256": "C115042F90045D9870CD387D951FC68BD27FD41F9F33741826A1777BE26F2B0D"
+    },
+    {
+      "arquivo": "EP05/srt_base/EP05_C05.base.srt",
+      "sha256": "9812329C5291050A65B9E7A0CA052B26F28EDC80A91FDDECC2BB0AC8FC852D20"
+    },
+    {
+      "arquivo": "EP06/EP06.continuidade_base.srt",
+      "sha256": "D826B5F0A792F79DF4A52F7AFD5DADB8F8471F83D7E6B70F734B614DACB1570B"
+    },
+    {
+      "arquivo": "EP06/EP06.timeline.json",
+      "sha256": "3754BEE1F684693AC37E70D5C89AC1DB9EAA09BBF373B902C56543C82F43E70B"
+    },
+    {
+      "arquivo": "EP06/EP06.vozes.csv",
+      "sha256": "4C0043A8F0CBFDFB791A46797778738FF862F2A2C721D531AE0B0CB14701A0D6"
+    },
+    {
+      "arquivo": "EP06/GUIA_CAPCUT.md",
+      "sha256": "B4134126B0FD87BFBE47CC88F4BA61A5B89DF963B7562F5B59110A526CB99495"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C01.base.srt",
+      "sha256": "0C88E406FC117E825F66B1790CC2B1D2863D676B84E738714E7AC14C271B3E73"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C02.base.srt",
+      "sha256": "819E5BC0C1EC8D26CF0D1A2FE26FD917AB7024853ACD783F1E696452932A57FA"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C03.base.srt",
+      "sha256": "0C95373DFA4A8194F2547929121AE020B95B6FE7F711A2B49F1340CBB320DC90"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C04.base.srt",
+      "sha256": "15DD416D8BF434165D42FA9AF9D8287CEEC057DB4A3CACC1D459D0120998A98A"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C05.base.srt",
+      "sha256": "DAD550593A2B7149CE686796B53B253AE961CC0FF686E7257AC77E684884ED9B"
+    },
+    {
+      "arquivo": "EP06/srt_base/EP06_C06.base.srt",
+      "sha256": "0233AA6B6FE7F64B69F2A959708053887225F4917770267EB9DC82549D4A43CC"
+    },
+    {
+      "arquivo": "EP07/EP07.continuidade_base.srt",
+      "sha256": "06011A21F4B738E19DEDA89541A1B78F057A0F17C42826564A4A48E28CDC7D97"
+    },
+    {
+      "arquivo": "EP07/EP07.timeline.json",
+      "sha256": "AD93DC9ECEE2950E1F8398CF3C2310BC648A4E45C7E2AC4B5813E322F18A70CC"
+    },
+    {
+      "arquivo": "EP07/EP07.vozes.csv",
+      "sha256": "28A15BC6BA805D883824600914541D95634C694EFDE191336E04B6BF50119BEF"
+    },
+    {
+      "arquivo": "EP07/GUIA_CAPCUT.md",
+      "sha256": "FBE42F22822E99775889AAF0963AB4B7C86DA51DF3787733BDC198B0EC9E0FFB"
+    },
+    {
+      "arquivo": "EP07/srt_base/EP07_C01.base.srt",
+      "sha256": "761F60EFC8294221C4B936B886D4B324A3F097962F13790CC90D427099F4CEA8"
+    },
+    {
+      "arquivo": "EP07/srt_base/EP07_C02.base.srt",
+      "sha256": "BFAA901ED0F8FA3860766AD7FF65555C1CF3D7A54717872EC9265FB7B4D73C3F"
+    },
+    {
+      "arquivo": "EP07/srt_base/EP07_C03.base.srt",
+      "sha256": "150FD4B06F2718A0DC9941D8ACDC02D800D8D32F9808FAC3203359DB0CD8097F"
+    },
+    {
+      "arquivo": "EP07/srt_base/EP07_C04.base.srt",
+      "sha256": "CC228D222C4E536C5EFFA000DA831A9BE8EEF42EDE9AB7A824291E03FCA9C9D0"
+    },
+    {
+      "arquivo": "EP07/srt_base/EP07_C05.base.srt",
+      "sha256": "4C9D17044DA7CB26CD494567B1B5A01F980D9FFE861FAC785A7713130B9AE6A6"
+    },
+    {
+      "arquivo": "EP08/EP08.continuidade_base.srt",
+      "sha256": "4A05B02910436EBA2DFF2970E6E0E790EB8A9451BFCF7B0765374AB650AB30EF"
+    },
+    {
+      "arquivo": "EP08/EP08.timeline.json",
+      "sha256": "785B7D21C2B24ECF35BEC358FE4511F389476342ABC406FE0E489E35743EA85F"
+    },
+    {
+      "arquivo": "EP08/EP08.vozes.csv",
+      "sha256": "E01AC09A0C2C85F7E4A632C5B0E4736F289DD0264E20B38F1FA9DD3EA80B3268"
+    },
+    {
+      "arquivo": "EP08/GUIA_CAPCUT.md",
+      "sha256": "406771E7EA8971BE9381A309D26B3DDDC27CF4A9016FC23F895CF30A5F38E492"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C01.base.srt",
+      "sha256": "E76A2AAACD22F75BB34187A7EE7275FF80C81E32B4F53F6E5EE6C71722F97705"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C02.base.srt",
+      "sha256": "874E6055CF9D8EA2657D437E544D978DEA331B614EE247A7117726F2C6969317"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C03.base.srt",
+      "sha256": "36F8D17AB3E4C9758F082C5AF499AA8EE77EB4AAD16C57153974DAA05B05C880"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C04.base.srt",
+      "sha256": "48EAF7A5F764F4BD0EB68C52D812EFAE05B9BC1093585E4D8A29E1382FE4B06F"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C05.base.srt",
+      "sha256": "63B0F88016D4A3487E594007C3BA7F281D65899ECA36CD8E90F66EF05010CB40"
+    },
+    {
+      "arquivo": "EP08/srt_base/EP08_C06.base.srt",
+      "sha256": "9E9241738DC8ACCEB7266FC8EB08DF6E93D9335EFF84F9570B5203E3C967CEC6"
+    },
+    {
+      "arquivo": "EP09/EP09.continuidade_base.srt",
+      "sha256": "F2FFCCC545D129B16A105D656451F172AB2486267F9904135929820AA2611071"
+    },
+    {
+      "arquivo": "EP09/EP09.timeline.json",
+      "sha256": "AD5088901460FB6C177434896038D37DB91BFB477D23E9016645F53083B13112"
+    },
+    {
+      "arquivo": "EP09/EP09.vozes.csv",
+      "sha256": "43B4379AD481D572C1AF765DEBA18A5A42B7BD0C5E55B086D9CC96F9F2B83BD7"
+    },
+    {
+      "arquivo": "EP09/GUIA_CAPCUT.md",
+      "sha256": "0C7CCE88CE31D64E46282DF6A6586B8E679850DB28CB176CFF835A5A06AEBFFD"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C01.base.srt",
+      "sha256": "386740AB624B5B1AE3BB3FDE6C37E12E1D3735EAAAD96631E4713E08A54F56FC"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C02.base.srt",
+      "sha256": "51F7E0E5EC967F5DEB522F0CC4F0C7F45B6BB34C798FA679E322C6E4186DCEA3"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C03.base.srt",
+      "sha256": "555A9E442879DB6540F75A967F1C99C2317CC9130212E912B90C61EFA1CAA957"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C04.base.srt",
+      "sha256": "3B19C92DB3912E5CAF3200C76878C343960A5033BDE27A9004A4006723EAC071"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C05.base.srt",
+      "sha256": "8A0D7CB830DB726BD58608844CBB0DB10833EC11F658DE7C175F1278B1E447CB"
+    },
+    {
+      "arquivo": "EP09/srt_base/EP09_C06.base.srt",
+      "sha256": "FAD89C279A256DB8441958EC79D42E4261CD162A0F01ACBD3A3D8C0063575B1C"
+    },
+    {
+      "arquivo": "EP10/EP10.continuidade_base.srt",
+      "sha256": "44C236E63F2E94DD39D86756D49A51A818237D0B5E271FBFBAE1AB52BA95A1EE"
+    },
+    {
+      "arquivo": "EP10/EP10.timeline.json",
+      "sha256": "4293834C97E3FE60C4B0CF07B9C17DBB0CA215206BAE14C4CA77C7FAF454F347"
+    },
+    {
+      "arquivo": "EP10/EP10.vozes.csv",
+      "sha256": "AD85210B26FA34B1E87D00BEDEF4158B3315E909D560CFA46001AEFD0EB29831"
+    },
+    {
+      "arquivo": "EP10/GUIA_CAPCUT.md",
+      "sha256": "70B8089E350F39E72C59F31803D262BE8F5A7B09CE01A447E94FFA9BAED3F6FA"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C01.base.srt",
+      "sha256": "DCD143A43A9FA0EDAC0896D0A890A653119D5CA7145933FCEF3B5C209002BB77"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C02.base.srt",
+      "sha256": "3B2F3D27A98C7AF755FC42ABCCF842132C9320C855F783AF52ACCAB961E92EA4"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C03.base.srt",
+      "sha256": "C3C361D4EB6F29FF226CB2684388DFA936059605EEC40A231AD3EA9E64900C97"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C04.base.srt",
+      "sha256": "81E36CEAC48D92A8EE396B85F3D6C34353D2D7B7FD183490513DB7D7AD46158B"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C05.base.srt",
+      "sha256": "18AD8CC764DD0CDA0C054337BE369FB2C3CDB5927F52743150C70467554E6A87"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C06.base.srt",
+      "sha256": "6441B04137705A6343E2EB6C3B84CC637A13737A4BFA50273A9E12027707E6DA"
+    },
+    {
+      "arquivo": "EP10/srt_base/EP10_C07.base.srt",
+      "sha256": "03B8FD8D580FAD76607DCC64F2C7A6B35D554B477DF991AF569F5422BE513429"
+    },
+    {
+      "arquivo": "EP11/EP11.continuidade_base.srt",
+      "sha256": "C14C12B095A9F8AACA6B17327ECA6848DB9A46573C204156874955B2D8E69F08"
+    },
+    {
+      "arquivo": "EP11/EP11.timeline.json",
+      "sha256": "051F8B01930E8102DF9E338D5E458B71B0F595994F5C1F333A87543F07A5A2E1"
+    },
+    {
+      "arquivo": "EP11/EP11.vozes.csv",
+      "sha256": "CA8E8A4ACD023B7B73AEC00E242D86807754B1102372D0615DCA1A415B736CB1"
+    },
+    {
+      "arquivo": "EP11/GUIA_CAPCUT.md",
+      "sha256": "4897A88DCC95F2DA00302049C6E5358C824793BAFAD8458540D78F8179BE6558"
+    },
+    {
+      "arquivo": "EP11/srt_base/EP11_C01.base.srt",
+      "sha256": "7868A8515F5161268C574A20479FF84D980357476D71E0ACA2920206AFB9ED78"
+    },
+    {
+      "arquivo": "EP11/srt_base/EP11_C02.base.srt",
+      "sha256": "BECC22AA7D1972EB9E579332A77D20307744DC6BAA3042EF6655AE9A6D11DA2F"
+    },
+    {
+      "arquivo": "EP11/srt_base/EP11_C03.base.srt",
+      "sha256": "2D8D6066C5963CC466B653D25292B7E4672A3D669C708BB235EC45599CA410DC"
+    },
+    {
+      "arquivo": "EP11/srt_base/EP11_C04.base.srt",
+      "sha256": "41775B9EAD1C72BD1479F633E79E071B89BBFFD56EB6AEA8F04BC8B842337D33"
+    },
+    {
+      "arquivo": "EP11/srt_base/EP11_C05.base.srt",
+      "sha256": "70321BCCCA3DB58AD51448D894E90ACD05CCC27FA5A6B788F18E8ED64B5189BF"
+    },
+    {
+      "arquivo": "EP12/EP12.continuidade_base.srt",
+      "sha256": "3D03164584D6CE7282447513E858E6D15CB7CF89C4E02758BBA4DD2FB554158D"
+    },
+    {
+      "arquivo": "EP12/EP12.timeline.json",
+      "sha256": "470571CD9B2765121F391699B5AF35388ACCBCD23EC1AB193D4CE1969DC2A06A"
+    },
+    {
+      "arquivo": "EP12/EP12.vozes.csv",
+      "sha256": "D1D9A089563068915228EDEB3557152A690049F12372F67F1C6CF3D1B3647080"
+    },
+    {
+      "arquivo": "EP12/GUIA_CAPCUT.md",
+      "sha256": "2ED1E4BB865A35AF01DCF36F66A2E178598FB99A53BAC8554D03EBE33BD6F719"
+    },
+    {
+      "arquivo": "EP12/srt_base/EP12_C01.base.srt",
+      "sha256": "CD053A8303FFF1A5B4F2005649883C12F8501C2BD6D16A8B611FFDDAA731CCEB"
+    },
+    {
+      "arquivo": "EP12/srt_base/EP12_C02.base.srt",
+      "sha256": "11184D851AD19576F5C6BD207ACFB091FCB56B4D6C50C32DA68D48B477E6FAD7"
+    },
+    {
+      "arquivo": "EP12/srt_base/EP12_C03.base.srt",
+      "sha256": "4D5C9BB7CFDF2313F848C1C27642A3043140FE663F167A71596EA77F4B681684"
+    },
+    {
+      "arquivo": "EP12/srt_base/EP12_C04.base.srt",
+      "sha256": "FB901C6435BE98162928C8D1F0D87FE5518AC9C9EDD018C7C24B8C3263008B83"
+    },
+    {
+      "arquivo": "EP12/srt_base/EP12_C05.base.srt",
+      "sha256": "2883F6A644FADDD1A26C89681728245627F805B0B468A32DD8302DA2B4966A3D"
+    },
+    {
+      "arquivo": "EP13/EP13.continuidade_base.srt",
+      "sha256": "2AAE6AF0A9B4BE5CD3D02E86444844C7E87DFF62BF53DB80DC827E60781B591B"
+    },
+    {
+      "arquivo": "EP13/EP13.timeline.json",
+      "sha256": "A5EF7C1EC8DE9EECE9ACD2A85A3C1640547E0CCD2E595AE4042EFE2249971974"
+    },
+    {
+      "arquivo": "EP13/EP13.vozes.csv",
+      "sha256": "0FB2796C918248E03583CE2138C9263BC316ADF6E7C9FE250C46AADD2E9302EB"
+    },
+    {
+      "arquivo": "EP13/GUIA_CAPCUT.md",
+      "sha256": "C4888A1F964B6B457792D1FD101C6CE60CA89C8B9ECD162459BBB74328D9BE64"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C01.base.srt",
+      "sha256": "89244B6F7715CBDE82742EB2F916291977CF86A941735D375BCEB67C79A514A2"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C02.base.srt",
+      "sha256": "DAC1FE45F6DB159721BB1F1C07897C82744DEBFF0D9E13098A4E10FEB7DF2BA2"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C03.base.srt",
+      "sha256": "90C5A2D84A65A4E74FC461FD0693ED68A97001287FE33F545E2C2B6A857D35B8"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C04.base.srt",
+      "sha256": "49D1C9F149AFBB530DE70345050043F87E8EB16486AD3E870F0A1602F2E27A75"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C05.base.srt",
+      "sha256": "F31F5B2FFF7D531762A0E7B26539362D1C2839A0621EA4541E0C09EEA1015EB1"
+    },
+    {
+      "arquivo": "EP13/srt_base/EP13_C06.base.srt",
+      "sha256": "87C0547CCB69A2FE6C464FDAB977CA06A5CBD8E8D26E9ABEDBC64813D77CE345"
+    },
+    {
+      "arquivo": "EP14/EP14.continuidade_base.srt",
+      "sha256": "9EF6E981742B4DF7FB994B1921CDD1C40103C9DF6344ABE2BCC86D5930B67195"
+    },
+    {
+      "arquivo": "EP14/EP14.timeline.json",
+      "sha256": "BEAB3A76A486D71700D04399B8951B2E4112C2171269322B21302C742889FFE7"
+    },
+    {
+      "arquivo": "EP14/EP14.vozes.csv",
+      "sha256": "10300990BF4B85EB6E48AF40BCED86FD2B0906DE8EF4CB9BCA75DF327C4D79F9"
+    },
+    {
+      "arquivo": "EP14/GUIA_CAPCUT.md",
+      "sha256": "757ABFB389BDA5E5DA7527E5E088A10E7E99EAC5BDC4C8C500CEF25A4CB49999"
+    },
+    {
+      "arquivo": "EP14/srt_base/EP14_C01.base.srt",
+      "sha256": "746B8908406A104A840D9BC97CACEEFFAC9DED27E6915E0C672292CE67421518"
+    },
+    {
+      "arquivo": "EP14/srt_base/EP14_C02.base.srt",
+      "sha256": "75373FFFE59BC3C7D69119E5E0CBA68A3A294528B96E99C7A78B2507A171D44C"
+    },
+    {
+      "arquivo": "EP14/srt_base/EP14_C03.base.srt",
+      "sha256": "7C5B4739D85F37D1D1EF3906C6C0B0AE5A09E53B846D085BD3D860F248607357"
+    },
+    {
+      "arquivo": "EP14/srt_base/EP14_C04.base.srt",
+      "sha256": "D921F8CB801F6328984F4218C78AB0E6611464A81AE4B7D8A7A7D948F29B7FA8"
+    },
+    {
+      "arquivo": "EP14/srt_base/EP14_C05.base.srt",
+      "sha256": "1F929C0D0CB18CAEE20F9AE234096E1C3E0B1974B7DAD6D84959D8C99D89BFC8"
+    },
+    {
+      "arquivo": "EP15/EP15.continuidade_base.srt",
+      "sha256": "F66C2250858859DA9517276C089AB6112D6043F8C04BF63E148BC632A9E84D92"
+    },
+    {
+      "arquivo": "EP15/EP15.timeline.json",
+      "sha256": "F691D63F57341161D766E2AE0438C908B2F663CA013E1C2611F003B7D030FEC8"
+    },
+    {
+      "arquivo": "EP15/EP15.vozes.csv",
+      "sha256": "377191D1E64EF24D540787A89D21E632652E48FC410558AADD01A9470E2ADCB0"
+    },
+    {
+      "arquivo": "EP15/GUIA_CAPCUT.md",
+      "sha256": "DD54B42AAB5B77DAAF498908E8A6E559F2581BD392320EDC50E8747603E5DD96"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C01.base.srt",
+      "sha256": "678E112B4C733AB725E23E790E62D96700D044DC638A52749D1E343DDDF4F728"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C02.base.srt",
+      "sha256": "83650CAC0654D1984A5814FEDFDFC98377B1BC1AF6FD328A06D97FE72E7581E7"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C03.base.srt",
+      "sha256": "7A3BE9FEEADB27247A45A16B2019AB0BBB423991FA6747B6AFBBB4E2B7E4D476"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C04.base.srt",
+      "sha256": "FC3F749C978F9E7275727F3C3716B4F7C8AE09430A7879C56297215078F12824"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C05.base.srt",
+      "sha256": "EFDF0E9B168BF12451B6C9B04ECC8DE10EF303E9C915C99FF8B3529D27C7DD4C"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C06.base.srt",
+      "sha256": "BE907643D2D60F160C960F4B7F9C861065C5F2F000C9669F6455475914FFD503"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C07.base.srt",
+      "sha256": "859B54CC95181715BD4B766E11455F8CE0417CC90A2AEFB8120A03500C98E7E1"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C08.base.srt",
+      "sha256": "AB08AB8835DAA56667C333B565B7DFBAD61C04B30AA55ACB949BCA441748F76C"
+    },
+    {
+      "arquivo": "EP15/srt_base/EP15_C09.base.srt",
+      "sha256": "45DDD707976B90FAB65F5C27D7AEC0F7689A4504F424678382161A1505FC02B2"
+    },
+    {
+      "arquivo": "compartilhados/VINHETA_01.base.srt",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "arquivo": "dublagem_temporada.csv",
+      "sha256": "9439C484620B6B9A6469FA4875FF876C26D628249A1FD9CC120F9AC181A46628"
+    }
+  ]
+}

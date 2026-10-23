@@ -1,0 +1,165 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP02_C07",
+  "episodio": 2,
+  "numero": 7,
+  "nome": "A DECISÃO",
+  "estado": "gravado_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 431,
+    "linhaFim": 442,
+    "sha256BlocoUtf8": "5D0E9636CBDD325ECACD6E6CED5FD9A4C013E858CD3F7A6A59E10D9602659499",
+    "raw": "### EP02_C07 · A DECISÃO\n`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Foi ali que eu parei de pedir. E comecei a cobrar.\"\n\n**NARRADOR** — 7s:\n> \"Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "BAIXA",
+    "planosSemTemposDefinidos": [
+      "BAIXA"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      432,
+      433
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Foi ali que eu parei de pedir. E comecei a cobrar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Foi ali que eu parei de pedir. E comecei a cobrar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 437,
+      "linhaTexto": 438,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 440,
+      "linhaTexto": 441,
+      "inicioMs": 6000,
+      "fimMs": 13000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 13000,
+    "conteudoPlanejadoMs": 13000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 16000,
+    "fimUltimaLegendaMs": 16000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 435,
+      "raw": "**Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Ator imóvel conforme a ação original, no eixo da marca real; direção do horizonte/prédio depende da captura F3."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP02_C07.json",
+  "runtimeSHA256": "71E41A9B0B1BEA8B56CBA5B32BAA02E83CDDE3F2767C523A3F50EBB4990E0896",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 13000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 16000,
+    "blocosOriginaisMs": 13000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "ultimaTomadaFilmeEP02": {
+    "sessaoId": "942e969211b54eb2a4665f569108704b",
+    "versaoTomada": 1,
+    "arquivoMp4Original": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C07.mp4",
+    "sha256Mp4Original": "A858BFAC7B8CF5AB9D1E971E4FECB3E8FF853D1F11500157A9BD020D952C9B6B",
+    "duracaoMp4OriginalMs": 20849,
+    "duracaoConteudoMs": 13000,
+    "contagemMs": 3000,
+    "duracaoDeclaradaCapturaMs": 16000,
+    "arquivoSrtOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C07.srt",
+    "sha256SrtOriginal": "30CC635F6E5C0A58DFA8A50FD7A6CAB5B5C20AC83AFDE7E8B0EEC6D6B5DB8533",
+    "fonteCena": {
+      "arquivo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\cena_preparada_9d0288411c57487d91e3772eaeaf9ea0.json",
+      "sha256": "71E41A9B0B1BEA8B56CBA5B32BAA02E83CDDE3F2767C523A3F50EBB4990E0896",
+      "snapshotNativoRegistrado": true,
+      "proveniencia": "snapshot publicado registrado no log antes da sessao"
+    },
+    "provas": {
+      "sessaoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\942e969211b54eb2a4665f569108704b\\sessao.xml",
+      "sha256SessaoXml": "69F2DE51C93D90028A1A8D5D421F33678AEF873F53BA955F10DFB080B91CEF74",
+      "resultadoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\942e969211b54eb2a4665f569108704b\\resultado.xml",
+      "sha256ResultadoXml": "2835169D47F04B9B4FB0130851A905C6C6A3E6D2D1271D760DB89BC6CBFC47E0",
+      "manifestoCaptura": "C:\\Users\\felipe.santiago\\GTA_Diretor\\backups\\capturas\\942e969211b54eb2a4665f569108704b-23895df0\\manifesto.json",
+      "sha256ManifestoCaptura": "5576B78CA0AD5011ED4E29BE5477EBE6664E2508E02E12A502C777FED49BDD38",
+      "logNativo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\DiretorGTA.log",
+      "acaoConcluida": "2026-10-05T23:38:08.6722816+00:00 [ACAO_CONCLUIDA] Cena=EP02_C07; tempo_ms=13011",
+      "gettersEEventosRegistrados": {}
+    },
+    "semTextoSolicitado": true,
+    "avaliacaoVisualUsuario": "pendente",
+    "originaisPreservados": true
+  }
+}

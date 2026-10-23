@@ -1,0 +1,105 @@
+{
+  "versao": 1,
+  "id": "EP14_C05",
+  "episodio": 14,
+  "numero": 5,
+  "nome": "ELE SABE",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "23:40",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 10,
+      "plano": "MEDIA",
+      "texto": "Djanira. Ele sabe que você tá viva. Ele descobriu na semana passada. E ele mandou te chamar pra jantar.",
+      "personagem": "DINJER",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Então diz pra ele que eu aceito.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Você não pode ir. Você não sabe quem ele é.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Eu sei exatamente quem ele é. Eu descobri antes de você.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "DOIS",
+      "texto": "Um jantar. Um pai. E uma verdade que vai virar tudo do avesso. Não perca o grande final de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 30,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "horizonte"
+      }
+    },
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 30,
+      "expressao": "normal"
+    }
+  ]
+}

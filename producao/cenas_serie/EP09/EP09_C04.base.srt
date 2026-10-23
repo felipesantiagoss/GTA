@@ -1,0 +1,19 @@
+1
+00:00:03,000 --> 00:00:11,000
+Atendente: A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.
+
+2
+00:00:11,000 --> 00:00:13,000
+Djanira: Como assim?
+
+3
+00:00:13,000 --> 00:00:21,000
+Atendente: É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.
+
+4
+00:00:21,000 --> 00:00:24,000
+Djanira: Faltam quantos anos?
+
+5
+00:00:24,000 --> 00:00:26,000
+Atendente: Três.

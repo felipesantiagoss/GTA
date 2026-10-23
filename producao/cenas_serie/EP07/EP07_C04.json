@@ -1,0 +1,157 @@
+{
+  "versao": 1,
+  "id": "EP07_C04",
+  "episodio": 7,
+  "numero": 4,
+  "nome": "O JANTAR NO CÉU",
+  "ambiente": {
+    "local": "CANAL_LS",
+    "hora": "21:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.7,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.7,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.",
+      "personagem": "O_CHEFE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "É bonita, sim senhor.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 10,
+      "plano": "MEDIA",
+      "texto": "Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Eu não vi nada.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Eu sei que você não viu. Mas eu não posso confiar na sua memória.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Desculpa, amiga.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 2,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "TACA_JANTAR",
+      "recurso": "taca",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "O_CHEFE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "feliz"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 12,
+      "duracaoSegundos": 22,
+      "expressao": "normal"
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 30,
+      "duracaoSegundos": 2,
+      "expressao": "chateado"
+    }
+  ]
+}

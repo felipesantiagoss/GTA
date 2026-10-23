@@ -1,0 +1,351 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C03",
+  "episodio": 1,
+  "numero": 3,
+  "nome": "A AVÓ",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 238,
+    "linhaFim": 246,
+    "sha256BlocoUtf8": "6012F9A9C533D59D8F89A9CA2C22DFCCE9F9990AF40FB7576535E7D3E9530F8C",
+    "raw": "### EP01_C03 · A AVÓ\n`local:` CASA_VO · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` DOIS → MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** As duas sentadas ou em pé na frente da casa. Djanira ajeita algo para a avó. Sem diálogo — só convivência.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Eu morava com a minha avó, dona Iraci. Foi ela que me criou. Agora que ela tava muito doente, era a minha vez de cuidar dela.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "DOIS → MEDIA",
+    "planosSemTemposDefinidos": [
+      "DOIS",
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      239,
+      240
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu morava com a minha avó, dona Iraci. Foi ela que me criou. Agora que ela tava muito doente, era a minha vez de cuidar dela.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"Eu morava com a minha avó, dona Iraci. Foi ela que me criou. Agora que ela tava muito doente, era a minha vez de cuidar dela.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 244,
+      "linhaTexto": 245,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 242,
+      "raw": "**Ação:** As duas sentadas ou em pé na frente da casa. Djanira ajeita algo para a avó. Sem diálogo — só convivência.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Alternativa em pé explicitamente permitida no original. Djanira ajeita a sacola da avó: recebe na janela1-1,7s e devolve na janela4-5,5s; prop real/clipes de mãos, contato máximo0,35m medido no momento de cada transferência. Distância inicial0,7m candidata a ensaio; fora do alcance interrompe sem teleportar objeto/ator. Após6s ambas convivem, câmeraDOIS→MEDIA, voz9s sem boca. Não é confirmação de encaixe das mãos."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    },
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DONA_IRACI"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C03.json",
+  "runtimeSHA256": "6A4D1AA48BA56D60746B7EA66F91CA22294D55EB4473D365E4297249AF8D7483",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 9000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 12000,
+    "blocosOriginaisMs": 9000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [
+    {
+      "id": "SACOLA_IRACI",
+      "recurso": "sacola",
+      "marca": {
+        "direita": 0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DONA_IRACI",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 1,
+          "personagem": "DJANIRA_POBRE",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "esperaMaximaSegundos": 0.7
+        },
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 4,
+          "personagem": "DONA_IRACI",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "esperaMaximaSegundos": 1.5
+        }
+      ]
+    }
+  ],
+  "posesRuntime": [],
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C03_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C03_LIMPO.mp4",
+    "sha256": "B1D98A6D273EE1EE87824DE3F388E0177E3F5478E12DE412FDD0E83C3EF2A629",
+    "duracaoMs": 9032,
+    "sessoesReais": [
+      "0649dc1467074afb9aac6d80d1a3ec34"
+    ],
+    "fontesJsonSHA256": [
+      "6A4D1AA48BA56D60746B7EA66F91CA22294D55EB4473D365E4297249AF8D7483"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

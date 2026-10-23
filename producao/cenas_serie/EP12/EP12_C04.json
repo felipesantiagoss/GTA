@@ -1,0 +1,150 @@
+{
+  "versao": 1,
+  "id": "EP12_C04",
+  "episodio": 12,
+  "numero": 4,
+  "nome": "A GORJETA",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "00:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.55,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 14,
+      "plano": "PERTO",
+      "texto": "Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_RICA",
+      "recurso": "entrega_a",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3.5,
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": false
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 3.5,
+      "duracaoSegundos": 5,
+      "destino": {
+        "direita": -0.55,
+        "frente": -4,
+        "altura": 0
+      },
+      "velocidade": 0.9
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "choro_patricia",
+      "inicioSegundos": 9,
+      "duracaoSegundos": 5,
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 14,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "ENVELOPE_DINJER"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_ENVELOPE",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "ENVELOPE_DINJER",
+      "recurso": "envelope",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_RICA",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "colocar",
+          "inicioSegundos": 1,
+          "personagem": "DJANIRA_RICA",
+          "recurso": "entrega_a",
+          "apoio": "MESA_ENVELOPE",
+          "esperaMaximaSegundos": 2
+        }
+      ]
+    }
+  ]
+}

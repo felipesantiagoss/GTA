@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Referencia versao="1" local="CASA_VO_INTERIOR" origem="https://github.com/itsjustcurtis/MenyooSP/blob/Development/Solution/source/Submenus/Teleport/Locations.cpp#L367" x="2454.78" y="4971.92" z="46.8103" direcao="0">
+  <Ipl nome="farm" />
+  <Ipl nome="farm_props" />
+  <Ipl nome="farmint" />
+  <Ipl nome="des_farmhs_start_occl" />
+  <Ipl nome="des_farmhs_startimap" />
+</Referencia>

@@ -1,0 +1,338 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C07",
+  "episodio": 1,
+  "numero": 7,
+  "nome": "O BARRACO NO HANGAR",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 286,
+    "linhaFim": 304,
+    "sha256BlocoUtf8": "E939FCCCDE2BE1F0507490353FE5CEAA7E8F0E9ED62F15764B0412E7B345E082",
+    "raw": "### EP01_C07 · O BARRACO NO HANGAR\n`local:` AEROPORTO_HANGAR · `hora:` 11:00 · `clima:` limpo\n`elenco:` DINJER, COLEGA_1, COLEGA_2, COLEGA_3 · `cam:` auto · `dur:` 20s · `gravar:` SIM\n\n⚠️ **Não use combate real.** Use animações de luta encadeadas, que repetem igual todas as vezes.\n\n**Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | COLEGA_1 | \"Eu pegaria ela só no off mesmo.\" | 3s | explicando |\n| 2 | DINJER | \"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\" | 9s | irritado |\n| 3 | COLEGA_2 | \"Só faltou falar comunista.\" | 3s | explicando |\n| 4 | DINJER | \"Me respeita, cara. Tá tirando onda?\" | 3s | irritado |\n\n**Ação final:** 2 segundos de empurra-empurra. Corte seco.\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_HANGAR",
+    "locaisCodigos": [
+      "AEROPORTO_HANGAR"
+    ],
+    "hora": "11:00",
+    "clima": "limpo",
+    "elenco": "DINJER, COLEGA_1, COLEGA_2, COLEGA_3",
+    "elencoCodigos": [
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2",
+      "COLEGA_3"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 20000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      287,
+      288
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2",
+      "COLEGA_3"
+    ],
+    "regras": [
+      "Quatro atores na coreografia22-32s, com trocas de golpes, uppercut e queda física de Dinjer ao final. Preservar as quatro falas3/9/3/3s; prefixo silencioso4s e ação final ampliada para10s, sem combate da IA."
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "COLEGA_1",
+      "texto": "Eu pegaria ela só no off mesmo.",
+      "textoOriginal": "\"Eu pegaria ela só no off mesmo.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 298,
+      "raw": "| 1 | COLEGA_1 | \"Eu pegaria ela só no off mesmo.\" | 3s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 3000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DINJER",
+      "texto": "Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.",
+      "textoOriginal": "\"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 299,
+      "raw": "| 2 | DINJER | \"Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.\" | 9s | irritado |",
+      "inicioMs": 3000,
+      "fimMs": 12000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "COLEGA_2",
+      "texto": "Só faltou falar comunista.",
+      "textoOriginal": "\"Só faltou falar comunista.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 300,
+      "raw": "| 3 | COLEGA_2 | \"Só faltou falar comunista.\" | 3s | explicando |",
+      "inicioMs": 12000,
+      "fimMs": 15000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DINJER",
+      "texto": "Me respeita, cara. Tá tirando onda?",
+      "textoOriginal": "\"Me respeita, cara. Tá tirando onda?\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 301,
+      "raw": "| 4 | DINJER | \"Me respeita, cara. Tá tirando onda?\" | 3s | irritado |",
+      "inicioMs": 15000,
+      "fimMs": 18000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "acao_final",
+      "boca": false,
+      "texto": null,
+      "linhaInicio": 303,
+      "indicacoesOriginais": "**Ação final:** 2 segundos de empurra-empurra. Corte seco.",
+      "inicioMs": 18000,
+      "fimMs": 20000,
+      "duracaoMs": 2000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 20000,
+    "blocosDeclaradosMs": 20000,
+    "conteudoPlanejadoMs": 20000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 23000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 292,
+      "raw": "**Ação:** Dinjer passa por três colegas. Eles falam dela. Ela para, vira e responde. Termina em empurrão e confusão coreografada.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    },
+    {
+      "linha": 303,
+      "raw": "**Ação final:** 2 segundos de empurra-empurra. Corte seco.",
+      "tipo": "final",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 290,
+      "raw": "⚠️ **Não use combate real.** Use animações de luta encadeadas, que repetem igual todas as vezes."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Remontagem32s+contagem3s: prefixo explícito4s sem voz para Dinjer passar pelos três colegas, parar e virar fisicamente; quatro falas originais3/9/3/3s intactas com boca/gesto/corte. A ação final original2s recebe reserva silenciosa adicional8s, formando coreografia10s em22–32s com os quatro atores, sem combate da IA. Contato, clipes reais, reação/queda, saúde e retorno às marcas são verificados pelo helper; nenhuma ação física é substituída por plateia parada. Plano finalLONGE; encaixe e resultado visual ainda precisam da tomada real."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:COLEGA_1",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:COLEGA_2",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:COLEGA_3",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:AEROPORTO_HANGAR",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "empurrar",
+      "tipo": "coreografia",
+      "categoria": "briga",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "shove",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61481,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core shove"
+      },
+      "restricoes": [
+        "Somente TASK_PLAY_ANIM; sem TASK_COMBAT, dano, arma nem seleção de alvo por IA."
+      ]
+    },
+    {
+      "codigo": "reacao_golpe",
+      "tipo": "coreografia",
+      "categoria": "briga",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "hit_heavy_punch_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61437,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core hit_heavy_punch_a"
+      },
+      "restricoes": [
+        "Reação separada; não há prova de que sincroniza com shove; requer ensaio de distância/tempo."
+      ]
+    },
+    {
+      "codigo": "empurrar_patricia",
+      "tipo": "coreografia_pareada",
+      "categoria": "briga",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_patricia",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65142,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_patricia"
+      },
+      "restricoes": [
+        "Par proposto push_away_trevor; validar offsets/timing antes de chamar sincronizado."
+      ]
+    },
+    {
+      "codigo": "empurrar_trevor",
+      "tipo": "coreografia_pareada",
+      "categoria": "briga",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_trevor",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65143,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_trevor"
+      },
+      "restricoes": [
+        "Par proposto push_away_patricia; não deriva combate físico nem target AI."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER",
+    "COLEGA_1",
+    "COLEGA_2",
+    "COLEGA_3"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C07.json",
+  "runtimeSHA256": "E62695D49EAA3C6158C8B4BC6448EE4E63D87AC6FFE407582B0494C98E9386A8",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 32000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 35000,
+    "blocosOriginaisMs": 20000,
+    "tempoSemVozAdicionalMs": 12000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "revisoesUsuario": [
+    {
+      "data": "2026-10-05",
+      "pedido": "refazer sem legendas, preservar anteriores",
+      "fonte": "pedido atual no chat"
+    }
+  ],
+  "remontagemAutorizada": {
+    "fonte": "pedido atual no chat",
+    "semTextoNaImagem": true,
+    "semVinheta": true,
+    "acaoTecnica": "Quatro atores na coreografia22-32s, com trocas de golpes, uppercut e queda física de Dinjer ao final. Preservar as quatro falas3/9/3/3s; prefixo silencioso4s e ação final ampliada para10s, sem combate da IA.",
+    "prefixoSemVozMs": 4000,
+    "coreografiaMs": 10000,
+    "quedaFinal": "DINJER"
+  },
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C07_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C07_LIMPO.mp4",
+    "sha256": "A98E9843B535F2A19CFC83142DCFC39DD16D9071E67A4F657354D9058138DAFB",
+    "duracaoMs": 32033,
+    "sessoesReais": [
+      "31be234ca31346f0a90eb9f73b2cfd7d"
+    ],
+    "fontesJsonSHA256": [
+      "E62695D49EAA3C6158C8B4BC6448EE4E63D87AC6FFE407582B0494C98E9386A8"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

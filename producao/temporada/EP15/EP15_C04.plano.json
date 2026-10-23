@@ -1,0 +1,215 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C04",
+  "episodio": 15,
+  "numero": 4,
+  "nome": "O MOTIVO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1524,
+    "linhaFim": 1540,
+    "sha256BlocoUtf8": "B9C1D2BEF2641ACFEA5697E63072D812A372BA271BA2AC1C6E788C67044838CA",
+    "raw": "### EP15_C04 · O MOTIVO\n`local:` MANSAO_CHEFE · `hora:` 20:40 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM\n\n> 🔴 **O primeiro grande twist da temporada.**\n\n**Ação:** O Chefe se levanta e anda até a janela, de costas.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Então o senhor sabia quem eu era naquele avião.\" | 5s | neutro |\n| 2 | O_CHEFE | \"Eu sabia.\" | 2s | neutro |\n| 3 | O_CHEFE | \"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\" | 12s | neutro |\n| 4 | O_CHEFE | \"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\" | 15s | explicando |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "20:40",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "O_CHEFE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 34000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1525,
+      1526
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1530,
+      "raw": "**Ação:** O Chefe se levanta e anda até a janela, de costas.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1528,
+      "raw": "> 🔴 **O primeiro grande twist da temporada.**"
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "Então o senhor sabia quem eu era naquele avião.",
+      "textoOriginal": "\"Então o senhor sabia quem eu era naquele avião.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1536,
+      "raw": "| 1 | DJANIRA | \"Então o senhor sabia quem eu era naquele avião.\" | 5s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu sabia.",
+      "textoOriginal": "\"Eu sabia.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1537,
+      "raw": "| 2 | O_CHEFE | \"Eu sabia.\" | 2s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 7000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.",
+      "textoOriginal": "\"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1538,
+      "raw": "| 3 | O_CHEFE | \"Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.\" | 12s | neutro |",
+      "inicioMs": 7000,
+      "fimMs": 19000,
+      "duracaoMs": 12000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.",
+      "textoOriginal": "\"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1539,
+      "raw": "| 4 | O_CHEFE | \"Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.\" | 15s | explicando |",
+      "inicioMs": 19000,
+      "fimMs": 34000,
+      "duracaoMs": 15000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 34000,
+    "blocosDeclaradosMs": 34000,
+    "conteudoPlanejadoMs": 34000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 37000,
+    "fimUltimaLegendaMs": 37000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** O Chefe se levanta e anda até a janela, de costas.",
+      "origem": "linha 1530",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

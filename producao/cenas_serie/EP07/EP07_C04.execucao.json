@@ -1,0 +1,257 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP07_C04",
+  "episodio": 7,
+  "numero": 4,
+  "nome": "O JANTAR NO CÉU",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 836,
+    "linhaFim": 854,
+    "sha256BlocoUtf8": "E3913BF455E5258C01D97B375254E10D959C517F78854C0027D179F58AE06E37",
+    "raw": "### EP07_C04 · O JANTAR NO CÉU\n`local:` AEROPORTO_AR · `hora:` 21:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM\n\n**Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\" | 9s | explicando |\n| 2 | DJANIRA | \"É bonita, sim senhor.\" | 3s | neutro |\n| 3 | O_CHEFE | \"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\" | 10s | neutro |\n| 4 | DJANIRA | \"Eu não vi nada.\" | 2s | negando |\n| 5 | O_CHEFE | \"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\" | 6s | neutro |\n| 6 | DINJER | \"Desculpa, amiga.\" | 2s | implorando |\n\n> 💡 Na fala 6 a Dinjer **não olha para a Djanira**. Olha para o chão. É o detalhe que o público vai lembrar no Episódio 15.\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_AR",
+    "locaisCodigos": [
+      "AEROPORTO_AR"
+    ],
+    "hora": "21:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 34000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      837,
+      838
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.",
+      "textoOriginal": "\"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 846,
+      "raw": "| 1 | O_CHEFE | \"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\" | 9s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "É bonita, sim senhor.",
+      "textoOriginal": "\"É bonita, sim senhor.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 847,
+      "raw": "| 2 | DJANIRA | \"É bonita, sim senhor.\" | 3s | neutro |",
+      "inicioMs": 9000,
+      "fimMs": 12000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.",
+      "textoOriginal": "\"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 848,
+      "raw": "| 3 | O_CHEFE | \"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\" | 10s | neutro |",
+      "inicioMs": 12000,
+      "fimMs": 22000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não vi nada.",
+      "textoOriginal": "\"Eu não vi nada.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 849,
+      "raw": "| 4 | DJANIRA | \"Eu não vi nada.\" | 2s | negando |",
+      "inicioMs": 22000,
+      "fimMs": 24000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu sei que você não viu. Mas eu não posso confiar na sua memória.",
+      "textoOriginal": "\"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 850,
+      "raw": "| 5 | O_CHEFE | \"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\" | 6s | neutro |",
+      "inicioMs": 24000,
+      "fimMs": 30000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DINJER",
+      "texto": "Desculpa, amiga.",
+      "textoOriginal": "\"Desculpa, amiga.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 851,
+      "raw": "| 6 | DINJER | \"Desculpa, amiga.\" | 2s | implorando |",
+      "inicioMs": 30000,
+      "fimMs": 32000,
+      "duracaoMs": 2000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 34000,
+    "blocosDeclaradosMs": 32000,
+    "conteudoPlanejadoMs": 34000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 37000,
+    "fimUltimaLegendaMs": 35000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 840,
+      "raw": "**Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 853,
+      "raw": "> 💡 Na fala 6 a Dinjer **não olha para a Djanira**. Olha para o chão. É o detalhe que o público vai lembrar no Episódio 15."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:AEROPORTO_AR",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:voo_queda",
+      "tipo": "atuacao_integral",
+      "descricao": "Aeronave, assentos, rota aérea, água/rampa e queda invencível; nenhuma marca terrestre simula ponto aéreo.",
+      "candidatos": [
+        "queda_livre_candidata"
+      ]
+    },
+    {
+      "codigo": "capacidade:bandeja",
+      "tipo": "atuacao_integral",
+      "descricao": "Bandeja compatível, attachment/mãos e serviço/pose; prop fast-food candidato não comprova serviço de jantar.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP07_C04",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "queda",
+      "categoria": "voo_queda",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER",
+    "O_CHEFE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

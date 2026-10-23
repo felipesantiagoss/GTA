@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP10_C05",
+  "episodio": 10,
+  "numero": 5,
+  "nome": "A INVISÍVEL",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1103,
+    "linhaFim": 1111,
+    "sha256BlocoUtf8": "6558BA332FA3DA6A67FBF549F97D7B65FDDDBADD88D7D098DD8A37F330421820",
+    "raw": "### EP10_C05 · A INVISÍVEL\n`local:` CENTRO_LEGION · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"\n\n"
+  },
+  "original": {
+    "local": "CENTRO_LEGION",
+    "locaisCodigos": [
+      "CENTRO_LEGION"
+    ],
+    "hora": "08:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1104,
+      1105
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1109,
+      "linhaTexto": 1110,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1107,
+      "raw": "**Ação:** Djanira andando rápido na calçada, no meio de outras pessoas, sem ninguém olhar para ela.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CENTRO_LEGION",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:populacao_propria",
+      "tipo": "atuacao_integral",
+      "descricao": "Figurantes próprios preservados da limpeza; população removida não representa gente na calçada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP10_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

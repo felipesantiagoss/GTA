@@ -1,0 +1,118 @@
+{
+  "versao": 1,
+  "id": "EP13_C05",
+  "episodio": 13,
+  "numero": 5,
+  "nome": "A FOTO NA PAREDE",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "14:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.4,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 90
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "plano": "MEDIA",
+      "texto": "Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "limpar_mesa_superficie_autor",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": false
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": 1.4,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "expressao": "normal"
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 8,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 0,
+          "frente": 3,
+          "altura": 1.2
+        }
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_LIMPEZA",
+      "recurso": "bancada_limpeza_candidata",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ]
+}

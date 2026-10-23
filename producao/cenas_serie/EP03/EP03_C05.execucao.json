@@ -1,0 +1,138 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP03_C05",
+  "episodio": 3,
+  "numero": 5,
+  "nome": "A FUGA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 495,
+    "linhaFim": 503,
+    "sha256BlocoUtf8": "2FD3F28F28DA4117D454FD1D7E96C844AD45909D752C7DD386C193B2AAAC7F10",
+    "raw": "### EP03_C05 · A FUGA\n`local:` CASA_DINJER, fundos · `hora:` 21:30 · `clima:` limpo\n`elenco:` DINJER, DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** A porta dos fundos abre. Dinjer sai correndo, descalça, com os sapatos na mão. Djanira parada no meio da rua, vendo ela sumir.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"E foi aí que eu vi. Ela saiu correndo pelos fundos. Descalça. De uma casa que ela pagava com o meu dinheiro. Correndo de mim, como se eu fosse o problema dela.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_DINJER, fundos",
+    "locaisCodigos": [
+      "CASA_DINJER"
+    ],
+    "hora": "21:30",
+    "clima": "limpo",
+    "elenco": "DINJER, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DINJER",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      496,
+      497
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E foi aí que eu vi. Ela saiu correndo pelos fundos. Descalça. De uma casa que ela pagava com o meu dinheiro. Correndo de mim, como se eu fosse o problema dela.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+      "textoOriginal": "> \"E foi aí que eu vi. Ela saiu correndo pelos fundos. Descalça. De uma casa que ela pagava com o meu dinheiro. Correndo de mim, como se eu fosse o problema dela.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 501,
+      "linhaTexto": 502,
+      "inicioMs": 0,
+      "fimMs": 12000,
+      "duracaoMs": 12000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 12000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 15000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 499,
+      "raw": "**Ação:** A porta dos fundos abre. Dinjer sai correndo, descalça, com os sapatos na mão. Djanira parada no meio da rua, vendo ela sumir.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_DINJER",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:recurso_sapato",
+      "tipo": "atuacao_integral",
+      "descricao": "Sapatos na mão e fuga; conflito com figurino permanente de Dinjer precisa de adaptação declarada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:figurino_conflito",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP03_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DINJER",
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

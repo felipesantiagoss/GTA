@@ -1,0 +1,225 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "VINHETA_01",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "OS CRÉDITOS",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1620,
+    "linhaFim": 1645,
+    "sha256BlocoUtf8": "98ACAB2AC8943C486695C8B7936B2A641C65CB5C9BDE00C7BDB13CD2043FF7D1",
+    "raw": "### VINHETA_01 · OS CRÉDITOS\n`local:` PRAIA_DELPERRO · `hora:` 18:30 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER, DONA_IRACI, O_CHEFE · `cam:` MEDIA · `dur:` 20s · `gravar:` SIM\n\n**Ação:** Os quatro dançando, um de cada vez, 5 segundos cada. Danças diferentes por personagem.\n\n| Personagem | Dança |\n|---|---|\n| DJANIRA_RICA | `curtindo` |\n| DINJER | `requebrando` |\n| DONA_IRACI | `duro de dançar` *(é a piada)* |\n| O_CHEFE | `deslizando` |\n\n**Os créditos eu monto no CapCut:**\n\n```\nA CALOTEIRA DO OESTE\nUma novela de FELIPE SANTIAGO\nRoteiro — FELIPE SANTIAGO\nDireção — FELIPE SANTIAGO\nFotografia — FELIPE SANTIAGO\nDono do computador — FELIPE SANTIAGO\nQuem pagou o GTA — FELIPE SANTIAGO\nAgradecimento especial — FELIPE SANTIAGO\n```\n\n"
+  },
+  "original": {
+    "local": "PRAIA_DELPERRO",
+    "locaisCodigos": [
+      "PRAIA_DELPERRO"
+    ],
+    "hora": "18:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER, DONA_IRACI, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER",
+      "DONA_IRACI",
+      "O_CHEFE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 20000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1621,
+      1622
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER",
+      "DONA_IRACI",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [],
+  "temposOriginais": {
+    "estimativaOriginalMs": 20000,
+    "blocosDeclaradosMs": 0,
+    "conteudoPlanejadoMs": 20000,
+    "reservaSemBlocoDefinidoMs": 20000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 23000,
+    "fimUltimaLegendaMs": 0,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1624,
+      "raw": "**Ação:** Os quatro dançando, um de cada vez, 5 segundos cada. Danças diferentes por personagem.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Quatro danças/clipes documentados de5s com planosMEDIA individuais; sem fala/legenda. Intenção estética dos estilos continua candidata, sujeita ao teste.",
+    "Marcas relativas -9/-3/+3/+9m afastam os outros atores do quadro; exige18m de praia plana real na marca, enquadramento16:9 e streaming conferidos.",
+    "Os oito créditos originais entram no CapCut; vinheta reutilizada nos15episódios, nenhuma dança/MP4 gravado ainda."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:PRAIA_DELPERRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "danca_djanira_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "med_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133408,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar estilo curtindo; posição/root motion/intensidade e roupa precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_dinjer_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+      "animacao": "high_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133452,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@ high_center"
+      },
+      "restricoes": [
+        "Não afirmar requebrando sem imagem; mesma roupa permanente de Dinjer."
+      ]
+    },
+    {
+      "codigo": "danca_iraci_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "low_center",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133425,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ low_center"
+      },
+      "restricoes": [
+        "Não afirmar duro de dançar; compatibilidade da senhora e humor precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_chefe_candidata",
+      "tipo": "danca",
+      "categoria": "danca",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+      "animacao": "med_center",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133466,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar deslizando; não transportar personagem por root motion sem marca."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "DINJER",
+    "DONA_IRACI",
+    "O_CHEFE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "VINHETA_01.json",
+  "runtimeSHA256": "DF2B6DEF94702EE9C4CAE8193D5123808E3257DC41A7B7D8754DB7B7D4D9E5D2",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 20000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 23000,
+    "blocosOriginaisMs": 0,
+    "tempoSemVozAdicionalMs": 20000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

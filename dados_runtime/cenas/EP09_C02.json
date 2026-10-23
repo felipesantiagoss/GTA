@@ -1,0 +1,97 @@
+{
+  "versao": 1,
+  "id": "EP09_C02",
+  "episodio": 9,
+  "numero": 2,
+  "nome": "O PAPEL ABERTO",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "11:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "PERTO",
+      "texto": "Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "recurso": "ler_papel_candidato",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "PAPEL_HERANCA"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "PAPEL_HERANCA",
+      "recurso": "carta_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP12_C05",
+  "episodio": 12,
+  "numero": 5,
+  "nome": "O BILHETE",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1280,
+    "linhaFim": 1291,
+    "sha256BlocoUtf8": "F6AF83343AB4D2F94929F9B03A50D6CE3B0339F423D22CBC414D9E64D4935589",
+    "raw": "### EP12_C05 · O BILHETE\n`local:` BOATE_DENTRO · `hora:` 00:05 · `clima:` limpo\n`elenco:` DINJER · `cam:` PERTO · `dur:` 5s · `gravar:` SIM\n\n**Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut.\n\n**TEXTO NA TELA:**\n> \"Duas semanas. Juro.\"\n\n**NARRADOR** — 7s:\n> \"Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "00:05",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 5000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1281,
+      1282
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1284,
+      "raw": "**Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [
+    {
+      "linha": 1286,
+      "raw": "**TEXTO NA TELA:**",
+      "realizacao": "CapCut",
+      "tempoDefinido": false,
+      "texto": "Duas semanas. Juro.",
+      "textoOriginal": "> \"Duas semanas. Juro.\""
+    }
+  ],
+  "roteiro": [
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1289,
+      "linhaTexto": 1290,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 5000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 5000ms menor que blocos declarados 7000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Close no envelope. Dentro, junto com o dinheiro, um papel escrito à mão. O texto você monta no CapCut.",
+      "origem": "linha 1284",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:envelope",
+      "familia": "objetos",
+      "descricao": "envelope: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:papel",
+      "familia": "objetos",
+      "descricao": "papel: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:dinheiro físico",
+      "familia": "objetos",
+      "descricao": "dinheiro físico: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:material",
+      "familia": "edicao",
+      "descricao": "Montar textos/cartelas/créditos no CapCut conservando o conteúdo original.",
+      "origem": "instruções originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

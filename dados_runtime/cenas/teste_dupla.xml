@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Etapa 2: montar e limpar. Nenhum diálogo ou animação está incluído ainda. -->
+<Cena versao="1" id="teste_dupla" nome="Teste: homem e mulher">
+  <!-- Hora e clima ficam fixos enquanto a cena estiver montada. Densidade 0 reduz o movimento. -->
+  <Ambiente hora="17" minuto="0" clima="CLEAR" densidadeTransito="0" densidadePedestres="0" bloquearPolicia="true" />
+  <!-- O jogador deve estar parado numa superfície aberta e plana, olhando para uma área livre.
+       O local usa a posição e a direção do jogador no instante de Montar; não usa coordenadas absolutas. -->
+  <Local referencia="jogador" distanciaFrente="4" />
+  <Personagens>
+    <!-- Medidas em metros: direita positiva vai para a direita do jogador; frente positiva vai adiante;
+         altura positiva sobe. Os 4 metros do Local se somam ao atributo frente de cada personagem.
+         Os modelos existem no PedList.xml do Menyoo; sua aparência nesta cena ainda precisa do teste. -->
+    <Personagem id="homem" nome="Homem" modelo="a_m_y_business_01" direita="-0.8" frente="0" altura="0" olharPara="mulher" />
+    <Personagem id="mulher" nome="Mulher" modelo="a_f_y_business_01" direita="0.8" frente="0" altura="0" olharPara="homem" />
+  </Personagens>
+</Cena>

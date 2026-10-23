@@ -1,0 +1,66 @@
+{
+  "versao": 1,
+  "id": "EP07_C01",
+  "episodio": 7,
+  "numero": 1,
+  "nome": "O HANGAR",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "19:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -4,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "LONGE",
+      "texto": "Eu cheguei naquele hangar com o coração batendo de alegria. Eu ia receber o meu dinheiro. Eu ia salvar a casa da minha avó.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "destino": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "feliz"
+    }
+  ]
+}

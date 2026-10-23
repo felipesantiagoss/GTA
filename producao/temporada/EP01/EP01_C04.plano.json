@@ -1,0 +1,158 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP01_C04",
+  "episodio": 1,
+  "numero": 4,
+  "nome": "O HOSPITAL",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 249,
+    "linhaFim": 257,
+    "sha256BlocoUtf8": "BAEC748A9CB3F3BB8DE415517454F23135BEA624776A5B3F7B0B0B8C9F3A9E4D",
+    "raw": "### EP01_C04 · O HOSPITAL\n`local:` HOSPITAL_SANDY · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.\"\n\n"
+  },
+  "original": {
+    "local": "HOSPITAL_SANDY",
+    "locaisCodigos": [
+      "HOSPITAL_SANDY"
+    ],
+    "hora": "08:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      250,
+      251
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 253,
+      "raw": "**Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+      "textoOriginal": "> \"Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 255,
+      "linhaTexto": 256,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:HOSPITAL_SANDY",
+      "familia": "ambiente",
+      "descricao": "Marca real HOSPITAL_SANDY; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra.",
+      "origem": "linha 253",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

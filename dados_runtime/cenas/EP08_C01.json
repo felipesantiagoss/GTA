@@ -1,0 +1,67 @@
+{
+  "versao": 1,
+  "id": "EP08_C01",
+  "episodio": 8,
+  "numero": 1,
+  "nome": "SAINDO DA ÁGUA",
+  "ambiente": {
+    "local": "CANAL_LS",
+    "hora": "06:00",
+    "clima": "nublado",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "ajustes": {
+      "altura": 2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "LONGE",
+      "texto": "A água me quebrou três costelas. Mas quebrar não é morrer.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 18,
+      "plano": "LONGE"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 18,
+      "plano": "LONGE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 42,
+      "expressao": "machucado"
+    }
+  ],
+  "saidaAgua": true
+}

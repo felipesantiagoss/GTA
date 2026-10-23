@@ -1,0 +1,47 @@
+{
+  "versao": 1,
+  "id": "teste_fila_89",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "ENSAIO TECNICO CARTA89 APOIO DERIVADO NO AEROPORTO",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "11:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "DOIS",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "DOIS",
+      "texto": "Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": []
+}

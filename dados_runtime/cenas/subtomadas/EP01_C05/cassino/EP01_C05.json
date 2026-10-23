@@ -1,0 +1,71 @@
+{
+  "versao": 1,
+  "id": "EP01_C05",
+  "episodio": 1,
+  "numero": 5,
+  "nome": "O SEGREDO DA AVÓ — cassino",
+  "ambiente": {
+    "local": "CASSINO_FORA",
+    "hora": "10:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DONA_IRACI",
+    "planoNarracao": "ATRAS",
+    "planoFala": "MEDIA",
+    "planoFinal": "ATRAS",
+    "ajustes": {
+      "aproximar": -2,
+      "lado": 0.6,
+      "altura": -0.5
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "ATRAS",
+      "texto": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "destino": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "feliz"
+    }
+  ]
+}

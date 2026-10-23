@@ -1,0 +1,186 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP13_C06",
+  "episodio": 13,
+  "numero": 6,
+  "nome": "NO CHÃO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1358,
+    "linhaFim": 1372,
+    "sha256BlocoUtf8": "E6E74416C782707ABE0FF8B0E1388FF881981E89CD86B518B48BD3A903C4D0E3",
+    "raw": "### EP13_C06 · NO CHÃO\n`local:` BOATE_DENTRO · `hora:` 14:10 · `clima:` limpo\n`elenco:` DINJER · `cam:` ALTA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Não. Não, não, não. Ela morreu. Ela morreu.\" | 6s | negando |\n\n**NARRADOR** — 6s:\n> \"A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "14:10",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "ALTA",
+    "planosSemTemposDefinidos": [
+      "ALTA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1359,
+      1360
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1362,
+      "raw": "**Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Não. Não, não, não. Ela morreu. Ela morreu.",
+      "textoOriginal": "\"Não. Não, não, não. Ela morreu. Ela morreu.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 1368,
+      "raw": "| 1 | DINJER | \"Não. Não, não, não. Ela morreu. Ela morreu.\" | 6s | negando |",
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 6s:",
+      "textoOriginal": "> \"A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1370,
+      "linhaTexto": 1371,
+      "inicioMs": 6000,
+      "fimMs": 12000,
+      "duracaoMs": 6000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 12000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 15000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 8000ms menor que blocos declarados 12000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer sentada no chão da boate vazia. Câmera alta, olhando para baixo — ela pequena.",
+      "origem": "linha 1362",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

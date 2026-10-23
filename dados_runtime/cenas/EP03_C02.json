@@ -1,0 +1,58 @@
+{
+  "versao": 1,
+  "id": "EP03_C02",
+  "episodio": 3,
+  "numero": 2,
+  "nome": "DE MANHÃ",
+  "ambiente": {
+    "local": "CASA_DINJER",
+    "hora": "08:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -0.8,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "ATRAS",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS",
+    "ajustes": {
+      "aproximar": -1
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "ATRAS",
+      "texto": "Eu fui de manhã. Bati três vezes. Ninguém atendeu.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "portas": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "tipo": "bater",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 5,
+      "batidas": 3,
+      "recurso": "bater_porta"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "versao": 1,
+  "id": "EP15_C02",
+  "episodio": 15,
+  "numero": 2,
+  "nome": "A MESA",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "20:15",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "DOIS",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_RICA"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "DOIS",
+      "texto": "Ele não me reconheceu. Pra ele, aquela menina do interior morreu numa vala há três anos.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 11,
+      "plano": "MEDIA",
+      "texto": "Sabe o que eu mais admiro numa mulher de negócios? Discrição. A senhora comprou metade do que era meu e eu não fazia ideia de quem era a senhora.",
+      "personagem": "O_CHEFE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Eu sou muito boa em ser invisível. Eu tive três anos de treino.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "servir_champanhe_autor",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 22,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 22,
+      "expressao": "estressado"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_JANTAR",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "BANDEJA_SERVICO",
+      "recurso": "bandeja_champanhe_autor",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.01
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "O_CHEFE",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ]
+}

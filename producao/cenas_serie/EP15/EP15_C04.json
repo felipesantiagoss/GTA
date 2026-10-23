@@ -1,0 +1,194 @@
+{
+  "versao": 1,
+  "id": "EP15_C04",
+  "episodio": 15,
+  "numero": 4,
+  "nome": "O MOTIVO",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "20:40",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "DOIS",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 9,
+        "plano": "DOIS",
+        "personagem": "O_CHEFE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Então o senhor sabia quem eu era naquele avião.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Eu sabia.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 12,
+      "plano": "MEDIA",
+      "texto": "Eu não mandei te matar por causa das armas, minha filha. Arma eu resolvo com advogado. Eu mandei te matar porque tu ia fazer aniversário.",
+      "personagem": "O_CHEFE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 15,
+      "plano": "MEDIA",
+      "texto": "Aquele dinheiro é meu. Eu botei no teu nome quando tu nasceu porque bebê não vai preso. Quando tu fizesse vinte e um, ele saía do meu controle pra sempre. Tu nunca foi minha filha. Tu era um prazo vencendo.",
+      "personagem": "O_CHEFE",
+      "gesto": "explicando"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": 1.1,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    },
+    {
+      "tipo": "virar",
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 8,
+      "duracaoSegundos": 1,
+      "destino": {
+        "direita": 1.1,
+        "frente": 8,
+        "altura": 0
+      }
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "O_CHEFE",
+      "inicioSegundos": 9,
+      "duracaoSegundos": 29,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "horizonte"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_JANTAR",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0.6,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "O_CHEFE",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "transicoesPose": [
+    {
+      "tipo": "levantar",
+      "personagem": "O_CHEFE",
+      "recurso": "levantar_cadeira_m",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4
+    }
+  ]
+}

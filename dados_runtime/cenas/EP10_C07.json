@@ -1,0 +1,60 @@
+{
+  "versao": 1,
+  "id": "EP10_C07",
+  "episodio": 10,
+  "numero": 7,
+  "nome": "O ÚLTIMO DIA",
+  "ambiente": {
+    "local": "VIADUTO_LAPUERTA",
+    "hora": "22:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 4,
+      "plano": "PERTO",
+      "texto": "E aí faltou um.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "PERTO",
+      "texto": "Mil e noventa e cinco dias. Amanhã, ela faz vinte e um anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "expressao": "feliz"
+    }
+  ]
+}

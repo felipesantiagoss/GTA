@@ -1,0 +1,278 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP05_C03",
+  "episodio": 5,
+  "numero": 3,
+  "nome": "A PROPOSTA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 651,
+    "linhaFim": 668,
+    "sha256BlocoUtf8": "81AFCA104864C7D9C5E70BDC19CBA6174EEF0AFA8DB4E8C557B4838DBDDB8CF1",
+    "raw": "### EP05_C03 · A PROPOSTA\n`local:` ROCA_GRAPESEED *(Djanira)* · `hora:` 15:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n> 💡 **Cena de telefone.** As duas estão em lugares diferentes. Grave cada uma separada, na sua locação, e alterne na edição. A Dinjer fica em `AEROPORTO_TERMINAL`.\n\n**Ação:** As duas ao telefone, cada uma no seu lugar.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Amiga! Desculpa o sumiço, eu tava fora do país. Escuta, eu tenho uma notícia boa. Muito boa.\" | 7s | explicando |\n| 2 | DJANIRA | \"Eu não quero notícia. Eu quero o meu dinheiro.\" | 4s | irritado |\n| 3 | DINJER | \"É exatamente disso que eu tô falando. Eu falei de você pro meu chefe. Falei que você é a pessoa mais honesta que eu conheço na vida. E ele quer te conhecer.\" | 10s | explicando |\n| 4 | DJANIRA | \"E por que é que um chefe seu ia querer me conhecer?\" | 5s | neutro |\n| 5 | DINJER | \"Vai ter uma festa sábado. Vem. Ele te paga tudo que eu te devo, na mão, com juros. Ele faz questão.\" | 8s | implorando |\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED *(Djanira)*",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "15:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 30000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      652,
+      653
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga! Desculpa o sumiço, eu tava fora do país. Escuta, eu tenho uma notícia boa. Muito boa.",
+      "textoOriginal": "\"Amiga! Desculpa o sumiço, eu tava fora do país. Escuta, eu tenho uma notícia boa. Muito boa.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 663,
+      "raw": "| 1 | DINJER | \"Amiga! Desculpa o sumiço, eu tava fora do país. Escuta, eu tenho uma notícia boa. Muito boa.\" | 7s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não quero notícia. Eu quero o meu dinheiro.",
+      "textoOriginal": "\"Eu não quero notícia. Eu quero o meu dinheiro.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 664,
+      "raw": "| 2 | DJANIRA | \"Eu não quero notícia. Eu quero o meu dinheiro.\" | 4s | irritado |",
+      "inicioMs": 7000,
+      "fimMs": 11000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "É exatamente disso que eu tô falando. Eu falei de você pro meu chefe. Falei que você é a pessoa mais honesta que eu conheço na vida. E ele quer te conhecer.",
+      "textoOriginal": "\"É exatamente disso que eu tô falando. Eu falei de você pro meu chefe. Falei que você é a pessoa mais honesta que eu conheço na vida. E ele quer te conhecer.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 665,
+      "raw": "| 3 | DINJER | \"É exatamente disso que eu tô falando. Eu falei de você pro meu chefe. Falei que você é a pessoa mais honesta que eu conheço na vida. E ele quer te conhecer.\" | 10s | explicando |",
+      "inicioMs": 11000,
+      "fimMs": 21000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "E por que é que um chefe seu ia querer me conhecer?",
+      "textoOriginal": "\"E por que é que um chefe seu ia querer me conhecer?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 666,
+      "raw": "| 4 | DJANIRA | \"E por que é que um chefe seu ia querer me conhecer?\" | 5s | neutro |",
+      "inicioMs": 21000,
+      "fimMs": 26000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DINJER",
+      "texto": "Vai ter uma festa sábado. Vem. Ele te paga tudo que eu te devo, na mão, com juros. Ele faz questão.",
+      "textoOriginal": "\"Vai ter uma festa sábado. Vem. Ele te paga tudo que eu te devo, na mão, com juros. Ele faz questão.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 667,
+      "raw": "| 5 | DINJER | \"Vai ter uma festa sábado. Vem. Ele te paga tudo que eu te devo, na mão, com juros. Ele faz questão.\" | 8s | implorando |",
+      "inicioMs": 26000,
+      "fimMs": 34000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 30000,
+    "blocosDeclaradosMs": 34000,
+    "conteudoPlanejadoMs": 34000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 37000,
+    "fimUltimaLegendaMs": 37000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 657,
+      "raw": "**Ação:** As duas ao telefone, cada uma no seu lugar.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 655,
+      "raw": "> 💡 **Cena de telefone.** As duas estão em lugares diferentes. Grave cada uma separada, na sua locação, e alterne na edição. A Dinjer fica em `AEROPORTO_TERMINAL`."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:ligacao",
+      "tipo": "atuacao_integral",
+      "descricao": "Telefone/mão, atender/conversar/desligar, toque e ação simultânea; celular de texto não substitui ligação.",
+      "candidatos": [
+        "ligacao_entrada_f",
+        "ligacao_f",
+        "ligacao_saida_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:montagem_locacoes",
+      "tipo": "atuacao_integral",
+      "descricao": "EP05_C03 exige duas tomadas/locais separados; nenhuma dupla colocada no mesmo ponto representa ligação à distância.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP05_C03",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "ligacao_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55780,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_in"
+      },
+      "restricoes": [
+        "Duas locações na EP05_C03 são duas tomadas; não juntar as personagens no mesmo local."
+      ]
+    },
+    {
+      "codigo": "ligacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_listen_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55786,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_listen_base"
+      },
+      "restricoes": [
+        "Boca só no diálogo, nunca narração; prop mão/cabeça precisa de teste."
+      ]
+    },
+    {
+      "codigo": "ligacao_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "ligacao",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55791,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_out"
+      },
+      "restricoes": [
+        "Troca para caminhada não deve deixar tarefa/clipset de telefone ativo."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

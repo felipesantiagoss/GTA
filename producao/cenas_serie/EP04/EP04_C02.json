@@ -1,0 +1,187 @@
+{
+  "versao": 1,
+  "id": "EP04_C02",
+  "episodio": 4,
+  "numero": 2,
+  "nome": "A COBRANÇA PÚBLICA",
+  "ambiente": {
+    "local": "AEROPORTO_TERMINAL",
+    "hora": "10:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -6.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -3.9,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -2.6,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": -1.2999999999999998,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "LONGE",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "LONGE"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Dinjer. Mil reais. Eu só quero os meus mil reais.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.",
+      "personagem": "DINJER",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Tu me mandou o print de uma tela preta.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.",
+      "personagem": "DINJER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Pra você. Pra mim é a casa da minha avó.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -3.9,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 1
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -2.6,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 1
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -1.2999999999999998,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "expressao": "estressado",
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DJANIRA_POBRE"
+      }
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 27,
+      "expressao": "convencido",
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DJANIRA_POBRE"
+      }
+    },
+    {
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 31,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DJANIRA_POBRE"
+      }
+    },
+    {
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 31,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DJANIRA_POBRE"
+      }
+    }
+  ]
+}

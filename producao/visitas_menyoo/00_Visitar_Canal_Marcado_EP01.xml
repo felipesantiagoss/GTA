@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SpoonerPlacements>
+  <Note>Retorno normal ZERO Placement a marca CANAL_LS existente, capturada no jogo. Nao cria marca F3. Origem XML: C:\Users\felipe.santiago\GTA_Diretor\catalogos\locais_marcados.xml; SHA256 23BC6FA11CEDE498ACBABA778AFE0573300EEF91925A1C916E0064E2F3DA0E82; marca dataUtc 2026-10-05T09:28:49.3343401+00:00; heading registrado 197.3365.</Note>
+  <ReferenceCoords>
+    <X>686.4431</X>
+    <Y>-1625.51672</Y>
+    <Z>9.182471</Z>
+  </ReferenceCoords>
+</SpoonerPlacements>

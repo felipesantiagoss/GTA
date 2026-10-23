@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP03_C01",
+  "episodio": 3,
+  "numero": 1,
+  "nome": "A CARONA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 451,
+    "linhaFim": 459,
+    "sha256BlocoUtf8": "2BD07682FA99F2F4E2BDA00DF50CBF00411E514607A50057DF26B5EFBE78ADDB",
+    "raw": "### EP03_C01 · A CARONA\n`local:` ESTRADA_SENORA · `hora:` 07:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira andando na beira da estrada, acenando para carros que passam.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela.\"\n\n"
+  },
+  "original": {
+    "local": "ESTRADA_SENORA",
+    "locaisCodigos": [
+      "ESTRADA_SENORA"
+    ],
+    "hora": "07:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      452,
+      453
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+      "textoOriginal": "> \"Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 457,
+      "linhaTexto": 458,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 455,
+      "raw": "**Ação:** Djanira andando na beira da estrada, acenando para carros que passam.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ESTRADA_SENORA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:carona",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP03_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

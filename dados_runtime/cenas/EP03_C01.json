@@ -1,0 +1,147 @@
+{
+  "versao": 1,
+  "id": "EP03_C01",
+  "episodio": 3,
+  "numero": 1,
+  "nome": "A CARONA",
+  "ambiente": {
+    "local": "ESTRADA_SENORA",
+    "hora": "07:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "LONGE",
+      "texto": "Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 6.5,
+      "plano": "LONGE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 7.5,
+      "recurso": "acenar_f",
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": true
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 10.5,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    }
+  ],
+  "veiculos": [
+    {
+      "id": "CARRO_PASSAGEM_1",
+      "recurso": "TAILGATER",
+      "marca": {
+        "direita": 4,
+        "frente": -12,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "motoristaExtra": true,
+      "trajetoDireto": true,
+      "acoes": [
+        {
+          "tipo": "dirigir",
+          "personagem": null,
+          "inicioSegundos": 0,
+          "duracaoSegundos": 7,
+          "rota": [
+            {
+              "direita": 4,
+              "frente": 12,
+              "altura": 0
+            }
+          ],
+          "velocidade": 9,
+          "raioChegada": 2.5,
+          "raioParada": 1
+        }
+      ]
+    },
+    {
+      "id": "CARRO_PASSAGEM_2",
+      "recurso": "SUPERD",
+      "marca": {
+        "direita": 4,
+        "frente": -18,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "motoristaExtra": true,
+      "trajetoDireto": true,
+      "acoes": [
+        {
+          "tipo": "dirigir",
+          "personagem": null,
+          "inicioSegundos": 5,
+          "duracaoSegundos": 8.5,
+          "rota": [
+            {
+              "direita": 4,
+              "frente": 6,
+              "altura": 0
+            }
+          ],
+          "velocidade": 9,
+          "raioChegada": 2.5,
+          "raioParada": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 10,
+  "nomeOriginal": "\"TRÊS ANOS\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP10_C01",
+    "EP10_C02",
+    "EP10_C03",
+    "EP10_C04",
+    "EP10_C05",
+    "EP10_C06",
+    "EP10_C07"
+  ],
+  "cenas": [
+    {
+      "id": "EP10_C01",
+      "plano": "EP10_C01.plano.json",
+      "srtBase": "EP10_C01.base.srt"
+    },
+    {
+      "id": "EP10_C02",
+      "plano": "EP10_C02.plano.json",
+      "srtBase": "EP10_C02.base.srt"
+    },
+    {
+      "id": "EP10_C03",
+      "plano": "EP10_C03.plano.json",
+      "srtBase": "EP10_C03.base.srt"
+    },
+    {
+      "id": "EP10_C04",
+      "plano": "EP10_C04.plano.json",
+      "srtBase": "EP10_C04.base.srt"
+    },
+    {
+      "id": "EP10_C05",
+      "plano": "EP10_C05.plano.json",
+      "srtBase": "EP10_C05.base.srt"
+    },
+    {
+      "id": "EP10_C06",
+      "plano": "EP10_C06.plano.json",
+      "srtBase": "EP10_C06.base.srt"
+    },
+    {
+      "id": "EP10_C07",
+      "plano": "EP10_C07.plano.json",
+      "srtBase": "EP10_C07.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1053,
+        "linhaFim": 1056,
+        "sha256BlocoUtf8": "4DE0D61440EA2D067D623FDD14FD8AE715FB0C806C9D00D91FE2EAA9E6BCEFBC",
+        "raw": "**ANTERIORMENTE**: EP09_C04 (\"três anos\") · EP09_C05 (a saída de casa)\n\n> 💡 **O episódio mais fácil de gravar da temporada.** Um personagem só, zero diálogo, tudo narração. Oito tomadas curtas em lugares diferentes, montadas com música. **Varie muito a hora do dia** — é a mudança de luz que vende os três anos passando.\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP09_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP09_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1051,
+    "linhaFim": 1138,
+    "sha256BlocoUtf8": "230F6A71A6CA7F2536BF978424367F1AE2F90C0DF5F9B3565820C107408442FD",
+    "raw": null
+  }
+}

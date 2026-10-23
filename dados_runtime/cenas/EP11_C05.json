@@ -1,0 +1,122 @@
+{
+  "versao": 1,
+  "id": "EP11_C05",
+  "episodio": 11,
+  "numero": 5,
+  "nome": "A SEGUNDA LINHA",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "20:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 20,
+      "plano": "MEDIA",
+      "texto": "A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "MEDIA",
+      "texto": "O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_RICA",
+      "recurso": "leitura_documento_autor",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 2,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": false
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_RICA",
+      "recurso": "rir_candidato",
+      "inicioSegundos": 2,
+      "duracaoSegundos": 4,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 2,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "PAPEL_HERANCA"
+      }
+    },
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 2,
+      "duracaoSegundos": 4,
+      "expressao": "normal"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "PAPEL_HERANCA",
+      "recurso": "documento_script",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_RICA",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

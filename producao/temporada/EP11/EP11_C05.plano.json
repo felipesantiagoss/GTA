@@ -1,0 +1,191 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP11_C05",
+  "episodio": 11,
+  "numero": 5,
+  "nome": "A SEGUNDA LINHA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1197,
+    "linhaFim": 1210,
+    "sha256BlocoUtf8": "0334888F294E7D5B547D6EC408A205A0E0C88187542116553C9C1B11E0DECEAC",
+    "raw": "### EP11_C05 · A SEGUNDA LINHA\n`local:` MANSAO_DJANIRA · `hora:` 20:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` PERTO · `dur:` 20s · `gravar:` SIM\n\n> 🔴 **O gancho de toda a segunda metade da temporada.**\n\n**Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado.\n\n**NARRAÇÃO** — DJANIRA — 20s *(sem boca)*:\n> \"A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.\"\n\n**NARRADOR** — 7s:\n> \"O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "20:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 20000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1198,
+      1199
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1203,
+      "raw": "**Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1201,
+      "raw": "> 🔴 **O gancho de toda a segunda metade da temporada.**"
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 20s *(sem boca)*:",
+      "textoOriginal": "> \"A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1205,
+      "linhaTexto": 1206,
+      "inicioMs": 0,
+      "fimMs": 20000,
+      "duracaoMs": 20000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1208,
+      "linhaTexto": 1209,
+      "inicioMs": 20000,
+      "fimMs": 27000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 20000,
+    "blocosDeclaradosMs": 27000,
+    "conteudoPlanejadoMs": 27000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 30000,
+    "fimUltimaLegendaMs": 30000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 20000ms menor que blocos declarados 27000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_DJANIRA",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_DJANIRA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira recebe um envelope pardo. Lê. Pega o papel da avó e lê a segunda linha, que ela nunca tinha lido. Para de ler no meio. Começa a rir — um riso errado.",
+      "origem": "linha 1203",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:envelope",
+      "familia": "objetos",
+      "descricao": "envelope: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:papel",
+      "familia": "objetos",
+      "descricao": "papel: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

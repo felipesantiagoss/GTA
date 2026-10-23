@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CamerasMarcadas versao="1">
+  <Camera nome="EP06_C02_BASE" gravadoUtc="2026-10-06T13:59:40.0987209+00:00" preset="DOIS" fov="45" formato="16:9">
+    <Posicao x="-1392.73523" y="-586.9686" z="30.90826" />
+    <Rotacao x="-2.69488716" y="0" z="-45.43334" />
+    <OrigemEixo x="-1389.08569" y="-584.565552" z="30.21466" lado="-1" />
+    <NormalEixo x="0.858307958" y="0.513135" z="0" />
+  </Camera>
+  <Camera nome="meu_plano_20261006_205612_935" gravadoUtc="2026-10-06T20:56:12.9398958+00:00" preset="LIVRE" fov="45" formato="16:9">
+    <Posicao x="231.759521" y="219.573349" z="107.071068" />
+    <Rotacao x="-9.408718" y="0" z="-163.7097" />
+    <OrigemEixo x="231.679764" y="217.074615" z="106.179474" lado="1" />
+    <NormalEixo x="-0.1667157" y="0.986004949" z="0" />
+  </Camera>
+  <Camera nome="EP11_C01_PORTA_INTERIOR" gravadoUtc="2026-10-06T20:56:12.9398958+00:00" preset="LIVRE" fov="45" formato="16:9">
+    <Posicao x="231.759521" y="219.573349" z="107.071068" />
+    <Rotacao x="-9.408718" y="0" z="-163.7097" />
+    <OrigemEixo x="231.679764" y="217.074615" z="106.179474" lado="1" />
+    <NormalEixo x="-0.1667157" y="0.986004949" z="0" />
+  </Camera>
+  <Camera nome="meu_plano_20261009_152552_626" gravadoUtc="2026-10-09T15:25:52.6346804+00:00" preset="MEDIA" fov="40" formato="16:9">
+    <Posicao x="-1387.36108" y="-584.04126" z="30.90694" />
+    <Rotacao x="-2.281846" y="0" z="73.49273" />
+    <OrigemEixo x="-1390.4176" y="-582.33606" z="30.216074" lado="1" />
+    <NormalEixo x="0.858583152" y="0.5126744" z="0" />
+  </Camera>
+</CamerasMarcadas>

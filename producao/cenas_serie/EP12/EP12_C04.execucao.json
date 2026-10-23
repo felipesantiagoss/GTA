@@ -1,0 +1,273 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP12_C04",
+  "episodio": 12,
+  "numero": 4,
+  "nome": "A GORJETA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1269,
+    "linhaFim": 1277,
+    "sha256BlocoUtf8": "3CC66E731E94508513E5A3690E4385A28340F3B3BE383880055E829E16445B5B",
+    "raw": "### EP12_C04 · A GORJETA\n`local:` BOATE_DENTRO · `hora:` 00:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "00:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1270,
+      1271
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+      "textoOriginal": "> \"Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1275,
+      "linhaTexto": 1276,
+      "inicioMs": 0,
+      "fimMs": 14000,
+      "duracaoMs": 14000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1273,
+      "raw": "**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_DENTRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:entrega",
+      "tipo": "atuacao_integral",
+      "descricao": "Prop autêntico, osso/mão e fase de transferência entre donos; clipes A/B não provam o papel de cada ator.",
+      "candidatos": [
+        "entrega_a",
+        "entrega_b"
+      ]
+    },
+    {
+      "codigo": "capacidade:choro",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": [
+        "choro_patricia",
+        "choro_gesto_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:papel",
+      "tipo": "atuacao_integral",
+      "descricao": "Papel/envelope real, abrir/ler/entregar e close nas mãos; jornal candidato não equivale a papel dobrado.",
+      "candidatos": [
+        "ler_papel_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:carro",
+      "tipo": "atuacao_integral",
+      "descricao": "Modelo real escolhido, motorista, portas, entrada/saída e rota do morro; nunca simular com personagem parado.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP12_C04",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "choro_patricia",
+      "tipo": "animacao_corporal",
+      "categoria": "choro",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "crying_patricia",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65146,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 crying_patricia"
+      },
+      "restricoes": [
+        "Sequência de missão; offsets, movimento e duração não medidos; expressão dramática não garantida."
+      ]
+    },
+    {
+      "codigo": "choro_gesto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "choro",
+      "dicionario": "anim@mp_player_intcelebrationfemale@cry_baby",
+      "animacao": "cry_baby",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationfemale@cry_baby cry_baby"
+      },
+      "restricoes": [
+        "Celebração possivelmente caricata; não substituir choro dramático sem conferir imagem."
+      ]
+    },
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    },
+    {
+      "codigo": "ler_papel_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "papel",
+      "dicionario": "missmic3",
+      "animacao": "newspaper_idle_loop_dave",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 67180,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missmic3 newspaper_idle_loop_dave"
+      },
+      "restricoes": [
+        "Lê jornal grande; não garante papel dobrado da trama. Prop/jornal e mulher precisam de teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

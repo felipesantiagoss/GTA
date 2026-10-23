@@ -1,0 +1,71 @@
+{
+  "versao": 1,
+  "id": "teste_fila_86",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "PREVIEW PAPEL sf_prop_sf_brochure_01a",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "21:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      }
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "objeto": "PAPEL_PROVA",
+    "fovObjeto": 35,
+    "elevacaoObjetoGraus": 35
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5
+    }
+  ],
+  "acoes": [],
+  "direcao": [],
+  "encenacao": "serie_v1",
+  "objetos": [
+    {
+      "id": "PAPEL_PROVA",
+      "recurso": "papel_preview86_brochure",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

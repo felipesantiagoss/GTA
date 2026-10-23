@@ -1,0 +1,46 @@
+{
+  "versao": 1,
+  "id": "EP09_C03",
+  "episodio": 9,
+  "numero": 3,
+  "nome": "O BANCO",
+  "ambiente": {
+    "local": "BANCO_MAZE",
+    "hora": "14:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "BAIXA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "BAIXA",
+    "planoNarracao": "BAIXA",
+    "planoFinal": "BAIXA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "BAIXA",
+      "texto": "E eu fui atrás do dinheiro.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": []
+}

@@ -1,0 +1,107 @@
+{
+  "versao": 1,
+  "id": "EP01_C08",
+  "episodio": 1,
+  "numero": 8,
+  "nome": "O PEDIDO",
+  "encenacao": "pedido_v1",
+  "ambiente": {
+    "local": "ROCA_GRAPESEED",
+    "hora": "17:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false,
+    "transicaoSuave": false
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 12,
+      "plano": "LONGE",
+      "personagem": "DINJER"
+    },
+    {
+      "tipo": "narracao",
+      "texto": "Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.",
+      "duracaoSegundos": 6,
+      "narrador": "Narrador",
+      "plano": "DOIS"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?",
+      "duracaoSegundos": 9,
+      "personagem": "DINJER",
+      "gesto": "implorando",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?",
+      "duracaoSegundos": 6,
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Prometo pela vida da minha mãe.",
+      "duracaoSegundos": 3,
+      "personagem": "DINJER",
+      "gesto": "implorando",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Então tá bom. Vou fazer o Pix.",
+      "duracaoSegundos": 3,
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Amiga, muito obrigada. Te amo!",
+      "duracaoSegundos": 3,
+      "personagem": "DINJER",
+      "gesto": "explicando",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "personagem": "DJANIRA_POBRE"
+    }
+  ],
+  "acoes": []
+}

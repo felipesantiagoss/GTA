@@ -1,0 +1,1014 @@
+{
+  "versao": 1,
+  "estado": "não testado",
+  "animacoes": [
+    {
+      "codigo": "deitada_cama_f",
+      "tipo": "clipe",
+      "dicionario": "mp_bedmid",
+      "animacao": "f_sleep_l_loop_bighouse",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70591,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_bedmid f_sleep_l_loop_bighouse"
+      },
+      "restricoes": [
+        "Exige cama/banco real e alinhamento do corpo; não garante expressão doente."
+      ]
+    },
+    {
+      "codigo": "sono_f",
+      "tipo": "clipe",
+      "dicionario": "mp_sleep",
+      "animacao": "sleep_loopfemale",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71428,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_sleep sleep_loopfemale"
+      },
+      "restricoes": [
+        "Exige testar origem e altura; clipe não informa banco nem sacola."
+      ]
+    },
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "clipe",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    },
+    {
+      "codigo": "choro_patricia",
+      "tipo": "clipe",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "crying_patricia",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65146,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 crying_patricia"
+      },
+      "restricoes": [
+        "Sequência de missão; offsets, movimento e duração não medidos; expressão dramática não garantida."
+      ]
+    },
+    {
+      "codigo": "choro_gesto_f",
+      "tipo": "clipe",
+      "dicionario": "anim@mp_player_intcelebrationfemale@cry_baby",
+      "animacao": "cry_baby",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationfemale@cry_baby cry_baby"
+      },
+      "restricoes": [
+        "Celebração possivelmente caricata; não substituir choro dramático sem conferir imagem."
+      ]
+    },
+    {
+      "codigo": "pegar_celular_f",
+      "tipo": "clipe",
+      "dicionario": "anim@amb@business@bgen@bgen_no_work@",
+      "animacao": "stand_phone_phonepickup-noworkfemale",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 134260,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@business@bgen@bgen_no_work@ stand_phone_phonepickup-noworkfemale"
+      },
+      "restricoes": [
+        "Prop próprio no osso da mão; origem da peça/entrada precisa de calibração."
+      ]
+    },
+    {
+      "codigo": "celular_entrada_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Entrada/texto/saída com prop próprio; nenhuma transferência bancária real."
+      ]
+    },
+    {
+      "codigo": "celular_texto_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_read_base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55788,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_read_base"
+      },
+      "restricoes": [
+        "Posição/rotação do telefone e mão pendentes; Pix é encenado, sem interface bancária."
+      ]
+    },
+    {
+      "codigo": "celular_saida_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_out",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55789,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_out"
+      },
+      "restricoes": [
+        "Remover/ocultar somente telefone próprio ao fim ou reset."
+      ]
+    },
+    {
+      "codigo": "ligacao_entrada_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_in",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55780,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_in"
+      },
+      "restricoes": [
+        "Duas locações na EP05_C03 são duas tomadas; não juntar as personagens no mesmo local."
+      ]
+    },
+    {
+      "codigo": "ligacao_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_listen_base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55786,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_listen_base"
+      },
+      "restricoes": [
+        "Boca só no diálogo, nunca narração; prop mão/cabeça precisa de teste."
+      ]
+    },
+    {
+      "codigo": "ligacao_saida_f",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_call_out",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55791,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_call_out"
+      },
+      "restricoes": [
+        "Troca para caminhada não deve deixar tarefa/clipset de telefone ativo."
+      ]
+    },
+    {
+      "codigo": "foto_celular_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_tourist_mobile@female@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55642,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_tourist_mobile@female@base base"
+      },
+      "restricoes": [
+        "Animação de turista não comprova selfie; telefone/câmera de prop e composição a testar."
+      ]
+    },
+    {
+      "codigo": "empurrar",
+      "tipo": "clipe",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "shove",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61481,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core shove"
+      },
+      "restricoes": [
+        "Somente TASK_PLAY_ANIM; sem TASK_COMBAT, dano, arma nem seleção de alvo por IA."
+      ]
+    },
+    {
+      "codigo": "reacao_golpe",
+      "tipo": "clipe",
+      "dicionario": "melee@unarmed@streamed_core",
+      "animacao": "hit_heavy_punch_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 61437,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "melee@unarmed@streamed_core hit_heavy_punch_a"
+      },
+      "restricoes": [
+        "Reação separada; não há prova de que sincroniza com shove; requer ensaio de distância/tempo."
+      ]
+    },
+    {
+      "codigo": "empurrar_patricia",
+      "tipo": "clipe",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_patricia",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65142,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_patricia"
+      },
+      "restricoes": [
+        "Par proposto push_away_trevor; validar offsets/timing antes de chamar sincronizado."
+      ]
+    },
+    {
+      "codigo": "empurrar_trevor",
+      "tipo": "clipe",
+      "dicionario": "missfbi5ig_2",
+      "animacao": "push_away_trevor",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65143,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missfbi5ig_2 push_away_trevor"
+      },
+      "restricoes": [
+        "Par proposto push_away_patricia; não deriva combate físico nem target AI."
+      ]
+    },
+    {
+      "codigo": "tropecar",
+      "tipo": "clipe",
+      "dicionario": "misscarsteal4@actor",
+      "animacao": "stumble",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 63696,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "misscarsteal4@actor stumble"
+      },
+      "restricoes": [
+        "Root motion e equilíbrio não medidos; não usar para lançar alguém do avião."
+      ]
+    },
+    {
+      "codigo": "andar_machucado_candidato",
+      "tipo": "clipset",
+      "dicionario": "move_f@injured",
+      "animacao": "walk",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68857,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@injured walk"
+      },
+      "restricoes": [
+        "PedAnimList prova o par de animação, não que REQUEST_ANIM_SET aceite o nome; conferir IsLoaded."
+      ]
+    },
+    {
+      "codigo": "andar_passarela_candidato",
+      "tipo": "clipset",
+      "dicionario": "move_f@sexy@a",
+      "animacao": "walk",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68939,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@sexy@a walk"
+      },
+      "restricoes": [
+        "Só candidato de estilo; não prometer passarela ou gait feminino até testar carregamento/visual."
+      ]
+    },
+    {
+      "codigo": "andar_salto_candidato",
+      "tipo": "clipset",
+      "dicionario": "move_f@heels@c",
+      "animacao": "walk",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68841,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@heels@c walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável; não trocar outfit registrado para usar salto."
+      ]
+    },
+    {
+      "codigo": "andar_chefe_candidato",
+      "tipo": "clipset",
+      "dicionario": "move_m@business@a",
+      "animacao": "walk",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69144,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@business@a walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem andar playboy."
+      ]
+    },
+    {
+      "codigo": "andar_capanga_candidato",
+      "tipo": "clipset",
+      "dicionario": "move_m@tough_guy@",
+      "animacao": "walk",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69564,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@tough_guy@ walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem autoriza combate."
+      ]
+    },
+    {
+      "codigo": "ameaca_pescoco_m",
+      "tipo": "clipe",
+      "dicionario": "anim@mp_player_intcelebrationmale@cut_throat",
+      "animacao": "cut_throat",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259796,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationmale@cut_throat cut_throat"
+      },
+      "restricoes": [
+        "Somente gesto; não causar corte/dano; câmera e intensidade precisam de teste."
+      ]
+    },
+    {
+      "codigo": "abraco_a",
+      "tipo": "clipe",
+      "dicionario": "mp_ped_interaction",
+      "animacao": "hugs_guy_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71053,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_ped_interaction hugs_guy_a"
+      },
+      "restricoes": [
+        "Pares A/B; testar esqueleto feminino, espaço e offsets; clipe não é garantia de abraço entre mulheres."
+      ]
+    },
+    {
+      "codigo": "abraco_b",
+      "tipo": "clipe",
+      "dicionario": "mp_ped_interaction",
+      "animacao": "hugs_guy_b",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71062,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_ped_interaction hugs_guy_b"
+      },
+      "restricoes": [
+        "Pares A/B precisam de mesma referência e início; não apresentar poses desencontradas como prontas."
+      ]
+    },
+    {
+      "codigo": "entrega_a",
+      "tipo": "clipe",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "clipe",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    },
+    {
+      "codigo": "bater_porta",
+      "tipo": "clipe",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    },
+    {
+      "codigo": "ajoelhar_entrada_f",
+      "tipo": "clipe",
+      "dicionario": "missheist_jewel",
+      "animacao": "manageress_kneel_intro",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65932,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheist_jewel manageress_kneel_intro"
+      },
+      "restricoes": [
+        "Transição com altura/root motion pendentes; imortalidade e reset próprios, sem prisão por IA."
+      ]
+    },
+    {
+      "codigo": "ajoelhar_base_f",
+      "tipo": "clipe",
+      "dicionario": "missheist_jewel",
+      "animacao": "manageress_kneel_loop",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 65957,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheist_jewel manageress_kneel_loop"
+      },
+      "restricoes": [
+        "Pose de joelhos precisa permitir diálogo sem gesto standing substituir a parte inferior."
+      ]
+    },
+    {
+      "codigo": "trabalho_plantacao_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_gardener_plant@female@base",
+      "animacao": "base_female",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54835,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_gardener_plant@female@base base_female"
+      },
+      "restricoes": [
+        "É jardinagem; não comprova capina com enxada. Ferramenta e postura precisam de pesquisa/teste."
+      ]
+    },
+    {
+      "codigo": "limpar_mesa",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_maid_clean@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55141,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_maid_clean@base base"
+      },
+      "restricoes": [
+        "Superfície/mão/prop não medidos; não criar sujeira nem modificar objeto de missão."
+      ]
+    },
+    {
+      "codigo": "beber_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_drinking@beer@female@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54785,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_drinking@beer@female@base base"
+      },
+      "restricoes": [
+        "Objeto de bebida deve casar com mão/clip; não modificar álcool/estado do jogador."
+      ]
+    },
+    {
+      "codigo": "ler_papel_candidato",
+      "tipo": "clipe",
+      "dicionario": "missmic3",
+      "animacao": "newspaper_idle_loop_dave",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 67180,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missmic3 newspaper_idle_loop_dave"
+      },
+      "restricoes": [
+        "Lê jornal grande; não garante papel dobrado da trama. Prop/jornal e mulher precisam de teste."
+      ]
+    },
+    {
+      "codigo": "anotar_candidato",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_clipboard@male@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54763,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_clipboard@male@base base"
+      },
+      "restricoes": [
+        "É prancheta; calendário/texto no CapCut. Testar mulher/mãos antes de usar."
+      ]
+    },
+    {
+      "codigo": "rir_candidato",
+      "tipo": "clipe",
+      "dicionario": "missheistdockssetup1ig_10@laugh",
+      "animacao": "laugh_pipe_worker1",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 66200,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheistdockssetup1ig_10@laugh laugh_pipe_worker1"
+      },
+      "restricoes": [
+        "Risada de operário; não comprova riso errado ou sorriso mínimo da Djanira."
+      ]
+    },
+    {
+      "codigo": "danca_djanira_candidata",
+      "tipo": "clipe",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "med_center",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133408,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar estilo curtindo; posição/root motion/intensidade e roupa precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_dinjer_candidata",
+      "tipo": "clipe",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+      "animacao": "high_center",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133452,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@ high_center"
+      },
+      "restricoes": [
+        "Não afirmar requebrando sem imagem; mesma roupa permanente de Dinjer."
+      ]
+    },
+    {
+      "codigo": "danca_iraci_candidata",
+      "tipo": "clipe",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "animacao": "low_center",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133425,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@ low_center"
+      },
+      "restricoes": [
+        "Não afirmar duro de dançar; compatibilidade da senhora e humor precisam de teste."
+      ]
+    },
+    {
+      "codigo": "danca_chefe_candidata",
+      "tipo": "clipe",
+      "dicionario": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+      "animacao": "med_center",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 133466,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@ med_center"
+      },
+      "restricoes": [
+        "Não afirmar deslizando; não transportar personagem por root motion sem marca."
+      ]
+    },
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "clipe",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    },
+    {
+      "codigo": "sair_agua_candidato",
+      "tipo": "clipe",
+      "dicionario": "swimming@swim",
+      "animacao": "swimclimbup_40",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75416,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "swimming@swim swimclimbup_40"
+      },
+      "restricoes": [
+        "Altura da rampa/água reais; não executar no chão nem criar água/teleporte para simular trajeto."
+      ]
+    },
+    {
+      "codigo": "beber_gole_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_drinking@beer@female@idle_a",
+      "animacao": "idle_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54793,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_drinking@beer@female@idle_a idle_a"
+      },
+      "restricoes": [
+        "Gole candidato com garrafa própria na mão; duração completa e encaixe precisam de getters/teste visual, sem alterar álcool do jogador."
+      ]
+    },
+    {
+      "codigo": "sentada_cadeira_livre_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@proper@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54059,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@proper@base base"
+      },
+      "restricoes": [
+        "Pose sentada candidata com braços livres; assento medido e gestos Secondary precisam preservar contato corporal."
+      ]
+    },
+    {
+      "codigo": "guardar_envelope",
+      "tipo": "clipe",
+      "dicionario": "mp_common_miss",
+      "animacao": "put_away_coke",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70754,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common_miss put_away_coke"
+      },
+      "restricoes": [
+        "Gesto candidato mão→corpo para guardar envelope; o nome original não comprova bolso/papel ou papel A/B. Exige clipe ativo e fase/movimento mão→tronco verificados no GTA; confirmação visual pendente."
+      ]
+    },
+    {
+      "codigo": "extra_dedo_medio",
+      "tipo": "clipe",
+      "dicionario": "anim@mp_player_intselfiethe_bird",
+      "animacao": "idle_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 90292,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intselfiethe_bird idle_a"
+      },
+      "restricoes": [
+        "Par instalado e literal Finger do RPEmotes autor (AnimationList.lua linhas6601–6607). Teste visual pendente; manter maos visiveis, separacao real >=1m, sem combate ou contato com outra atriz."
+      ]
+    },
+    {
+      "codigo": "carregar_bandeja",
+      "tipo": "clipe",
+      "dicionario": "anim@heists@box_carry@",
+      "animacao": "idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176682,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@box_carry@ idle"
+      },
+      "restricoes": [
+        "Par literal foodtraya do autor RPEmotes, cache linhas17631-17649: prop_food_bs_tray_03, PHRightHand28422, offset(.010,-.040,-.139), rot(20.0000007,0,0). Encaixe e caminhada exigem teste visual real."
+      ]
+    },
+    {
+      "codigo": "levantar_cadeira_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@exit",
+      "animacao": "exit_fwd",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53974,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@exit exit_fwd"
+      },
+      "restricoes": [
+        "Saida real candidata da familia arms_folded. Usar sem loop, com contato inicial medido e transicao fisica verificada; nao teleportar o ator."
+      ]
+    },
+    {
+      "codigo": "levantar_cadeira_livre_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@proper@exit",
+      "animacao": "exit_forward",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54061,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@proper@exit exit_forward"
+      },
+      "restricoes": [
+        "Saida real candidata da familia proper. Usar sem loop e verificar corpo/apoio antes de caminhar."
+      ]
+    },
+    {
+      "codigo": "levantar_cadeira_m",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@exit",
+      "animacao": "exit_forward",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54226,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@exit exit_forward"
+      },
+      "restricoes": [
+        "Saida real candidata da familia generic masculina. Usar sem loop; posicao final precisa de getters e teste visual."
+      ]
+    },
+    {
+      "codigo": "levantar_chao_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_picnic@female@exit",
+      "animacao": "exit",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55200,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_picnic@female@exit exit"
+      },
+      "restricoes": [
+        "Saida real candidata da familia picnic feminina. Exige pose inicial de chao medida e transicao sem warp."
+      ]
+    },
+    {
+      "codigo": "sentada_chao_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_picnic@female@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55197,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_picnic@female@base base"
+      },
+      "restricoes": [
+        "Pose candidata picnic no chao real: assentar o corpo por geometria/osso, nao chamar assento sobre prop; teste visual pendente."
+      ]
+    },
+    {
+      "codigo": "ligacao_m",
+      "tipo": "clipe",
+      "dicionario": "cellphone@",
+      "animacao": "cellphone_call_listen_base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55770,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@ cellphone_call_listen_base"
+      },
+      "restricoes": [
+        "Par masculino candidato instalado. Celular proprio PH e preservacao do gesto durante fala exigem getters/encaixe e teste visual; nao acionar boca por narracao."
+      ]
+    },
+    {
+      "codigo": "anotar_bloco",
+      "tipo": "clipe",
+      "dicionario": "missheistdockssetup1clipboard@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 66178,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missheistdockssetup1clipboard@base base"
+      },
+      "restricoes": [
+        "RPEmotes notepad literal, cache11205-11234. Prop_notepad_01 em SKEL_L_Hand18905 e prop_pencil_01 em SKEL_R_Finger0058866; offsets/rotacoes do autor. Gesto candidato real de anotacao, contato/escrita no modelo feminino aguardam getters e teste visual. Texto de calendario pertence a edicao externa."
+      ]
+    },
+    {
+      "codigo": "acenar_f",
+      "tipo": "clipe",
+      "dicionario": "anim@mp_player_intcelebrationfemale@wave",
+      "animacao": "wave",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 90410,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intcelebrationfemale@wave wave"
+      },
+      "restricoes": [
+        "Par instalado candidato de aceno feminino. Sem loop, preservar duracao/fase reais e trajeto fisico; nao alegar resposta de carro sem testemunho visual/nativo."
+      ]
+    },
+    {
+      "codigo": "sentar_cadeira_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@enter",
+      "animacao": "enter_fwd",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53973,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@enter enter_fwd"
+      },
+      "restricoes": [
+        "Entrada sentada real candidata da mesma familia da pose/saida. Medir deslocamento no preparo; durante acao exigir fase/corpo/pelvis/pes/superficie reais sem setter de posicao nem warp. Duracao nativa e adequacao visual ainda nao testadas."
+      ]
+    },
+    {
+      "codigo": "sentar_cadeira_livre_f",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@female@proper@enter",
+      "animacao": "enter_fwd",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54060,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@proper@enter enter_fwd"
+      },
+      "restricoes": [
+        "Entrada sentada real candidata da mesma familia da pose/saida. Medir deslocamento no preparo; durante acao exigir fase/corpo/pelvis/pes/superficie reais sem setter de posicao nem warp. Duracao nativa e adequacao visual ainda nao testadas."
+      ]
+    },
+    {
+      "codigo": "sentar_cadeira_m",
+      "tipo": "clipe",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@enter",
+      "animacao": "enter_forward",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54225,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@enter enter_forward"
+      },
+      "restricoes": [
+        "Entrada sentada real candidata da mesma familia da pose/saida. Medir deslocamento no preparo; durante acao exigir fase/corpo/pelvis/pes/superficie reais sem setter de posicao nem warp. Duracao nativa e adequacao visual ainda nao testadas."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_picnic@female@enter",
+      "animacao": "enter",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55198,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_picnic@female@enter enter"
+      },
+      "restricoes": [
+        "Entrada sentada real candidata da mesma familia da pose/saida. Medir deslocamento no preparo; durante acao exigir fase/corpo/pelvis/pes/superficie reais sem setter de posicao nem warp. Duracao nativa e adequacao visual ainda nao testadas."
+      ]
+    },
+    {
+      "codigo": "leitura_documento_autor",
+      "tipo": "clipe",
+      "dicionario": "switch@michael@reads_script",
+      "animacao": "001404_01_mics3_16_reads_script_idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75949,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "switch@michael@reads_script 001404_01_mics3_16_reads_script_idle"
+      },
+      "restricoes": [
+        "Autor case164 player_timetable_scene: leitura de roteiro por Michael; adaptação ao modelo feminino/relatório/carta exige GET_ANIM_DURATION, playing/fase e inspeção visual.",
+        "Prop autor p_cs_script_s, PHRightHand28422, offset e rotação zero inicializados pelo script. 0.86f é outro parâmetro e não offset.",
+        "Não comprova dobrar, abrir envelope, desdobrar carta ou legibilidade de texto. Não aciona boca pela narração."
+      ]
+    },
+    {
+      "codigo": "carregar_sacola_autor",
+      "tipo": "clipe",
+      "dicionario": "move_weapon@jerrycan@generic",
+      "animacao": "idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70431,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_weapon@jerrycan@generic idle"
+      },
+      "restricoes": [
+        "Par literal shopbag3 do autor RPEmotes-Reborn, AnimationList.lua cache linhas21840-21857/SHA44AD289CD286BB8C17A69154CF1D530A7DDB90AC6799B464C6465B55B47CAE6F: prop_cs_shopping_bag, PHRightHand28422, offset(.24,.03,-.04), rot(0,-90,10). Encaixe e corpo femininos exigem getters e imagem reais antes de aprovação."
+      ]
+    },
+    {
+      "codigo": "limpar_mesa_superficie_autor",
+      "tipo": "clipe",
+      "dicionario": "timetable@maid@cleaning_surface@base",
+      "animacao": "base",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76638,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@maid@cleaning_surface@base base"
+      },
+      "restricoes": [
+        "Par literal instalado de cleaning_surface; adequacao a mesa propria e ao modelo DINJER ainda exige getters e imagem reais.",
+        "EP13_C05 preserva quatro segundos, teste de superficie/movimento da mao e proximidade fisica; nao elevar mesa, baixar ator ou relaxar contato para aceitar este candidato."
+      ]
+    },
+    {
+      "codigo": "servir_champanhe_autor",
+      "tipo": "clipe",
+      "dicionario": "anim@move_f@waitress",
+      "animacao": "idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 259765,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@move_f@waitress idle"
+      },
+      "restricoes": [
+        "Binding literal champw2 RPEmotes cache SHA44AD289CD286BB8C17A69154CF1D530A7DDB90AC6799B464C6465B55B47CAE6F linhas18923-18940: h4_prop_h4_champ_tray_01b PHRightHand28422 offset(0,0,.01), rot(0,0,0), MOVING upperbody/secondary/loop. Disponibilidade, fases, caminhada e conteudo da bandeja exigem getters/RootVIEW nativos."
+      ]
+    }
+  ]
+}

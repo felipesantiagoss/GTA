@@ -1,0 +1,79 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 7,
+  "nomeOriginal": "\"O VOO\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP07_C01",
+    "EP07_C02",
+    "EP07_C03",
+    "EP07_C04",
+    "EP07_C05"
+  ],
+  "cenas": [
+    {
+      "id": "EP07_C01",
+      "plano": "EP07_C01.plano.json",
+      "srtBase": "EP07_C01.base.srt"
+    },
+    {
+      "id": "EP07_C02",
+      "plano": "EP07_C02.plano.json",
+      "srtBase": "EP07_C02.base.srt"
+    },
+    {
+      "id": "EP07_C03",
+      "plano": "EP07_C03.plano.json",
+      "srtBase": "EP07_C03.base.srt"
+    },
+    {
+      "id": "EP07_C04",
+      "plano": "EP07_C04.plano.json",
+      "srtBase": "EP07_C04.base.srt"
+    },
+    {
+      "id": "EP07_C05",
+      "plano": "EP07_C05.plano.json",
+      "srtBase": "EP07_C05.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 793,
+        "linhaFim": 794,
+        "sha256BlocoUtf8": "B36C061E7054548B8C22E1FF2021A75BBD54A2B03E3F339F251A1EA84A303EFA",
+        "raw": "**ANTERIORMENTE**: EP06_C04 (o convite) · EP06_C06 (o gesto)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP06_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP06_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 791,
+    "linhaFim": 870,
+    "sha256BlocoUtf8": "CF1CCAFF78EE6794809BB8DBCF7B3C2B3205C1A5464E78F7F51F99238B273DAC",
+    "raw": null
+  }
+}

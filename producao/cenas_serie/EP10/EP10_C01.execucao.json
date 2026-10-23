@@ -1,0 +1,176 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP10_C01",
+  "episodio": 10,
+  "numero": 1,
+  "nome": "O BANCO DE PRAÇA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1059,
+    "linhaFim": 1067,
+    "sha256BlocoUtf8": "9F0A26B18927DD950C3CAA60F0586FACF6E490B73D91262CE7CE0116190504AD",
+    "raw": "### EP10_C01 · O BANCO DE PRAÇA\n`local:` PRAIA_DELPERRO · `hora:` 03:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Djanira dormindo num banco, abraçada na sacola.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.\"\n\n"
+  },
+  "original": {
+    "local": "PRAIA_DELPERRO",
+    "locaisCodigos": [
+      "PRAIA_DELPERRO"
+    ],
+    "hora": "03:00",
+    "clima": "nublado",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1060,
+      1061
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1065,
+      "linhaTexto": 1066,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1063,
+      "raw": "**Ação:** Djanira dormindo num banco, abraçada na sacola.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:PRAIA_DELPERRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:deitar",
+      "tipo": "atuacao_integral",
+      "descricao": "Cama/banco real e alinhamento; transições, sacola quando prevista e facial doente/sono compatível.",
+      "candidatos": [
+        "deitada_cama_f",
+        "sono_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:sacola",
+      "tipo": "atuacao_integral",
+      "descricao": "Sacola real na mão/abraço e poses; aparências de ped não criam o objeto da história.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP10_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "deitada_cama_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_bedmid",
+      "animacao": "f_sleep_l_loop_bighouse",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70591,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_bedmid f_sleep_l_loop_bighouse"
+      },
+      "restricoes": [
+        "Exige cama/banco real e alinhamento do corpo; não garante expressão doente."
+      ]
+    },
+    {
+      "codigo": "sono_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_sleep",
+      "animacao": "sleep_loopfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71428,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_sleep sleep_loopfemale"
+      },
+      "restricoes": [
+        "Exige testar origem e altura; clipe não informa banco nem sacola."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

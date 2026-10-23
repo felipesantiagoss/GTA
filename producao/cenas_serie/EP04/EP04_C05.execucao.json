@@ -1,0 +1,323 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP04_C05",
+  "episodio": 4,
+  "numero": 5,
+  "nome": "A AVÓ PIORA",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 594,
+    "linhaFim": 606,
+    "sha256BlocoUtf8": "3061F8BC8E0C0D5E78192F3822DFBBAB2BEEA6906F47FB8B80714FC6616438E5",
+    "raw": "### EP04_C05 · A AVÓ PIORA\n`local:` CASA_VO · `hora:` 20:00 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 14s · `gravar:` SIM\n\n**Ação:** A avó deitada, muito mal. Djanira sentada do lado.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Minha filha, deixa esse dinheiro pra lá. Tem coisa que a gente perde só pra aprender.\" | 7s | neutro |\n| 2 | DJANIRA | \"A senhora tá na cama porque eu não tenho com que comprar o seu remédio, vó. Eu não vou deixar pra lá.\" | 7s | irritado |\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "20:00",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      595,
+      596
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Minha filha, deixa esse dinheiro pra lá. Tem coisa que a gente perde só pra aprender.",
+      "textoOriginal": "\"Minha filha, deixa esse dinheiro pra lá. Tem coisa que a gente perde só pra aprender.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 604,
+      "raw": "| 1 | DONA_IRACI | \"Minha filha, deixa esse dinheiro pra lá. Tem coisa que a gente perde só pra aprender.\" | 7s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "A senhora tá na cama porque eu não tenho com que comprar o seu remédio, vó. Eu não vou deixar pra lá.",
+      "textoOriginal": "\"A senhora tá na cama porque eu não tenho com que comprar o seu remédio, vó. Eu não vou deixar pra lá.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 605,
+      "raw": "| 2 | DJANIRA | \"A senhora tá na cama porque eu não tenho com que comprar o seu remédio, vó. Eu não vou deixar pra lá.\" | 7s | irritado |",
+      "inicioMs": 7000,
+      "fimMs": 14000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 598,
+      "raw": "**Ação:** A avó deitada, muito mal. Djanira sentada do lado.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Poses iniciais são montadas fora da captura em props próprios, chão/bounds/raycast reais; pelvis/cabeça/pés/joelhos precisam passar no preflight. Nada senta/deita por teleporte durante a ação. Fala usa somente camada superior/secondary; compatibilidade visual da malha/pose permanece pendente.",
+    "Cama verdadeira para Iraci e cadeira ao lado para Djanira; as duas falas7s continuam com boca/gestos. Facial de dor é candidato para doença/muito mal, boca prioritária; não acrescenta feridas/figurino ou diagnóstico. Overlay durante deitada precisa passar no teste, sem omitir a fala."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "deitada_cama_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_bedmid",
+      "animacao": "f_sleep_l_loop_bighouse",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70591,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_bedmid f_sleep_l_loop_bighouse"
+      },
+      "restricoes": [
+        "Exige cama/banco real e alinhamento do corpo; não garante expressão doente."
+      ]
+    },
+    {
+      "codigo": "sono_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_sleep",
+      "animacao": "sleep_loopfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71428,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_sleep sleep_loopfemale"
+      },
+      "restricoes": [
+        "Exige testar origem e altura; clipe não informa banco nem sacola."
+      ]
+    },
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DONA_IRACI",
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP04_C05.json",
+  "runtimeSHA256": "07063A18A75985D736508D5E189545AF5159865EEF600BC286DB91756D0FEBDC",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 14000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 17000,
+    "blocosOriginaisMs": 14000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [
+    {
+      "id": "CAMA_IRACI",
+      "recurso": "cama_casa",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "posesRuntime": [
+    {
+      "personagem": "DONA_IRACI",
+      "objeto": "CAMA_IRACI",
+      "recurso": "deitada_cama_f",
+      "tipo": "deitada"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada"
+    }
+  ]
+}

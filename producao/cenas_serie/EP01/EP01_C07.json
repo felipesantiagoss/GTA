@@ -1,0 +1,166 @@
+{
+  "versao": 1,
+  "id": "EP01_C07",
+  "episodio": 1,
+  "numero": 7,
+  "nome": "O BARRACO NO HANGAR",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "11:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "COLEGA_1"
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": 0.85,
+        "frente": 0.45,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": -0.65,
+        "frente": 0.65,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "COLEGA_3",
+      "marca": {
+        "direita": -1.3,
+        "frente": 0.15,
+        "altura": 0
+      },
+      "olharPara": "COLEGA_2"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "MEDIA",
+        "personagem": "COLEGA_1"
+      },
+      {
+        "inicioSegundos": 7,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 16,
+        "plano": "MEDIA",
+        "personagem": "COLEGA_2"
+      },
+      {
+        "inicioSegundos": 19,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 22,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 24.6,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 27.8,
+        "plano": "DOIS",
+        "personagem": "COLEGA_3"
+      },
+      {
+        "inicioSegundos": 30.2,
+        "plano": "MEDIA",
+        "personagem": "COLEGA_3"
+      },
+      {
+        "inicioSegundos": 32,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      }
+    ],
+    "inverterEixo": true,
+    "ajustes": {
+      "altura": 0.12,
+      "aproximar": -0.2,
+      "lado": 0
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "LONGE",
+      "personagem": "DINJER"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Eu pegaria ela só no off mesmo.",
+      "personagem": "COLEGA_1",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Eu acho que vocês deveriam me respeitar aqui, pois sou mulher, mãe, defensora do aborto, a aeromoça feminista assumidamente não monogâmica.",
+      "personagem": "DINJER",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Só faltou falar comunista.",
+      "personagem": "COLEGA_2",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Me respeita, cara. Tá tirando onda?",
+      "personagem": "DINJER",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 12,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": []
+}

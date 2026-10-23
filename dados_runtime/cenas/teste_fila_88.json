@@ -1,0 +1,68 @@
+{
+  "versao": 1,
+  "id": "teste_fila_88",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "ENSAIO TECNICO CAIXAS WOOD01A",
+  "ambiente": {
+    "local": "AEROPORTO_HANGAR",
+    "hora": "11:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 5
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "CAIXAS_NEGOCIO_1",
+      "recurso": "caixas_ensaio88_wood01a",
+      "marca": {
+        "direita": -2,
+        "frente": 2,
+        "altura": 0
+      },
+      "assentarNoChao": true,
+      "visivelInicial": true,
+      "eventos": []
+    },
+    {
+      "id": "CAIXAS_NEGOCIO_2",
+      "recurso": "caixas_ensaio88_wood01a",
+      "marca": {
+        "direita": 2,
+        "frente": 2,
+        "altura": 0
+      },
+      "assentarNoChao": true,
+      "visivelInicial": true,
+      "eventos": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 9,
+  "nomeOriginal": "\"VINTE E UM\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP09_C01",
+    "EP09_C02",
+    "EP09_C03",
+    "EP09_C04",
+    "EP09_C05",
+    "EP09_C06"
+  ],
+  "cenas": [
+    {
+      "id": "EP09_C01",
+      "plano": "EP09_C01.plano.json",
+      "srtBase": "EP09_C01.base.srt"
+    },
+    {
+      "id": "EP09_C02",
+      "plano": "EP09_C02.plano.json",
+      "srtBase": "EP09_C02.base.srt"
+    },
+    {
+      "id": "EP09_C03",
+      "plano": "EP09_C03.plano.json",
+      "srtBase": "EP09_C03.base.srt"
+    },
+    {
+      "id": "EP09_C04",
+      "plano": "EP09_C04.plano.json",
+      "srtBase": "EP09_C04.base.srt"
+    },
+    {
+      "id": "EP09_C05",
+      "plano": "EP09_C05.plano.json",
+      "srtBase": "EP09_C05.base.srt"
+    },
+    {
+      "id": "EP09_C06",
+      "plano": "EP09_C06.plano.json",
+      "srtBase": "EP09_C06.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 969,
+        "linhaFim": 970,
+        "sha256BlocoUtf8": "EAFB28C84A2B9AE6156D7D0C6B4A18671CD6CD485F2B54FC9EC181E3FC5F1C6E",
+        "raw": "**ANTERIORMENTE**: EP08_C03 (a herança) · EP08_C04 (o cassino) · EP08_C05 (o papel)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP08_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP08_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP08_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 967,
+    "linhaFim": 1050,
+    "sha256BlocoUtf8": "E4AC79EDC753D08928EE8FED75838407370685EE53E9F9C2C20405B2CA1140BB",
+    "raw": null
+  }
+}

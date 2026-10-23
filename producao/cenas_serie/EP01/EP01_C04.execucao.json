@@ -1,0 +1,183 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C04",
+  "episodio": 1,
+  "numero": 4,
+  "nome": "O HOSPITAL",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 249,
+    "linhaFim": 257,
+    "sha256BlocoUtf8": "BAEC748A9CB3F3BB8DE415517454F23135BEA624776A5B3F7B0B0B8C9F3A9E4D",
+    "raw": "### EP01_C04 · O HOSPITAL\n`local:` HOSPITAL_SANDY · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.\"\n\n"
+  },
+  "original": {
+    "local": "HOSPITAL_SANDY",
+    "locaisCodigos": [
+      "HOSPITAL_SANDY"
+    ],
+    "hora": "08:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      250,
+      251
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": [
+      "Entrada FRONT real: ambas aproximam-se0-3s, Djanira se despede4-6s, Iraci entra4-11s e Djanira se afasta6-11s. Narração7s preservada, reserva4s e LONGE com eixo invertido; não exige interior no piso superior."
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+      "textoOriginal": "> \"Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 255,
+      "linhaTexto": 256,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 253,
+      "raw": "**Ação:** Djanira deixa a avó na entrada da clínica, se despede e vai embora. A avó entra.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Remontagem na entrada FRONT real de HOSPITAL_SANDY, direção para dentro e distânciaFrente1m. Ambas começam4m antes da âncora e aproximam-se2m em0–3s; Djanira se despede4–6s pelo helper, enquanto Iraci entra4m em4–11s. Djanira se afasta1,5m em6–11s. Narração original7s sem boca e reserva silenciosa4s; câmeraLONGE com inverterEixo=true. Passagem e chão reais são sondados; porta fechada/colisão/chegada inválida interrompem, sem esconder ator, desbloquear porta ou teleportar. Preserva a ação e exige avaliação visual da nova tomada."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:HOSPITAL_SANDY",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "passagem:HOSPITAL_SANDY",
+      "tipo": "recurso_real",
+      "descricao": "Entrada FRONT real de HOSPITAL_SANDY, direção para a passagem; chão, espaço livre e chegada física precisam ser conferidos no GTA. Sem exigir interior no piso superior; o JSON não comprova porta aberta."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DONA_IRACI"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C04.json",
+  "runtimeSHA256": "FB518A64D40B94F0451AFEC165A198807918707128610AB2354D8B57B389DA64",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 11000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 14000,
+    "blocosOriginaisMs": 7000,
+    "tempoSemVozAdicionalMs": 4000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "remontagemAutorizada": {
+    "fonte": "pedido atual no chat",
+    "semTextoNaImagem": true,
+    "semVinheta": true,
+    "acaoTecnica": "Entrada FRONT real: ambas aproximam-se0-3s, Djanira se despede4-6s, Iraci entra4-11s e Djanira se afasta6-11s. Narração7s preservada, reserva4s e LONGE com eixo invertido; não exige interior no piso superior.",
+    "entrada": "FRONT",
+    "reservaSemVozMs": 4000,
+    "local": "HOSPITAL_SANDY"
+  },
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C04_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C04_LIMPO.mp4",
+    "sha256": "C8EFCBA2BA431521619C18CB5D97F0B412DAD95267D4CA5E2F573F0810FD1A0D",
+    "duracaoMs": 11016,
+    "sessoesReais": [
+      "b53466d2ae094decaf4d8679a41b2624"
+    ],
+    "fontesJsonSHA256": [
+      "FB518A64D40B94F0451AFEC165A198807918707128610AB2354D8B57B389DA64"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

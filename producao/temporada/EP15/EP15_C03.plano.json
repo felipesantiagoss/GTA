@@ -1,0 +1,282 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C03",
+  "episodio": 15,
+  "numero": 3,
+  "nome": "O PAPEL NA MESA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1502,
+    "linhaFim": 1521,
+    "sha256BlocoUtf8": "379D2A17F5E64B66B00ACFC6BA32937D7F56169367553F3BC4C374B48C237BB1",
+    "raw": "### EP15_C03 · O PAPEL NA MESA\n`local:` MANSAO_CHEFE · `hora:` 20:30 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE, DINJER · `cam:` auto · `dur:` 26s · `gravar:` SIM\n\n> 🔴 **Depois da fala 1, deixe 3 segundos de silêncio.** O silêncio é a cena.\n\n**Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"O senhor conhece esse nome?\" | 3s | neutro |\n| — | *(silêncio)* | *(close no Chefe, expressão muda para `estressado`)* | 3s | — |\n| 2 | O_CHEFE | \"Onde é que a senhora conseguiu isso?\" | 4s | neutro |\n| 3 | DJANIRA | \"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\" | 8s | neutro |\n| 4 | O_CHEFE | \"...Djanira.\" | 2s | machucado |\n| 5 | DJANIRA | \"O senhor sabe o meu nome.\" | 3s | neutro |\n| 6 | O_CHEFE | \"Eu escolhi o teu nome.\" | 3s | neutro |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "20:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, O_CHEFE, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 26000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1503,
+      1504
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "O_CHEFE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1508,
+      "raw": "**Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1506,
+      "raw": "> 🔴 **Depois da fala 1, deixe 3 segundos de silêncio.** O silêncio é a cena."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "O senhor conhece esse nome?",
+      "textoOriginal": "\"O senhor conhece esse nome?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1514,
+      "raw": "| 1 | DJANIRA | \"O senhor conhece esse nome?\" | 3s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 3000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "pausa",
+      "boca": false,
+      "texto": null,
+      "indicacoesOriginais": "*(close no Chefe, expressão muda para `estressado`)*",
+      "linhaInicio": 1515,
+      "raw": "| — | *(silêncio)* | *(close no Chefe, expressão muda para `estressado`)* | 3s | — |",
+      "inicioMs": 3000,
+      "fimMs": 6000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Onde é que a senhora conseguiu isso?",
+      "textoOriginal": "\"Onde é que a senhora conseguiu isso?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1516,
+      "raw": "| 2 | O_CHEFE | \"Onde é que a senhora conseguiu isso?\" | 4s | neutro |",
+      "inicioMs": 6000,
+      "fimMs": 10000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.",
+      "textoOriginal": "\"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1517,
+      "raw": "| 3 | DJANIRA | \"Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.\" | 8s | neutro |",
+      "inicioMs": 10000,
+      "fimMs": 18000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "O_CHEFE",
+      "texto": "...Djanira.",
+      "textoOriginal": "\"...Djanira.\"",
+      "gestoOriginal": "machucado",
+      "boca": true,
+      "linhaInicio": 1518,
+      "raw": "| 4 | O_CHEFE | \"...Djanira.\" | 2s | machucado |",
+      "inicioMs": 18000,
+      "fimMs": 20000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DJANIRA",
+      "texto": "O senhor sabe o meu nome.",
+      "textoOriginal": "\"O senhor sabe o meu nome.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1519,
+      "raw": "| 5 | DJANIRA | \"O senhor sabe o meu nome.\" | 3s | neutro |",
+      "inicioMs": 20000,
+      "fimMs": 23000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu escolhi o teu nome.",
+      "textoOriginal": "\"Eu escolhi o teu nome.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1520,
+      "raw": "| 6 | O_CHEFE | \"Eu escolhi o teu nome.\" | 3s | neutro |",
+      "inicioMs": 23000,
+      "fimMs": 26000,
+      "duracaoMs": 3000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 26000,
+    "blocosDeclaradosMs": 26000,
+    "conteudoPlanejadoMs": 26000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 29000,
+    "fimUltimaLegendaMs": 29000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "gesto_machucado",
+      "descricao": "Intenção 'machucado' fora dos cinco gestos catalogados; pesquisar e testar sem substituir silenciosamente.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira tira um papel dobrado do bolso e coloca na mesa.",
+      "origem": "linha 1508",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:papel",
+      "familia": "objetos",
+      "descricao": "papel: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

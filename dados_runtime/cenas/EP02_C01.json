@@ -1,0 +1,141 @@
+{
+  "versao": 1,
+  "id": "EP02_C01",
+  "episodio": 2,
+  "numero": 1,
+  "nome": "A BALADA",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 10,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "texto": "Enquanto eu contava moeda pra comprar pão, o meu dinheiro tava fazendo outra coisa.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4.0
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "recurso": "beber_gole_f",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4,
+      "recurso": "danca_dinjer_candidata",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    },
+    {
+      "tipo": "celular",
+      "personagem": "DINJER",
+      "inicioSegundos": 8,
+      "duracaoSegundos": 4,
+      "recurso": "foto_celular_f",
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": false
+    }
+  ],
+  "objetos": [
+    {
+      "id": "BEBIDA_DINJER",
+      "recurso": "garrafa_cerveja",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.05
+        },
+        "rotacao": {
+          "x": 15,
+          "y": 15,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "ocultar",
+          "inicioSegundos": 4
+        }
+      ]
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "convencido"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "versao": 1,
+  "id": "EP01_EXTRA_DINJER_DEDO",
+  "episodio": 1,
+  "numero": 0,
+  "nome": "EXTRA — DINJER SAI E MOSTRA O DEDO",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0.5,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 3,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFinal": "MEDIA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 4.75,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 7.25,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      }
+    ],
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 8
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": 0.8,
+        "frente": -2.5,
+        "altura": 0
+      },
+      "velocidade": 1
+    },
+    {
+      "tipo": "virar",
+      "personagem": "DINJER",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 1,
+      "alvo": "DJANIRA_POBRE"
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4,
+      "recurso": "extra_dedo_medio",
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "convencido"
+    }
+  ]
+}

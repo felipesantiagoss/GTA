@@ -1,0 +1,28 @@
+1
+00:00:03,000 --> 00:00:06,000
+Narrador: Trecho de narração: os dois ficam sem falar.
+
+2
+00:00:06,000 --> 00:00:12,000
+Homem: Agora estou testando o arquivo JSON.
+
+3
+00:00:12,000 --> 00:00:18,000
+Mulher: Agora é minha vez. Observe minha boca e minhas mãos.
+
+4
+00:00:18,000 --> 00:00:24,000
+Homem: Não. Isto é só um teste técnico, antes de gravar a história.
+
+5
+00:00:24,000 --> 00:00:30,000
+Mulher: Por favor, repare se minha boca continua mexendo até o fim.
+
+6
+00:00:30,000 --> 00:00:36,000
+Homem: Preste atenção! Quem está escutando deve olhar para quem fala.
+
+7
+00:00:36,000 --> 00:00:39,000
+Narrador: Fim do teste: as duas bocas devem voltar ao normal.
+

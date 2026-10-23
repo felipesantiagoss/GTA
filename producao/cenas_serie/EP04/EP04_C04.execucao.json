@@ -1,0 +1,118 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP04_C04",
+  "episodio": 4,
+  "numero": 4,
+  "nome": "A VOLTA A PÉ",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 583,
+    "linhaFim": 591,
+    "sha256BlocoUtf8": "B51DECDF75D3A954371D58A5B61F7F71406C016DFF30E9DB4934F65C09ECDD3D",
+    "raw": "### EP04_C04 · A VOLTA A PÉ\n`local:` ESTRADA_SENORA · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira andando sozinha na estrada, câmera o mais longe possível.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Eu voltei a pé metade do caminho porque não tinha dinheiro da volta.\"\n\n"
+  },
+  "original": {
+    "local": "ESTRADA_SENORA",
+    "locaisCodigos": [
+      "ESTRADA_SENORA"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      584,
+      585
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu voltei a pé metade do caminho porque não tinha dinheiro da volta.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Eu voltei a pé metade do caminho porque não tinha dinheiro da volta.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 589,
+      "linhaTexto": 590,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 6000,
+    "conteudoPlanejadoMs": 6000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 9000,
+    "fimUltimaLegendaMs": 9000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 587,
+      "raw": "**Ação:** Djanira andando sozinha na estrada, câmera o mais longe possível.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Rota cênica explícita4m para frente do eixo capturado, durante a voz original; chão/colisão reais e chegada sem warp conferidos pelo backend."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ESTRADA_SENORA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP04_C04.json",
+  "runtimeSHA256": "C919020F42A7C796C7AB09585E517D581672327B1362680AD2BC93CB144C4391",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 6000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 9000,
+    "blocosOriginaisMs": 6000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

@@ -1,0 +1,274 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP07_C04",
+  "episodio": 7,
+  "numero": 4,
+  "nome": "O JANTAR NO CÉU",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 836,
+    "linhaFim": 854,
+    "sha256BlocoUtf8": "E3913BF455E5258C01D97B375254E10D959C517F78854C0027D179F58AE06E37",
+    "raw": "### EP07_C04 · O JANTAR NO CÉU\n`local:` AEROPORTO_AR · `hora:` 21:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` auto · `dur:` 34s · `gravar:` SIM\n\n**Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\" | 9s | explicando |\n| 2 | DJANIRA | \"É bonita, sim senhor.\" | 3s | neutro |\n| 3 | O_CHEFE | \"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\" | 10s | neutro |\n| 4 | DJANIRA | \"Eu não vi nada.\" | 2s | negando |\n| 5 | O_CHEFE | \"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\" | 6s | neutro |\n| 6 | DINJER | \"Desculpa, amiga.\" | 2s | implorando |\n\n> 💡 Na fala 6 a Dinjer **não olha para a Djanira**. Olha para o chão. É o detalhe que o público vai lembrar no Episódio 15.\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_AR",
+    "locaisCodigos": [
+      "AEROPORTO_AR"
+    ],
+    "hora": "21:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 34000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      837,
+      838
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 840,
+      "raw": "**Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 853,
+      "raw": "> 💡 Na fala 6 a Dinjer **não olha para a Djanira**. Olha para o chão. É o detalhe que o público vai lembrar no Episódio 15."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.",
+      "textoOriginal": "\"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 846,
+      "raw": "| 1 | O_CHEFE | \"Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.\" | 9s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "É bonita, sim senhor.",
+      "textoOriginal": "\"É bonita, sim senhor.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 847,
+      "raw": "| 2 | DJANIRA | \"É bonita, sim senhor.\" | 3s | neutro |",
+      "inicioMs": 9000,
+      "fimMs": 12000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.",
+      "textoOriginal": "\"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 848,
+      "raw": "| 3 | O_CHEFE | \"Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.\" | 10s | neutro |",
+      "inicioMs": 12000,
+      "fimMs": 22000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não vi nada.",
+      "textoOriginal": "\"Eu não vi nada.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 849,
+      "raw": "| 4 | DJANIRA | \"Eu não vi nada.\" | 2s | negando |",
+      "inicioMs": 22000,
+      "fimMs": 24000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu sei que você não viu. Mas eu não posso confiar na sua memória.",
+      "textoOriginal": "\"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 850,
+      "raw": "| 5 | O_CHEFE | \"Eu sei que você não viu. Mas eu não posso confiar na sua memória.\" | 6s | neutro |",
+      "inicioMs": 24000,
+      "fimMs": 30000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DINJER",
+      "texto": "Desculpa, amiga.",
+      "textoOriginal": "\"Desculpa, amiga.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 851,
+      "raw": "| 6 | DINJER | \"Desculpa, amiga.\" | 2s | implorando |",
+      "inicioMs": 30000,
+      "fimMs": 32000,
+      "duracaoMs": 2000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 34000,
+    "blocosDeclaradosMs": 32000,
+    "conteudoPlanejadoMs": 34000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 37000,
+    "fimUltimaLegendaMs": 35000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_AR",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_AR; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dentro do avião. O Chefe servindo, simpático. Dinjer em pé no fundo, calada. No meio da conversa o Chefe para de sorrir.",
+      "origem": "linha 840",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:bebida/copo",
+      "familia": "objetos",
+      "descricao": "bebida/copo: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "veiculo:avião particular/interior",
+      "familia": "veiculos",
+      "descricao": "avião particular/interior: modelo, assentos/portas, motorista, percurso e restauração.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:terceiro_interlocutor",
+      "familia": "camera",
+      "descricao": "Eixo e alvo explícitos para interlocutores além dos dois primeiros; contrato atual não os executa automaticamente.",
+      "origem": "elenco e diálogo originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

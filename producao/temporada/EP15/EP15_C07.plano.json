@@ -1,0 +1,189 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP15_C07",
+  "episodio": 15,
+  "numero": 7,
+  "nome": "A SAÍDA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1576,
+    "linhaFim": 1588,
+    "sha256BlocoUtf8": "6B95492DC3C4EFF89C8810C9A3B0FB9FC3A01895E36960A5255A93D3DB2D5779",
+    "raw": "### EP15_C07 · A SAÍDA\n`local:` MANSAO_CHEFE · `hora:` 21:05 · `clima:` limpo\n`elenco:` DJANIRA_RICA, O_CHEFE · `cam:` auto · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira anda até a porta e sai, sem olhar para trás.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Djanira. Djanira, espera. A gente pode conversar.\" | 5s | implorando |\n| 2 | DJANIRA | \"O senhor teve dezoito anos pra conversar.\" | 5s | neutro |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "21:05",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "O_CHEFE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1577,
+      1578
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1580,
+      "raw": "**Ação:** Djanira anda até a porta e sai, sem olhar para trás.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Djanira. Djanira, espera. A gente pode conversar.",
+      "textoOriginal": "\"Djanira. Djanira, espera. A gente pode conversar.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1586,
+      "raw": "| 1 | O_CHEFE | \"Djanira. Djanira, espera. A gente pode conversar.\" | 5s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "O senhor teve dezoito anos pra conversar.",
+      "textoOriginal": "\"O senhor teve dezoito anos pra conversar.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1587,
+      "raw": "| 2 | DJANIRA | \"O senhor teve dezoito anos pra conversar.\" | 5s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 10000,
+      "duracaoMs": 5000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira anda até a porta e sai, sem olhar para trás.",
+      "origem": "linha 1580",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:porta/portão",
+      "familia": "objetos",
+      "descricao": "porta/portão: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

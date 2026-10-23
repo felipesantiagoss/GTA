@@ -1,0 +1,94 @@
+{
+  "versao": 1,
+  "id": "EP11_C01",
+  "episodio": 11,
+  "numero": 1,
+  "nome": "A MESMA ROUPA",
+  "ambiente": {
+    "local": "BANCO_MAZE",
+    "hora": "09:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 2
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "marca": {
+        "direita": -2,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "ATRAS",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS",
+    "ajustes": {
+      "lado": 2,
+      "altura": 0.2,
+      "aproximar": -2
+    },
+    "inverterEixo": false,
+    "transicaoSuave": false
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "ATRAS",
+      "texto": "Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "CAPANGA_4",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DJANIRA_POBRE"
+      }
+    }
+  ],
+  "portas": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "tipo": "abrir",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "tipo": "atravessar",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 5,
+      "destino": {
+        "direita": 0,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 1.1
+    }
+  ]
+}

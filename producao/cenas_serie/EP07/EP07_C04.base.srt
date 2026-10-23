@@ -1,0 +1,23 @@
+1
+00:00:03,000 --> 00:00:12,000
+O Chefe: Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira.
+
+2
+00:00:12,000 --> 00:00:15,000
+Djanira: É bonita, sim senhor.
+
+3
+00:00:15,000 --> 00:00:25,000
+O Chefe: Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra.
+
+4
+00:00:25,000 --> 00:00:27,000
+Djanira: Eu não vi nada.
+
+5
+00:00:27,000 --> 00:00:33,000
+O Chefe: Eu sei que você não viu. Mas eu não posso confiar na sua memória.
+
+6
+00:00:33,000 --> 00:00:35,000
+Dinjer: Desculpa, amiga.

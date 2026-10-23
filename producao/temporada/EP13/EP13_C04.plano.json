@@ -1,0 +1,183 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP13_C04",
+  "episodio": 13,
+  "numero": 4,
+  "nome": "O CHEFE DESCOBRE",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1333,
+    "linhaFim": 1344,
+    "sha256BlocoUtf8": "7803B5D7038098F86402674852EDBD54A89F330C7E0A05898C6B505FBBA4861E",
+    "raw": "### EP13_C04 · O CHEFE DESCOBRE\n`local:` MANSAO_CHEFE · `hora:` 16:00 · `clima:` limpo\n`elenco:` O_CHEFE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\" | 8s | irritado |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "16:00",
+    "clima": "limpo",
+    "elenco": "O_CHEFE",
+    "elencoCodigos": [
+      "O_CHEFE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1334,
+      1335
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1337,
+      "raw": "**Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!",
+      "textoOriginal": "\"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 1343,
+      "raw": "| 1 | O_CHEFE | \"Como assim vendeu? Eu não autorizei venda nenhuma! Quem comprou? Me dá um nome!\" | 8s | irritado |",
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_CHEFE",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_CHEFE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** O Chefe andando de um lado para o outro, nervoso, ao telefone. Expressão `com raiva`.",
+      "origem": "linha 1337",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:celular",
+      "familia": "objetos",
+      "descricao": "celular: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:multiplas_tomadas",
+      "familia": "edicao",
+      "descricao": "Plano separado de tomadas/subplanos, com sua montagem e tempo; não fingir uma única atuação contínua.",
+      "origem": "ações e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

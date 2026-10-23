@@ -1,0 +1,91 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 2,
+  "nomeOriginal": "\"O DINHEIRO SUMIU\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP02_C01",
+    "EP02_C02",
+    "EP02_C03",
+    "EP02_C04",
+    "EP02_C05",
+    "EP02_C06",
+    "EP02_C07"
+  ],
+  "cenas": [
+    {
+      "id": "EP02_C01",
+      "plano": "EP02_C01.plano.json",
+      "srtBase": "EP02_C01.base.srt"
+    },
+    {
+      "id": "EP02_C02",
+      "plano": "EP02_C02.plano.json",
+      "srtBase": "EP02_C02.base.srt"
+    },
+    {
+      "id": "EP02_C03",
+      "plano": "EP02_C03.plano.json",
+      "srtBase": "EP02_C03.base.srt"
+    },
+    {
+      "id": "EP02_C04",
+      "plano": "EP02_C04.plano.json",
+      "srtBase": "EP02_C04.base.srt"
+    },
+    {
+      "id": "EP02_C05",
+      "plano": "EP02_C05.plano.json",
+      "srtBase": "EP02_C05.base.srt"
+    },
+    {
+      "id": "EP02_C06",
+      "plano": "EP02_C06.plano.json",
+      "srtBase": "EP02_C06.base.srt"
+    },
+    {
+      "id": "EP02_C07",
+      "plano": "EP02_C07.plano.json",
+      "srtBase": "EP02_C07.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 348,
+        "linhaFim": 349,
+        "sha256BlocoUtf8": "8D8BCFE112041771EE477FF5E253C4636ACCBEE64D30978173AAAB5914DD31C1",
+        "raw": "**ANTERIORMENTE** *(reaproveite, não grave)*: EP01_C01 (a queda) · EP01_C08 (o pedido)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP01_C01",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP01_C08",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 346,
+    "linhaFim": 444,
+    "sha256BlocoUtf8": "EAEAEBA0EC27301EB951D2F189803488DA01D54A0B1BA024A5A1C97C1F6B774F",
+    "raw": null
+  }
+}

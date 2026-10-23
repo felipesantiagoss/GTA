@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutfitPedData>
+  <ModelHash>0x61C81C85</ModelHash>
+  <Type>1</Type>
+  <PedProperties>
+    <PedComps>
+      <_0>0,1</_0>
+      <_1>0,0</_1>
+      <_2>1,1</_2>
+      <_3>0,1</_3>
+      <_4>0,1</_4>
+      <_5>0,0</_5>
+      <_6>0,0</_6>
+      <_7>0,0</_7>
+      <_8>1,0</_8>
+      <_9>0,0</_9>
+      <_10>0,0</_10>
+      <_11>0,0</_11>
+    </PedComps>
+    <PedProps>
+      <_0>-1,-1</_0>
+      <_1>-1,-1</_1>
+      <_2>-1,-1</_2>
+      <_3>-1,-1</_3>
+      <_4>-1,-1</_4>
+      <_5>-1,-1</_5>
+      <_6>-1,-1</_6>
+      <_7>-1,-1</_7>
+      <_8>-1,-1</_8>
+      <_9>-1,-1</_9>
+    </PedProps>
+  </PedProperties>
+  <DiretorVisual>
+    <Codigo>DONA_IRACI</Codigo>
+    <Modelo>a_f_o_genstreet_01</Modelo>
+    <Seed>20601003</Seed>
+    <GeradorVersao>ElencoAutomaticoDiretor.v2</GeradorVersao>
+    <FaceSHA256>AB956EEF900BA135B4249324C5C95CDB7D132E2209091ADCDA8E142724527944</FaceSHA256>
+    <PoliticaAlternativas>ElencoAutomaticoDiretor.Alternativas.v1</PoliticaAlternativas>
+    <LimiteGeracaoMs>120000</LimiteGeracaoMs>
+    <QuantidadeAjustes>0</QuantidadeAjustes>
+    <Ajustes />
+    <Estado>gerado no jogo; teste visual pendente</Estado>
+    <DataUtc>2026-10-04T03:59:34.7365764Z</DataUtc>
+    <Origem>GTA Legacy: contagens, texturas e RGB reais do modelo; parâmetros faciais aplicados pelo Diretor</Origem>
+    <LimiteVisual>Índices válidos não comprovam tecido, penteado afro, uniforme, tom de pele ou ausência de sobreposição entre roupas.</LimiteVisual>
+  </DiretorVisual>
+</OutfitPedData>

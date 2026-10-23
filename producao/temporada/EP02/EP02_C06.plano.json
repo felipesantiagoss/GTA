@@ -1,0 +1,183 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP02_C06",
+  "episodio": 2,
+  "numero": 6,
+  "nome": "O STORY",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 414,
+    "linhaFim": 428,
+    "sha256BlocoUtf8": "752ED68AF85026E9E5A56C41B43244A4BEA13558DBC27251F8BF23AC183F41FE",
+    "raw": "### EP02_C06 · O STORY\n`local:` CASA_VO · `hora:` 19:45 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` DOIS → PERTO · `dur:` 16s · `gravar:` SIM\n\n**Ação:** A avó mostra o celular dela para a Djanira. As duas olham a tela.\n\n**DIÁLOGO** *(com boca)* — 1 fala só:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Olha aqui no meu, que eu não sou bloqueada de ninguém.\" | 4s | explicando |\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca, logo em seguida)*:\n> \"Ela tava numa balada. Naquela mesma noite. Na legenda dizia que ela tava passando por um momento difícil, que a mãe dela tava internada, e que Deus ia honrar quem ajudasse. A mãe da Dinjer tá viva. Nunca botou o pé num hospital.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "19:45",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "DOIS → PERTO",
+    "planosSemTemposDefinidos": [
+      "DOIS",
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 16000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      415,
+      416
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 418,
+      "raw": "**Ação:** A avó mostra o celular dela para a Djanira. As duas olham a tela.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Olha aqui no meu, que eu não sou bloqueada de ninguém.",
+      "textoOriginal": "\"Olha aqui no meu, que eu não sou bloqueada de ninguém.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 424,
+      "raw": "| 1 | DONA_IRACI | \"Olha aqui no meu, que eu não sou bloqueada de ninguém.\" | 4s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ela tava numa balada. Naquela mesma noite. Na legenda dizia que ela tava passando por um momento difícil, que a mãe dela tava internada, e que Deus ia honrar quem ajudasse. A mãe da Dinjer tá viva. Nunca botou o pé num hospital.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca, logo em seguida)*:",
+      "textoOriginal": "> \"Ela tava numa balada. Naquela mesma noite. Na legenda dizia que ela tava passando por um momento difícil, que a mãe dela tava internada, e que Deus ia honrar quem ajudasse. A mãe da Dinjer tá viva. Nunca botou o pé num hospital.\"",
+      "indicacoesOriginais": " *(sem boca, logo em seguida)*:",
+      "linhaInicio": 426,
+      "linhaTexto": 427,
+      "inicioMs": 4000,
+      "fimMs": 16000,
+      "duracaoMs": 12000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 16000,
+    "blocosDeclaradosMs": 16000,
+    "conteudoPlanejadoMs": 16000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 19000,
+    "fimUltimaLegendaMs": 19000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASA_VO",
+      "familia": "ambiente",
+      "descricao": "Marca real CASA_VO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** A avó mostra o celular dela para a Djanira. As duas olham a tela.",
+      "origem": "linha 418",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:celular",
+      "familia": "objetos",
+      "descricao": "celular: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

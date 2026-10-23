@@ -1,0 +1,101 @@
+{
+  "versao": 1,
+  "id": "teste_json",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Etapa 7: cena editável JSON",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "TESTE_HOMEM",
+      "marca": {
+        "direita": -0.8,
+        "frente": 0.0,
+        "altura": 0.0
+      },
+      "olharPara": "TESTE_MULHER"
+    },
+    {
+      "personagem": "TESTE_MULHER",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0.0,
+        "altura": 0.0
+      },
+      "olharPara": "TESTE_HOMEM"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "TESTE_HOMEM",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false,
+    "transicaoSuave": false,
+    "ajustes": {
+      "lado": 0.0,
+      "altura": 0.0,
+      "aproximar": 0.0
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "texto": "Trecho de narração: os dois ficam sem falar.",
+      "duracaoSegundos": 3.0,
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Olá. Estamos testando o movimento da boca e os gestos.",
+      "duracaoSegundos": 6.0,
+      "personagem": "TESTE_HOMEM",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Agora é minha vez. Observe minha boca e minhas mãos.",
+      "duracaoSegundos": 6.0,
+      "personagem": "TESTE_MULHER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Não. Isto é só um teste técnico, antes de gravar a história.",
+      "duracaoSegundos": 6.0,
+      "personagem": "TESTE_HOMEM",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Por favor, repare se minha boca continua mexendo até o fim.",
+      "duracaoSegundos": 6.0,
+      "personagem": "TESTE_MULHER",
+      "gesto": "implorando",
+      "plano": "PERTO"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Preste atenção! Quem está escutando deve olhar para quem fala.",
+      "duracaoSegundos": 6.0,
+      "personagem": "TESTE_HOMEM",
+      "gesto": "irritado",
+      "plano": "PERTO"
+    },
+    {
+      "tipo": "narracao",
+      "texto": "Fim do teste: as duas bocas devem voltar ao normal.",
+      "duracaoSegundos": 3.0,
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": []
+}

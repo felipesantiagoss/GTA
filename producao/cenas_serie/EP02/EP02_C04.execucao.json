@@ -1,0 +1,188 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP02_C04",
+  "episodio": 2,
+  "numero": 4,
+  "nome": "O AVISO DA AVÓ",
+  "estado": "gravado_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 387,
+    "linhaFim": 400,
+    "sha256BlocoUtf8": "03D794B1EF108B250D97A519E4126ACC24A27C7B0F97889645D699A566220A5A",
+    "raw": "### EP02_C04 · O AVISO DA AVÓ\n`local:` CASA_VO · `hora:` 19:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DONA_IRACI · `cam:` auto · `dur:` 18s · `gravar:` SIM\n\n**Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\" | 5s | neutro |\n| 2 | DJANIRA | \"Dei, vó. É a Dinjer. A gente cresceu junto.\" | 4s | neutro |\n| 3 | DONA_IRACI | \"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\" | 9s | explicando |\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "19:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DONA_IRACI",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 18000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      388,
+      389
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?",
+      "textoOriginal": "\"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 397,
+      "raw": "| 1 | DONA_IRACI | \"Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?\" | 5s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Dei, vó. É a Dinjer. A gente cresceu junto.",
+      "textoOriginal": "\"Dei, vó. É a Dinjer. A gente cresceu junto.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 398,
+      "raw": "| 2 | DJANIRA | \"Dei, vó. É a Dinjer. A gente cresceu junto.\" | 4s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 9000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.",
+      "textoOriginal": "\"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 399,
+      "raw": "| 3 | DONA_IRACI | \"Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.\" | 9s | explicando |",
+      "inicioMs": 9000,
+      "fimMs": 18000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 18000,
+    "blocosDeclaradosMs": 18000,
+    "conteudoPlanejadoMs": 18000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 21000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 391,
+      "raw": "**Ação:** A avó chama a Djanira para perto e avisa. Djanira ouve de pé.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "A chamada verbal original acompanha aproximação real2,9m durante os5s da fala da avó; Djanira chega antes da própria fala. Sem warp, corte de voz ou mudança do lado no eixo."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DONA_IRACI"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP02_C04.json",
+  "runtimeSHA256": "CA6751F2E9A336DAFEB9D26B15E982DE45DB6C7C5D480E9D6D95A4A679F06ADE",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 18000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 21000,
+    "blocosOriginaisMs": 18000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "ultimaTomadaFilmeEP02": {
+    "sessaoId": "1c9756910cd04d3b82fba8b868d3a129",
+    "versaoTomada": 2,
+    "arquivoMp4Original": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C04_v2.mp4",
+    "sha256Mp4Original": "D665541F752552293A9C4286781156D03011293899356135822271D86C681251",
+    "duracaoMp4OriginalMs": 26716,
+    "duracaoConteudoMs": 18000,
+    "contagemMs": 3000,
+    "duracaoDeclaradaCapturaMs": 21000,
+    "arquivoSrtOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C04_v2.srt",
+    "sha256SrtOriginal": "A8DC86B69923B98699162263CD895820909F7E1F348475963D62B11D7EE4EB48",
+    "fonteCena": {
+      "arquivo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\cena_preparada_dfe20be216d549b8a147d6bf97c7e514.json",
+      "sha256": "CA6751F2E9A336DAFEB9D26B15E982DE45DB6C7C5D480E9D6D95A4A679F06ADE",
+      "snapshotNativoRegistrado": true,
+      "proveniencia": "snapshot publicado registrado no log antes da sessao"
+    },
+    "provas": {
+      "sessaoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\1c9756910cd04d3b82fba8b868d3a129\\sessao.xml",
+      "sha256SessaoXml": "E26AE92392471B39B6A07D6857203B69EE99738374EE84257B60D6D7E1F66C33",
+      "resultadoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\1c9756910cd04d3b82fba8b868d3a129\\resultado.xml",
+      "sha256ResultadoXml": "AF5ECD30C3C727C3A45D1D8E682ADD6F6B9EAF20CD0ED1B1507D26CAD9071637",
+      "manifestoCaptura": "C:\\Users\\felipe.santiago\\GTA_Diretor\\backups\\capturas\\1c9756910cd04d3b82fba8b868d3a129-abff3a51\\manifesto.json",
+      "sha256ManifestoCaptura": "2791537CB64CEC64097F29724B07107BFDE7428BA1D7E054F105977AE200FDF1",
+      "logNativo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\DiretorGTA.log",
+      "acaoConcluida": "2026-10-05T23:35:27.1309903+00:00 [ACAO_CONCLUIDA] Cena=EP02_C04; tempo_ms=18030",
+      "gettersEEventosRegistrados": {
+        "ACAO_ANDAR_GETTERS": 10
+      }
+    },
+    "semTextoSolicitado": true,
+    "avaliacaoVisualUsuario": "pendente",
+    "originaisPreservados": true
+  }
+}

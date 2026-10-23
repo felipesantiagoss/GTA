@@ -1,0 +1,104 @@
+{
+  "versao": 1,
+  "id": "teste_fila_92",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Elenco 2/3 — O Chefe e os quatro capangas",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo"
+  },
+  "elenco": [
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": -3.2,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": -1.6,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "marca": {
+        "direita": 0.0,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "CAPANGA_3",
+      "marca": {
+        "direita": 1.6,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "marca": {
+        "direita": 3.2,
+        "frente": 0
+      }
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "O_CHEFE",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "personagem": "O_CHEFE"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "O_CHEFE",
+      "texto": "Este é o visual de O Chefe.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "CAPANGA_1",
+      "texto": "Este é o visual de Capanga 1.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "CAPANGA_2",
+      "texto": "Este é o visual de Capanga 2.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "CAPANGA_3",
+      "texto": "Este é o visual de Capanga 3.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "CAPANGA_4",
+      "texto": "Este é o visual de Capanga 4.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    }
+  ]
+}

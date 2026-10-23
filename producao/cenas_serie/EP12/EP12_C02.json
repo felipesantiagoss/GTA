@@ -1,0 +1,122 @@
+{
+  "versao": 1,
+  "id": "EP12_C02",
+  "episodio": 12,
+  "numero": 2,
+  "nome": "A MESA DO CHEFE",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:15",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "LONGE",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "ajustes": {
+      "lado": 0,
+      "altura": 0,
+      "aproximar": 1.5
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "DOIS",
+      "texto": "Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "MESA_VIP",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "interpretacao": []
+}

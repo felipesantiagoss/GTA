@@ -1,0 +1,75 @@
+{
+  "versao": 1,
+  "cena": "EP13_C05",
+  "fonteJSON": "C:\\GTA_Diretor\\producao\\cenas_serie\\EP13\\EP13_C05.json",
+  "sha256JSON": "AC7207B07E7CCA2D8573ACC187B7FD009607AC7A40E6425A7FF72C9FB61A76C0",
+  "autorizacaoOriginal": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "linha": 1351,
+    "sha256": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C"
+  },
+  "retrato": {
+    "arquivo": "C:\\GTA_Diretor\\producao\\temporada_08_15\\arte\\EP13_C05_DJANIRA_RICA_VINHETA_v2_pts60166333.bmp",
+    "sha256": "A69600F6044EE04E330C8A1AD266C197C77AFD77B46C7B1CE58BE17A1BA7F6B3",
+    "alterado": false,
+    "recortado": false,
+    "imagemGerada": false,
+    "personagem": "DJANIRA_RICA",
+    "visualOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\catalogos\\visuais\\DJANIRA_RICA.xml",
+    "sha256Visual": "7D5BA2DDDFAB487B2F8AA8428E0D84794F79CCE56A4ED1D767CB66B2B75C3BE2",
+    "faceTroncoConferidos": true,
+    "fonteVideo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\COMPARTILHADOS\\VINHETA_01_v2.mp4",
+    "sha256Video": "B3D2AA38CF2B5CE3433B4398608ECDC4447F99E0C9EE7CC16FDF14A560F038D9",
+    "sessao": "db46196968f74389bb78c2ec59ac53e9",
+    "ptsReal100ns": 60166333,
+    "ptsRealMs": 6016.6333,
+    "primeiroConteudoPts100ns": 56166666,
+    "provaQuadro": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T114803498860Z-quadros-pts-8c13854f\\resultado.json"
+  },
+  "gravacao": {
+    "duracaoMs": 12000,
+    "narracaoOriginalIntacta": true,
+    "limparMesaMs": [
+      0,
+      4000
+    ],
+    "aproximarFisicamenteMs": [
+      4000,
+      8000
+    ],
+    "reacaoMs": [
+      8000,
+      12000
+    ],
+    "planos": [
+      {
+        "inicioMs": 0,
+        "plano": "MEDIA"
+      },
+      {
+        "inicioMs": 8000,
+        "plano": "PERTO"
+      }
+    ],
+    "alvoOlharRelativo": {
+      "direita": 0,
+      "frente": 3,
+      "altura": 1.2
+    },
+    "paredeRealAindaPendente": true,
+    "coordenadasCapturadasInventadas": false
+  },
+  "edicao": {
+    "ferramenta": "CapCut ou compositor de arte equivalente autorizado",
+    "metodo": "Usar o print real; recortar somente ao compor, acrescentar moldura e posicionar na parede filmada.",
+    "semTextoSobreVideo": true,
+    "precisaRegistrar": [
+      "MP4/SHA/PTS da parede real",
+      "quatro cantos reais da moldura no quadro",
+      "recorte de pixels do print",
+      "intervalo/transformacao da composicao"
+    ],
+    "prontoFinal": false,
+    "pendencia": "Falta a parede/quadro real de EP13_C05; o print e real, a composicao final ainda nao existe."
+  }
+}

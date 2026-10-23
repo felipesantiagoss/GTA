@@ -1,0 +1,280 @@
+{
+  "versao": 1,
+  "tipoDocumento": "template_integracao_queda_nao_executavel",
+  "estado": "helper_compilado; integracao_e_teste_visual_pendentes",
+  "pronto": false,
+  "gravado": false,
+  "publicarComoCena": false,
+  "helper": "src/CenaQuedaDiretor.cs",
+  "sha256Helper": "05CB34A6F4A450B25B5DBA56F2781F146A33233F6CDB23D22757B84453A078D1",
+  "cenasCompartilhadas": [
+    {
+      "id": "EP01_C01",
+      "roteiroOrigem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 212,
+        "linhaFim": 222,
+        "sha256BlocoUtf8": "ABCF0EE40D6D1E80333311A86A7BD4A8039BF99867F6835A7F3FF581BA325A84",
+        "raw": "### EP01_C01 · A QUEDA\n`local:` AEROPORTO_AR → CANAL_LS · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE → OLHOS · `dur:` 14s · `gravar:` SIM\n\n⚠️ **Cena técnica.** Invencibilidade LIGADA. Trate como etapa separada.\n\n**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"\n\n"
+      },
+      "temposOriginais": {
+        "estimativaOriginalMs": 14000,
+        "blocosDeclaradosMs": 14000,
+        "conteudoPlanejadoMs": 14000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 17000,
+        "fimUltimaLegendaMs": 17000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      },
+      "roteiroPreservado": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+          "textoOriginal": "> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 220,
+          "linhaTexto": 221,
+          "inicioMs": 0,
+          "fimMs": 14000,
+          "duracaoMs": 14000
+        }
+      ],
+      "reaproveitamento": "EP07_C05 pode reutilizar a queda real de EP01_C01; textos, vozes e tempos originais conservados."
+    },
+    {
+      "id": "EP07_C05",
+      "roteiroOrigem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 857,
+        "linhaFim": 868,
+        "sha256BlocoUtf8": "1DBF648FA77D4936770AB8574F88AE3926E472B50C167FA99E251DABF085663F",
+        "raw": "### EP07_C05 · A QUEDA\n`local:` AEROPORTO_AR → CANAL_LS · `hora:` 21:10 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` OLHOS · `dur:` 10s · `gravar:` SIM\n\n> 💡 **Reaproveite a EP01_C01.** É a mesma queda, agora explicada. Se quiser regravar com outro ângulo, melhor ainda.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.\"\n\n**NARRADOR** — 7s:\n> \"Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "temposOriginais": {
+        "estimativaOriginalMs": 10000,
+        "blocosDeclaradosMs": 13000,
+        "conteudoPlanejadoMs": 13000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 16000,
+        "fimUltimaLegendaMs": 16000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      },
+      "roteiroPreservado": [
+        {
+          "tipo": "narracao",
+          "tipoOriginal": "NARRAÇÃO",
+          "quemOriginal": "DJANIRA",
+          "texto": "Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+          "textoOriginal": "> \"Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.\"",
+          "indicacoesOriginais": " *(sem boca)*:",
+          "linhaInicio": 863,
+          "linhaTexto": 864,
+          "inicioMs": 0,
+          "fimMs": 6000,
+          "duracaoMs": 6000
+        },
+        {
+          "tipo": "narrador",
+          "tipoOriginal": "NARRADOR",
+          "quemOriginal": "NARRADOR",
+          "texto": "Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.",
+          "boca": false,
+          "cabecalhoOriginal": "**NARRADOR** — 7s:",
+          "textoOriginal": "> \"Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+          "indicacoesOriginais": ":",
+          "linhaInicio": 866,
+          "linhaTexto": 867,
+          "inicioMs": 6000,
+          "fimMs": 13000,
+          "duracaoMs": 7000
+        }
+      ],
+      "reaproveitamento": "EP07_C05 pode reutilizar a queda real de EP01_C01; textos, vozes e tempos originais conservados."
+    }
+  ],
+  "parametrosRelativosParaEnsaio": {
+    "AlturaRelativa": 30,
+    "VelocidadeAviao": 35,
+    "spawnDistanciaAntesZonaMetros": 70,
+    "corredorAguaMetros": 300,
+    "corredorLarguraMetros": 12,
+    "QuedaAlvoMs": 4000,
+    "TimeoutMs": 60000,
+    "CompletarFuga": true,
+    "nota": "Parametros tecnicos ajustaveis e relativos; nao sao XYZ globais nem fisica medida."
+  },
+  "recursos": [
+    {
+      "modelo": "velum",
+      "tipo": "aviao proprio",
+      "origem": "Enum oficial DLL191 GTA.VehicleHash.Velum; tipo/disponibilidade verificados no runtime."
+    },
+    {
+      "modelo": "s_m_m_pilot_01",
+      "tipo": "piloto tecnico proprio",
+      "origemArquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedList.xml",
+      "linha": 949,
+      "sha256Fonte": "47BCA4383A6A841408EE37CB6F1B59989C5EB4BFDE64B5CB6B85ECE3C59A224E"
+    }
+  ],
+  "animacoesPesquisadasNaoAcionadas": [
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "queda",
+      "categoria": "voo_queda",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    },
+    {
+      "codigo": "sair_agua_candidato",
+      "tipo": "agua",
+      "categoria": "agua",
+      "dicionario": "swimming@swim",
+      "animacao": "swimclimbup_40",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75416,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "swimming@swim swimclimbup_40"
+      },
+      "restricoes": [
+        "Altura da rampa/água reais; não executar no chão nem criar água/teleporte para simular trajeto."
+      ]
+    }
+  ],
+  "marcasReais": [
+    {
+      "local": "CANAL_LS",
+      "subponto": "agua",
+      "fornece": [
+        "Agua",
+        "Direcao"
+      ],
+      "obrigatorio": true,
+      "coordenadas": null,
+      "origemExigida": "capturado_no_jogo"
+    },
+    {
+      "local": "CANAL_LS",
+      "subponto": "entrada_da_rampa",
+      "fornece": [
+        "EntradaRampa"
+      ],
+      "obrigatorio": true,
+      "coordenadas": null,
+      "origemExigida": "capturado_no_jogo"
+    },
+    {
+      "local": "CANAL_LS",
+      "subponto": "topo_da_rampa",
+      "fornece": [
+        "TopoRampa"
+      ],
+      "obrigatorio": true,
+      "coordenadas": null,
+      "origemExigida": "capturado_no_jogo"
+    },
+    {
+      "local": "CANAL_LS",
+      "subponto": "fim_da_fuga",
+      "fornece": [
+        "Fuga"
+      ],
+      "obrigatorio": true,
+      "coordenadas": null,
+      "origemExigida": "capturado_no_jogo"
+    }
+  ],
+  "timelinePorEventos": [
+    {
+      "fase": "preparo",
+      "criterio": "PollLoading, IsReady, assentamento, Reset()==true. Fora da captura."
+    },
+    {
+      "fase": "contagem",
+      "criterio": "3000ms com aviao congelado; Start depois."
+    },
+    {
+      "fase": "travessia",
+      "criterio": "Missao fisica GoTo com piloto proprio, zona real de soltura; limite7000ms."
+    },
+    {
+      "fase": "saida",
+      "criterio": "BailOut sem Warp; observar saida fisica em ate3500ms."
+    },
+    {
+      "fase": "queda",
+      "criterio": "Ragdoll ate IsInWater, meta4000ms; limite10000ms sem forcar chegada."
+    },
+    {
+      "fase": "emersao",
+      "criterio": "Nao submersa/nem ragdoll durante500ms; limite10000ms."
+    },
+    {
+      "fase": "rampa_fuga",
+      "criterio": "Tres marcas reais e chegada fisica; limite15000ms por trecho."
+    },
+    {
+      "fase": "ultimo_quadro",
+      "criterio": "Fixar fim fisico; ainda respeitar fim das vozes originais."
+    }
+  ],
+  "duracaoTransparente": {
+    "aberturaOriginalMs": 14000,
+    "repriseEstimativaMs": 10000,
+    "repriseNarracoesMs": 13000,
+    "queda4s": "Meta tecnica; nao ha bloco explicito de4s no roteiro.",
+    "fimTomadaMs": "3000 + max(vozesOriginais, ObservedDurationMs)",
+    "tempoExtraMs": "max(0, ObservedDurationMs - vozesOriginais)",
+    "legendas": "SRT original deslocado3000ms; nao comprimir ou criar falas."
+  },
+  "filmagemAlternativa": {
+    "condicao": "Fisica ultrapassa vozes originais: declarar excedente/cortes no CapCut.",
+    "takes": [
+      "Travessia/queda/emersao reais.",
+      "Rampa/fuga reais com pontos capturados."
+    ],
+    "limite": "Modo iniciado diretamente na agua e organizacao separada de takes nao implementados aqui; helpercomCompletarFuga=true executa sequencia continua."
+  },
+  "contratoIntegracao": [
+    "Ver INTEGRACAO_QUEDA.md em UTF8; main/parser nao alterados por este trabalho.",
+    "Ceder camera e tarefas primarias; proteger OwnedEntities no ambiente.",
+    "Captura deve respeitar tempo fisico observado e vozes originais; repetir limpeza pendente entreframes.",
+    "CompletarFuga=false e ensaio parcial, nunca EP01_C01 pronta."
+  ]
+}

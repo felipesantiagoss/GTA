@@ -1,0 +1,170 @@
+{
+  "versao": 1,
+  "id": "EP04_C03",
+  "episodio": 4,
+  "numero": 3,
+  "nome": "A SAÍDA",
+  "ambiente": {
+    "local": "AEROPORTO_TERMINAL",
+    "hora": "10:40",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -3.9,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -6.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -2.6,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": -1.2999999999999998,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DINJER",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "LONGE",
+      "texto": "Ela foi embora rindo. E os colegas dela riram junto. Eu fiquei ali, sendo olhada como quem tinha ido pedir esmola.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "recurso": "rir_candidato",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 6,
+      "destino": {
+        "direita": -3.9,
+        "frente": 5,
+        "altura": 0
+      },
+      "velocidade": 1.2,
+      "recurso": "andar_passarela_candidato"
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "recurso": "rir_candidato",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 6,
+      "destino": {
+        "direita": -2.6,
+        "frente": 5,
+        "altura": 0
+      },
+      "velocidade": 1.2
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "recurso": "rir_candidato",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 6,
+      "destino": {
+        "direita": -1.2999999999999998,
+        "frente": 5,
+        "altura": 0
+      },
+      "velocidade": 1.2
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    },
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "feliz"
+    },
+    {
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "feliz"
+    },
+    {
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "feliz"
+    }
+  ]
+}

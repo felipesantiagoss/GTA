@@ -1,0 +1,167 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP07_C03",
+  "episodio": 7,
+  "numero": 3,
+  "nome": "A DECOLAGEM",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 825,
+    "linhaFim": 833,
+    "sha256BlocoUtf8": "CD79300D7A5FB0FD248A83C31B4400666BEFEB1EBB6DA0EF2A3AEBB4C168980F",
+    "raw": "### EP07_C03 · A DECOLAGEM\n`local:` AEROPORTO_HANGAR · `hora:` 20:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Os três embarcam. Djanira `feliz`, Dinjer `chateado` — primeira vez que ela não está convencida. O avião decola.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu subi naquele avião mesmo assim. Porque quando você é pobre, você aprende a fingir que não viu. É assim que a gente sobrevive.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_HANGAR",
+    "locaisCodigos": [
+      "AEROPORTO_HANGAR"
+    ],
+    "hora": "20:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      826,
+      827
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu subi naquele avião mesmo assim. Porque quando você é pobre, você aprende a fingir que não viu. É assim que a gente sobrevive.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"Eu subi naquele avião mesmo assim. Porque quando você é pobre, você aprende a fingir que não viu. É assim que a gente sobrevive.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 831,
+      "linhaTexto": 832,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 829,
+      "raw": "**Ação:** Os três embarcam. Djanira `feliz`, Dinjer `chateado` — primeira vez que ela não está convencida. O avião decola.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:AEROPORTO_HANGAR",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:voo_queda",
+      "tipo": "atuacao_integral",
+      "descricao": "Aeronave, assentos, rota aérea, água/rampa e queda invencível; nenhuma marca terrestre simula ponto aéreo.",
+      "candidatos": [
+        "queda_livre_candidata"
+      ]
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP07_C03",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "queda",
+      "categoria": "voo_queda",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER",
+    "O_CHEFE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

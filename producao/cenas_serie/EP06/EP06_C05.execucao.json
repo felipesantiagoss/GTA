@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP06_C05",
+  "episodio": 6,
+  "numero": 5,
+  "nome": "A SAÍDA FELIZ",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 767,
+    "linhaFim": 775,
+    "sha256BlocoUtf8": "67717985F85E1A2B4CF32BBBA6D98E75F1398DC03686ADCD901F72C467C2B742",
+    "raw": "### EP06_C05 · A SAÍDA FELIZ\n`local:` BOATE_FORA · `hora:` 00:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Djanira saindo da boate, sorrindo. Expressão `feliz` — a primeira vez na série.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Eu saí daquela boate feliz. Eu liguei pra minha avó de um orelhão e falei que ia dar tudo certo. Que no domingo a gente pagava o aluguel.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_FORA",
+    "locaisCodigos": [
+      "BOATE_FORA"
+    ],
+    "hora": "00:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      768,
+      769
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu saí daquela boate feliz. Eu liguei pra minha avó de um orelhão e falei que ia dar tudo certo. Que no domingo a gente pagava o aluguel.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Eu saí daquela boate feliz. Eu liguei pra minha avó de um orelhão e falei que ia dar tudo certo. Que no domingo a gente pagava o aluguel.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 773,
+      "linhaTexto": 774,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 771,
+      "raw": "**Ação:** Djanira saindo da boate, sorrindo. Expressão `feliz` — a primeira vez na série.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_FORA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP06_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

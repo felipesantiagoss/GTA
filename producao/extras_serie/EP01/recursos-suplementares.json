@@ -1,0 +1,54 @@
+{
+  "versao": 1,
+  "animacoes": [
+    {
+      "codigo": "beber_gole_f",
+      "tipo": "clipe",
+      "dicionario": "amb@world_human_drinking@beer@female@idle_a",
+      "animacao": "idle_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54793,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_drinking@beer@female@idle_a idle_a"
+      },
+      "restricoes": [
+        "Gole candidato com garrafa própria na mão; duração completa e encaixe precisam de getters/teste visual, sem alterar álcool do jogador."
+      ]
+    },
+    {
+      "codigo": "extra_dedo_medio",
+      "tipo": "clipe",
+      "dicionario": "anim@mp_player_intselfiethe_bird",
+      "animacao": "idle_a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 90292,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@mp_player_intselfiethe_bird idle_a"
+      },
+      "restricoes": [
+        "Par instalado e literal Finger do RPEmotes autor (AnimationList.lua linhas6601–6607). Teste visual pendente; manter maos visiveis, separacao real >=1m, sem combate ou contato com outra atriz."
+      ]
+    }
+  ],
+  "objeto": {
+    "codigo": "garrafa_cerveja",
+    "tipo": "prop",
+    "modelo": "prop_amb_beer_bottle",
+    "origem": {
+      "fonte": "objetos",
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+      "linha": 9542,
+      "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+      "texto": "prop_amb_beer_bottle"
+    },
+    "estado": "fonte_conferida;teste_visual_pendente"
+  },
+  "fonteAutor": {
+    "url": "https://github.com/alberttheprince/rpemotes-reborn/blob/master/client/AnimationList.lua#L6601-L6607",
+    "chave": "finger",
+    "dicionario": "anim@mp_player_intselfiethe_bird",
+    "clipe": "idle_a"
+  }
+}

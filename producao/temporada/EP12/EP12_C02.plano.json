@@ -1,0 +1,156 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP12_C02",
+  "episodio": 12,
+  "numero": 2,
+  "nome": "A MESA DO CHEFE",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1232,
+    "linhaFim": 1240,
+    "sha256BlocoUtf8": "DAA72F05C39C79F105681A0306F67FF25206F7C7F3ADD4CB48B8D2CA0487A173",
+    "raw": "### EP12_C02 · A MESA DO CHEFE\n`local:` BOATE_DENTRO · `hora:` 23:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "23:15",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1233,
+      1234
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1236,
+      "raw": "**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1238,
+      "linhaTexto": 1239,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 6000,
+    "conteudoPlanejadoMs": 6000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 9000,
+    "fimUltimaLegendaMs": 9000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.",
+      "origem": "linha 1236",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

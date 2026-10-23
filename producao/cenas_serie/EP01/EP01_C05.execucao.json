@@ -1,0 +1,210 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C05",
+  "episodio": 1,
+  "numero": 5,
+  "nome": "O SEGREDO DA AVÓ",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 260,
+    "linhaFim": 272,
+    "sha256BlocoUtf8": "2ED8D132009707C119E0E4E6A0988171CB92741B13ACA1435F16531580375CC2",
+    "raw": "### EP01_C05 · O SEGREDO DA AVÓ\n`local:` HOSPITAL_SANDY → CASSINO_FORA · `hora:` 10:00 · `clima:` limpo\n`elenco:` DONA_IRACI · `cam:` ATRAS → LONGE · `dur:` 8s · `gravar:` SIM\n\n⚠️ Se o interior do cassino não abrir, grave só a **fachada** com ela entrando. Funciona igual.\n\n**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"\n\n> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude.\n\n"
+  },
+  "original": {
+    "local": "HOSPITAL_SANDY → CASSINO_FORA",
+    "locaisCodigos": [
+      "HOSPITAL_SANDY",
+      "CASSINO_FORA"
+    ],
+    "hora": "10:00",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI",
+    "elencoCodigos": [
+      "DONA_IRACI"
+    ],
+    "camera": "ATRAS → LONGE",
+    "planosSemTemposDefinidos": [
+      "ATRAS",
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      261,
+      262
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Tinha dia que ela passava horas fora. Mas isso é bem normal nos hospitais do SUS.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 268,
+      "linhaTexto": 269,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 266,
+      "raw": "**Ação:** A avó sai da clínica olhando para os lados, pega um caminho diferente e entra no cassino. Expressão muda de `machucado` para `feliz`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 264,
+      "raw": "⚠️ Se o interior do cassino não abrir, grave só a **fachada** com ela entrando. Funciona igual."
+    },
+    {
+      "linha": 271,
+      "raw": "> 💡 **O público vê o que a Djanira não vê.** A narração continua inocente de propósito. Não mude."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:HOSPITAL_SANDY",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "marca:CASSINO_FORA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:porta",
+      "tipo": "atuacao_integral",
+      "descricao": "Porta/portão real, aproximação e direção; abertura/fechamento físico e três batidas quando declaradas.",
+      "candidatos": [
+        "bater_porta"
+      ]
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP01_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DONA_IRACI"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "subtomadasPreparadas": [
+    {
+      "parte": "hospital",
+      "arquivo": "producao/subtomadas/EP01_C05/hospital/EP01_C05.json",
+      "sha256": "6C23D2DFAC5F8EA94031E9B6A5728F46EB312D00D4B2121B5388A560546F05D3"
+    },
+    {
+      "parte": "cassino",
+      "arquivo": "producao/subtomadas/EP01_C05/cassino/EP01_C05.json",
+      "sha256": "7A19B6A3FE97CECFF2C92F0FCB3A269B807DCF8AD396FEDC29C1FE4B0DCA6C2E"
+    }
+  ],
+  "limiteSubtomadas": "Duas capturas reais separadas do mesmoID,11s cada; editar3s hospital+5s cassino com voz original8s uma só. Não éMP4 final único montado nem interior confirmado.",
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C05_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C05_LIMPO.mp4",
+    "sha256": "8B248F29DE24F98AB4D81BE1740654567053EB5615A19B3A8CAB3F7DF424809E",
+    "duracaoMs": 8016,
+    "sessoesReais": [
+      "68e1b0fe5e54477a9050940ece297cc0",
+      "6d4f01b28deb4b8680d4118d742ac176"
+    ],
+    "fontesJsonSHA256": [
+      "6C23D2DFAC5F8EA94031E9B6A5728F46EB312D00D4B2121B5388A560546F05D3",
+      "7A19B6A3FE97CECFF2C92F0FCB3A269B807DCF8AD396FEDC29C1FE4B0DCA6C2E"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

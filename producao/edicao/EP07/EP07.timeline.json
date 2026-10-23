@@ -1,0 +1,201 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 7,
+  "nomeOriginal": "\"O VOO\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 102000,
+  "clipes": [
+    {
+      "id": "EP07_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 9000,
+      "duracaoPlanejadaMs": 9000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP07_C01.base.srt"
+    },
+    {
+      "id": "EP07_C02",
+      "inicioEpisodioBaseMs": 9000,
+      "fimEpisodioBaseMs": 25000,
+      "duracaoPlanejadaMs": 16000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP07_C02.base.srt"
+    },
+    {
+      "id": "EP07_C03",
+      "inicioEpisodioBaseMs": 25000,
+      "fimEpisodioBaseMs": 35000,
+      "duracaoPlanejadaMs": 10000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP07_C03.base.srt"
+    },
+    {
+      "id": "EP07_C04",
+      "inicioEpisodioBaseMs": 35000,
+      "fimEpisodioBaseMs": 69000,
+      "duracaoPlanejadaMs": 34000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP07_C04.base.srt"
+    },
+    {
+      "id": "EP07_C05",
+      "inicioEpisodioBaseMs": 69000,
+      "fimEpisodioBaseMs": 82000,
+      "duracaoPlanejadaMs": 13000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP07_C05.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 82000,
+      "fimEpisodioBaseMs": 102000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP07_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "legenda": "Narrador: Eu cheguei naquele hangar com o coração batendo de alegria. Eu ia receber o meu dinheiro. Eu ia salvar a casa da minha avó."
+    },
+    {
+      "cena": "EP07_C02",
+      "bloco": 1,
+      "inicioMs": 9000,
+      "fimMs": 17000,
+      "legenda": "O Chefe: Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo."
+    },
+    {
+      "cena": "EP07_C02",
+      "bloco": 2,
+      "inicioMs": 17000,
+      "fimMs": 25000,
+      "legenda": "Narrador: Eu não entendi metade do que eles falaram. Eu só entendi que eu não podia estar ali."
+    },
+    {
+      "cena": "EP07_C03",
+      "bloco": 1,
+      "inicioMs": 25000,
+      "fimMs": 35000,
+      "legenda": "Narrador: Eu subi naquele avião mesmo assim. Porque quando você é pobre, você aprende a fingir que não viu. É assim que a gente sobrevive."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 1,
+      "inicioMs": 35000,
+      "fimMs": 44000,
+      "legenda": "O Chefe: Bebe, minha filha. Olha essa cidade daqui de cima. Bonita, né? Daqui de cima ninguém vê a sujeira."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 2,
+      "inicioMs": 44000,
+      "fimMs": 47000,
+      "legenda": "Djanira: É bonita, sim senhor."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 3,
+      "inicioMs": 47000,
+      "fimMs": 57000,
+      "legenda": "O Chefe: Você sabe qual é o problema de ser honesta? É que gente honesta olha pras coisas. Gente honesta vê. E depois lembra."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 4,
+      "inicioMs": 57000,
+      "fimMs": 59000,
+      "legenda": "Djanira: Eu não vi nada."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 5,
+      "inicioMs": 59000,
+      "fimMs": 65000,
+      "legenda": "O Chefe: Eu sei que você não viu. Mas eu não posso confiar na sua memória."
+    },
+    {
+      "cena": "EP07_C04",
+      "bloco": 6,
+      "inicioMs": 65000,
+      "fimMs": 67000,
+      "legenda": "Dinjer: Desculpa, amiga."
+    },
+    {
+      "cena": "EP07_C05",
+      "bloco": 1,
+      "inicioMs": 69000,
+      "fimMs": 75000,
+      "legenda": "Narrador: Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada."
+    },
+    {
+      "cena": "EP07_C05",
+      "bloco": 2,
+      "inicioMs": 75000,
+      "fimMs": 82000,
+      "legenda": "Narrador: Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 793,
+        "linhaFim": 794,
+        "sha256BlocoUtf8": "B36C061E7054548B8C22E1FF2021A75BBD54A2B03E3F339F251A1EA84A303EFA",
+        "raw": "**ANTERIORMENTE**: EP06_C04 (o convite) · EP06_C06 (o gesto)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP06_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP06_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP07_C01",
+      "codigo": "figurino_fixo",
+      "descricao": "Roupa de igreja conflita com DJANIRA_POBRE fixo; o prompt prevalece, ação/texto original permanecem.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP07_C05",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 10000ms menor que blocos declarados 13000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

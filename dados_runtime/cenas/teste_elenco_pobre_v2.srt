@@ -1,0 +1,12 @@
+1
+00:00:03,000 --> 00:00:07,000
+Narrador: Prévia do elenco da série. Este é o primeiro figurino da Djanira.
+
+2
+00:00:07,000 --> 00:00:11,000
+Djanira: Meu nome é Djanira. Este é o meu visual do começo da história.
+
+3
+00:00:11,000 --> 00:00:15,000
+Dinjer: E eu sou a Dinjer. Meu visual vai continuar o mesmo durante a série.
+

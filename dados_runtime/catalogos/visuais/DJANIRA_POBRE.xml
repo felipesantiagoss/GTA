@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutfitPedData>
+  <ModelHash>0x9C9EFFD8</ModelHash>
+  <Type>1</Type>
+  <PedProperties>
+    <PedComps>
+      <_0>0,0</_0>
+      <_1>0,0</_1>
+      <_2>4,2</_2>
+      <_3>0,0</_3>
+      <_4>14,0</_4>
+      <_5>0,0</_5>
+      <_6>5,0</_6>
+      <_7>0,0</_7>
+      <_8>3,0</_8>
+      <_9>0,0</_9>
+      <_10>0,0</_10>
+      <_11>0,11</_11>
+    </PedComps>
+    <PedProps>
+      <_0>-1,-1</_0>
+      <_1>-1,-1</_1>
+      <_2>-1,-1</_2>
+      <_3>-1,-1</_3>
+      <_4>-1,-1</_4>
+      <_5>-1,-1</_5>
+      <_6>-1,-1</_6>
+      <_7>-1,-1</_7>
+      <_8>-1,-1</_8>
+      <_9>-1,-1</_9>
+    </PedProps>
+    <HeadFeatures WasInArray="true">
+      <ShapeAndSkinTone>
+        <ShapeFatherId>22</ShapeFatherId>
+        <ShapeMotherId>30</ShapeMotherId>
+        <ShapeOverrideId>32</ShapeOverrideId>
+        <ToneFatherId>39</ToneFatherId>
+        <ToneMotherId>31</ToneMotherId>
+        <ToneOverrideId>37</ToneOverrideId>
+        <ShapeVal>0.380302</ShapeVal>
+        <ToneVal>0.25066</ToneVal>
+        <OverrideVal>0</OverrideVal>
+        <IsP>0</IsP>
+      </ShapeAndSkinTone>
+      <HairColour>24</HairColour>
+      <HairColourStreaks>24</HairColourStreaks>
+      <EyeColour>7</EyeColour>
+      <FacialFeatures>
+        <_0>-0.2167545</_0>
+        <_1>0.102939993</_1>
+        <_2>-0.0233310014</_2>
+        <_3>0.0934695</_3>
+        <_4>-0.21103</_4>
+        <_5>0.2162365</_5>
+        <_6>-0.2382105</_6>
+        <_7>-0.185755</_7>
+        <_8>-0.1907525</_8>
+        <_9>-0.1416745</_9>
+        <_10>-0.0564700067</_10>
+        <_11>-0.2099365</_11>
+        <_12>-0.0142145008</_12>
+        <_13>0.16029349</_13>
+        <_14>-0.04998</_14>
+        <_15>0.10965699</_15>
+        <_16>-0.0424004942</_16>
+        <_17>-0.2316095</_17>
+        <_18>0.200814992</_18>
+        <_19>0.0292105079</_19>
+      </FacialFeatures>
+      <Overlays>
+        <_0 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_1 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_2 index="21" colour="5" colourSecondary="5" opacity="1" />
+        <_3 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_4 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_5 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_6 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_7 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_8 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_9 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_10 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_11 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_12 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+      </Overlays>
+    </HeadFeatures>
+  </PedProperties>
+  <DiretorVisual>
+    <Codigo>DJANIRA_POBRE</Codigo>
+    <Modelo>mp_f_freemode_01</Modelo>
+    <Seed>20601003</Seed>
+    <GeradorVersao>ElencoAutomaticoDiretor.v2</GeradorVersao>
+    <FaceSHA256>DC168B7F07D034B1C46A68AE4427CC10D1D58137E8AD6775E92C5A37A1C4DB1A</FaceSHA256>
+    <Estado>gerado no jogo; teste visual pendente</Estado>
+    <DataUtc>2026-10-04T02:52:48.5591618Z</DataUtc>
+    <Origem>GTA Legacy: contagens, texturas e RGB reais do modelo; parâmetros faciais aplicados pelo Diretor</Origem>
+    <LimiteVisual>Índices válidos não comprovam tecido, penteado afro, uniforme, tom de pele ou ausência de sobreposição entre roupas.</LimiteVisual>
+  </DiretorVisual>
+</OutfitPedData>

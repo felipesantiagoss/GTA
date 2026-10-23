@@ -1,0 +1,79 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 12,
+  "nomeOriginal": "\"A CLIENTE VIP\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP12_C01",
+    "EP12_C02",
+    "EP12_C03",
+    "EP12_C04",
+    "EP12_C05"
+  ],
+  "cenas": [
+    {
+      "id": "EP12_C01",
+      "plano": "EP12_C01.plano.json",
+      "srtBase": "EP12_C01.base.srt"
+    },
+    {
+      "id": "EP12_C02",
+      "plano": "EP12_C02.plano.json",
+      "srtBase": "EP12_C02.base.srt"
+    },
+    {
+      "id": "EP12_C03",
+      "plano": "EP12_C03.plano.json",
+      "srtBase": "EP12_C03.base.srt"
+    },
+    {
+      "id": "EP12_C04",
+      "plano": "EP12_C04.plano.json",
+      "srtBase": "EP12_C04.base.srt"
+    },
+    {
+      "id": "EP12_C05",
+      "plano": "EP12_C05.plano.json",
+      "srtBase": "EP12_C05.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1215,
+        "linhaFim": 1216,
+        "sha256BlocoUtf8": "382949B2A6FC672C89A18BB51356DE97B0F06D574807AEAB1B45C9ECED66AE35",
+        "raw": "**ANTERIORMENTE**: EP11_C03 (a transformação) · EP11_C05 (a segunda linha)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP11_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP11_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1213,
+    "linhaFim": 1293,
+    "sha256BlocoUtf8": "029C684EEFA9E13885D9D669070853C61CE8FB96D93A1EC238EB335A9AE4C493",
+    "raw": null
+  }
+}

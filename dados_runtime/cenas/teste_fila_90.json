@@ -1,0 +1,14 @@
+{
+  "versao": 1,
+  "id": "teste_fila_90",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Ensaio separado: avião, saída física e água",
+  "encenacao": "serie_v1",
+  "ambiente": { "local": "CANAL_LS", "hora": "18:00", "clima": "limpo", "raioLimpeza": 40, "distanciaFrente": 1 },
+  "elenco": [ { "personagem": "DJANIRA_POBRE", "marca": { "direita": 0, "frente": 0, "altura": 0 }, "olharPara": null } ],
+  "camera": { "modo": "automatico", "planoInicial": "LONGE", "personagem": "DJANIRA_POBRE", "planoNarracao": "LONGE", "planoFala": "MEDIA", "planoFinal": "LONGE" },
+  "roteiro": [ { "tipo": "pausa", "duracaoSegundos": 12, "plano": "LONGE", "personagem": "DJANIRA_POBRE" } ],
+  "acoes": [],
+  "direcao": []
+}

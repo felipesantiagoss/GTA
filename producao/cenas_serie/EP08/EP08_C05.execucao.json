@@ -1,0 +1,216 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP08_C05",
+  "episodio": 8,
+  "numero": 5,
+  "nome": "O PAPEL",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 939,
+    "linhaFim": 950,
+    "sha256BlocoUtf8": "CED52305B5CCAF72A5F5227E6BE33F6ACC9DCFC6E4799D56FA16AE6F9DB59961",
+    "raw": "### EP08_C05 · O PAPEL\n`local:` CASA_VO · `hora:` 21:00 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` PERTO · `dur:` 12s · `gravar:` SIM\n\n**Ação:** A avó entrega um papel dobrado na mão da Djanira. Close nas mãos.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\" | 9s | implorando |\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "21:00",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      940,
+      941
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.",
+      "textoOriginal": "\"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 949,
+      "raw": "| 1 | DONA_IRACI | \"Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.\" | 9s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 3000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 943,
+      "raw": "**Ação:** A avó entrega um papel dobrado na mão da Djanira. Close nas mãos.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:entrega",
+      "tipo": "atuacao_integral",
+      "descricao": "Prop autêntico, osso/mão e fase de transferência entre donos; clipes A/B não provam o papel de cada ator.",
+      "candidatos": [
+        "entrega_a",
+        "entrega_b"
+      ]
+    },
+    {
+      "codigo": "capacidade:papel",
+      "tipo": "atuacao_integral",
+      "descricao": "Papel/envelope real, abrir/ler/entregar e close nas mãos; jornal candidato não equivale a papel dobrado.",
+      "candidatos": [
+        "ler_papel_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP08_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    },
+    {
+      "codigo": "ler_papel_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "papel",
+      "dicionario": "missmic3",
+      "animacao": "newspaper_idle_loop_dave",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 67180,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "missmic3 newspaper_idle_loop_dave"
+      },
+      "restricoes": [
+        "Lê jornal grande; não garante papel dobrado da trama. Prop/jornal e mulher precisam de teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DONA_IRACI",
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

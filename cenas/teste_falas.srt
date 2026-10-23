@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:03,000
+NARRAÇÃO: Trecho de narração: os dois ficam sem falar.
+
+2
+00:00:03,000 --> 00:00:09,000
+Homem: Olá. Estamos testando o movimento da boca e os gestos.
+
+3
+00:00:09,000 --> 00:00:15,000
+Mulher: Agora é minha vez. Observe minha boca e minhas mãos.
+
+4
+00:00:15,000 --> 00:00:21,000
+Homem: Não. Isto é só um teste técnico, antes de gravar a história.
+
+5
+00:00:21,000 --> 00:00:27,000
+Mulher: Por favor, repare se minha boca continua mexendo até o fim.
+
+6
+00:00:27,000 --> 00:00:33,000
+Homem: Preste atenção! Quem está escutando deve olhar para quem fala.
+
+7
+00:00:33,000 --> 00:00:36,000
+NARRAÇÃO: Fim do teste: as duas bocas devem voltar ao normal.
+

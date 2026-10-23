@@ -1,0 +1,186 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP11_C01",
+  "episodio": 11,
+  "numero": 1,
+  "nome": "A MESMA ROUPA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1145,
+    "linhaFim": 1155,
+    "sha256BlocoUtf8": "BA09F94A056F851A3CB940BC1075EEE6448FB79DDE2BA871960741BBBD223B81",
+    "raw": "### EP11_C01 · A MESMA ROUPA\n`local:` BANCO_MAZE · `hora:` 09:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n> ⚠️ Ainda é a **DJANIRA_POBRE**. A troca acontece só na próxima cena.\n\n**Ação:** Djanira entrando no banco com a roupa velha e o chinelo. O segurança a segue com o olhar.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.\"\n\n"
+  },
+  "original": {
+    "local": "BANCO_MAZE",
+    "locaisCodigos": [
+      "BANCO_MAZE"
+    ],
+    "hora": "09:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1146,
+      1147
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": [
+      {
+        "tipo": "figurino",
+        "origem": [
+          "DJANIRA_POBRE"
+        ],
+        "destino": [
+          "DJANIRA_RICA"
+        ],
+        "autoridade": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+        "motivo": "Djanira rica nos episódios11–15, mantendo o mesmo rosto."
+      }
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1153,
+      "linhaTexto": 1154,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1151,
+      "raw": "**Ação:** Djanira entrando no banco com a roupa velha e o chinelo. O segurança a segue com o olhar.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1149,
+      "raw": "> ⚠️ Ainda é a **DJANIRA_POBRE**. A troca acontece só na próxima cena."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BANCO_MAZE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:porta",
+      "tipo": "atuacao_integral",
+      "descricao": "Porta/portão real, aproximação e direção; abertura/fechamento físico e três batidas quando declaradas.",
+      "candidatos": [
+        "bater_porta"
+      ]
+    },
+    {
+      "codigo": "capacidade:figurino_conflito",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:elenco_adicional",
+      "tipo": "atuacao_integral",
+      "descricao": "Resolver gerente/segurança/colegas/pai/amiga citados fora do elenco declarado, sem inventar identidade.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP11_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

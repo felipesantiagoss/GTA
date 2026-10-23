@@ -1,0 +1,164 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP13_C05",
+  "episodio": 13,
+  "numero": 5,
+  "nome": "A FOTO NA PAREDE",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1347,
+    "linhaFim": 1355,
+    "sha256BlocoUtf8": "209E81B310710F581BAEBFB693ED2B6367CEA58FE47BEF3647F985F53360C12F",
+    "raw": "### EP13_C05 · A FOTO NA PAREDE\n`local:` BOATE_DENTRO · `hora:` 14:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA → PERTO · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Dinjer limpando uma mesa na boate vazia. Olha para a parede. Aproxima o rosto. Entende. A foto emoldurada você monta no CapCut, usando um print da `DJANIRA_RICA`.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "14:00",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "MEDIA → PERTO",
+    "planosSemTemposDefinidos": [
+      "MEDIA",
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1348,
+      1349
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+      "textoOriginal": "> \"Penduraram a minha foto na parede da boate, porque é isso que se faz quando a casa troca de dono. Ela ficou uns dois minutos parada na frente daquela foto. E aí ela sentou no chão.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1353,
+      "linhaTexto": 1354,
+      "inicioMs": 0,
+      "fimMs": 12000,
+      "duracaoMs": 12000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 12000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 15000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1351,
+      "raw": "**Ação:** Dinjer limpando uma mesa na boate vazia. Olha para a parede. Aproxima o rosto. Entende. A foto emoldurada você monta no CapCut, usando um print da `DJANIRA_RICA`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_DENTRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:limpeza",
+      "tipo": "atuacao_integral",
+      "descricao": "Mesa, mão, pano/objeto e movimento até a foto; clipe isolado não executa toda a cena.",
+      "candidatos": [
+        "limpar_mesa"
+      ]
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:edicao_externa",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:interior",
+      "tipo": "atuacao_integral",
+      "descricao": "Acesso real e marca interna; fachada é alternativa explícita e não comprovação de interior.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP13_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "limpar_mesa",
+      "tipo": "animacao_corporal",
+      "categoria": "limpeza",
+      "dicionario": "amb@world_human_maid_clean@base",
+      "animacao": "base",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55141,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_maid_clean@base base"
+      },
+      "restricoes": [
+        "Superfície/mão/prop não medidos; não criar sujeira nem modificar objeto de missão."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

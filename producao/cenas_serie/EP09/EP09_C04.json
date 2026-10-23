@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "id": "EP09_C04",
+  "episodio": 9,
+  "numero": 4,
+  "nome": "TRÊS ANOS",
+  "ambiente": {
+    "local": "BANCO_MAZE",
+    "hora": "14:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "ATENDENTE"
+    },
+    {
+      "personagem": "ATENDENTE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.",
+      "personagem": "ATENDENTE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Como assim?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.",
+      "personagem": "ATENDENTE",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Faltam quantos anos?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "Três.",
+      "personagem": "ATENDENTE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 1,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": "CADEIRA_DJANIRA",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "interpretacao": []
+}

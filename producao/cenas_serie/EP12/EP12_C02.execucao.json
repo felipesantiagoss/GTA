@@ -1,0 +1,284 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP12_C02",
+  "episodio": 12,
+  "numero": 2,
+  "nome": "A MESA DO CHEFE",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1232,
+    "linhaFim": 1240,
+    "sha256BlocoUtf8": "DAA72F05C39C79F105681A0306F67FF25206F7C7F3ADD4CB48B8D2CA0487A173",
+    "raw": "### EP12_C02 · A MESA DO CHEFE\n`local:` BOATE_DENTRO · `hora:` 23:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "23:15",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1233,
+      1234
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Eu sentei na mesma mesa. Na mesa que três anos antes eu só tinha olhado de longe.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1238,
+      "linhaTexto": 1239,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 6000,
+    "conteudoPlanejadoMs": 6000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 9000,
+    "fimUltimaLegendaMs": 9000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1236,
+      "raw": "**Ação:** Djanira sentada sozinha na área VIP — na mesma mesa onde o Chefe sentava no Episódio 6.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Poses iniciais são montadas fora da captura em props próprios, chão/bounds/raycast reais; pelvis/cabeça/pés/joelhos precisam passar no preflight. Nada senta/deita por teleporte durante a ação. Fala usa somente camada superior/secondary; compatibilidade visual da malha/pose permanece pendente.",
+    "Djanira sozinha, sentada na posição do Chefe à mesma mesaVIP, com modelos/IDs/transforms relativos idênticos aos daEP06_C03.6s originais preservados, câmeraLONGE; cadeira não substitui a mesa. Mesmo marcadorBOATE_DENTRO e acesso interno real ainda precisam ser conferidos."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_DENTRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP12_C02.json",
+  "runtimeSHA256": "CABF7E997B1B73FC2545ECD4F35391AC4F2F534FA0744CB1F072EE7CCDFAC31C",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 6000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 9000,
+    "blocosOriginaisMs": 6000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [
+    {
+      "id": "MESA_VIP",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "posesRuntime": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada"
+    }
+  ]
+}

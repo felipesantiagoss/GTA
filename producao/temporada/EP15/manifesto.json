@@ -1,0 +1,107 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 15,
+  "nomeOriginal": "GRANDE FINAL",
+  "subtituloOriginal": "\"O PAI\"",
+  "ordemCenas": [
+    "EP15_C01",
+    "EP15_C02",
+    "EP15_C03",
+    "EP15_C04",
+    "EP15_C05",
+    "EP15_C06",
+    "EP15_C07",
+    "EP15_C08",
+    "EP15_C09"
+  ],
+  "cenas": [
+    {
+      "id": "EP15_C01",
+      "plano": "EP15_C01.plano.json",
+      "srtBase": "EP15_C01.base.srt"
+    },
+    {
+      "id": "EP15_C02",
+      "plano": "EP15_C02.plano.json",
+      "srtBase": "EP15_C02.base.srt"
+    },
+    {
+      "id": "EP15_C03",
+      "plano": "EP15_C03.plano.json",
+      "srtBase": "EP15_C03.base.srt"
+    },
+    {
+      "id": "EP15_C04",
+      "plano": "EP15_C04.plano.json",
+      "srtBase": "EP15_C04.base.srt"
+    },
+    {
+      "id": "EP15_C05",
+      "plano": "EP15_C05.plano.json",
+      "srtBase": "EP15_C05.base.srt"
+    },
+    {
+      "id": "EP15_C06",
+      "plano": "EP15_C06.plano.json",
+      "srtBase": "EP15_C06.base.srt"
+    },
+    {
+      "id": "EP15_C07",
+      "plano": "EP15_C07.plano.json",
+      "srtBase": "EP15_C07.base.srt"
+    },
+    {
+      "id": "EP15_C08",
+      "plano": "EP15_C08.plano.json",
+      "srtBase": "EP15_C08.base.srt"
+    },
+    {
+      "id": "EP15_C09",
+      "plano": "EP15_C09.plano.json",
+      "srtBase": "EP15_C09.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1467,
+        "linhaFim": 1468,
+        "sha256BlocoUtf8": "77DF055F51A4C3AE27D385744DB59A6549DC8F3034F4C2D027DA93BE99FFCDA1",
+        "raw": "**ANTERIORMENTE**: EP14_C03 (\"você sabia\") · EP14_C04 (de joelhos) · EP14_C05 (\"ele mandou te chamar\")\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP14_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP14_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP14_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1464,
+    "linhaFim": 1615,
+    "sha256BlocoUtf8": "A3FB313AB7031A0F97715600CFC1F469293CF6314582DFA8D09C404302C041F6",
+    "raw": null
+  }
+}

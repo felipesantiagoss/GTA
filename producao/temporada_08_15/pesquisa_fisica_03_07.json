@@ -1,0 +1,115 @@
+{
+  "versao": 1,
+  "tipoDocumento": "pesquisa_fisica_03_07",
+  "somentePesquisa": true,
+  "semEdicaoHelpers": true,
+  "semOperarGTA": true,
+  "fontesInstaladas": [
+    {
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+      "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552"
+    },
+    {
+      "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+      "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4"
+    }
+  ],
+  "cenas": [
+    {
+      "id": "EP04_C05",
+      "original": "A avo deitada, muito mal. Djanira sentada do lado.",
+      "opcao": "Interior intacto da casa dos ONeil em Grapeseed, existente no Story; visita e captura reais ainda pendentes.",
+      "menuMenyoo": "Teleport Options > Interiors > ONeil's Farm",
+      "literalAutor": [
+        2454.78,
+        4971.92,
+        46.8103
+      ],
+      "autorTag": "bffd24ec28bd84519a8e92c32e36fb61bdb1c2df",
+      "origem": "https://github.com/itsjustcurtis/MenyooSP/blob/bffd24ec28bd84519a8e92c32e36fb61bdb1c2df/Solution/source/Submenus/Teleport/Locations.cpp#L359",
+      "iplsAtivos": [
+        "farm",
+        "farm_props",
+        "farmint",
+        "des_farmhs_start_occl",
+        "des_farmhs_startimap"
+      ],
+      "iplsRemovidos": [
+        "farm_burnt",
+        "farm_burnt_props",
+        "farmint_cap",
+        "des_farmhs_endimap",
+        "des_farmhs_end_occl"
+      ],
+      "precisaRoot": [
+        "Visitar pelo menu normal do Menyoo",
+        "Conferir quarto/teto/piso/camera com colisao nativa",
+        "Andar e capturar CASA_VO em piso interior real pelo F3",
+        "Medir cama propria e cadeira mantendo guardas atuais"
+      ],
+      "abertoNoGTAConfirmado": false,
+      "coordenadaInventada": false,
+      "varandaExteriorNaoDeclaraQuarto": true
+    },
+    {
+      "id": "EP04_C06",
+      "modeloAtual": "v_res_tt_pharm2",
+      "linhaPropList": 19351,
+      "origem": "https://forge.plebmasters.de/objects/v_res_tt_pharm2",
+      "evidenciaCatalogo": "Basegame Legacy; tiny cardboard box; branco/vermelho; Ambulance/Crates and Boxes.",
+      "acaoOriginal": "Close segurando uma caixa de remedio vazia, expressao machucado.",
+      "abrirCaixaExigido": false,
+      "interiorCaixaExigido": false,
+      "naoComprovado": "O nome do modelo nao demonstra ausencia de conteudo; verificar embalagem nas imagens reais e encaixe na mao.",
+      "precisaRoot": [
+        "Conferir tamanho/rotacao/mao e caixa inteira no PERTO",
+        "Manter voz8+narrador8s e ausencia de boca por narracao",
+        "Nao trocar figurino/identidade"
+      ],
+      "modeloNovoNecessario": false
+    },
+    {
+      "id": "EP05_C04",
+      "modeloAtual": "v_res_tre_wardrobe",
+      "linhaPropList": 19316,
+      "origemModelo": "https://forge.plebmasters.de/objects/v_res_tre_wardrobe",
+      "acaoOriginal": "Djanira parada olhando o guarda-roupa, quase vazio.",
+      "narracaoNoPassado": "Eu abri o armario e fiquei olhando pra ele um tempo.",
+      "limiteAtual": "Prop no chao e olhar nao comprovam interior aberto/quase vazio. Portas.abrir atual abre porta nativa medida, sem gesto do ator.",
+      "candidatoPorta": {
+        "modelo": "prop_wardrobe_door_01",
+        "linhaPropList": 14506,
+        "origem": "https://forge.plebmasters.de/objects/prop_wardrobe_door_01",
+        "categoriaAutor": "Door/Scriptable/Door Physics/Legacy/basegame",
+        "provaNoArmarioAtual": false
+      },
+      "candidatoGesto": {
+        "dicionario": "mp_doorbell",
+        "clipe": "open_door",
+        "linhaPedAnimList": 70803,
+        "origem": "PedAnimList instalado",
+        "testeNativoFeminino": false,
+        "contatoPortaComprovado": false
+      },
+      "parSincronizadoRealMasNaoWardrobe": {
+        "dicionario": "misslester1aig_1",
+        "ped": "milklady_f",
+        "objeto": "milklady_cupboard",
+        "linhasPedAnimList": [
+          66775,
+          66776
+        ],
+        "modelo": "prop_cub_door_lifeblurb",
+        "linhaPropList": 10718,
+        "origem": "https://github.com/root-cause/v-decompiled-scripts/blob/7a800e34172bc50f13b07884ca55942028e8c8d0/lester1.c#L122428",
+        "semantica": "Cupboard da cozinha LifeInvader, nao guarda-roupa domestico; nao substitui o original."
+      },
+      "precisaRoot": [
+        "Conferir guarda-roupa existente no interior real escolhido",
+        "Medir porta/ratio/open mesh/duas roupas quase vazio",
+        "Se abrir for filmado, testar gesto e contato mao real sem warp antes de promover recurso"
+      ],
+      "prontoFisico": false
+    }
+  ]
+}

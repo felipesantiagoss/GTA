@@ -1,0 +1,161 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP06_C02",
+  "episodio": 6,
+  "numero": 2,
+  "nome": "A FILA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 721,
+    "linhaFim": 731,
+    "sha256BlocoUtf8": "883E94D2B03BA33D7F2608C3B36F0F7D92ECBF2D432849A0F92F13AA35B33836",
+    "raw": "### EP06_C02 · A FILA\n`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 7s · `gravar:` SIM\n\n> 🔴 **Guarde o enquadramento exato desta tomada.** No Episódio 12 você vai repetir a mesma câmera com a Djanira rica. O corte entre as duas é o momento mais forte da temporada.\n\n**Ação:** Djanira parada na fila, sendo olhada de cima a baixo pelo segurança. Expressão `chateado`.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu fiquei quarenta minutos naquela fila. Todo mundo que chegou depois de mim entrou antes.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_FORA",
+    "locaisCodigos": [
+      "BOATE_FORA"
+    ],
+    "hora": "23:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      722,
+      723
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 727,
+      "raw": "**Ação:** Djanira parada na fila, sendo olhada de cima a baixo pelo segurança. Expressão `chateado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 725,
+      "raw": "> 🔴 **Guarde o enquadramento exato desta tomada.** No Episódio 12 você vai repetir a mesma câmera com a Djanira rica. O corte entre as duas é o momento mais forte da temporada."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu fiquei quarenta minutos naquela fila. Todo mundo que chegou depois de mim entrou antes.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:",
+      "textoOriginal": "> \"Eu fiquei quarenta minutos naquela fila. Todo mundo que chegou depois de mim entrou antes.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 729,
+      "linhaTexto": 730,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_FORA",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_FORA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira parada na fila, sendo olhada de cima a baixo pelo segurança. Expressão `chateado`.",
+      "origem": "linha 727",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "presenca:segurança e fila da boate; sem perfis no elenco",
+      "familia": "figurantes",
+      "descricao": "segurança e fila da boate; sem perfis no elenco",
+      "origem": "ação original; falta de perfil declarada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

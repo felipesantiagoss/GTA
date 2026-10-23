@@ -1,0 +1,65 @@
+{
+  "versao": 1,
+  "id": "EP02_C01",
+  "episodio": 2,
+  "numero": 1,
+  "nome": "A BALADA — entrada pela fachada",
+  "ambiente": {
+    "local": "BOATE_FORA",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Enquanto eu contava moeda pra comprar pão, o meu dinheiro tava fazendo outra coisa.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "destino": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "convencido"
+    }
+  ]
+}

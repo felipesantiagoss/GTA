@@ -1,0 +1,139 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP15_C09",
+  "episodio": 15,
+  "numero": 9,
+  "nome": "A ÚLTIMA IMAGEM",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1602,
+    "linhaFim": 1613,
+    "sha256BlocoUtf8": "FB89167167CB5E48333241F03EDBEC34425D22EB00306467049890C011D0BBE9",
+    "raw": "### EP15_C09 · A ÚLTIMA IMAGEM\n`local:` MANSAO_CHEFE · `hora:` 21:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.\"\n\n**NARRADOR** — 9s:\n> \"A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "21:15",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1603,
+      1604
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1608,
+      "linhaTexto": 1609,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 9s:",
+      "textoOriginal": "> \"A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1611,
+      "linhaTexto": 1612,
+      "inicioMs": 10000,
+      "fimMs": 19000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 19000,
+    "conteudoPlanejadoMs": 19000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 22000,
+    "fimUltimaLegendaMs": 22000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1606,
+      "raw": "**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:carro",
+      "tipo": "atuacao_integral",
+      "descricao": "Modelo real escolhido, motorista, portas, entrada/saída e rota do morro; nunca simular com personagem parado.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:edicao_externa",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP15_C09",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_RICA"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

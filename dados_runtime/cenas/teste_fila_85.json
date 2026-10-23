@@ -1,0 +1,47 @@
+{
+  "versao": 1,
+  "id": "teste_fila_85",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "ENSAIO TECNICO ESCRITA NATIVA SEM CAPTURA",
+  "ambiente": {
+    "local": "VIADUTO_LAPUERTA",
+    "hora": "22:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      }
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 14,
+      "plano": "MEDIA"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": [],
+  "poses": [],
+  "transicoesPose": [],
+  "veiculos": [],
+  "portas": []
+}

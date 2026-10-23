@@ -1,0 +1,196 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP14_C03",
+  "episodio": 14,
+  "numero": 3,
+  "nome": "A PERGUNTA",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1409,
+    "linhaFim": 1423,
+    "sha256BlocoUtf8": "7AEA8C21A5D561AFAA9AC748686D6358AE3BE6602A0AD8FC3CC2C195DC36A58F",
+    "raw": "### EP14_C03 · A PERGUNTA\n`local:` MANSAO_DJANIRA · `hora:` 23:20 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 24s · `gravar:` SIM\n\n> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |\n| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |\n| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |\n| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:20",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 24000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1410,
+      1411
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [],
+  "notasOriginais": [
+    {
+      "linha": 1413,
+      "raw": "> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.",
+      "textoOriginal": "\"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1419,
+      "raw": "| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você sabia?",
+      "textoOriginal": "\"Você sabia?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1420,
+      "raw": "| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |",
+      "inicioMs": 10000,
+      "fimMs": 12000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "pausa",
+      "boca": false,
+      "texto": null,
+      "indicacoesOriginais": "*(Dinjer não responde. Câmera fica nela.)*",
+      "linhaInicio": 1421,
+      "raw": "| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |",
+      "inicioMs": 12000,
+      "fimMs": 16000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você sabia.",
+      "textoOriginal": "\"Você sabia.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1422,
+      "raw": "| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |",
+      "inicioMs": 16000,
+      "fimMs": 18000,
+      "duracaoMs": 2000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 24000,
+    "blocosDeclaradosMs": 18000,
+    "conteudoPlanejadoMs": 24000,
+    "reservaSemBlocoDefinidoMs": 6000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 27000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_DJANIRA",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_DJANIRA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:bloqueio",
+      "familia": "corpo",
+      "descricao": "Resolver poses, marcas e atuação pelas notas originais; não substituir por atores parados genéricos.",
+      "origem": "notas da cena",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

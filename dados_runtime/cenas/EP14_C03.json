@@ -1,0 +1,85 @@
+{
+  "versao": 1,
+  "id": "EP14_C03",
+  "episodio": 14,
+  "numero": 3,
+  "nome": "A PERGUNTA",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "23:20",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 10,
+      "plano": "PERTO",
+      "texto": "Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "PERTO",
+      "texto": "Você sabia?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "PERTO",
+      "personagem": "DINJER"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "PERTO",
+      "texto": "Você sabia.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 6,
+      "plano": "PERTO",
+      "personagem": "DINJER"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": []
+}

@@ -1,0 +1,44 @@
+{
+  "versao": 1,
+  "id": "EP03_C06",
+  "episodio": 3,
+  "numero": 6,
+  "nome": "O QUE ELA ENTENDEU",
+  "ambiente": {
+    "local": "CASA_DINJER",
+    "hora": "21:40",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 180
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 11,
+      "plano": "PERTO",
+      "texto": "Eu não gritei. Eu não corri atrás. Pra ela, eu nunca fui amiga. Eu era reserva. Eu era o dinheiro que dava pra pegar sem precisar devolver.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": []
+}

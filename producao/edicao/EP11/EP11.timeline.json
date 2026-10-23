@@ -1,0 +1,182 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 11,
+  "nomeOriginal": "\"A HERDEIRA\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 89000,
+  "clipes": [
+    {
+      "id": "EP11_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 8000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP11_C01.base.srt"
+    },
+    {
+      "id": "EP11_C02",
+      "inicioEpisodioBaseMs": 8000,
+      "fimEpisodioBaseMs": 20000,
+      "duracaoPlanejadaMs": 12000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP11_C02.base.srt"
+    },
+    {
+      "id": "EP11_C03",
+      "inicioEpisodioBaseMs": 20000,
+      "fimEpisodioBaseMs": 34000,
+      "duracaoPlanejadaMs": 14000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP11_C03.base.srt"
+    },
+    {
+      "id": "EP11_C04",
+      "inicioEpisodioBaseMs": 34000,
+      "fimEpisodioBaseMs": 42000,
+      "duracaoPlanejadaMs": 8000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP11_C04.base.srt"
+    },
+    {
+      "id": "EP11_C05",
+      "inicioEpisodioBaseMs": 42000,
+      "fimEpisodioBaseMs": 69000,
+      "duracaoPlanejadaMs": 27000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP11_C05.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 69000,
+      "fimEpisodioBaseMs": 89000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP11_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "legenda": "Narrador: Eu entrei naquele banco com a mesma roupa de três anos antes. O segurança me seguiu com o olho da porta até o balcão."
+    },
+    {
+      "cena": "EP11_C02",
+      "bloco": 1,
+      "inicioMs": 8000,
+      "fimMs": 13000,
+      "legenda": "Atendente: A senhora... tem noção de quanto tem nessa conta?"
+    },
+    {
+      "cena": "EP11_C02",
+      "bloco": 2,
+      "inicioMs": 13000,
+      "fimMs": 18000,
+      "legenda": "Djanira: Não. Mas eu tenho noção de quanto me custou."
+    },
+    {
+      "cena": "EP11_C03",
+      "bloco": 1,
+      "inicioMs": 20000,
+      "fimMs": 34000,
+      "legenda": "Narrador: Todo mundo acha que dinheiro muda as pessoas. Não muda. Dinheiro só tira a educação que a pobreza obrigava a gente a ter. Eu comprei uma casa, comprei um carro, comprei roupa que não coçava. E eu não senti absolutamente nada."
+    },
+    {
+      "cena": "EP11_C04",
+      "bloco": 1,
+      "inicioMs": 34000,
+      "fimMs": 42000,
+      "legenda": "Narrador: Na primeira noite eu dormi no chão. A cama era macia demais. Meu corpo não sabia mais dormir em cama."
+    },
+    {
+      "cena": "EP11_C05",
+      "bloco": 1,
+      "inicioMs": 42000,
+      "fimMs": 62000,
+      "legenda": "Narrador: A primeira coisa que eu comprei de verdade não foi carro nem casa. Foi informação. Eu queria saber tudo sobre o homem que me jogou daquele avião. E aí eu peguei o papel da minha avó e li a segunda linha, que eu nunca tinha lido. Era o mesmo nome do relatório."
+    },
+    {
+      "cena": "EP11_C05",
+      "bloco": 2,
+      "inicioMs": 62000,
+      "fimMs": 69000,
+      "legenda": "Narrador: O homem que tentou matá-la. E o nome que a avó guardou por dezoito anos. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1141,
+        "linhaFim": 1142,
+        "sha256BlocoUtf8": "12441CB2D93021415835D669B4E00F9AB82BA6B58D56B11364875BE0DC444385",
+        "raw": "**ANTERIORMENTE**: EP10_C01 (dormindo na rua) · EP10_C06 (o calendário) · EP10_C07 (\"faltou um\")\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP10_C01",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP10_C06",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP10_C07",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP11_C01",
+      "codigo": "djanira_ep11",
+      "descricao": "Elenco/ação do roteiro usa Djanira pobre no episódio11; prompt determina rica desde o início.",
+      "resolucao": "DJANIRA_RICA; elenco e texto originais continuam arquivados"
+    },
+    {
+      "cena": "EP11_C02",
+      "codigo": "djanira_ep11",
+      "descricao": "Elenco/ação do roteiro usa Djanira pobre no episódio11; prompt determina rica desde o início.",
+      "resolucao": "DJANIRA_RICA; elenco e texto originais continuam arquivados"
+    },
+    {
+      "cena": "EP11_C03",
+      "codigo": "troca_figurino",
+      "descricao": "O prompt determina DJANIRA_RICA desde o início do episódio11, embora este bloco diga que a troca só acontece aqui.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP11_C05",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 20000ms menor que blocos declarados 27000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

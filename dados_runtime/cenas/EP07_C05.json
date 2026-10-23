@@ -1,0 +1,57 @@
+{
+  "versao": 1,
+  "id": "EP07_C05",
+  "episodio": 7,
+  "numero": 5,
+  "nome": "A QUEDA",
+  "ambiente": {
+    "local": "CANAL_LS",
+    "hora": "21:10",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "OLHOS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "OLHOS",
+    "planoNarracao": "OLHOS",
+    "planoFinal": "OLHOS"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "OLHOS",
+      "texto": "Meu nome é Djanira. E eles me jogaram de um avião achando que eu ia morrer calada.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "OLHOS",
+      "texto": "Ela caiu do céu por um crime que não cometeu. Mas quem cai em água suja nem sempre morre. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 7,
+      "plano": "OLHOS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": []
+}

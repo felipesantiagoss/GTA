@@ -1,0 +1,22 @@
+{
+  "versao": 1,
+  "tipo": "pesquisa_de_modelos",
+  "fonte": "menyooStuff/PedList.xml da instalação GTA Legacy",
+  "sha256Fonte": "47BCA4383A6A841408EE37CB6F1B59989C5EB4BFDE64B5CB6B85ECE3C59A224E",
+  "observacao": "Identificadores conferidos; aparência, roupa, cabelo e adequação ao papel ainda não aprovados. Este arquivo não torna personagens prontos.",
+  "personagens": [
+    {"codigo": "DJANIRA_POBRE", "candidatos": [{"modelo": "mp_f_freemode_01", "linha": 9}], "requisito": "Rosto ruivo, olhos azuis, rabo de cavalo; camisa simples, short e chinelo; sem maquiagem."},
+    {"codigo": "DJANIRA_RICA", "candidatos": [{"modelo": "mp_f_freemode_01", "linha": 9}], "requisito": "Mesmo rosto da pobre; mudar somente figurino, penteado e postura. Rica nos episódios11–15."},
+    {"codigo": "DINJER", "candidatos": [{"modelo": "mp_f_freemode_01", "linha": 9}], "requisito": "Mulher negra, afro e batom forte; uniforme de aeromoça fixo toda a temporada."},
+    {"codigo": "DONA_IRACI", "candidatos": [{"modelo": "a_f_o_genstreet_01", "linha": 82}, {"modelo": "a_f_o_salton_01", "linha": 85}], "requisito": "Senhora idosa de roupa simples; gesto machucado e sacola são recursos separados."},
+    {"codigo": "O_CHEFE", "candidatos": [{"modelo": "a_m_m_business_01", "linha": 151}, {"modelo": "a_m_m_bevhills_02", "linha": 150}], "requisito": "Branco, meia-idade, cabelo grisalho e terno escuro caro; conferir visual no GTA."},
+    {"codigo": "CAPANGA_1", "candidatos": [{"modelo": "s_m_m_highsec_01", "linha": 930}], "requisito": "Terno fixo inclusive como dono da fazenda; conservar sua fala explícita emEP03_C07."},
+    {"codigo": "CAPANGA_2", "candidatos": [{"modelo": "s_m_m_highsec_02", "linha": 931}], "requisito": "Terno fixo."},
+    {"codigo": "CAPANGA_3", "candidatos": [{"modelo": "a_m_y_business_02", "linha": 217}], "requisito": "Terno fixo."},
+    {"codigo": "CAPANGA_4", "candidatos": [{"modelo": "a_m_y_business_03", "linha": 218}], "requisito": "Terno fixo."},
+    {"codigo": "COLEGA_1", "candidatos": [{"modelo": "a_m_y_genstreet_01", "linha": 235}], "requisito": "Homem de roupa casual fixa; aparece também no episódio4."},
+    {"codigo": "COLEGA_2", "candidatos": [{"modelo": "a_m_y_genstreet_02", "linha": 236}], "requisito": "Homem de roupa casual fixa."},
+    {"codigo": "COLEGA_3", "candidatos": [{"modelo": "a_m_y_stbla_01", "linha": 268}], "requisito": "Homem de roupa casual fixa."},
+    {"codigo": "ATENDENTE", "candidatos": [{"modelo": "u_m_m_bankman", "linha": 1060}], "requisito": "Roupa fixa; sempre de costas ou em plano aberto, sem close no rosto."}
+  ]
+}

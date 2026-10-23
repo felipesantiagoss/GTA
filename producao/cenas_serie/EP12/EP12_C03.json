@@ -1,0 +1,259 @@
+{
+  "versao": 1,
+  "id": "EP12_C03",
+  "episodio": 12,
+  "numero": 3,
+  "nome": "ELA NÃO RECONHECE",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:20",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.1,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_RICA"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "texto": "Boa noite, senhora. Champanhe por conta da casa?",
+      "personagem": "DINJER",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Você trabalha aqui há muito tempo?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Cinco anos. Mas é temporário, viu? Eu tô subindo na vida. Eu já fui aeromoça, de avião particular.",
+      "personagem": "DINJER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "E por que parou?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Ah... é complicado. Coisa de patrão.",
+      "personagem": "DINJER",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Me diz uma coisa. Você já fez alguma coisa de que se arrepende?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Ai, senhora, eu faço isso todo dia.",
+      "personagem": "DINJER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "E teve alguma que doeu?",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 2,
+      "plano": "MEDIA",
+      "texto": "...Uma.",
+      "personagem": "DINJER",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 1,
+      "plano": "MEDIA",
+      "texto": "Conta.",
+      "personagem": "DJANIRA_RICA",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Eu não posso, senhora. Se eu contar, eu morro.",
+      "personagem": "DINJER",
+      "gesto": "implorando"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": -1.1,
+        "frente": -0.65,
+        "altura": 0
+      },
+      "velocidade": 0.7,
+      "clipeDurantePercurso": "servir_champanhe_autor",
+      "preservarDuranteFala": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "servir_champanhe_autor",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 37,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": true
+    }
+  ],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "MESA_VIP",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "BANDEJA_SERVICO",
+      "recurso": "bandeja_champanhe_autor",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.01
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ]
+}

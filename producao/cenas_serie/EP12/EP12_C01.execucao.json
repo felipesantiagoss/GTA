@@ -1,0 +1,176 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP12_C01",
+  "episodio": 12,
+  "numero": 1,
+  "nome": "A MESMA PORTA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1219,
+    "linhaFim": 1229,
+    "sha256BlocoUtf8": "A79E81095B172521FA7EE08283C34A0441762EA168231BEF42333A78155C6A59",
+    "raw": "### EP12_C01 · A MESMA PORTA\n`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**\n\n**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_FORA",
+    "locaisCodigos": [
+      "BOATE_FORA"
+    ],
+    "hora": "23:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1220,
+      1221
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1227,
+      "linhaTexto": 1228,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1225,
+      "raw": "**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1223,
+      "raw": "> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**"
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [
+    {
+      "cena": "EP06_C02",
+      "linha": 1223,
+      "raw": "> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**",
+      "tipo": "enquadramento",
+      "opcionalRegravar": false
+    }
+  ],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_FORA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:carro",
+      "tipo": "atuacao_integral",
+      "descricao": "Modelo real escolhido, motorista, portas, entrada/saída e rota do morro; nunca simular com personagem parado.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:porta",
+      "tipo": "atuacao_integral",
+      "descricao": "Porta/portão real, aproximação e direção; abertura/fechamento físico e três batidas quando declaradas.",
+      "candidatos": [
+        "bater_porta"
+      ]
+    },
+    {
+      "codigo": "capacidade:quadro_reutilizavel",
+      "tipo": "atuacao_integral",
+      "descricao": "Salvar enquadramento real de EP06_C02 e reutilizar exatamente em EP12_C01.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:elenco_adicional",
+      "tipo": "atuacao_integral",
+      "descricao": "Resolver gerente/segurança/colegas/pai/amiga citados fora do elenco declarado, sem inventar identidade.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP12_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "bater_porta",
+      "tipo": "animacao_corporal",
+      "categoria": "porta",
+      "dicionario": "timetable@jimmy@doorknock@",
+      "animacao": "knockdoor_idle",
+      "sexoOrigem": "masculino pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 76544,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "timetable@jimmy@doorknock@ knockdoor_idle"
+      },
+      "restricoes": [
+        "Marcar porta real e direção; câmera não usa o clipe knockdoor_idle_cam."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

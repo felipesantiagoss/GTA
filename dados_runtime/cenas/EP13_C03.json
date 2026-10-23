@@ -1,0 +1,51 @@
+{
+  "versao": 1,
+  "id": "EP13_C03",
+  "episodio": 13,
+  "numero": 3,
+  "nome": "COMPRANDO TUDO",
+  "ambiente": {
+    "local": "GALPAO_CYPRESS",
+    "hora": "15:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": null,
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 13,
+      "plano": "LONGE",
+      "texto": "Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "veiculos": [],
+  "portas": [
+    {
+      "tipo": "abrir",
+      "personagem": null,
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3
+    },
+    {
+      "tipo": "fechar",
+      "personagem": null,
+      "inicioSegundos": 3,
+      "duracaoSegundos": 4.5
+    }
+  ]
+}

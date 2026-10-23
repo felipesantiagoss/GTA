@@ -1,0 +1,67 @@
+{
+  "versao": 1,
+  "id": "EP01_C06",
+  "episodio": 1,
+  "numero": 6,
+  "nome": "A DINJER NO TRABALHO",
+  "ambiente": {
+    "local": "AEROPORTO_TERMINAL",
+    "hora": "09:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DINJER",
+    "planoFinal": "LONGE",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 3,
+        "plano": "ATRAS",
+        "personagem": "DINJER"
+      }
+    ],
+    "ajustes": {
+      "aproximar": -2,
+      "lado": 0.6,
+      "altura": 0.2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "texto": "E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "expressao": "convencido"
+    }
+  ]
+}

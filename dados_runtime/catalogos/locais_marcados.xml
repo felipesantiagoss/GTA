@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocaisMarcados versao="1">
+  <Local id="TESTE_AMBIENTE" x="351.942841" y="-996.034" z="-99.19619" direcao="169.718033" dataUtc="2026-10-09T15:17:21.1912978+00:00" origem="capturado_no_jogo" />
+  <Local id="ROCA_GRAPESEED" x="2005.25232" y="4990.61328" z="41.3680038" direcao="236.170776" dataUtc="2026-10-05T00:55:36.6716171+00:00" origem="capturado_no_jogo" />
+  <Local id="AEROPORTO_TERMINAL" x="-1025.00891" y="-2731.185" z="13.7566452" direcao="247.941986" dataUtc="2026-10-06T10:47:28.7911266+00:00" origem="capturado_no_jogo" />
+  <Local id="CASA_VO" x="2458.88721" y="4971.734" z="46.5715981" direcao="325.246216" dataUtc="2026-10-05T05:10:04.1502885+00:00" origem="capturado_no_jogo" />
+  <Local id="AEROPORTO_HANGAR" x="-1597.29834" y="-3142.47217" z="13.9456854" direcao="301.080444" dataUtc="2026-10-06T17:22:12.9574978+00:00" origem="capturado_no_jogo" />
+  <Local id="HOSPITAL_SANDY" x="1843.06641" y="3669.122" z="33.6799622" direcao="38.27611" dataUtc="2026-10-05T20:21:35.8919326+00:00" origem="capturado_no_jogo" />
+  <Local id="CASSINO_FORA" x="927.690857" y="46.8041267" z="80.89988" direcao="238.381821" dataUtc="2026-10-05T09:42:13.0926954+00:00" origem="capturado_no_jogo" />
+  <Local id="CANAL_LS_RAMPA_ENTRADA" x="649.7267" y="-1797.432" z="9.384319" direcao="89.0479" dataUtc="2026-10-05T11:18:07.8496574+00:00" origem="capturado_no_jogo" />
+  <Local id="CANAL_LS" x="651.546753" y="-1835.5061" z="8.178242" direcao="1.59936082" dataUtc="2026-10-05T14:15:21.7565886+00:00" origem="capturado_no_jogo" />
+  <Local id="CANAL_LS_RAMPA_TOPO" x="640.7254" y="-1797.278" z="9.980175" direcao="89.03482" dataUtc="2026-10-05T11:18:39.4063816+00:00" origem="capturado_no_jogo" />
+  <Local id="CANAL_LS_FUGA" x="632.4903" y="-1797.13989" z="12.8794584" direcao="89.0331" dataUtc="2026-10-05T11:18:46.4450665+00:00" origem="capturado_no_jogo" />
+  <Local id="BOATE_DENTRO" x="-1591.134" y="-3012.582" z="-79.00606" direcao="88.5126648" dataUtc="2026-10-05T11:57:03.1270059+00:00" origem="capturado_no_jogo" />
+  <Local id="PRAIA_DELPERRO" x="-1701.42639" y="-1023.074" z="4.364629" direcao="324.5282" dataUtc="2026-10-05T10:52:41.8139854+00:00" origem="capturado_no_jogo" />
+  <Local id="EXTRA_BAR_IRACI" x="-556.1166" y="284.5194" z="82.17627" direcao="0" dataUtc="2026-10-06T02:38:48.8379083+00:00" origem="capturado_no_jogo" />
+  <Local id="CASA_VO_INTERIOR" x="2456.232" y="4977.46533" z="46.81026" direcao="1.74716687" dataUtc="2026-10-06T04:23:41.2467959+00:00" origem="capturado_no_jogo" />
+  <Local id="ESTRADA_SENORA" x="1846.70837" y="3307.69653" z="43.1204948" direcao="291.908081" dataUtc="2026-10-07T23:55:10.8213516+00:00" origem="capturado_no_jogo" />
+  <Local id="IGREJA_CHAPARRAL" x="-275.443542" y="2846.897" z="53.6140022" direcao="92.97198" dataUtc="2026-10-06T05:46:32.1623024+00:00" origem="capturado_no_jogo" />
+  <Local id="CASA_DINJER" x="1979.0603" y="3815.39" z="32.81336" direcao="310.100525" dataUtc="2026-10-07T21:33:17.8118638+00:00" origem="capturado_no_jogo" />
+  <Local id="CENTRO_LEGION" x="216.1665" y="-944.0853" z="30.6868038" direcao="77.38361" dataUtc="2026-10-07T16:56:33.2020837+00:00" origem="capturado_no_jogo" />
+  <Local id="MANSAO_DJANIRA" x="-813.628235" y="179.515823" z="72.1591644" direcao="270.146729" dataUtc="2026-10-07T09:13:05.1640176+00:00" origem="capturado_no_jogo" />
+  <Local id="MANSAO_CHEFE" x="4.43427658" y="528.2916" z="174.628082" direcao="203.96846" dataUtc="2026-10-07T11:51:40.7143155+00:00" origem="capturado_no_jogo" />
+  <Local id="RUA_STRAWBERRY" x="57.33552" y="-1540.2218" z="29.2940063" direcao="319.743744" dataUtc="2026-10-06T11:13:12.4998772+00:00" origem="capturado_no_jogo" />
+  <Local id="BANCO_MAZE" x="231.601852" y="215.511642" z="106.280182" direcao="294.5749" dataUtc="2026-10-07T03:37:13.0403602+00:00" origem="capturado_no_jogo" />
+  <Local id="GALPAO_CYPRESS" x="545.3805" y="-1864.4917" z="25.3425369" direcao="220.700119" dataUtc="2026-10-07T05:48:34.2667026+00:00" origem="capturado_no_jogo" />
+  <Local id="BOATE_FORA" x="-1389.90491" y="-583.1943" z="30.2188416" direcao="210.842133" dataUtc="2026-10-06T13:57:15.8150838+00:00" origem="capturado_no_jogo" />
+  <Local id="VIADUTO_LAPUERTA" x="-618.8042" y="-1478.33533" z="8.398354" direcao="76.15678" dataUtc="2026-10-07T12:15:36.4360450+00:00" origem="capturado_no_jogo" />
+</LocaisMarcados>

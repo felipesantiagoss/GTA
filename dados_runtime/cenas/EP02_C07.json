@@ -1,0 +1,62 @@
+{
+  "versao": 1,
+  "id": "EP02_C07",
+  "episodio": 2,
+  "numero": 7,
+  "nome": "A DECISÃO",
+  "ambiente": {
+    "local": "ROCA_GRAPESEED",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "BAIXA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "BAIXA",
+    "planoNarracao": "BAIXA",
+    "planoFinal": "BAIXA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "BAIXA",
+      "texto": "Foi ali que eu parei de pedir. E comecei a cobrar.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "BAIXA",
+      "texto": "Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 13,
+      "olhar": {
+        "tipo": "horizonte"
+      }
+    }
+  ]
+}

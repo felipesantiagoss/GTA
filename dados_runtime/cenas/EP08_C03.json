@@ -1,0 +1,181 @@
+{
+  "versao": 1,
+  "id": "EP08_C03",
+  "episodio": 8,
+  "numero": 3,
+  "nome": "A REVELAÇÃO",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "20:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": -1.7,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 1.3,
+        "frente": -1.03,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI",
+      "rotacao": 90
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFinal": "DOIS",
+    "inverterEixo": true,
+    "ajustes": {
+      "aproximar": 1.8,
+      "lado": -0.6
+    },
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DONA_IRACI"
+      },
+      {
+        "inicioSegundos": 10,
+        "plano": "MEDIA",
+        "personagem": "DONA_IRACI"
+      },
+      {
+        "inicioSegundos": 14,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 18,
+        "plano": "MEDIA",
+        "personagem": "DONA_IRACI"
+      },
+      {
+        "inicioSegundos": 30,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 34,
+        "plano": "MEDIA",
+        "personagem": "DONA_IRACI"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.",
+      "personagem": "DONA_IRACI",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Teu pai não morreu pobre. Teu pai morreu muito, muito rico.",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "A senhora tá delirando, vó. É o remédio.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 12,
+      "plano": "MEDIA",
+      "texto": "Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.",
+      "personagem": "DONA_IRACI",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Por que é que a senhora nunca me contou isso?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 42,
+      "expressao": "machucado"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 42,
+      "expressao": "chateado"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "CAMA_IRACI",
+      "recurso": "cama_quarto",
+      "marca": {
+        "direita": -1.7,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA",
+      "recurso": "cadeira_entrada_autor",
+      "marca": {
+        "direita": 0.5,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DONA_IRACI",
+      "objeto": "CAMA_IRACI",
+      "recurso": "deitada_cama_f",
+      "tipo": "deitada",
+      "rotacao": 180
+    }
+  ],
+  "transicoesPose": []
+}

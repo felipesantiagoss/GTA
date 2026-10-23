@@ -1,0 +1,50 @@
+{
+  "versao": 1,
+  "id": "EP01_C01",
+  "episodio": 1,
+  "numero": 1,
+  "nome": "A QUEDA",
+  "ambiente": {
+    "local": "CANAL_LS",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoNarracao": "LONGE",
+    "planoFala": "MEDIA",
+    "planoFinal": "OLHOS"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 14,
+      "plano": "LONGE",
+      "texto": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 6,
+      "plano": "OLHOS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": []
+}

@@ -1,0 +1,369 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP08_C03",
+  "episodio": 8,
+  "numero": 3,
+  "nome": "A REVELAÇÃO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 899,
+    "linhaFim": 917,
+    "sha256BlocoUtf8": "E9E09770DD6FF5F05FC3425B9800DF0357E57108ECADBBC66313129FC223B0B8",
+    "raw": "### EP08_C03 · A REVELAÇÃO\n`local:` CASA_VO · `hora:` 20:00 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 42s · `gravar:` SIM\n\n> 🔴 **A cena mais importante do primeiro bloco.** Cortes lentos, planos fechados, deixe respirar.\n\n**Ação:** A avó deitada, muito pior. Chama a Djanira para perto e conta tudo.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\" | 8s | implorando |\n| 2 | DONA_IRACI | \"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\" | 6s | neutro |\n| 3 | DJANIRA | \"A senhora tá delirando, vó. É o remédio.\" | 4s | negando |\n| 4 | DONA_IRACI | \"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\" | 12s | explicando |\n| 5 | DJANIRA | \"Por que é que a senhora nunca me contou isso?\" | 4s | neutro |\n| 6 | DONA_IRACI | \"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\" | 8s | neutro |\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "20:00",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 42000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      900,
+      901
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.",
+      "textoOriginal": "\"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 911,
+      "raw": "| 1 | DONA_IRACI | \"Chega aqui, minha filha. Senta. Eu preciso te contar uma coisa antes que eu não consiga mais falar.\" | 8s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Teu pai não morreu pobre. Teu pai morreu muito, muito rico.",
+      "textoOriginal": "\"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 912,
+      "raw": "| 2 | DONA_IRACI | \"Teu pai não morreu pobre. Teu pai morreu muito, muito rico.\" | 6s | neutro |",
+      "inicioMs": 8000,
+      "fimMs": 14000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "A senhora tá delirando, vó. É o remédio.",
+      "textoOriginal": "\"A senhora tá delirando, vó. É o remédio.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 913,
+      "raw": "| 3 | DJANIRA | \"A senhora tá delirando, vó. É o remédio.\" | 4s | negando |",
+      "inicioMs": 14000,
+      "fimMs": 18000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.",
+      "textoOriginal": "\"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 914,
+      "raw": "| 4 | DONA_IRACI | \"Tem uma conta num banco americano. Tá no teu nome desde o dia que tu nasceu. Eu te trouxe pra roça pra ninguém te achar. Enquanto tu fosse pobre, tu tava viva.\" | 12s | explicando |",
+      "inicioMs": 18000,
+      "fimMs": 30000,
+      "duracaoMs": 12000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DJANIRA",
+      "texto": "Por que é que a senhora nunca me contou isso?",
+      "textoOriginal": "\"Por que é que a senhora nunca me contou isso?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 915,
+      "raw": "| 5 | DJANIRA | \"Por que é que a senhora nunca me contou isso?\" | 4s | neutro |",
+      "inicioMs": 30000,
+      "fimMs": 34000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.",
+      "textoOriginal": "\"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 916,
+      "raw": "| 6 | DONA_IRACI | \"Porque dinheiro sem idade pra segurar só serve pra te matar mais cedo, minha filha.\" | 8s | neutro |",
+      "inicioMs": 34000,
+      "fimMs": 42000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 42000,
+    "blocosDeclaradosMs": 42000,
+    "conteudoPlanejadoMs": 42000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 45000,
+    "fimUltimaLegendaMs": 45000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 905,
+      "raw": "**Ação:** A avó deitada, muito pior. Chama a Djanira para perto e conta tudo.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 903,
+      "raw": "> 🔴 **A cena mais importante do primeiro bloco.** Cortes lentos, planos fechados, deixe respirar."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:deitar",
+      "tipo": "atuacao_integral",
+      "descricao": "Cama/banco real e alinhamento; transições, sacola quando prevista e facial doente/sono compatível.",
+      "candidatos": [
+        "deitada_cama_f",
+        "sono_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:sentar",
+      "tipo": "atuacao_integral",
+      "descricao": "Apoio/assento/mesa ou chão real e posição corporal; entrada/saída e fala sem gesto standing desfazer a pose.",
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP08_C03",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "deitada_cama_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_bedmid",
+      "animacao": "f_sleep_l_loop_bighouse",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70591,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_bedmid f_sleep_l_loop_bighouse"
+      },
+      "restricoes": [
+        "Exige cama/banco real e alinhamento do corpo; não garante expressão doente."
+      ]
+    },
+    {
+      "codigo": "sono_f",
+      "tipo": "pose",
+      "categoria": "deitar",
+      "dicionario": "mp_sleep",
+      "animacao": "sleep_loopfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 71428,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_sleep sleep_loopfemale"
+      },
+      "restricoes": [
+        "Exige testar origem e altura; clipe não informa banco nem sacola."
+      ]
+    },
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DONA_IRACI",
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

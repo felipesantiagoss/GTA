@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "id": "EP04_C06",
+  "episodio": 4,
+  "numero": 6,
+  "nome": "A CONTA",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "PERTO",
+      "texto": "Naquela noite eu não dormi. Não era raiva. Era conta. Eu fiquei a noite inteira fazendo conta de como salvar a minha avó com zero reais.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "PERTO",
+      "texto": "Ela perdeu o dinheiro, o respeito e está prestes a perder a casa. Mas o pior ainda não aconteceu. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 16,
+      "recurso": "carregar_bandeja",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": true
+    }
+  ],
+  "objetos": [
+    {
+      "id": "CAIXA_REMEDIO",
+      "recurso": "caixa_remedio",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 16,
+      "expressao": "machucado",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "CAIXA_REMEDIO"
+      }
+    }
+  ]
+}

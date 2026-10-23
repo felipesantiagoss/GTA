@@ -1,0 +1,66 @@
+{
+  "versao": 1,
+  "id": "teste_fila_01",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Fila 1: primeira tomada",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "TESTE_HOMEM",
+      "marca": {"direita": -0.8, "frente": 0.0, "altura": 0.0},
+      "olharPara": "TESTE_MULHER"
+    },
+    {
+      "personagem": "TESTE_MULHER",
+      "marca": {"direita": 0.8, "frente": 0.0, "altura": 0.0},
+      "olharPara": "TESTE_HOMEM"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "TESTE_HOMEM",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false,
+    "transicaoSuave": false,
+    "ajustes": {"lado": 0.0, "altura": 0.0, "aproximar": 0.0}
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "texto": "Fila 1: os dois começam nas marcas.",
+      "duracaoSegundos": 2.0,
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Fila 1. Esta é a primeira cena.",
+      "duracaoSegundos": 4.0,
+      "personagem": "TESTE_HOMEM",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Fila 1. Podemos repetir esta tomada.",
+      "duracaoSegundos": 4.0,
+      "personagem": "TESTE_MULHER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "narracao",
+      "texto": "Fim da primeira cena da fila.",
+      "duracaoSegundos": 2.0,
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": []
+}

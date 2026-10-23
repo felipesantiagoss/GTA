@@ -1,0 +1,59 @@
+{
+  "versao": 1,
+  "id": "teste_fila_03",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "EXTRA BANHEIRO",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "14:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "TESTE_HOMEM",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "TESTE_HOMEM",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 12,
+      "plano": "ATRAS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "TESTE_HOMEM",
+      "inicioSegundos": 1,
+      "duracaoSegundos": 10,
+      "destino": {
+        "direita": 0,
+        "frente": 5,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": [],
+  "objetos": [],
+  "poses": []
+}

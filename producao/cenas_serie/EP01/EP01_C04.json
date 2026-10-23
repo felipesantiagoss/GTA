@@ -1,0 +1,109 @@
+{
+  "versao": 1,
+  "id": "EP01_C04",
+  "episodio": 1,
+  "numero": 4,
+  "nome": "O HOSPITAL",
+  "ambiente": {
+    "local": "HOSPITAL_SANDY",
+    "hora": "08:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.5,
+        "frente": -4,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0.3,
+        "frente": -4,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "LONGE",
+      "texto": "Eu levava minha avó pro hospital, deixava ela na entrada e voltava pra trabalhar.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "LONGE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": -0.5,
+        "frente": -2,
+        "altura": 0
+      },
+      "velocidade": 0.9
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "destino": {
+        "direita": 0.3,
+        "frente": -2,
+        "altura": 0
+      },
+      "velocidade": 0.9
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 7,
+      "destino": {
+        "direita": 0.3,
+        "frente": 2,
+        "altura": 0
+      },
+      "velocidade": 0.7
+    },
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 6,
+      "duracaoSegundos": 5,
+      "destino": {
+        "direita": -0.5,
+        "frente": -3.5,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ]
+}

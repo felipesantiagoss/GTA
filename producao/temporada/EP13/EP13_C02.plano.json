@@ -1,0 +1,189 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP13_C02",
+  "episodio": 13,
+  "numero": 2,
+  "nome": "A DEMISSÃO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1311,
+    "linhaFim": 1319,
+    "sha256BlocoUtf8": "E9FE3325F51340BCAD285370443D8ED82F4588CC78E771F2F02A2873BE580196",
+    "raw": "### EP13_C02 · A DEMISSÃO\n`local:` BOATE_DENTRO · `hora:` 21:30 · `clima:` limpo\n`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3 · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "21:30",
+    "clima": "limpo",
+    "elenco": "DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3",
+    "elencoCodigos": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1312,
+      1313
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1315,
+      "raw": "**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1317,
+      "linhaTexto": 1318,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:CAPANGA_1",
+      "familia": "visuais",
+      "descricao": "Visual de produção CAPANGA_1, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:CAPANGA_2",
+      "familia": "visuais",
+      "descricao": "Visual de produção CAPANGA_2, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:CAPANGA_3",
+      "familia": "visuais",
+      "descricao": "Visual de produção CAPANGA_3, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.",
+      "origem": "linha 1315",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:envelope",
+      "familia": "objetos",
+      "descricao": "envelope: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "presenca:gerente entregando envelopes; sem perfil no elenco",
+      "familia": "figurantes",
+      "descricao": "gerente entregando envelopes; sem perfil no elenco",
+      "origem": "ação original; falta de perfil declarada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

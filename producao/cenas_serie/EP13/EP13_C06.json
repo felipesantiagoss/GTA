@@ -1,0 +1,72 @@
+{
+  "versao": 1,
+  "id": "EP13_C06",
+  "episodio": 13,
+  "numero": 6,
+  "nome": "NO CHÃO",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "14:10",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "Não. Não, não, não. Ela morreu. Ela morreu.",
+      "personagem": "DINJER",
+      "gesto": "negando"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "MEDIA",
+      "texto": "A morta voltou. E agora ela é dona de tudo. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "chao"
+      }
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DINJER",
+      "objeto": null,
+      "recurso": "sentada_chao_f",
+      "tipo": "chao"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "versao": 1,
+  "id": "teste_elenco_pobre",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Prévia dos visuais — Djanira, episódios 1 a 10",
+  "ambiente": {"local": "TESTE_AMBIENTE", "hora": "17:00", "clima": "limpo"},
+  "elenco": [
+    {"personagem": "DJANIRA_POBRE", "marca": {"direita": -1.1, "frente": 0}, "olharPara": "DINJER"},
+    {"personagem": "DINJER", "marca": {"direita": 1.1, "frente": 0}, "olharPara": "DJANIRA_POBRE"}
+  ],
+  "camera": {"modo": "automatico", "planoInicial": "DOIS", "personagem": "DJANIRA_POBRE"},
+  "roteiro": [
+    {"tipo": "narracao", "narrador": "Narrador", "texto": "Prévia do elenco da série. Este é o primeiro figurino da Djanira.", "duracaoSegundos": 4},
+    {"tipo": "fala", "personagem": "DJANIRA_POBRE", "texto": "Meu nome é Djanira. Este é o meu visual do começo da história.", "duracaoSegundos": 4, "gesto": "neutro"},
+    {"tipo": "fala", "personagem": "DINJER", "texto": "E eu sou a Dinjer. Meu visual vai continuar o mesmo durante a série.", "duracaoSegundos": 4, "gesto": "explicando"}
+  ]
+}

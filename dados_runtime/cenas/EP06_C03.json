@@ -1,0 +1,198 @@
+{
+  "versao": 1,
+  "id": "EP06_C03",
+  "episodio": 6,
+  "numero": 3,
+  "nome": "O QUE ELA VIU",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -2.4,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DINJER",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "PERTO",
+        "personagem": "DINJER"
+      }
+    ],
+    "ajustes": {
+      "lado": 0,
+      "altura": 0,
+      "aproximar": 0
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 13,
+      "texto": "E aí eu vi ela. Mas não do jeito que eu esperava. A Dinjer não tava se divertindo naquela boate. Ela tava trabalhando. E o trabalho dela não era servir champanhe.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "MESA_VIP",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CHEFE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DINJER",
+      "objeto": "CADEIRA_DINJER",
+      "recurso": "sentada_cadeira_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "O_CHEFE",
+      "objeto": "CADEIRA_CHEFE",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "objeto": "CADEIRA_CAPANGA_1",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "objeto": "CADEIRA_CAPANGA_2",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 13,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    }
+  ]
+}

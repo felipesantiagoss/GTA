@@ -1,0 +1,151 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP10_C06",
+  "episodio": 10,
+  "numero": 6,
+  "nome": "O CALENDÁRIO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1114,
+    "linhaFim": 1122,
+    "sha256BlocoUtf8": "4835065C2740891F954CCD35DDA1DBCB5906044EA1D5D4AB89CC532FF4BF2D45",
+    "raw": "### EP10_C06 · O CALENDÁRIO\n`local:` VIADUTO_LAPUERTA · `hora:` 22:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Close na Djanira riscando algo com a mão. O calendário em si você monta no CapCut.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.\"\n\n"
+  },
+  "original": {
+    "local": "VIADUTO_LAPUERTA",
+    "locaisCodigos": [
+      "VIADUTO_LAPUERTA"
+    ],
+    "hora": "22:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1115,
+      1116
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+      "textoOriginal": "> \"E todo dia, antes de dormir, eu riscava um dia. Mil e cem. Setecentos. Quatrocentos e doze. Trezentos e dois. Eu não queria o dinheiro pra ser rica. Eu queria o dinheiro pra poder olhar na cara dela.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1120,
+      "linhaTexto": 1121,
+      "inicioMs": 0,
+      "fimMs": 14000,
+      "duracaoMs": 14000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1118,
+      "raw": "**Ação:** Close na Djanira riscando algo com a mão. O calendário em si você monta no CapCut.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:VIADUTO_LAPUERTA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:escrever",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": [
+        "anotar_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:edicao_externa",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP10_C06",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "anotar_candidato",
+      "tipo": "animacao_corporal",
+      "categoria": "escrever",
+      "dicionario": "amb@world_human_clipboard@male@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54763,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_clipboard@male@base base"
+      },
+      "restricoes": [
+        "É prancheta; calendário/texto no CapCut. Testar mulher/mãos antes de usar."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

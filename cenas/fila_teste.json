@@ -1,0 +1,6 @@
+{
+  "versao": 1,
+  "episodio": 0,
+  "nome": "Teste técnico: fila e reinício de tomada",
+  "cenas": ["teste_fila_01.json", "teste_fila_02.json"]
+}

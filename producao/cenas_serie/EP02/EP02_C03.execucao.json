@@ -1,0 +1,314 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP02_C03",
+  "episodio": 2,
+  "numero": 3,
+  "nome": "O SILÊNCIO",
+  "estado": "gravado_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 376,
+    "linhaFim": 384,
+    "sha256BlocoUtf8": "4B36669129973CFE9FFAE0655BDD6139277FAC08AA51CA059B789B90AE65B332",
+    "raw": "### EP02_C03 · O SILÊNCIO\n`local:` CASA_VO · `hora:` 21:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Djanira no escuro, mexendo no celular, esperando resposta. Expressão `estressado`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Passou uma semana. Passou a segunda. Eu mandei mensagem e não teve resposta. Liguei e caiu direto.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "21:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      377,
+      378
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Passou uma semana. Passou a segunda. Eu mandei mensagem e não teve resposta. Liguei e caiu direto.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Passou uma semana. Passou a segunda. Eu mandei mensagem e não teve resposta. Liguei e caiu direto.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 382,
+      "linhaTexto": 383,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 380,
+      "raw": "**Ação:** Djanira no escuro, mexendo no celular, esperando resposta. Expressão `estressado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:celular",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": [
+        "pegar_celular_f",
+        "celular_entrada_f",
+        "celular_texto_f",
+        "celular_saida_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP02_C03",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "pegar_celular_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "anim@amb@business@bgen@bgen_no_work@",
+      "animacao": "stand_phone_phonepickup-noworkfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 134260,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@business@bgen@bgen_no_work@ stand_phone_phonepickup-noworkfemale"
+      },
+      "restricoes": [
+        "Prop próprio no osso da mão; origem da peça/entrada precisa de calibração."
+      ]
+    },
+    {
+      "codigo": "celular_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Entrada/texto/saída com prop próprio; nenhuma transferência bancária real."
+      ]
+    },
+    {
+      "codigo": "celular_texto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_read_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55788,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_read_base"
+      },
+      "restricoes": [
+        "Posição/rotação do telefone e mão pendentes; Pix é encenado, sem interface bancária."
+      ]
+    },
+    {
+      "codigo": "celular_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55789,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_out"
+      },
+      "restricoes": [
+        "Remover/ocultar somente telefone próprio ao fim ou reset."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "ultimaTomadaFilmeEP02": {
+    "sessaoId": "573dc20d142a47af91e52600c94a79b7",
+    "versaoTomada": 2,
+    "versaoDiretor": "0.9.64",
+    "arquivoMp4Original": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C03_v2.mp4",
+    "sha256Mp4Original": "76A74FB9952BE2A4748BDDD3EBEBD0438FB1717E26C3F4B046A02AEC01D73775",
+    "duracaoMp4OriginalMs": 17450,
+    "duracaoConteudoMs": 8000,
+    "contagemMs": 3000,
+    "duracaoDeclaradaCapturaMs": 11000,
+    "arquivoSrtOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C03_v2.srt",
+    "sha256SrtOriginal": "F0C7F0651BA50E021D42B212308B58D6BC95883F7ED1CE9771806043351D2872",
+    "fonteCena": {
+      "arquivo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\cena_preparada_6613a4d9473d485a810431e21c98974c.json",
+      "sha256": "327E9AD6880E634631B3F1661F28E5AEDB1AB2D033065961921199778A014CC6",
+      "snapshotNativoRegistrado": true,
+      "arquivoCanonical": "C:\\GTA_Diretor\\producao\\cenas_serie\\EP02\\EP02_C03.json",
+      "arquivoRuntime": "C:\\Users\\felipe.santiago\\GTA_Diretor\\cenas\\EP02_C03.json",
+      "canonicalRuntimeIdenticos": true
+    },
+    "correcaoTecnicaCelular": {
+      "osso": "PHRightHand",
+      "offsetDeclarado": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotacaoDeclarada": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "revisaoCPUEncaixe": "confirmada pelo root; avaliacao visual artistica pendente"
+    },
+    "provas": {
+      "sessaoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\573dc20d142a47af91e52600c94a79b7\\sessao.xml",
+      "sha256SessaoXml": "67844B37899CD905AD004C3A9643651EB21EC1C7516BF0B22B897DACC4FE688F",
+      "resultadoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\573dc20d142a47af91e52600c94a79b7\\resultado.xml",
+      "sha256ResultadoXml": "D84C6F40717D55C97D262233B322C6BB1F5C11799C0158C96D66ECD35774B726",
+      "manifestoCaptura": "C:\\Users\\felipe.santiago\\GTA_Diretor\\backups\\capturas\\573dc20d142a47af91e52600c94a79b7-dd651848\\manifesto.json",
+      "sha256ManifestoCaptura": "558F2D8E257DD06D20777C8C9436181EED91D7BF6D9FD14051F8D788180302E9",
+      "logNativo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\DiretorGTA.log",
+      "scriptCarregado": "2026-10-05T23:49:36.7917755+00:00 [SCRIPT_CARREGADO] Versão 0.9.64; organização de tomadas; montar=F6; ação=F7; limpar=F10; próxima=PageDown; anterior=PageUp; reiniciar=Delete; fila=; cenas=C:\\Users\\felipe.santiago\\GTA_Diretor\\cenas; dados=C:\\Users\\felipe.santiago\\GTA_Diretor; controle_marcar=True",
+      "acaoConcluida": "2026-10-05T23:51:03.7661603+00:00 [ACAO_CONCLUIDA] Cena=EP02_C03; tempo_ms=8004",
+      "gettersEEventosRegistrados": {
+        "OLHAR_OBJETO_GETTERS": 8
+      }
+    },
+    "semTextoSolicitado": true,
+    "avaliacaoVisualUsuario": "pendente",
+    "originaisPreservados": true
+  },
+  "historicoTomadasFilmeEP02": [
+    {
+      "sessaoId": "a322d1095a0644c89e1ae1de3ab6dffc",
+      "versaoTomada": 1,
+      "arquivoMp4Original": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C03.mp4",
+      "sha256Mp4Original": "86647CC657865AFD9D81429897CD82A8826AE91CCA4C31C27A716D7FE6FDC3E5",
+      "duracaoMp4OriginalMs": 16767,
+      "duracaoConteudoMs": 8000,
+      "contagemMs": 3000,
+      "duracaoDeclaradaCapturaMs": 11000,
+      "arquivoSrtOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C03.srt",
+      "sha256SrtOriginal": "F0C7F0651BA50E021D42B212308B58D6BC95883F7ED1CE9771806043351D2872",
+      "fonteCena": {
+        "arquivo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\cena_preparada_6613a4d9473d485a810431e21c98974c.json",
+        "sha256": "327E9AD6880E634631B3F1661F28E5AEDB1AB2D033065961921199778A014CC6",
+        "snapshotNativoRegistrado": true,
+        "proveniencia": "snapshot publicado registrado no log antes da sessao"
+      },
+      "provas": {
+        "sessaoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\a322d1095a0644c89e1ae1de3ab6dffc\\sessao.xml",
+        "sha256SessaoXml": "B47D4AA45E0B2CCD3AE7B4DECCF656B34FD2FA1BEE20152FA6A8FA00DFE616A4",
+        "resultadoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\a322d1095a0644c89e1ae1de3ab6dffc\\resultado.xml",
+        "sha256ResultadoXml": "5BF1C9B8C5AE08A48CFCC5E09BB3748CDFA78D502BC3066FCC15B9EF8DE41B1C",
+        "manifestoCaptura": "C:\\Users\\felipe.santiago\\GTA_Diretor\\backups\\capturas\\a322d1095a0644c89e1ae1de3ab6dffc-88d788a3\\manifesto.json",
+        "sha256ManifestoCaptura": "4B13864C097961E538CD8CD64424041C37CE8A79CCC43995B5805ECC34BAAB4F",
+        "logNativo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\DiretorGTA.log",
+        "acaoConcluida": "2026-10-05T23:34:16.3383570+00:00 [ACAO_CONCLUIDA] Cena=EP02_C03; tempo_ms=8007",
+        "gettersEEventosRegistrados": {
+          "OLHAR_OBJETO_GETTERS": 8
+        }
+      },
+      "semTextoSolicitado": true,
+      "avaliacaoVisualUsuario": "pendente",
+      "originaisPreservados": true
+    }
+  ]
+}

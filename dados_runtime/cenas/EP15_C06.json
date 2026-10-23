@@ -1,0 +1,88 @@
+{
+  "versao": 1,
+  "id": "EP15_C06",
+  "episodio": 15,
+  "numero": 6,
+  "nome": "A VOLTA COMPLETA",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "21:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": -1.2,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 1.2,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 2,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_RICA"
+      }
+    ],
+    "ajustes": {
+      "aproximar": 1,
+      "lado": 0
+    },
+    "inverterEixo": false
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 14,
+      "plano": "MEDIA",
+      "texto": "O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 14,
+      "expressao": "normal"
+    }
+  ]
+}

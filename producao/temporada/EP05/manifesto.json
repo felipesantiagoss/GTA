@@ -1,0 +1,83 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 5,
+  "nomeOriginal": "\"O CONVITE\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP05_C01",
+    "EP05_C02",
+    "EP05_C03",
+    "EP05_C04",
+    "EP05_C05"
+  ],
+  "cenas": [
+    {
+      "id": "EP05_C01",
+      "plano": "EP05_C01.plano.json",
+      "srtBase": "EP05_C01.base.srt"
+    },
+    {
+      "id": "EP05_C02",
+      "plano": "EP05_C02.plano.json",
+      "srtBase": "EP05_C02.base.srt"
+    },
+    {
+      "id": "EP05_C03",
+      "plano": "EP05_C03.plano.json",
+      "srtBase": "EP05_C03.base.srt"
+    },
+    {
+      "id": "EP05_C04",
+      "plano": "EP05_C04.plano.json",
+      "srtBase": "EP05_C04.base.srt"
+    },
+    {
+      "id": "EP05_C05",
+      "plano": "EP05_C05.plano.json",
+      "srtBase": "EP05_C05.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 625,
+        "linhaFim": 626,
+        "sha256BlocoUtf8": "86387E1AF9DC50E1B9D23FBAF76534AE9C758217EAE39E7DB615F9B216E07FD3",
+        "raw": "**ANTERIORMENTE**: EP04_C02 (a humilhação) · EP04_C05 (a avó doente) · EP04_C06 (a caixa vazia)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP04_C02",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP04_C05",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP04_C06",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 623,
+    "linhaFim": 703,
+    "sha256BlocoUtf8": "EEDC9F496CD3667B9BDD043452AE6CA80D67137F2D7327545617764432E0B01F",
+    "raw": null
+  }
+}

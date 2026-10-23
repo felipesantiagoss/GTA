@@ -1,0 +1,115 @@
+{
+  "versao": 1,
+  "id": "EP02_C03",
+  "episodio": 2,
+  "numero": 3,
+  "nome": "O SILÊNCIO",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "21:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 4.2,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Passou uma semana. Passou a segunda. Eu mandei mensagem e não teve resposta. Liguei e caiu direto.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "objetos": [
+    {
+      "id": "CELULAR_DJANIRA",
+      "recurso": "celular",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 5.8,
+      "recurso": "celular_texto_f",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 5.8,
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "CELULAR_DJANIRA"
+      },
+      "expressao": "estressado"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 5.8,
+      "duracaoSegundos": 2.2,
+      "olhar": {
+        "tipo": "horizonte"
+      },
+      "expressao": "estressado"
+    }
+  ]
+}

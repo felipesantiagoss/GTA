@@ -1,0 +1,143 @@
+{
+  "versao": 1,
+  "id": "EP07_C02",
+  "episodio": 7,
+  "numero": 2,
+  "nome": "O QUE ELA NÃO DEVIA VER",
+  "ambiente": {
+    "local": "GALPAO_CYPRESS",
+    "hora": "19:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "O_CHEFE",
+      "marca": {
+        "direita": 1.9,
+        "frente": 1,
+        "altura": 0
+      },
+      "olharPara": "CAPANGA_1"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": 4.1,
+        "frente": 1,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "marca": {
+        "direita": 5.2,
+        "frente": 1,
+        "altura": 0
+      },
+      "olharPara": "O_CHEFE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 8.3,
+        "frente": -4.2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "O_CHEFE",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "O_CHEFE"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ],
+    "inverterEixo": true,
+    "ajustes": {
+      "lado": 2,
+      "altura": 0,
+      "aproximar": 1
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "texto": "Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo.",
+      "personagem": "O_CHEFE",
+      "gesto": "irritado"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "texto": "Eu não entendi metade do que eles falaram. Eu só entendi que eu não podia estar ali.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "CONTAINER_CYPRESS",
+      "recurso": "container_serie",
+      "marca": {
+        "direita": 3,
+        "frente": -1.8,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CAIXAS_NEGOCIO_1",
+      "recurso": "caixas_negocio_madeira_01a",
+      "marca": {
+        "direita": 0.8,
+        "frente": 1.2,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CAIXAS_NEGOCIO_2",
+      "recurso": "caixas_negocio_madeira_01a",
+      "marca": {
+        "direita": 7.0,
+        "frente": 1.2,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 16,
+      "expressao": "estressado",
+      "olhar": {
+        "tipo": "desvio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "versao": 1,
+  "id": "EP01_C09",
+  "episodio": 1,
+  "numero": 9,
+  "nome": "FECHAMENTO",
+  "ambiente": {
+    "local": "ROCA_GRAPESEED",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 2,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "PERTO",
+      "texto": "E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP01_C06",
+  "episodio": 1,
+  "numero": 6,
+  "nome": "A DINJER NO TRABALHO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 275,
+    "linhaFim": 283,
+    "sha256BlocoUtf8": "8F37344A39862CDFD2B865FD87D9FF71E6AAB2859C5937715ED068DABFBB65A7",
+    "raw": "### EP01_C06 · A DINJER NO TRABALHO\n`local:` AEROPORTO_TERMINAL · `hora:` 09:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_TERMINAL",
+    "locaisCodigos": [
+      "AEROPORTO_TERMINAL"
+    ],
+    "hora": "09:00",
+    "clima": "limpo",
+    "elenco": "DINJER",
+    "elencoCodigos": [
+      "DINJER"
+    ],
+    "camera": "LONGE → MEDIA",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      276,
+      277
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 279,
+      "raw": "**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 281,
+      "linhaTexto": 282,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:AEROPORTO_TERMINAL",
+      "familia": "ambiente",
+      "descricao": "Marca real AEROPORTO_TERMINAL; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.",
+      "origem": "linha 279",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "veiculo:ônibus",
+      "familia": "veiculos",
+      "descricao": "ônibus: modelo, assentos/portas, motorista, percurso e restauração.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

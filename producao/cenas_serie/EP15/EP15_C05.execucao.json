@@ -1,0 +1,333 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP15_C05",
+  "episodio": 15,
+  "numero": 5,
+  "nome": "E VOCÊ?",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1543,
+    "linhaFim": 1562,
+    "sha256BlocoUtf8": "6E6EA9B62E9C5631158400377B4DE1027065D6BAEDF56DC015CEBA4C6F84E4B2",
+    "raw": "### EP15_C05 · E VOCÊ?\n`local:` MANSAO_CHEFE · `hora:` 20:50 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar.\n\n**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |\n| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |\n| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |\n| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |\n| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |\n| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |\n| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "20:50",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 30000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1544,
+      1545
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "E você? Você sabia por quê?",
+      "textoOriginal": "\"E você? Você sabia por quê?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1555,
+      "raw": "| 1 | DJANIRA | \"E você? Você sabia por quê?\" | 4s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DINJER",
+      "texto": "Djanira, não...",
+      "textoOriginal": "\"Djanira, não...\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1556,
+      "raw": "| 2 | DINJER | \"Djanira, não...\" | 2s | implorando |",
+      "inicioMs": 4000,
+      "fimMs": 6000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Fala. Você me deve uma resposta há três anos.",
+      "textoOriginal": "\"Fala. Você me deve uma resposta há três anos.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 1557,
+      "raw": "| 3 | DJANIRA | \"Fala. Você me deve uma resposta há três anos.\" | 5s | irritado |",
+      "inicioMs": 6000,
+      "fimMs": 11000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DINJER",
+      "texto": "Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.",
+      "textoOriginal": "\"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1558,
+      "raw": "| 4 | DINJER | \"Ele me disse que se eu te levasse pro avião, ele quitava a minha dívida.\" | 8s | implorando |",
+      "inicioMs": 11000,
+      "fimMs": 19000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DJANIRA",
+      "texto": "Que dívida?",
+      "textoOriginal": "\"Que dívida?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1559,
+      "raw": "| 5 | DJANIRA | \"Que dívida?\" | 2s | neutro |",
+      "inicioMs": 19000,
+      "fimMs": 21000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DINJER",
+      "texto": "Mil reais, Djanira. Eu devia mil reais pra ele.",
+      "textoOriginal": "\"Mil reais, Djanira. Eu devia mil reais pra ele.\"",
+      "gestoOriginal": "machucado",
+      "boca": true,
+      "linhaInicio": 1560,
+      "raw": "| 6 | DINJER | \"Mil reais, Djanira. Eu devia mil reais pra ele.\" | 6s | machucado |",
+      "inicioMs": 21000,
+      "fimMs": 27000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 7,
+      "quemOriginal": "DINJER",
+      "texto": "Os teus mil reais.",
+      "textoOriginal": "\"Os teus mil reais.\"",
+      "gestoOriginal": "machucado",
+      "boca": true,
+      "linhaInicio": 1561,
+      "raw": "| 7 | DINJER | \"Os teus mil reais.\" | 3s | machucado |",
+      "inicioMs": 27000,
+      "fimMs": 30000,
+      "duracaoMs": 3000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 30000,
+    "blocosDeclaradosMs": 30000,
+    "conteudoPlanejadoMs": 30000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 33000,
+    "fimUltimaLegendaMs": 33000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1549,
+      "raw": "**Ação:** Djanira se levanta devagar e vira para trás, onde a Dinjer está.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 1547,
+      "raw": "> 🔴 **O segundo twist, e o mais cruel.** A tomada da fala 4 é a mais longa da temporada: 12 segundos no rosto da Dinjer, sem cortar."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:sentar",
+      "tipo": "atuacao_integral",
+      "descricao": "Apoio/assento/mesa ou chão real e posição corporal; entrada/saída e fala sem gesto standing desfazer a pose.",
+      "candidatos": [
+        "sentada_cadeira_f",
+        "sentado_cadeira_m",
+        "sentada_meio_fio_f",
+        "sentar_chao_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP15_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

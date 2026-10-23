@@ -1,0 +1,101 @@
+{
+  "versao": 1,
+  "id": "EP09_C05",
+  "episodio": 9,
+  "numero": 5,
+  "nome": "A SAÍDA DE CASA",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "08:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "ATRAS",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS",
+    "ajustes": {
+      "lado": 0,
+      "altura": -0.3,
+      "aproximar": -2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 10,
+      "plano": "ATRAS",
+      "texto": "No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 10,
+      "destino": {
+        "direita": 0,
+        "frente": 7,
+        "altura": -1.029048
+      },
+      "velocidade": 0.8,
+      "clipeDurantePercurso": "carregar_sacola_autor"
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 10,
+      "expressao": "chateado"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "SACOLA_DJANIRA",
+      "recurso": "sacola",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0.24,
+          "y": 0.03,
+          "z": -0.04
+        },
+        "rotacao": {
+          "x": 0,
+          "y": -90,
+          "z": 10
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

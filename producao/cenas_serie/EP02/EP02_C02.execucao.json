@@ -1,0 +1,498 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP02_C02",
+  "episodio": 2,
+  "numero": 2,
+  "nome": "A MESA DOS HOMENS",
+  "estado": "gravado_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 365,
+    "linhaFim": 373,
+    "sha256BlocoUtf8": "990849A22AC69E29A981EEB2DACA37251C1EAF05E5E4860610B5FCB679F3723B",
+    "raw": "### EP02_C02 · A MESA DOS HOMENS\n`local:` BOATE_DENTRO · `hora:` 23:30 · `clima:` limpo\n`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3, CAPANGA_4 · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Dinjer sentada numa mesa reservada com quatro homens de terno. Um deles entrega um envelope para ela. Ela guarda rápido.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"E ela não tava só gastando. Ela tava comprando um lugar. Um lugar numa mesa onde gente como a gente não senta.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "23:30",
+    "clima": "limpo",
+    "elenco": "DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3, CAPANGA_4",
+    "elencoCodigos": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3",
+      "CAPANGA_4"
+    ],
+    "camera": "LONGE → MEDIA",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 9000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      366,
+      367
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3",
+      "CAPANGA_4"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E ela não tava só gastando. Ela tava comprando um lugar. Um lugar numa mesa onde gente como a gente não senta.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:",
+      "textoOriginal": "> \"E ela não tava só gastando. Ela tava comprando um lugar. Um lugar numa mesa onde gente como a gente não senta.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 371,
+      "linhaTexto": 372,
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 9000,
+    "blocosDeclaradosMs": 9000,
+    "conteudoPlanejadoMs": 9000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 12000,
+    "fimUltimaLegendaMs": 12000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 369,
+      "raw": "**Ação:** Dinjer sentada numa mesa reservada com quatro homens de terno. Um deles entrega um envelope para ela. Ela guarda rápido.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Cinco atores sentados em cinco cadeiras próprias à mesa reservada; assentos medidos no GTA. Dinjer usa base feminina com braços livres e três gestos upper-body específicos; nenhuma tarefa remove a pose primária.",
+    "Envelope próprio parte deCAPANGA_1, transferência é observada entre1–3s e só ocorre com gestos reais ativos e mão/objeto até0,35m. A/B continuam candidatos ao papel visual: fora de alcance ou clipe incompatível interrompe, não move ator/objeto para fingir entrega.",
+    "Guardar exige o gesto real ativo e mão próxima do tronco em fase conferida pelo backend. Nunca usa ocultar sozinho para declarar que o envelope foi guardado. Voz original9s sem boca; duração real dos gestos deve caber no orçamento ou montagem falha."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_1",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_2",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_3",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_4",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_DENTRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "teste:EP02_C02",
+      "tipo": "teste_no_jogo",
+      "descricao": "Contato físico/compatibilidade dos objetos/clipes/câmera e acesso real BOATE_DENTRO precisam passar no GTA; não é confirmação de resultado visual."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "sentada_cadeira_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@female@arms_folded@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 53972,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@female@arms_folded@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; braços cruzados conflitam com entrega/bandeja."
+      ]
+    },
+    {
+      "codigo": "sentado_cadeira_m",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@prop_human_seat_chair@male@generic@base",
+      "animacao": "base",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54224,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@prop_human_seat_chair@male@generic@base base"
+      },
+      "restricoes": [
+        "Cadeira/mesa real e marca de assento; não criar cadeira ambiental nem alterar missão."
+      ]
+    },
+    {
+      "codigo": "sentada_meio_fio_f",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "amb@world_human_seat_steps@female@hands_by_sides@base",
+      "animacao": "base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55248,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_seat_steps@female@hands_by_sides@base base"
+      },
+      "restricoes": [
+        "Altura do degrau/meio-fio precisa ser medida; não equivale a sentar no chão."
+      ]
+    },
+    {
+      "codigo": "sentar_chao_candidato",
+      "tipo": "pose",
+      "categoria": "sentar",
+      "dicionario": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+      "animacao": "owner_idle",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 176798,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@heists@fleeca_bank@ig_7_jetski_owner owner_idle"
+      },
+      "restricoes": [
+        "Validar pernas/altura em mulher; não usar como demonstração de sentar até o teste."
+      ]
+    },
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER",
+    "CAPANGA_1",
+    "CAPANGA_2",
+    "CAPANGA_3",
+    "CAPANGA_4"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP02_C02.json",
+  "runtimeSHA256": "79502E0DC71406CDE7B7A2C3AC30DCEEBFB5E47C43ED4DBCF85F1F995F59C6BB",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "objetosRuntime": [
+    {
+      "id": "MESA_RESERVADA",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_3",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_4",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 2.9,
+        "altura": 0
+      },
+      "rotacao": 180,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "ENVELOPE_DINJER",
+      "recurso": "envelope",
+      "marca": {
+        "direita": 0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "CAPANGA_1",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 1,
+          "esperaMaximaSegundos": 2,
+          "personagem": "DINJER",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "tipo": "guardar",
+          "inicioSegundos": 4.5,
+          "personagem": "DINJER",
+          "recurso": "guardar_envelope",
+          "esperaMaximaSegundos": 2
+        }
+      ]
+    }
+  ],
+  "posesRuntime": [
+    {
+      "personagem": "DINJER",
+      "objeto": "CADEIRA_DINJER",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "objeto": "CADEIRA_CAPANGA_1",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada"
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "objeto": "CADEIRA_CAPANGA_2",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada"
+    },
+    {
+      "personagem": "CAPANGA_3",
+      "objeto": "CADEIRA_CAPANGA_3",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada"
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "objeto": "CADEIRA_CAPANGA_4",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada"
+    }
+  ],
+  "temposRascunho": {
+    "conteudoMs": 9000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 12000,
+    "blocosOriginaisMs": 9000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "ultimaTomadaFilmeEP02": {
+    "sessaoId": "a6326113748a4263a186a717cd1bc3e0",
+    "versaoTomada": 2,
+    "arquivoMp4Original": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C02_v2.mp4",
+    "sha256Mp4Original": "3AFECF47231BC0938FADDE1FCB56855AD0E046A810061A32F6AC1CB1FC0027ED",
+    "duracaoMp4OriginalMs": 18133,
+    "duracaoConteudoMs": 9000,
+    "contagemMs": 3000,
+    "duracaoDeclaradaCapturaMs": 12000,
+    "arquivoSrtOriginal": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP02\\EP02_C02_v2.srt",
+    "sha256SrtOriginal": "22AD3A6D283BB8EFC040167FA9E62406D8E04370668B61946646AC03D0091769",
+    "fonteCena": {
+      "arquivo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\cenas\\EP02_C02.json",
+      "sha256": "85972586A2C328E858210B48338EEE9F9F750B4FA2F70CA99AEFCF1038A8B5C5",
+      "snapshotNativoRegistrado": false,
+      "proveniencia": "fonte runtime preservada com mtime anterior; hash durante captura nao registrado no log"
+    },
+    "provas": {
+      "sessaoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\a6326113748a4263a186a717cd1bc3e0\\sessao.xml",
+      "sha256SessaoXml": "381034917931F49DB6B352A7013FF5BCDEC38C6FCBEB7B986772F78C9983E1FA",
+      "resultadoXml": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\capturas\\a6326113748a4263a186a717cd1bc3e0\\resultado.xml",
+      "sha256ResultadoXml": "F869A76B2626361148BDE3B5A3A122E67E8A978D2B096171632EBED31A8F7631",
+      "manifestoCaptura": "C:\\Users\\felipe.santiago\\GTA_Diretor\\backups\\capturas\\a6326113748a4263a186a717cd1bc3e0-802acb94\\manifesto.json",
+      "sha256ManifestoCaptura": "6B9D235B0F00DD382421289CF764933B27AE782C0758D04884A7D959781CD424",
+      "logNativo": "C:\\Users\\felipe.santiago\\GTA_Diretor\\logs\\DiretorGTA.log",
+      "acaoConcluida": "2026-10-05T23:18:35.4986971+00:00 [ACAO_CONCLUIDA] Cena=EP02_C02; tempo_ms=9054",
+      "gettersEEventosRegistrados": {
+        "OBJETO_CONTATO_ESTADO": 5,
+        "OBJETO_GUARDAR_MEDICAO": 2,
+        "OBJETO_SPINE_MEDICAO": 3,
+        "OBJETO_SERIE_GUARDADO": 1,
+        "OBJETO_SERIE_EVENTO": 2
+      },
+      "guardarConfirmadoGetter": "2026-10-05T23:18:31.1905531+00:00 [OBJETO_SERIE_GUARDADO] Codigo=ENVELOPE_DINJER; Fase=0.1416032; Alvo=casaco; Bone=SkelSpine3; DistanciaMaoAlvo=0.2914863; TesteVisualBolso=pendente"
+    },
+    "semTextoSolicitado": true,
+    "avaliacaoVisualUsuario": "pendente",
+    "originaisPreservados": true
+  }
+}

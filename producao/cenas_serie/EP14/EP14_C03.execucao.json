@@ -1,0 +1,164 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP14_C03",
+  "episodio": 14,
+  "numero": 3,
+  "nome": "A PERGUNTA",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1409,
+    "linhaFim": 1423,
+    "sha256BlocoUtf8": "7AEA8C21A5D561AFAA9AC748686D6358AE3BE6602A0AD8FC3CC2C195DC36A58F",
+    "raw": "### EP14_C03 · A PERGUNTA\n`local:` MANSAO_DJANIRA · `hora:` 23:20 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 24s · `gravar:` SIM\n\n> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |\n| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |\n| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |\n| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:20",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 24000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1410,
+      1411
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.",
+      "textoOriginal": "\"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1419,
+      "raw": "| 1 | DJANIRA | \"Eu vou te fazer uma pergunta só. E se você mentir, eu descubro hoje ainda, porque agora eu tenho dinheiro pra descobrir qualquer coisa.\" | 10s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você sabia?",
+      "textoOriginal": "\"Você sabia?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1420,
+      "raw": "| 2 | DJANIRA | \"Você sabia?\" | 2s | neutro |",
+      "inicioMs": 10000,
+      "fimMs": 12000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "pausa",
+      "boca": false,
+      "texto": null,
+      "indicacoesOriginais": "*(Dinjer não responde. Câmera fica nela.)*",
+      "linhaInicio": 1421,
+      "raw": "| — | *(silêncio)* | *(Dinjer não responde. Câmera fica nela.)* | 4s | — |",
+      "inicioMs": 12000,
+      "fimMs": 16000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você sabia.",
+      "textoOriginal": "\"Você sabia.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1422,
+      "raw": "| 3 | DJANIRA | \"Você sabia.\" | 2s | neutro |",
+      "inicioMs": 16000,
+      "fimMs": 18000,
+      "duracaoMs": 2000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 24000,
+    "blocosDeclaradosMs": 18000,
+    "conteudoPlanejadoMs": 24000,
+    "reservaSemBlocoDefinidoMs": 6000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 27000,
+    "fimUltimaLegendaMs": 21000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [],
+  "notasOriginais": [
+    {
+      "linha": 1413,
+      "raw": "> 🔴 **Depois da fala 2, deixe 4 segundos de silêncio absoluto antes da fala 3.** O silêncio é a cena."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "4s de silêncio original após fala2; câmera PERTO em Dinjer, sem boca/legenda. Reserva estimada6s conserva quadro; não cria fala."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_DJANIRA",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP14_C03.json",
+  "runtimeSHA256": "BD16D082946BAC4C35D6A5F8640FC58A4F3612B1D09C21AA91D40D2694F8F85C",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 24000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 27000,
+    "blocosOriginaisMs": 18000,
+    "tempoSemVozAdicionalMs": 6000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

@@ -1,0 +1,202 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP08_C01",
+  "episodio": 8,
+  "numero": 1,
+  "nome": "SAINDO DA ÁGUA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 877,
+    "linhaFim": 885,
+    "sha256BlocoUtf8": "85B5FA059F8A4FF5891C3234D771BE43B7B9764C101BB33F324719801E5007D7",
+    "raw": "### EP08_C01 · SAINDO DA ÁGUA\n`local:` CANAL_LS · `hora:` 06:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira sai da água do canal, encharcada, subindo a rampa de concreto com dificuldade. Expressão `machucado`.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"A água me quebrou três costelas. Mas quebrar não é morrer.\"\n\n"
+  },
+  "original": {
+    "local": "CANAL_LS",
+    "locaisCodigos": [
+      "CANAL_LS"
+    ],
+    "hora": "06:00",
+    "clima": "nublado",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      878,
+      879
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "A água me quebrou três costelas. Mas quebrar não é morrer.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"A água me quebrou três costelas. Mas quebrar não é morrer.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 883,
+      "linhaTexto": 884,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 6000,
+    "conteudoPlanejadoMs": 6000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 9000,
+    "fimUltimaLegendaMs": 9000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 881,
+      "raw": "**Ação:** Djanira sai da água do canal, encharcada, subindo a rampa de concreto com dificuldade. Expressão `machucado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CANAL_LS",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:agua",
+      "tipo": "atuacao_integral",
+      "descricao": "GET_WATER_HEIGHT, saída/rampa real, nadar/escalar e trajeto físico; não executar pose aquática no chão.",
+      "candidatos": [
+        "sair_agua_candidato"
+      ]
+    },
+    {
+      "codigo": "capacidade:machucado",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": [
+        "tropecar",
+        "andar_machucado_candidato"
+      ]
+    },
+    {
+      "codigo": "adaptador:EP08_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "tropecar",
+      "tipo": "animacao_corporal",
+      "categoria": "machucado",
+      "dicionario": "misscarsteal4@actor",
+      "animacao": "stumble",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 63696,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "misscarsteal4@actor stumble"
+      },
+      "restricoes": [
+        "Root motion e equilíbrio não medidos; não usar para lançar alguém do avião."
+      ]
+    },
+    {
+      "codigo": "andar_machucado_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "machucado",
+      "dicionario": "move_f@injured",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68857,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@injured walk"
+      },
+      "restricoes": [
+        "PedAnimList prova o par de animação, não que REQUEST_ANIM_SET aceite o nome; conferir IsLoaded."
+      ]
+    },
+    {
+      "codigo": "sair_agua_candidato",
+      "tipo": "agua",
+      "categoria": "agua",
+      "dicionario": "swimming@swim",
+      "animacao": "swimclimbup_40",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75416,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "swimming@swim swimclimbup_40"
+      },
+      "restricoes": [
+        "Altura da rampa/água reais; não executar no chão nem criar água/teleporte para simular trajeto."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

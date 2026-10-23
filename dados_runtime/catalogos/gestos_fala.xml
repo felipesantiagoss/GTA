@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GestosFala versao="1">
+  <!-- Os identificadores abaixo constam no PedAnimList.txt instalado.
+       Presença na lista não comprova aparência, emoção, olhar ou resultado visual.
+       Em 03/10/2026, o usuário confirmou boca e interações de teste_falas.
+       Estado por variante: testado vale apenas para o modelo informado.
+       Variantes não vistas e personagens/figurinos da série continuam pendentes. -->
+  <Gesto id="neutro" estado="parcialmente testado">
+    <Homem dicionario="amb@world_human_hang_out_street@male_a@base" animacao="base" estado="testado" modeloTestado="a_m_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+    <Mulher dicionario="amb@world_human_hang_out_street@female_arm_side@base" animacao="base" estado="não testado" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="54883" linhaMulher="54865" />
+    <Observacao>Idle corporal de conversa discreta aprovado no homem do teste; variante feminina pendente.</Observacao>
+  </Gesto>
+  <Gesto id="explicando" estado="parcialmente testado">
+    <Homem dicionario="gestures@m@standing@casual" animacao="gesture_hand_down" estado="não testado" />
+    <Mulher dicionario="gestures@f@standing@casual" animacao="gesture_hand_down" estado="testado" modeloTestado="a_f_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="60469" linhaMulher="60137" />
+    <Observacao>Conversa com a mão aprovada na mulher do teste; variante masculina e adequação dramática na série pendentes.</Observacao>
+  </Gesto>
+  <Gesto id="negando" estado="parcialmente testado">
+    <Homem dicionario="gestures@m@standing@casual" animacao="gesture_head_no" estado="testado" modeloTestado="a_m_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+    <Mulher dicionario="gestures@f@standing@casual" animacao="gesture_head_no" estado="não testado" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="60485" linhaMulher="60153" />
+    <Observacao>Negação com a cabeça aprovada no homem do teste; variante feminina pendente.</Observacao>
+  </Gesto>
+  <Gesto id="implorando" estado="parcialmente testado">
+    <Homem dicionario="gestures@m@standing@casual" animacao="gesture_why" estado="não testado" />
+    <Mulher dicionario="gestures@f@standing@casual" animacao="gesture_why" estado="testado" modeloTestado="a_f_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="60492" linhaMulher="60160" />
+    <Observacao>Candidato de apelo aprovado na mulher do teste; intensidade de súplica na série e variante masculina pendentes. Não há gesture_please nesta família.
+      Alternativa a testar separadamente: oddjobs@towingpleadingbase/base (linha 71736); postura e deslocamento desconhecidos.</Observacao>
+  </Gesto>
+  <Gesto id="irritado" estado="parcialmente testado">
+    <Homem dicionario="gestures@m@standing@casual" animacao="gesture_damn" estado="testado" modeloTestado="a_m_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+    <Mulher dicionario="gestures@f@standing@casual" animacao="gesture_damn" estado="não testado" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="60470" linhaMulher="60138" />
+    <Observacao>Frustração aprovada no homem do teste; variante feminina e intensidade dramática na série pendentes.</Observacao>
+  </Gesto>
+  <Facial tipo="fala" dicionario="mp_facial" animacao="mic_chatter" estado="testado" linha="70844" modelosTestados="a_m_y_business_01,a_f_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+  <Facial tipo="neutro_homem" dicionario="facials@gen_male@variations@normal" animacao="mood_normal_1" estado="testado" linha="59848" modeloTestado="a_m_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+  <Facial tipo="neutro_mulher" dicionario="facials@gen_female@variations@normal" animacao="mood_normal_1" estado="testado" linha="59762" modeloTestado="a_f_y_business_01" cenaTeste="teste_falas" confirmadoEm="2026-10-03" />
+  <Gesto id="machucado" estado="não testado">
+    <Homem dicionario="gestures@miss@fbi_5" animacao="fbi5_gesture_crying" estado="não testado" />
+    <Mulher dicionario="gestures@miss@fbi_5" animacao="fbi5_gesture_crying" estado="não testado" />
+    <Origem arquivo="menyooStuff\PedAnimList.txt" linhaHomem="60561" linhaMulher="60561" />
+    <Observacao>Candidato corporal de choro para a intenção emocional machucado. Par compartilhado literal da família gestures; ambas as variantes, recorte upperbody, adequação à fala e intensidade dramática exigem teste no jogo. Não substitui a boca de fala nem comprova ferimento físico.</Observacao>
+  </Gesto>
+</GestosFala>

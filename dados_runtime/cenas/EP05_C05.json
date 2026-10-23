@@ -1,0 +1,84 @@
+{
+  "versao": 1,
+  "id": "EP05_C05",
+  "episodio": 5,
+  "numero": 5,
+  "nome": "O AVISO QUE ELA NÃO OUVIU",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "19:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": -0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "Minha filha, não vai.",
+      "personagem": "DONA_IRACI",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Vó, é o dinheiro do aluguel. É o seu remédio.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 11,
+      "plano": "MEDIA",
+      "texto": "Eu sei o que é. Mas escuta. Gente rica não convida pobre pra festa pra pagar dívida. Gente rica convida pobre pra festa quando quer alguma coisa de pobre.",
+      "personagem": "DONA_IRACI",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "DOIS",
+      "texto": "Minha avó nunca errou uma na vida. E foi justo essa que eu não escutei.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "DOIS",
+      "texto": "Um convite bom demais pra ser verdade. E o que é bom demais sempre cobra o preço. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": []
+}

@@ -1,0 +1,58 @@
+{
+  "versao": 1,
+  "id": "EP04_C04",
+  "episodio": 4,
+  "numero": 4,
+  "nome": "A VOLTA A PÉ",
+  "ambiente": {
+    "local": "ESTRADA_SENORA",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "LONGE",
+      "texto": "Eu voltei a pé metade do caminho porque não tinha dinheiro da volta.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "destino": {
+        "direita": 0,
+        "frente": 4,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ]
+}

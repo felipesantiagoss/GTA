@@ -1,0 +1,404 @@
+{
+  "versao": 1,
+  "tipoDocumento": "template_integracao_veiculos_nao_executavel",
+  "pronto": false,
+  "gravado": false,
+  "publicarComoCena": false,
+  "helper": "src/VeiculosSerieDiretor.cs",
+  "sha256Helper": "25BEB99E78CD0A468C56796759213D77C8CFF09D9B5033206CBB76DCA92F6F5D",
+  "contrato": "INTEGRACAO_VEICULOS.md",
+  "coordenadasGlobais": null,
+  "origemAncoraExigida": "capturado_no_jogo",
+  "cenasAfetadas": [
+    {
+      "id": "EP01_C06",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 275,
+        "linhaFim": 283,
+        "sha256BlocoUtf8": "8F37344A39862CDFD2B865FD87D9FF71E6AAB2859C5937715ED068DABFBB65A7",
+        "raw": "### EP01_C06 · A DINJER NO TRABALHO\n`local:` AEROPORTO_TERMINAL · `hora:` 09:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` LONGE → MEDIA · `dur:` 9s · `gravar:` SIM\n\n**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.\n\n**NARRAÇÃO** — DJANIRA — 9s *(sem boca)*:\n> \"E tinha a Dinjer. Amiga de infância que virou aeromoça e vivia pra cima e pra baixo conhecendo o mundo.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 279,
+          "raw": "**Ação:** Dinjer descendo de um ônibus e andando até o terminal, com jeito de passarela, confiante.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 9000,
+        "blocosDeclaradosMs": 9000,
+        "conteudoPlanejadoMs": 9000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 12000,
+        "fimUltimaLegendaMs": 12000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP01_C09",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 330,
+        "linhaFim": 338,
+        "sha256BlocoUtf8": "2C96DACF4AA0C2F3C98BE7F1DCD78A1F9AC5E32ACCA9239C4700F89C071DC5C1",
+        "raw": "### EP01_C09 · FECHAMENTO\n`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira sozinha, olhando a moto da Dinjer ir embora.\n\n**NARRAÇÃO** — NARRADOR (voz masculina) — 7s *(sem personagem na fala)*:\n> \"E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 334,
+          "raw": "**Ação:** Djanira sozinha, olhando a moto da Dinjer ir embora.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 7000,
+        "blocosDeclaradosMs": 7000,
+        "conteudoPlanejadoMs": 7000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 10000,
+        "fimUltimaLegendaMs": 10000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP03_C01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 451,
+        "linhaFim": 459,
+        "sha256BlocoUtf8": "2BD07682FA99F2F4E2BDA00DF50CBF00411E514607A50057DF26B5EFBE78ADDB",
+        "raw": "### EP03_C01 · A CARONA\n`local:` ESTRADA_SENORA · `hora:` 07:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira andando na beira da estrada, acenando para carros que passam.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu não tinha carro. Eu não tinha dinheiro pra passagem. Mas eu tinha o endereço dela.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 455,
+          "raw": "**Ação:** Djanira andando na beira da estrada, acenando para carros que passam.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 7000,
+        "blocosDeclaradosMs": 7000,
+        "conteudoPlanejadoMs": 7000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 10000,
+        "fimUltimaLegendaMs": 10000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP04_C01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 543,
+        "linhaFim": 551,
+        "sha256BlocoUtf8": "171D9CFE99DB9A02A8B311B0C4E56EF4CE333F9DC201FC7EE41B6364DE8C9BDD",
+        "raw": "### EP04_C01 · O AEROPORTO\n`local:` AEROPORTO_TERMINAL · `hora:` 10:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira desce de um ônibus e anda pelo terminal, deslocada no meio de gente bem vestida.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Se ela não aparecia em casa, eu ia onde ela não podia fugir. No trabalho. Eu nunca tinha entrado num aeroporto na vida. Todo mundo ali andava rápido, de mala, de terno. E eu de chinelo, com um papel na mão.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 547,
+          "raw": "**Ação:** Djanira desce de um ônibus e anda pelo terminal, deslocada no meio de gente bem vestida.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 12000,
+        "blocosDeclaradosMs": 12000,
+        "conteudoPlanejadoMs": 12000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 15000,
+        "fimUltimaLegendaMs": 15000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP06_C01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 710,
+        "linhaFim": 718,
+        "sha256BlocoUtf8": "E7882DC88EC34E811DBDC2545CD9CB47C869684F4EC612841AD8F0B3D203D70A",
+        "raw": "### EP06_C01 · A CIDADE GRANDE\n`local:` CENTRO_LEGION · `hora:` 22:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 11s · `gravar:` SIM\n\n**Ação:** Djanira desce do ônibus e olha os prédios. Câmera baixa, olhando para cima, os arranha-céus enormes em volta dela.\n\n**NARRAÇÃO** — DJANIRA — 11s *(sem boca)*:\n> \"Eu nunca tinha entrado na cidade grande de noite. Tudo era alto demais, claro demais, caro demais. E eu com a única roupa boa que eu tinha, que já era velha quando eu ganhei.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 714,
+          "raw": "**Ação:** Djanira desce do ônibus e olha os prédios. Câmera baixa, olhando para cima, os arranha-céus enormes em volta dela.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 11000,
+        "blocosDeclaradosMs": 11000,
+        "conteudoPlanejadoMs": 11000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 14000,
+        "fimUltimaLegendaMs": 14000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP11_C03",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1173,
+        "linhaFim": 1183,
+        "sha256BlocoUtf8": "C532BF6232BB87079348CC95AD093122300725E50FFF395845DC6E432DD59F7C",
+        "raw": "### EP11_C03 · A TRANSFORMAÇÃO\n`local:` MANSAO_DJANIRA · `hora:` 13:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE → MEDIA → PERTO · `dur:` 14s · `gravar:` SIM\n\n> 🔴 **Aqui troca o figurino.** A partir desta cena é sempre `DJANIRA_RICA`, andar `na passarela`, expressão `convencido`.\n\n**Ação:** Montagem de 5 ou 6 tomadas curtas: saindo do carro, na frente da mansão, no portão, andando de salto.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Todo mundo acha que dinheiro muda as pessoas. Não muda. Dinheiro só tira a educação que a pobreza obrigava a gente a ter. Eu comprei uma casa, comprei um carro, comprei roupa que não coçava. E eu não senti absolutamente nada.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1179,
+          "raw": "**Ação:** Montagem de 5 ou 6 tomadas curtas: saindo do carro, na frente da mansão, no portão, andando de salto.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 14000,
+        "blocosDeclaradosMs": 14000,
+        "conteudoPlanejadoMs": 14000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 17000,
+        "fimUltimaLegendaMs": 17000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP12_C01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1219,
+        "linhaFim": 1229,
+        "sha256BlocoUtf8": "A79E81095B172521FA7EE08283C34A0441762EA168231BEF42333A78155C6A59",
+        "raw": "### EP12_C01 · A MESMA PORTA\n`local:` BOATE_FORA · `hora:` 23:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 8s · `gravar:` SIM\n\n> 🔴 **Use exatamente o mesmo enquadramento da EP06_C02.** Mesma posição de câmera, mesma distância, mesmo horário. Na edição eu coloco as duas lado a lado. **Este corte é o episódio inteiro.**\n\n**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1225,
+          "raw": "**Ação:** Um carro caro para na frente da boate. Djanira desce. O segurança abre a porta antes dela chegar perto.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 8000,
+        "blocosDeclaradosMs": 8000,
+        "conteudoPlanejadoMs": 8000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 11000,
+        "fimUltimaLegendaMs": 11000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP12_C04",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1269,
+        "linhaFim": 1277,
+        "sha256BlocoUtf8": "3CC66E731E94508513E5A3690E4385A28340F3B3BE383880055E829E16445B5B",
+        "raw": "### EP12_C04 · A GORJETA\n`local:` BOATE_DENTRO · `hora:` 00:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` PERTO · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Eu deixei de gorjeta o dobro do que ela ganhava no ano inteiro. E fui embora sem dizer quem eu era. Pelo retrovisor eu vi ela abrir o envelope, contar o dinheiro e começar a chorar. Ela achou que era sorte.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1273,
+          "raw": "**Ação:** Djanira deixa um envelope grosso na mesa e vai embora sem olhar para trás. Dinjer abre, conta, e começa a chorar.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 14000,
+        "blocosDeclaradosMs": 14000,
+        "conteudoPlanejadoMs": 14000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 17000,
+        "fimUltimaLegendaMs": 17000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP13_C03",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1322,
+        "linhaFim": 1330,
+        "sha256BlocoUtf8": "BFF7C9EA195BC7FAC20310B4A43D19122F0931263B6229E0C70E4BA61ACD135F",
+        "raw": "### EP13_C03 · COMPRANDO TUDO\n`local:` GALPAO_CYPRESS · `hora:` 15:00 · `clima:` limpo\n`elenco:` *(nenhum)* · `cam:` LONGE · `dur:` 13s · `gravar:` SIM\n\n**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.\n\n**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:\n> \"Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1326,
+          "raw": "**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 13000,
+        "blocosDeclaradosMs": 13000,
+        "conteudoPlanejadoMs": 13000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 16000,
+        "fimUltimaLegendaMs": 16000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP15_C01",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1471,
+        "linhaFim": 1479,
+        "sha256BlocoUtf8": "4404CCCF320CC67B7FE1D72D7EB0BF6E4DC9B3154BB9D79C44EC5687B7F72D2A",
+        "raw": "### EP15_C01 · A SUBIDA\n`local:` MANSAO_CHEFE · `hora:` 20:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Um carro subindo a estrada do morro até a mansão, à noite, com a cidade acesa lá embaixo.\n\n**NARRAÇÃO** — DJANIRA — 7s *(sem boca)*:\n> \"Eu levei três anos pra subir aquela estrada. E eu subi de carro melhor que o dele.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1475,
+          "raw": "**Ação:** Um carro subindo a estrada do morro até a mansão, à noite, com a cidade acesa lá embaixo.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 7000,
+        "blocosDeclaradosMs": 7000,
+        "conteudoPlanejadoMs": 7000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 10000,
+        "fimUltimaLegendaMs": 10000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    },
+    {
+      "id": "EP15_C09",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1602,
+        "linhaFim": 1613,
+        "sha256BlocoUtf8": "FB89167167CB5E48333241F03EDBEC34425D22EB00306467049890C011D0BBE9",
+        "raw": "### EP15_C09 · A ÚLTIMA IMAGEM\n`local:` MANSAO_CHEFE · `hora:` 21:15 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu passei três anos achando que eu queria vingança. Eu só queria os meus mil reais.\"\n\n**NARRADOR** — 9s:\n> \"A Caloteira do Oeste. Uma história sobre o que mil reais são capazes de fazer com a vida de uma pessoa. Em breve, a segunda temporada.\"\n\n"
+      },
+      "acoesOriginais": [
+        {
+          "linha": 1606,
+          "raw": "**Ação:** Djanira entra no carro e desce o morro. A cidade acesa lá embaixo. Corte para o preto no fim.",
+          "tipo": "principal",
+          "estadoImplementacao": "pendente",
+          "implementacao": null
+        }
+      ],
+      "temposOriginais": {
+        "estimativaOriginalMs": 12000,
+        "blocosDeclaradosMs": 19000,
+        "conteudoPlanejadoMs": 19000,
+        "reservaSemBlocoDefinidoMs": 0,
+        "contagemMs": 3000,
+        "capturaPlanejadaMs": 22000,
+        "fimUltimaLegendaMs": 22000,
+        "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+      }
+    }
+  ],
+  "exemploTecnicoNaoPublicavel": {
+    "Codigo": "CARRO_TESTE",
+    "Tipo": "CARRO",
+    "Modelo": "superd",
+    "PosicaoRelativa": {
+      "x": 0,
+      "y": -12,
+      "z": 0
+    },
+    "HeadingRelativo": 0,
+    "MotoristaExtra": true,
+    "ActorInitialSeats": {
+      "DJANIRA_RICA": 0
+    },
+    "Actions": [
+      {
+        "Tipo": "dirigir",
+        "Ator": null,
+        "InicioMs": 0,
+        "DuracaoMs": 4000,
+        "Velocidade": 8,
+        "RaioChegada": 1.5,
+        "RotaRelativa": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        ]
+      },
+      {
+        "Tipo": "sair",
+        "Ator": "DJANIRA_RICA",
+        "InicioMs": 4000,
+        "DuracaoMs": 4000,
+        "Assento": 0
+      }
+    ],
+    "limite": "Offsets tecnicos relativos para ensaio em marca real, nao uma rota de producao capturada. Oramento4s pode falhar fisicamente; nao teleportar."
+  },
+  "dependencias": [
+    "Ator/visual real do elenco e ancora/eixos reais antes de Prepare.",
+    "Main/parser/Camera/Body precisam de integracao exclusiva e teste.",
+    "Cenas ainda dependem de portas/apoios/olhares/interiores/figurantes/montagem da fonte original.",
+    "Camada de captura precisa de MP4 real e nao foi acionada neste trabalho."
+  ],
+  "vozesPreservadas": {
+    "EP15_C09": {
+      "estimativaMs": 12000,
+      "vozesOriginaisMs": 19000,
+      "capturaComCountMs": 22000
+    }
+  },
+  "compilacao": {
+    "exitCode": 0,
+    "csharp": "5",
+    "warningsAsErrors": true,
+    "artefato": "backups/compilacao/helpers-transporte-final-20261004T0211543049192Z/Transporte.Verificacao.dll",
+    "executado": false
+  }
+}

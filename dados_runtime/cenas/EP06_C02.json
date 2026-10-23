@@ -1,0 +1,107 @@
+{
+  "versao": 1,
+  "id": "EP06_C02",
+  "episodio": 6,
+  "numero": 2,
+  "nome": "A FILA",
+  "ambiente": {
+    "local": "BOATE_FORA",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": 0,
+        "frente": 1.2,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 180
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -0.6,
+        "frente": -0.8,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": 0.6,
+        "frente": -1.6,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "DOIS",
+      "texto": "Eu fiquei quarenta minutos naquela fila. Todo mundo que chegou depois de mim entrou antes.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "expressao": "chateado"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3,
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 0,
+          "frente": 0,
+          "altura": 1.6
+        }
+      }
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "inicioSegundos": 3,
+      "duracaoSegundos": 4,
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 0,
+          "frente": 0,
+          "altura": -0.5
+        }
+      }
+    }
+  ]
+}

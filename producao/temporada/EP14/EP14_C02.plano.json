@@ -1,0 +1,198 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP14_C02",
+  "episodio": 14,
+  "numero": 2,
+  "nome": "O REENCONTRO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1392,
+    "linhaFim": 1406,
+    "sha256BlocoUtf8": "03367F79ACE5C5A1EA0BC96C366AACD475F5ECE85A36A99EB82461CC6D0CCD4F",
+    "raw": "### EP14_C02 · O REENCONTRO\n`local:` MANSAO_DJANIRA · `hora:` 23:10 · `clima:` limpo\n`elenco:` DJANIRA_RICA, DINJER · `cam:` auto · `dur:` 20s · `gravar:` SIM\n\n> 💡 Posicione a Djanira **mais alta** que a Dinjer — em cima de um degrau, por exemplo. A câmera deve mostrar isso.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Djanira. Djanira, é você mesmo?\" | 4s | implorando |\n| 2 | DJANIRA | \"Você levou três anos pra olhar na minha cara direito.\" | 5s | neutro |\n| 3 | DINJER | \"Amiga, eu procurei você. Eu juro que eu procurei.\" | 5s | implorando |\n| 4 | DJANIRA | \"Não me chama de amiga.\" | 3s | irritado |\n\n"
+  },
+  "original": {
+    "local": "MANSAO_DJANIRA",
+    "locaisCodigos": [
+      "MANSAO_DJANIRA"
+    ],
+    "hora": "23:10",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 20000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1393,
+      1394
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [],
+  "notasOriginais": [
+    {
+      "linha": 1396,
+      "raw": "> 💡 Posicione a Djanira **mais alta** que a Dinjer — em cima de um degrau, por exemplo. A câmera deve mostrar isso."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Djanira. Djanira, é você mesmo?",
+      "textoOriginal": "\"Djanira. Djanira, é você mesmo?\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1402,
+      "raw": "| 1 | DINJER | \"Djanira. Djanira, é você mesmo?\" | 4s | implorando |",
+      "inicioMs": 0,
+      "fimMs": 4000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Você levou três anos pra olhar na minha cara direito.",
+      "textoOriginal": "\"Você levou três anos pra olhar na minha cara direito.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1403,
+      "raw": "| 2 | DJANIRA | \"Você levou três anos pra olhar na minha cara direito.\" | 5s | neutro |",
+      "inicioMs": 4000,
+      "fimMs": 9000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, eu procurei você. Eu juro que eu procurei.",
+      "textoOriginal": "\"Amiga, eu procurei você. Eu juro que eu procurei.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 1404,
+      "raw": "| 3 | DINJER | \"Amiga, eu procurei você. Eu juro que eu procurei.\" | 5s | implorando |",
+      "inicioMs": 9000,
+      "fimMs": 14000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Não me chama de amiga.",
+      "textoOriginal": "\"Não me chama de amiga.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 1405,
+      "raw": "| 4 | DJANIRA | \"Não me chama de amiga.\" | 3s | irritado |",
+      "inicioMs": 14000,
+      "fimMs": 17000,
+      "duracaoMs": 3000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 20000,
+    "blocosDeclaradosMs": 17000,
+    "conteudoPlanejadoMs": 20000,
+    "reservaSemBlocoDefinidoMs": 3000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 23000,
+    "fimUltimaLegendaMs": 20000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:MANSAO_DJANIRA",
+      "familia": "ambiente",
+      "descricao": "Marca real MANSAO_DJANIRA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:bloqueio",
+      "familia": "corpo",
+      "descricao": "Resolver poses, marcas e atuação pelas notas originais; não substituir por atores parados genéricos.",
+      "origem": "notas da cena",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

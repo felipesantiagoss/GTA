@@ -1,0 +1,142 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C09",
+  "episodio": 1,
+  "numero": 9,
+  "nome": "FECHAMENTO",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 330,
+    "linhaFim": 338,
+    "sha256BlocoUtf8": "2C96DACF4AA0C2F3C98BE7F1DCD78A1F9AC5E32ACCA9239C4700F89C071DC5C1",
+    "raw": "### EP01_C09 · FECHAMENTO\n`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 7s · `gravar:` SIM\n\n**Ação:** Djanira sozinha, olhando a moto da Dinjer ir embora.\n\n**NARRAÇÃO** — NARRADOR (voz masculina) — 7s *(sem personagem na fala)*:\n> \"E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 7000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      331,
+      332
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "NARRADOR (voz masculina)",
+      "texto": "E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — NARRADOR (voz masculina) — 7s *(sem personagem na fala)*:",
+      "textoOriginal": "> \"E aí, será que a Dinjer vai pagar? Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": " *(sem personagem na fala)*:",
+      "linhaInicio": 336,
+      "linhaTexto": 337,
+      "inicioMs": 0,
+      "fimMs": 7000,
+      "duracaoMs": 7000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 7000,
+    "blocosDeclaradosMs": 7000,
+    "conteudoPlanejadoMs": 7000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 10000,
+    "fimUltimaLegendaMs": 10000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 334,
+      "raw": "**Ação:** Djanira sozinha, olhando a moto da Dinjer ir embora.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Dinjer é presença adicional exigida pela ação literal, embora não conste no metadado do elenco; mantém seuXML e parte na moto própriafaggio durante os7s. Rota física11m/3m/s com parada medida fora do enquadramento, sem warp durante gravação. Djanira permanece sozinha emPERTO olhando a amiga partir; vozNarrador não cria personagem nem mexe boca. Moto/câmera/olhar pendentes de teste."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [
+    "DINJER"
+  ],
+  "runtimeRascunho": "EP01_C09.json",
+  "runtimeSHA256": "B56D258EACD8871F554BD4581C8C6DABBA5151A95155C54ED3670FB8213DE65E",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 7000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 10000,
+    "blocosOriginaisMs": 7000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C09_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C09_LIMPO.mp4",
+    "sha256": "F454EA71675B59A2BA4451A8BE5705EF5CA8C147FDB70446D7C1F7D808882684",
+    "duracaoMs": 7018,
+    "sessoesReais": [
+      "82273ec419d84da0b48b158032a7a170"
+    ],
+    "fontesJsonSHA256": [
+      "B56D258EACD8871F554BD4581C8C6DABBA5151A95155C54ED3670FB8213DE65E"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

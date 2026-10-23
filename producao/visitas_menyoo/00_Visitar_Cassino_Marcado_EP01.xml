@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SpoonerPlacements>
+  <Note>Retorno normal ZERO Placement a marca CASSINO_FORA existente, capturada no jogo. Nao cria marca F3. Origem XML: C:\Users\felipe.santiago\GTA_Diretor\catalogos\locais_marcados.xml; SHA256 3B514D45447249249D2C1B2D39F13536F6DA1A8AD5B2992707D234D74EBA3522; marca dataUtc 2026-10-05T09:42:13.0926954+00:00; heading registrado 238.381821.</Note>
+  <ReferenceCoords>
+    <X>927.690857</X>
+    <Y>46.8041267</Y>
+    <Z>80.89988</Z>
+  </ReferenceCoords>
+</SpoonerPlacements>

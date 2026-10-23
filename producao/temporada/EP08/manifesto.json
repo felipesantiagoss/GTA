@@ -1,0 +1,89 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 8,
+  "nomeOriginal": "\"O QUE A VÓ GUARDOU\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP08_C01",
+    "EP08_C02",
+    "EP08_C03",
+    "EP08_C04",
+    "EP08_C05",
+    "EP08_C06"
+  ],
+  "cenas": [
+    {
+      "id": "EP08_C01",
+      "plano": "EP08_C01.plano.json",
+      "srtBase": "EP08_C01.base.srt"
+    },
+    {
+      "id": "EP08_C02",
+      "plano": "EP08_C02.plano.json",
+      "srtBase": "EP08_C02.base.srt"
+    },
+    {
+      "id": "EP08_C03",
+      "plano": "EP08_C03.plano.json",
+      "srtBase": "EP08_C03.base.srt"
+    },
+    {
+      "id": "EP08_C04",
+      "plano": "EP08_C04.plano.json",
+      "srtBase": "EP08_C04.base.srt"
+    },
+    {
+      "id": "EP08_C05",
+      "plano": "EP08_C05.plano.json",
+      "srtBase": "EP08_C05.base.srt"
+    },
+    {
+      "id": "EP08_C06",
+      "plano": "EP08_C06.plano.json",
+      "srtBase": "EP08_C06.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 873,
+        "linhaFim": 874,
+        "sha256BlocoUtf8": "01C17866ABBCF78AD411D3F745001B20FEE951F0ED15EEEE3DC90235EAA4BDCC",
+        "raw": "**ANTERIORMENTE**: EP07_C04 (o aviso do Chefe) · EP07_C04 fala 6 (\"desculpa, amiga\") · EP07_C05 (a queda)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP07_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP07_C04",
+          "falaOriginal": 6
+        },
+        {
+          "cena": "EP07_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 871,
+    "linhaFim": 966,
+    "sha256BlocoUtf8": "C87D240B670412CAEBD4DB7628B38E302CD262466F6CBDBAE09EE1EF4EB37132",
+    "raw": null
+  }
+}

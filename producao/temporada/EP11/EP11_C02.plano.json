@@ -1,0 +1,191 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP11_C02",
+  "episodio": 11,
+  "numero": 2,
+  "nome": "QUANTO CUSTOU",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1158,
+    "linhaFim": 1170,
+    "sha256BlocoUtf8": "42688A64A446CEA793470E676F62217E7A04D56CD1480860329BA4E74E554BBF",
+    "raw": "### EP11_C02 · QUANTO CUSTOU\n`local:` BANCO_MAZE · `hora:` 09:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 12s · `gravar:` SIM\n\n**Ação:** O atendente olha a tela e muda de expressão.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |\n| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |\n\n"
+  },
+  "original": {
+    "local": "BANCO_MAZE",
+    "locaisCodigos": [
+      "BANCO_MAZE"
+    ],
+    "hora": "09:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, ATENDENTE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "ATENDENTE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1159,
+      1160
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA",
+      "ATENDENTE"
+    ],
+    "regras": [
+      {
+        "tipo": "figurino",
+        "origem": [
+          "DJANIRA_POBRE",
+          "ATENDENTE"
+        ],
+        "destino": [
+          "DJANIRA_RICA",
+          "ATENDENTE"
+        ],
+        "autoridade": "PROMPT_CODEX_CENAS_E_CAMERA.md",
+        "motivo": "Djanira rica nos episódios11–15, mantendo o mesmo rosto."
+      }
+    ]
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1162,
+      "raw": "**Ação:** O atendente olha a tela e muda de expressão.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "ATENDENTE",
+      "texto": "A senhora... tem noção de quanto tem nessa conta?",
+      "textoOriginal": "\"A senhora... tem noção de quanto tem nessa conta?\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1168,
+      "raw": "| 1 | ATENDENTE | \"A senhora... tem noção de quanto tem nessa conta?\" | 5s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Não. Mas eu tenho noção de quanto me custou.",
+      "textoOriginal": "\"Não. Mas eu tenho noção de quanto me custou.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1169,
+      "raw": "| 2 | DJANIRA | \"Não. Mas eu tenho noção de quanto me custou.\" | 5s | neutro |",
+      "inicioMs": 5000,
+      "fimMs": 10000,
+      "duracaoMs": 5000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 2000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "djanira_ep11",
+      "descricao": "Elenco/ação do roteiro usa Djanira pobre no episódio11; prompt determina rica desde o início.",
+      "resolucao": "DJANIRA_RICA; elenco e texto originais continuam arquivados"
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_RICA, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:ATENDENTE",
+      "familia": "visuais",
+      "descricao": "Visual de produção ATENDENTE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BANCO_MAZE",
+      "familia": "ambiente",
+      "descricao": "Marca real BANCO_MAZE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** O atendente olha a tela e muda de expressão.",
+      "origem": "linha 1162",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

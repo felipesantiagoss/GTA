@@ -1,0 +1,88 @@
+{
+  "versao": 1,
+  "id": "EP08_C06",
+  "episodio": 8,
+  "numero": 6,
+  "nome": "A MORTE",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "ATRAS",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS",
+    "inverterEixo": true,
+    "ajustes": {
+      "lado": -0.6,
+      "altura": -1,
+      "aproximar": -2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "ATRAS",
+      "texto": "Minha avó morreu naquela noite. E eu fiquei com um papel na mão e ninguém no mundo.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "ATRAS",
+      "texto": "Um nome escrito num papel. Uma fortuna que ela não pode tocar. E uma menina sozinha no mundo. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "PAPEL_IRACI",
+      "recurso": "carta_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP13_C03",
+  "episodio": 13,
+  "numero": 3,
+  "nome": "COMPRANDO TUDO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1322,
+    "linhaFim": 1330,
+    "sha256BlocoUtf8": "BFF7C9EA195BC7FAC20310B4A43D19122F0931263B6229E0C70E4BA61ACD135F",
+    "raw": "### EP13_C03 · COMPRANDO TUDO\n`local:` GALPAO_CYPRESS · `hora:` 15:00 · `clima:` limpo\n`elenco:` *(nenhum)* · `cam:` LONGE · `dur:` 13s · `gravar:` SIM\n\n**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.\n\n**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:\n> \"Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.\"\n\n"
+  },
+  "original": {
+    "local": "GALPAO_CYPRESS",
+    "locaisCodigos": [
+      "GALPAO_CYPRESS"
+    ],
+    "hora": "15:00",
+    "clima": "limpo",
+    "elenco": "*(nenhum)*",
+    "elencoCodigos": [],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 13000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1323,
+      1324
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1326,
+      "raw": "**Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 13s *(sem boca)*:",
+      "textoOriginal": "> \"Depois eu comprei a transportadora dele. Depois o hangar. Depois a empresa de segurança que fazia a escolta dele. Eu não precisei de arma nenhuma. Eu comprei tudo que aquele homem tinha, com o dinheiro que era dele.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1328,
+      "linhaTexto": 1329,
+      "inicioMs": 0,
+      "fimMs": 13000,
+      "duracaoMs": 13000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 13000,
+    "blocosDeclaradosMs": 13000,
+    "conteudoPlanejadoMs": 13000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 16000,
+    "fimUltimaLegendaMs": 16000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "local:GALPAO_CYPRESS",
+      "familia": "ambiente",
+      "descricao": "Marca real GALPAO_CYPRESS; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Montagem de 3 tomadas: galpões vazios, caminhões saindo, portões fechando. Sem personagem.",
+      "origem": "linha 1326",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:porta/portão",
+      "familia": "objetos",
+      "descricao": "porta/portão: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "veiculo:caminhões",
+      "familia": "veiculos",
+      "descricao": "caminhões: modelo, assentos/portas, motorista, percurso e restauração.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:multiplas_tomadas",
+      "familia": "edicao",
+      "descricao": "Plano separado de tomadas/subplanos, com sua montagem e tempo; não fingir uma única atuação contínua.",
+      "origem": "ações e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

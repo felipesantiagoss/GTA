@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "estado": "não testado",
+  "origem": {
+    "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+    "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+    "autor": "https://github.com/itsjustcurtis/MenyooSP"
+  },
+  "expressoes": [
+    {
+      "codigo": "normal",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@variations@normal",
+        "animacao": "mood_normal_1",
+        "linha": 59848
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@variations@normal",
+        "animacao": "mood_normal_1",
+        "linha": 59762
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "chateado",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@base",
+        "animacao": "mood_sulk_1",
+        "linha": 59793
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@base",
+        "animacao": "mood_sulk_1",
+        "linha": 59736
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "feliz",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@variations@happy",
+        "animacao": "mood_happy_1",
+        "linha": 59841
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@variations@happy",
+        "animacao": "mood_happy_1",
+        "linha": 59755
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "machucado",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@variations@injured",
+        "animacao": "mood_injured_1",
+        "linha": 59845
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@variations@injured",
+        "animacao": "mood_injured_1",
+        "linha": 59759
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "comraiva",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@variations@angry",
+        "animacao": "mood_angry_1",
+        "linha": 59839
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@variations@angry",
+        "animacao": "mood_angry_1",
+        "linha": 59753
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "estressado",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@variations@stressed",
+        "animacao": "mood_stressed_1",
+        "linha": 59854
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@variations@stressed",
+        "animacao": "mood_stressed_1",
+        "linha": 59768
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    },
+    {
+      "codigo": "convencido",
+      "estado": "não testado",
+      "homem": {
+        "dicionario": "facials@gen_male@base",
+        "animacao": "mood_smug_1",
+        "linha": 59831
+      },
+      "mulher": {
+        "dicionario": "facials@gen_female@base",
+        "animacao": "mood_smug_1",
+        "linha": 59707
+      },
+      "limite": "Candidato facial; nome e origem conferidos. Intensidade e leitura da expressão dependem do teste visual, sem lágrimas reais comprovadas."
+    }
+  ]
+}

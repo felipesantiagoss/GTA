@@ -1,0 +1,69 @@
+{
+  "versao": 1,
+  "id": "EP06_C01",
+  "episodio": 6,
+  "numero": 1,
+  "nome": "A CIDADE GRANDE",
+  "ambiente": {
+    "local": "CENTRO_LEGION",
+    "hora": "22:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "BAIXA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 5,
+        "plano": "BAIXA",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 11,
+      "texto": "Eu nunca tinha entrado na cidade grande de noite. Tudo era alto demais, claro demais, caro demais. E eu com a única roupa boa que eu tinha, que já era velha quando eu ganhei.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 5,
+      "duracaoSegundos": 6,
+      "olhar": {
+        "tipo": "marca",
+        "destino": {
+          "direita": 0,
+          "frente": 8,
+          "altura": 2
+        }
+      }
+    }
+  ]
+}

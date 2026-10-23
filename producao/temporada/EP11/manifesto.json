@@ -1,0 +1,83 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 11,
+  "nomeOriginal": "\"A HERDEIRA\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP11_C01",
+    "EP11_C02",
+    "EP11_C03",
+    "EP11_C04",
+    "EP11_C05"
+  ],
+  "cenas": [
+    {
+      "id": "EP11_C01",
+      "plano": "EP11_C01.plano.json",
+      "srtBase": "EP11_C01.base.srt"
+    },
+    {
+      "id": "EP11_C02",
+      "plano": "EP11_C02.plano.json",
+      "srtBase": "EP11_C02.base.srt"
+    },
+    {
+      "id": "EP11_C03",
+      "plano": "EP11_C03.plano.json",
+      "srtBase": "EP11_C03.base.srt"
+    },
+    {
+      "id": "EP11_C04",
+      "plano": "EP11_C04.plano.json",
+      "srtBase": "EP11_C04.base.srt"
+    },
+    {
+      "id": "EP11_C05",
+      "plano": "EP11_C05.plano.json",
+      "srtBase": "EP11_C05.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 1141,
+        "linhaFim": 1142,
+        "sha256BlocoUtf8": "12441CB2D93021415835D669B4E00F9AB82BA6B58D56B11364875BE0DC444385",
+        "raw": "**ANTERIORMENTE**: EP10_C01 (dormindo na rua) · EP10_C06 (o calendário) · EP10_C07 (\"faltou um\")\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP10_C01",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP10_C06",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP10_C07",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1139,
+    "linhaFim": 1212,
+    "sha256BlocoUtf8": "EF8488C3DC4521B2505D442CCAD59A76ECA38B77561B6F5838105850793B9B46",
+    "raw": null
+  }
+}

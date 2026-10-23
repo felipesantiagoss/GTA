@@ -1,0 +1,225 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP09_C04",
+  "episodio": 9,
+  "numero": 4,
+  "nome": "TRÊS ANOS",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1008,
+    "linhaFim": 1023,
+    "sha256BlocoUtf8": "264CDD5C1A82484CFA9D35FB439D3F318FC7424D0158747654CD3B7C589A88CA",
+    "raw": "### EP09_C04 · TRÊS ANOS\n`local:` BANCO_MAZE · `hora:` 14:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, ATENDENTE · `cam:` auto · `dur:` 24s · `gravar:` SIM\n\n**Ação:** Djanira sentada na frente de um atendente.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | ATENDENTE | \"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\" | 8s | explicando |\n| 2 | DJANIRA | \"Como assim?\" | 2s | neutro |\n| 3 | ATENDENTE | \"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\" | 8s | explicando |\n| 4 | DJANIRA | \"Faltam quantos anos?\" | 3s | neutro |\n| 5 | ATENDENTE | \"Três.\" | 2s | neutro |\n\n"
+  },
+  "original": {
+    "local": "BANCO_MAZE",
+    "locaisCodigos": [
+      "BANCO_MAZE"
+    ],
+    "hora": "14:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, ATENDENTE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "ATENDENTE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 24000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1009,
+      1010
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "ATENDENTE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1012,
+      "raw": "**Ação:** Djanira sentada na frente de um atendente.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "ATENDENTE",
+      "texto": "A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.",
+      "textoOriginal": "\"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1018,
+      "raw": "| 1 | ATENDENTE | \"A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente.\" | 8s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Como assim?",
+      "textoOriginal": "\"Como assim?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1019,
+      "raw": "| 2 | DJANIRA | \"Como assim?\" | 2s | neutro |",
+      "inicioMs": 8000,
+      "fimMs": 10000,
+      "duracaoMs": 2000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "ATENDENTE",
+      "texto": "É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.",
+      "textoOriginal": "\"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 1020,
+      "raw": "| 3 | ATENDENTE | \"É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito.\" | 8s | explicando |",
+      "inicioMs": 10000,
+      "fimMs": 18000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Faltam quantos anos?",
+      "textoOriginal": "\"Faltam quantos anos?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1021,
+      "raw": "| 4 | DJANIRA | \"Faltam quantos anos?\" | 3s | neutro |",
+      "inicioMs": 18000,
+      "fimMs": 21000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "ATENDENTE",
+      "texto": "Três.",
+      "textoOriginal": "\"Três.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 1022,
+      "raw": "| 5 | ATENDENTE | \"Três.\" | 2s | neutro |",
+      "inicioMs": 21000,
+      "fimMs": 23000,
+      "duracaoMs": 2000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 24000,
+    "blocosDeclaradosMs": 23000,
+    "conteudoPlanejadoMs": 24000,
+    "reservaSemBlocoDefinidoMs": 1000,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 27000,
+    "fimUltimaLegendaMs": 26000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:ATENDENTE",
+      "familia": "visuais",
+      "descricao": "Visual de produção ATENDENTE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BANCO_MAZE",
+      "familia": "ambiente",
+      "descricao": "Marca real BANCO_MAZE; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira sentada na frente de um atendente.",
+      "origem": "linha 1012",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

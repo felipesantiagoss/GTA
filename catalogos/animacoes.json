@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "animacoes": [
+    {
+      "codigo": "neutro",
+      "tipo": "gesto",
+      "estado": "parcialmente testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:54883 (homem), 54865 (mulher). Pares conferidos em 03/10/2026; XML permanece canônico.",
+      "homem": {
+        "dicionario": "amb@world_human_hang_out_street@male_a@base",
+        "animacao": "base",
+        "estado": "testado",
+        "modeloTestado": "a_m_y_business_01",
+        "cenaTeste": "teste_falas",
+        "confirmadoEm": "2026-10-03"
+      },
+      "mulher": {
+        "dicionario": "amb@world_human_hang_out_street@female_arm_side@base",
+        "animacao": "base",
+        "estado": "não testado"
+      }
+    },
+    {
+      "codigo": "explicando",
+      "tipo": "gesto",
+      "estado": "parcialmente testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:60469 (homem), 60137 (mulher). Pares conferidos em 03/10/2026; XML permanece canônico.",
+      "homem": {
+        "dicionario": "gestures@m@standing@casual",
+        "animacao": "gesture_hand_down",
+        "estado": "não testado"
+      },
+      "mulher": {
+        "dicionario": "gestures@f@standing@casual",
+        "animacao": "gesture_hand_down",
+        "estado": "testado",
+        "modeloTestado": "a_f_y_business_01",
+        "cenaTeste": "teste_falas",
+        "confirmadoEm": "2026-10-03"
+      }
+    },
+    {
+      "codigo": "negando",
+      "tipo": "gesto",
+      "estado": "parcialmente testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:60485 (homem), 60153 (mulher). Pares conferidos em 03/10/2026; XML permanece canônico.",
+      "homem": {
+        "dicionario": "gestures@m@standing@casual",
+        "animacao": "gesture_head_no",
+        "estado": "testado",
+        "modeloTestado": "a_m_y_business_01",
+        "cenaTeste": "teste_falas",
+        "confirmadoEm": "2026-10-03"
+      },
+      "mulher": {
+        "dicionario": "gestures@f@standing@casual",
+        "animacao": "gesture_head_no",
+        "estado": "não testado"
+      }
+    },
+    {
+      "codigo": "implorando",
+      "tipo": "gesto",
+      "estado": "parcialmente testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:60492 (homem), 60160 (mulher). Apelo da mulher aprovado no teste; intensidade de súplica na série pendente. XML permanece canônico.",
+      "homem": {
+        "dicionario": "gestures@m@standing@casual",
+        "animacao": "gesture_why",
+        "estado": "não testado"
+      },
+      "mulher": {
+        "dicionario": "gestures@f@standing@casual",
+        "animacao": "gesture_why",
+        "estado": "testado",
+        "modeloTestado": "a_f_y_business_01",
+        "cenaTeste": "teste_falas",
+        "confirmadoEm": "2026-10-03"
+      }
+    },
+    {
+      "codigo": "irritado",
+      "tipo": "gesto",
+      "estado": "parcialmente testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:60470 (homem), 60138 (mulher). Pares conferidos em 03/10/2026; XML permanece canônico.",
+      "homem": {
+        "dicionario": "gestures@m@standing@casual",
+        "animacao": "gesture_damn",
+        "estado": "testado",
+        "modeloTestado": "a_m_y_business_01",
+        "cenaTeste": "teste_falas",
+        "confirmadoEm": "2026-10-03"
+      },
+      "mulher": {
+        "dicionario": "gestures@f@standing@casual",
+        "animacao": "gesture_damn",
+        "estado": "não testado"
+      }
+    },
+    {
+      "codigo": "machucado",
+      "tipo": "gesto",
+      "estado": "não testado",
+      "origem": "catalogos/gestos_fala.xml; menyooStuff/PedAnimList.txt:60561, gestures@miss@fbi_5 fbi5_gesture_crying. Par corporal compartilhado conferido na lista instalada; emoção, recorte upperbody e adequação dramática ainda não testados. XML permanece canônico.",
+      "homem": {
+        "dicionario": "gestures@miss@fbi_5",
+        "animacao": "fbi5_gesture_crying",
+        "estado": "não testado"
+      },
+      "mulher": {
+        "dicionario": "gestures@miss@fbi_5",
+        "animacao": "fbi5_gesture_crying",
+        "estado": "não testado"
+      }
+    }
+  ]
+}

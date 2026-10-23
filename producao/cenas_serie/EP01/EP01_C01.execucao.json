@@ -1,0 +1,217 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C01",
+  "episodio": 1,
+  "numero": 1,
+  "nome": "A QUEDA",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 212,
+    "linhaFim": 222,
+    "sha256BlocoUtf8": "ABCF0EE40D6D1E80333311A86A7BD4A8039BF99867F6835A7F3FF581BA325A84",
+    "raw": "### EP01_C01 · A QUEDA\n`local:` AEROPORTO_AR → CANAL_LS · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE → OLHOS · `dur:` 14s · `gravar:` SIM\n\n⚠️ **Cena técnica.** Invencibilidade LIGADA. Trate como etapa separada.\n\n**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_AR → CANAL_LS",
+    "locaisCodigos": [
+      "AEROPORTO_AR",
+      "CANAL_LS"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE → OLHOS",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "OLHOS"
+    ],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      213,
+      214
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": [
+      "Voo contínuo, saída física, queda e chegada na água; somente CANAL_LS, sem rampa/fuga. A sequência literal original permanece preservada para registrar a adaptação autorizada."
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+      "textoOriginal": "> \"Meu nome é Djanira. O que fizeram comigo foi tão deplorável que, se eu tô contando essa história, é porque eu sobrevivi. E sobreviver não foi sorte, foi teimosia.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 220,
+      "linhaTexto": 221,
+      "inicioMs": 0,
+      "fimMs": 14000,
+      "duracaoMs": 14000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 218,
+      "raw": "**Ação:** Avião voando. A Djanira cai do avião, despenca e bate na água do canal. Emerge encharcada, sobe pela rampa de concreto e corre.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 216,
+      "raw": "⚠️ **Cena técnica.** Invencibilidade LIGADA. Trate como etapa separada."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Remontagem autorizada: avião em voo contínuo, saída física, queda e água; sem subida de rampa ou corrida. A ação literal original com rampa/fuga permanece na fonte e esta mudança de escopo fica explícita. Narração original14s sem boca, seguida de reserva silenciosa6s; bruto20s+contagem3s, sem comprimir a voz.",
+    "Somente CANAL_LS real na água é requerida nesta remontagem; os três subpontos antigos de rampa/fuga não são dependências desta tomada. Corredor de água, soltura e impacto continuam medidos no GTA; não cria XYZ absoluto, saída fictícia ou teleporte durante a ação.",
+    "Trecho AEROPORTO_AR deriva do ponto/direção reais de CANAL_LS: voo ativo35m/s com altura relativa à água configurada no helper, com câmera externa própria e contagem fixa. O avião continua voando após a saída. Invencibilidade/flags de afogamento e validações físicas permanecem obrigatórias; ensaio separado antes da produção, resultado visual pendente."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CANAL_LS",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "ensaio:queda_CANAL_LS",
+      "tipo": "teste_no_jogo",
+      "descricao": "Remontagem autorizada20s sem rampa/fuga: confirmar ensaio separado, voo contínuo, saída física, proteção e chegada na água. Somente CANAL_LS é requerida; compilação não confirma física ou aparência."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "queda_livre_candidata",
+      "tipo": "queda",
+      "categoria": "voo_queda",
+      "dicionario": "skydive@freefall",
+      "animacao": "free_forward",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 73858,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "skydive@freefall free_forward"
+      },
+      "restricoes": [
+        "Só pose candidata; exige avião/rota/marca aérea/água reais e invencibilidade; animação não gera física."
+      ]
+    },
+    {
+      "codigo": "sair_agua_candidato",
+      "tipo": "agua",
+      "categoria": "agua",
+      "dicionario": "swimming@swim",
+      "animacao": "swimclimbup_40",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75416,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "swimming@swim swimclimbup_40"
+      },
+      "restricoes": [
+        "Altura da rampa/água reais; não executar no chão nem criar água/teleporte para simular trajeto."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C01.json",
+  "runtimeSHA256": "C41A17B6554DAA9F4A5DC7589A5B5AF71FD268D69924A01A24FC85FCC84667CE",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 20000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 23000,
+    "blocosOriginaisMs": 14000,
+    "tempoSemVozAdicionalMs": 6000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "revisoesUsuario": [
+    {
+      "data": "2026-10-05",
+      "pedido": "refazer sem legendas, preservar anteriores",
+      "fonte": "pedido atual no chat"
+    }
+  ],
+  "remontagemAutorizada": {
+    "fonte": "pedido atual no chat",
+    "semTextoNaImagem": true,
+    "semVinheta": true,
+    "acaoTecnica": "Voo contínuo, saída física, queda e chegada na água; somente CANAL_LS, sem rampa/fuga. A sequência literal original permanece preservada para registrar a adaptação autorizada.",
+    "marcasNecessarias": [
+      "CANAL_LS"
+    ],
+    "rampaEFuga": false,
+    "aviaoContinuaVoando": true
+  },
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C01_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C01_LIMPO.mp4",
+    "sha256": "1A4851A8006C9ED6647DFC8A32FF61CEE5E8C642B04F20924A462840A6A79FC3",
+    "duracaoMs": 6532,
+    "sessoesReais": [
+      "ef8a5f62857445e1862ffb268baa8a6b"
+    ],
+    "fontesJsonSHA256": [
+      "C41A17B6554DAA9F4A5DC7589A5B5AF71FD268D69924A01A24FC85FCC84667CE"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

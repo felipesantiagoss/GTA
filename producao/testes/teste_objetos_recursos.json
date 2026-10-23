@@ -1,0 +1,37 @@
+{
+  "versao": 1,
+  "tipo": "teste_recursos",
+  "id": "teste_objetos_recursos",
+  "estado": "não integrado",
+  "local": "TESTE_AMBIENTE",
+  "recursos": [
+    {
+      "codigo": "CELULAR_TESTE",
+      "tipo": "objeto",
+      "modelo": "prop_npc_phone_02",
+      "personagem": "TESTE_MULHER",
+      "marca": {"direita": 0.8, "frente": 0.0, "altura": 0.0},
+      "anexar": {"osso": "SkelRightHand", "offset": [0.0, 0.0, 0.0], "rotacao": [0.0, 0.0, 0.0]},
+      "estadoVisual": "não testado",
+      "origem": "Menyoo PropList.txt:12614; ajuste zero candidato de calibração"
+    },
+    {
+      "codigo": "MOTO_TESTE",
+      "tipo": "veiculo",
+      "modelo": "faggio",
+      "marca": {"direita": -2.5, "frente": 1.0, "altura": 0.0},
+      "direcaoRelativaGraus": 0.0,
+      "congelado": true,
+      "colocarNoChao": true,
+      "estadoVisual": "não testado",
+      "origem": "VehicleHash.Faggio da API191; confirmar IsInCdImage/IsVehicle no jogo"
+    }
+  ],
+  "verificacoes": [
+    "Preparar modelos entre frames; aguardar IsReady antes da câmera/ação.",
+    "Exibir telefone anexado à mão da mulher, conferir tamanho e calibrar pega.",
+    "Ocultar/desanexar telefone e restaurar moto na repetição, sem mover NPCs.",
+    "Limpar somente os dois recursos próprios em F10/erro/recarga.",
+    "Não conduzir a moto nem afirmar que o piloto completo foi executado."
+  ]
+}

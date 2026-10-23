@@ -1,0 +1,290 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP06_C04",
+  "episodio": 6,
+  "numero": 4,
+  "nome": "A APRESENTAÇÃO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 747,
+    "linhaFim": 764,
+    "sha256BlocoUtf8": "9C0EE086F5069476FFC9C7F2A0995966E685937E80AFECE82196147FE196AFC0",
+    "raw": "### EP06_C04 · A APRESENTAÇÃO\n`local:` BOATE_DENTRO · `hora:` 23:40 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER, O_CHEFE · `cam:` auto · `dur:` 40s · `gravar:` SIM\n\n**Ação:** Dinjer vê a Djanira, levanta rápido e vai abraçar. Leva até a mesa do Chefe. Ele se levanta devagar.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira.\" | 9s | explicando |\n| 2 | O_CHEFE | \"Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais.\" | 6s | neutro |\n| 3 | DJANIRA | \"Como é que o senhor sabe dos mil reais?\" | 4s | neutro |\n| 4 | O_CHEFE | \"Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali.\" | 6s | explicando |\n| 5 | O_CHEFE | \"Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros.\" | 12s | explicando |\n| 6 | DJANIRA | \"E por que é que o senhor faria isso por mim?\" | 4s | neutro |\n| 7 | O_CHEFE | \"Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor.\" | 5s | neutro |\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "23:40",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER, O_CHEFE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 40000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      748,
+      749
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "O_CHEFE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 751,
+      "raw": "**Ação:** Dinjer vê a Djanira, levanta rápido e vai abraçar. Leva até a mesa do Chefe. Ele se levanta devagar.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira.",
+      "textoOriginal": "\"Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 757,
+      "raw": "| 1 | DINJER | \"Amiga! Que bom que você veio! Gente, olha! Essa aqui é a Djanira. A mulher mais honesta que eu conheço na vida inteira.\" | 9s | explicando |",
+      "inicioMs": 0,
+      "fimMs": 9000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais.",
+      "textoOriginal": "\"Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 758,
+      "raw": "| 2 | O_CHEFE | \"Honestidade é raro hoje em dia, minha filha. Vale muito mais do que mil reais.\" | 6s | neutro |",
+      "inicioMs": 9000,
+      "fimMs": 15000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Como é que o senhor sabe dos mil reais?",
+      "textoOriginal": "\"Como é que o senhor sabe dos mil reais?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 759,
+      "raw": "| 3 | DJANIRA | \"Como é que o senhor sabe dos mil reais?\" | 4s | neutro |",
+      "inicioMs": 15000,
+      "fimMs": 19000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali.",
+      "textoOriginal": "\"Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 760,
+      "raw": "| 4 | O_CHEFE | \"Eu sei de tudo. É por isso que eu tô sentado nessa mesa e não naquela ali.\" | 6s | explicando |",
+      "inicioMs": 19000,
+      "fimMs": 25000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros.",
+      "textoOriginal": "\"Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 761,
+      "raw": "| 5 | O_CHEFE | \"Vou te fazer uma proposta. Amanhã eu tenho um voo. Coisa rápida, um jantar lá em cima. Vem comigo. E lá eu te pago tudo que a Dinjer te deve. Em dinheiro vivo. Com juros.\" | 12s | explicando |",
+      "inicioMs": 25000,
+      "fimMs": 37000,
+      "duracaoMs": 12000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 6,
+      "quemOriginal": "DJANIRA",
+      "texto": "E por que é que o senhor faria isso por mim?",
+      "textoOriginal": "\"E por que é que o senhor faria isso por mim?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 762,
+      "raw": "| 6 | DJANIRA | \"E por que é que o senhor faria isso por mim?\" | 4s | neutro |",
+      "inicioMs": 37000,
+      "fimMs": 41000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 7,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor.",
+      "textoOriginal": "\"Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 763,
+      "raw": "| 7 | O_CHEFE | \"Porque eu gosto de gente que trabalha. E porque eu quero te conhecer melhor.\" | 5s | neutro |",
+      "inicioMs": 41000,
+      "fimMs": 46000,
+      "duracaoMs": 5000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 40000,
+    "blocosDeclaradosMs": 46000,
+    "conteudoPlanejadoMs": 46000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 49000,
+    "fimUltimaLegendaMs": 49000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 40000ms menor que blocos declarados 46000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DINJER",
+      "familia": "visuais",
+      "descricao": "Visual de produção DINJER, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "familia": "visuais",
+      "descricao": "Visual de produção O_CHEFE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:BOATE_DENTRO",
+      "familia": "ambiente",
+      "descricao": "Marca real BOATE_DENTRO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Dinjer vê a Djanira, levanta rápido e vai abraçar. Leva até a mesa do Chefe. Ele se levanta devagar.",
+      "origem": "linha 751",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:móveis/poses de apoio",
+      "familia": "objetos",
+      "descricao": "móveis/poses de apoio: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "movimento:rotas",
+      "familia": "movimento",
+      "descricao": "Capturar percursos/transições e estilos de andar apropriados; não inventar posições.",
+      "origem": "ações originais; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:terceiro_interlocutor",
+      "familia": "camera",
+      "descricao": "Eixo e alvo explícitos para interlocutores além dos dois primeiros; contrato atual não os executa automaticamente.",
+      "origem": "elenco e diálogo originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

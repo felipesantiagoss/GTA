@@ -1,0 +1,223 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP08_C04",
+  "episodio": 8,
+  "numero": 4,
+  "nome": "A CONFISSÃO DO CASSINO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 920,
+    "linhaFim": 936,
+    "sha256BlocoUtf8": "C309DDF2953C01DBB590298860F22E1676FF3518C431F3B8EB8E45BB2DEA1816",
+    "raw": "### EP08_C04 · A CONFISSÃO DO CASSINO\n`local:` CASA_VO · `hora:` 20:30 · `clima:` limpo\n`elenco:` DONA_IRACI, DJANIRA_POBRE · `cam:` auto · `dur:` 30s · `gravar:` SIM\n\n**Ação:** A avó desvia o olhar, envergonhada.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DONA_IRACI | \"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\" | 8s | neutro |\n| 2 | DJANIRA | \"A senhora ia aonde?\" | 3s | neutro |\n| 3 | DONA_IRACI | \"Eu ia jogar. No cassino.\" | 4s | neutro |\n| 4 | DONA_IRACI | \"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\" | 15s | implorando |\n\n> 💡 **Insira aqui o flashback da EP01_C05** — a avó saindo do hospital e entrando no cassino. Agora o público entende.\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "20:30",
+    "clima": "limpo",
+    "elenco": "DONA_IRACI, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 30000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      921,
+      922
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DONA_IRACI",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 924,
+      "raw": "**Ação:** A avó desvia o olhar, envergonhada.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 935,
+      "raw": "> 💡 **Insira aqui o flashback da EP01_C05** — a avó saindo do hospital e entrando no cassino. Agora o público entende."
+    }
+  ],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.",
+      "textoOriginal": "\"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 930,
+      "raw": "| 1 | DONA_IRACI | \"E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.\" | 8s | neutro |",
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "A senhora ia aonde?",
+      "textoOriginal": "\"A senhora ia aonde?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 931,
+      "raw": "| 2 | DJANIRA | \"A senhora ia aonde?\" | 3s | neutro |",
+      "inicioMs": 8000,
+      "fimMs": 11000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Eu ia jogar. No cassino.",
+      "textoOriginal": "\"Eu ia jogar. No cassino.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 932,
+      "raw": "| 3 | DONA_IRACI | \"Eu ia jogar. No cassino.\" | 4s | neutro |",
+      "inicioMs": 11000,
+      "fimMs": 15000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DONA_IRACI",
+      "texto": "Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.",
+      "textoOriginal": "\"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 933,
+      "raw": "| 4 | DONA_IRACI | \"Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.\" | 15s | implorando |",
+      "inicioMs": 15000,
+      "fimMs": 30000,
+      "duracaoMs": 15000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 30000,
+    "blocosDeclaradosMs": 30000,
+    "conteudoPlanejadoMs": 30000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 33000,
+    "fimUltimaLegendaMs": 33000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [
+    {
+      "cena": "EP01_C05",
+      "linha": 935,
+      "raw": "> 💡 **Insira aqui o flashback da EP01_C05** — a avó saindo do hospital e entrando no cassino. Agora o público entende.",
+      "tipo": "imagem",
+      "opcionalRegravar": false
+    }
+  ],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DONA_IRACI",
+      "familia": "visuais",
+      "descricao": "Visual de produção DONA_IRACI, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASA_VO",
+      "familia": "ambiente",
+      "descricao": "Marca real CASA_VO; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** A avó desvia o olhar, envergonhada.",
+      "origem": "linha 924",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "fala:visual_e_pose",
+      "familia": "fala",
+      "descricao": "Boca, gesto e olhar testados nos modelos/poses reais de cada interlocutor.",
+      "origem": "blocos DIÁLOGO",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "edicao:reaproveitamento",
+      "familia": "edicao",
+      "descricao": "Vincular a tomada/frame original indicado; não gravar uma substituição sem registrá-la.",
+      "origem": "notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

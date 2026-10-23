@@ -1,0 +1,91 @@
+{
+  "versao": 1,
+  "id": "EP08_C04",
+  "episodio": 8,
+  "numero": 4,
+  "nome": "A CONFISSÃO DO CASSINO",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "20:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": -1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 1.1,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "E tem mais uma coisa. Aquelas terça, quinta e sábado... eu não passava o dia todo no hospital não.",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 3,
+      "plano": "MEDIA",
+      "texto": "A senhora ia aonde?",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Eu ia jogar. No cassino.",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 15,
+      "plano": "MEDIA",
+      "texto": "Eu tava tentando juntar dinheiro pra tirar nós duas daqui antes de tu fazer vinte e um ano. Porque quando tu fizesse vinte e um, ele ia te achar. E eu perdi tudo. Me perdoa, minha filha.",
+      "personagem": "DONA_IRACI",
+      "gesto": "implorando"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 30,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "desvio"
+      }
+    }
+  ]
+}

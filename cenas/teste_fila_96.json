@@ -1,0 +1,55 @@
+{
+  "versao": 1,
+  "id": "teste_fila_96",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Djanira rica - OPCAO 3 DE 3 - macacao, cabelo solto e salto",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo"
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": 0
+      }
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_RICA",
+    "planoFinal": "LONGE",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 8,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_RICA"
+      },
+      {
+        "inicioSegundos": 12,
+        "plano": "LONGE",
+        "personagem": "DJANIRA_RICA"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 16
+    }
+  ]
+}

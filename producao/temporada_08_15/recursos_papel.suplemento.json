@@ -1,0 +1,98 @@
+{
+  "versao": 1,
+  "tipoDocumento": "suplemento_isolado_papel",
+  "animacoes": [
+    {
+      "codigo": "ler_documento_candidato",
+      "tipo": "clipe",
+      "dicionario": "switch@michael@reads_script",
+      "animacao": "001404_01_mics3_16_reads_script_idle",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 75949,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "switch@michael@reads_script 001404_01_mics3_16_reads_script_idle"
+      },
+      "restricoes": [
+        "player_timetable_scene.c1750?52; Michael l? roteiro, PHRightHand28422; adapta??o female/carta requer getters/imagem."
+      ]
+    },
+    {
+      "codigo": "retirar_papel_f_candidato",
+      "tipo": "clipe",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Par real de entrada do celular; usar como papel exige m?o?bolso real antes de revelar prop, nunca mostrar por tempo apenas."
+      ]
+    }
+  ],
+  "objetos": [
+    {
+      "codigo": "documento_script_candidato",
+      "modelo": "p_cs_script_s",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9025,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_cs_script_s"
+      },
+      "restricoes": [
+        "Par prim?rio de READS_SCRIPT; p?ginas n?o comprovam carta dobrada."
+      ]
+    },
+    {
+      "codigo": "carta_dobrada_candidata",
+      "modelo": "p_amanda_note_01_s",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 8923,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_amanda_note_01_s"
+      },
+      "restricoes": [
+        "Frag real usado pela Cutscene family5; dobra/abertura/compatibilidade de anima??o ainda n?o vistas."
+      ]
+    },
+    {
+      "codigo": "carta_transicao_candidata",
+      "modelo": "prop_amanda_note_01b",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9539,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_amanda_note_01b"
+      },
+      "restricoes": [
+        "Segundo prop real da mesma Cutscene; n?o trocar modelos como abertura falsa."
+      ]
+    },
+    {
+      "codigo": "envelope_dinheiro_candidato",
+      "modelo": "p_cash_envelope_01_s",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 8959,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_cash_envelope_01_s"
+      },
+      "restricoes": [
+        "Modelo real; abertura e interior ainda n?o comprovados por imagem, nome n?o constitui prova."
+      ]
+    }
+  ],
+  "fontesPrimarias": [
+    "https://github.com/root-cause/v-decompiled-scripts/blob/7a800e34172bc50f13b07884ca55942028e8c8d0/player_timetable_scene.c#L1749",
+    "https://github.com/root-cause/v-decompiled-scripts/blob/7a800e34172bc50f13b07884ca55942028e8c8d0/family5.c"
+  ],
+  "publicado": false,
+  "pronto": false,
+  "testeVisual": "pendente",
+  "limites": "N?o comp?e abertura de papel/envelope sem deforma??o real; nenhum cat?logo compartilhado/runtime modificado."
+}

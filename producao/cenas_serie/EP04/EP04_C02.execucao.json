@@ -1,0 +1,212 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP04_C02",
+  "episodio": 4,
+  "numero": 2,
+  "nome": "A COBRANÇA PÚBLICA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 554,
+    "linhaFim": 569,
+    "sha256BlocoUtf8": "42A3BB6188AB8242ED7CB61BD69CABB7A3F9F20C4A902C31A6470E46BAE81B15",
+    "raw": "### EP04_C02 · A COBRANÇA PÚBLICA\n`local:` AEROPORTO_TERMINAL · `hora:` 10:30 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER, COLEGA_1, COLEGA_2 · `cam:` auto · `dur:` 26s · `gravar:` SIM\n\n**Ação:** Dinjer aparece com colegas. Vê a Djanira e muda de expressão. Os colegas param para olhar. Dinjer percebe a plateia e vira o jogo.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DJANIRA | \"Dinjer. Mil reais. Eu só quero os meus mil reais.\" | 5s | irritado |\n| 2 | DINJER | \"Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.\" | 5s | negando |\n| 3 | DJANIRA | \"Tu me mandou o print de uma tela preta.\" | 4s | irritado |\n| 4 | DINJER | \"Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.\" | 9s | explicando |\n| 5 | DJANIRA | \"Pra você. Pra mim é a casa da minha avó.\" | 4s | neutro |\n\n"
+  },
+  "original": {
+    "local": "AEROPORTO_TERMINAL",
+    "locaisCodigos": [
+      "AEROPORTO_TERMINAL"
+    ],
+    "hora": "10:30",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER, COLEGA_1, COLEGA_2",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 26000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      555,
+      556
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER",
+      "COLEGA_1",
+      "COLEGA_2"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DJANIRA",
+      "texto": "Dinjer. Mil reais. Eu só quero os meus mil reais.",
+      "textoOriginal": "\"Dinjer. Mil reais. Eu só quero os meus mil reais.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 564,
+      "raw": "| 1 | DJANIRA | \"Dinjer. Mil reais. Eu só quero os meus mil reais.\" | 5s | irritado |",
+      "inicioMs": 0,
+      "fimMs": 5000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.",
+      "textoOriginal": "\"Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.\"",
+      "gestoOriginal": "negando",
+      "boca": true,
+      "linhaInicio": 565,
+      "raw": "| 2 | DINJER | \"Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.\" | 5s | negando |",
+      "inicioMs": 5000,
+      "fimMs": 10000,
+      "duracaoMs": 5000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DJANIRA",
+      "texto": "Tu me mandou o print de uma tela preta.",
+      "textoOriginal": "\"Tu me mandou o print de uma tela preta.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 566,
+      "raw": "| 3 | DJANIRA | \"Tu me mandou o print de uma tela preta.\" | 4s | irritado |",
+      "inicioMs": 10000,
+      "fimMs": 14000,
+      "duracaoMs": 4000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DINJER",
+      "texto": "Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.",
+      "textoOriginal": "\"Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 567,
+      "raw": "| 4 | DINJER | \"Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.\" | 9s | explicando |",
+      "inicioMs": 14000,
+      "fimMs": 23000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DJANIRA",
+      "texto": "Pra você. Pra mim é a casa da minha avó.",
+      "textoOriginal": "\"Pra você. Pra mim é a casa da minha avó.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 568,
+      "raw": "| 5 | DJANIRA | \"Pra você. Pra mim é a casa da minha avó.\" | 4s | neutro |",
+      "inicioMs": 23000,
+      "fimMs": 27000,
+      "duracaoMs": 4000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 26000,
+    "blocosDeclaradosMs": 27000,
+    "conteudoPlanejadoMs": 27000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 30000,
+    "fimUltimaLegendaMs": 30000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 558,
+      "raw": "**Ação:** Dinjer aparece com colegas. Vê a Djanira e muda de expressão. Os colegas param para olhar. Dinjer percebe a plateia e vira o jogo.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:COLEGA_1",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:COLEGA_2",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:AEROPORTO_TERMINAL",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:elenco_adicional",
+      "tipo": "atuacao_integral",
+      "descricao": "Resolver gerente/segurança/colegas/pai/amiga citados fora do elenco declarado, sem inventar identidade.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP04_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER",
+    "COLEGA_1",
+    "COLEGA_2"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

@@ -1,0 +1,134 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP15_C06",
+  "episodio": 15,
+  "numero": 6,
+  "nome": "A VOLTA COMPLETA",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1565,
+    "linhaFim": 1573,
+    "sha256BlocoUtf8": "7F6B8E895DBD5E60878CF0CEDD97A065765DC6134A15A3186D61A4747D571D17",
+    "raw": "### EP15_C06 · A VOLTA COMPLETA\n`local:` MANSAO_CHEFE · `hora:` 21:00 · `clima:` limpo\n`elenco:` DJANIRA_RICA · `cam:` MEDIA · `dur:` 14s · `gravar:` SIM\n\n**Ação:** Djanira parada no meio da sala, entre o pai e a amiga. Sem reação.\n\n**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:\n> \"O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.\"\n\n"
+  },
+  "original": {
+    "local": "MANSAO_CHEFE",
+    "locaisCodigos": [
+      "MANSAO_CHEFE"
+    ],
+    "hora": "21:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_RICA",
+    "elencoCodigos": [
+      "DJANIRA_RICA"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 14000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1566,
+      1567
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_RICA"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 14s *(sem boca)*:",
+      "textoOriginal": "> \"O meu dinheiro saiu da minha mão. Passou pela mão dela. Foi parar na mão do meu pai. E voltou pra mim como herança. Ninguém ganhou nada. Todo mundo só perdeu três anos.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1571,
+      "linhaTexto": 1572,
+      "inicioMs": 0,
+      "fimMs": 14000,
+      "duracaoMs": 14000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 14000,
+    "blocosDeclaradosMs": 14000,
+    "conteudoPlanejadoMs": 14000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 17000,
+    "fimUltimaLegendaMs": 17000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1569,
+      "raw": "**Ação:** Djanira parada no meio da sala, entre o pai e a amiga. Sem reação.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "PaiO_CHEFE e amigaDINJER são presenças exigidas na ação literal, embora ausentes no metadado de elenco; registrados como adicionais da ação, sem alterar o original. Djanira permanece exatamente entre ambos em três marcas relativas distintas, sem reação/boca durante14s.",
+    "Bloqueio lateral0/−2,2/+2,2m é coreografia relativa declarada, no eixo real da sala; capturar espaço interno suficiente e preservar a continuidade do pai à janela daEP15_C04. Não inventa XYZ absoluto, não renova os figurinos."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_RICA",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:O_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:MANSAO_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_RICA",
+    "O_CHEFE",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [
+    "O_CHEFE",
+    "DINJER"
+  ],
+  "runtimeRascunho": "EP15_C06.json",
+  "runtimeSHA256": "F8BD00A9E47546943408945261B71703A35329B672BD3314314D04FBF61DB3F6",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 14000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 17000,
+    "blocosOriginaisMs": 14000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

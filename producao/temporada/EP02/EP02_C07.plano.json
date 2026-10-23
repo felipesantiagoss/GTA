@@ -1,0 +1,168 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP02_C07",
+  "episodio": 2,
+  "numero": 7,
+  "nome": "A DECISÃO",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 431,
+    "linhaFim": 442,
+    "sha256BlocoUtf8": "5D0E9636CBDD325ECACD6E6CED5FD9A4C013E858CD3F7A6A59E10D9602659499",
+    "raw": "### EP02_C07 · A DECISÃO\n`local:` ROCA_GRAPESEED · `hora:` 18:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"Foi ali que eu parei de pedir. E comecei a cobrar.\"\n\n**NARRADOR** — 7s:\n> \"Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "18:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "BAIXA",
+    "planosSemTemposDefinidos": [
+      "BAIXA"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      432,
+      433
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 435,
+      "raw": "**Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Foi ali que eu parei de pedir. E comecei a cobrar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"Foi ali que eu parei de pedir. E comecei a cobrar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 437,
+      "linhaTexto": 438,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Ela emprestou o que não tinha. Agora só quer de volta o que é dela. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 440,
+      "linhaTexto": 441,
+      "inicioMs": 6000,
+      "fimMs": 13000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 13000,
+    "conteudoPlanejadoMs": 13000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 16000,
+    "fimUltimaLegendaMs": 16000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 6000ms menor que blocos declarados 13000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:ROCA_GRAPESEED",
+      "familia": "ambiente",
+      "descricao": "Marca real ROCA_GRAPESEED; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira parada olhando o horizonte. Câmera baixa, olhando para cima — ela parece maior.",
+      "origem": "linha 435",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

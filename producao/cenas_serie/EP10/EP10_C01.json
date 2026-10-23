@@ -1,0 +1,96 @@
+{
+  "versao": 1,
+  "id": "EP10_C01",
+  "episodio": 10,
+  "numero": 1,
+  "nome": "O BANCO DE PRAÇA",
+  "ambiente": {
+    "local": "CENTRO_LEGION",
+    "hora": "03:00",
+    "clima": "nublado",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "inverterEixo": true
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 10,
+      "plano": "MEDIA",
+      "texto": "No primeiro mês eu dormi na rodoviária. No segundo, numa pensão que cobrava por noite. No terceiro eu já sabia quais bancos de praça a polícia não passava de madrugada.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "BANCO_PRAIA",
+      "recurso": "banco_sono_c1_02",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "SACOLA_DJANIRA",
+      "recurso": "sacola",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "esquerda",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": "BANCO_PRAIA",
+      "recurso": "sono_banco_tracy_f",
+      "tipo": "deitada",
+      "abracarObjeto": "SACOLA_DJANIRA"
+    }
+  ]
+}

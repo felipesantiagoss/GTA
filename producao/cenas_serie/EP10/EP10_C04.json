@@ -1,0 +1,64 @@
+{
+  "versao": 1,
+  "id": "EP10_C04",
+  "episodio": 10,
+  "numero": 4,
+  "nome": "O VIADUTO",
+  "ambiente": {
+    "local": "VIADUTO_LAPUERTA",
+    "hora": "23:00",
+    "clima": "nublado",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE",
+    "ajustes": {
+      "lado": -2,
+      "altura": 0.2,
+      "aproximar": 2
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "LONGE",
+      "texto": "Eu dormia embaixo de um viaduto sendo dona de um prédio que eu nunca vi.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "destino": {
+        "direita": 0,
+        "frente": 4,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": []
+}

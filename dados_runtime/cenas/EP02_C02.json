@@ -1,0 +1,326 @@
+{
+  "versao": 1,
+  "id": "EP02_C02",
+  "episodio": 2,
+  "numero": 2,
+  "nome": "A MESA DOS HOMENS",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "23:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "CAPANGA_1"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": 0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "CAPANGA_3",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "marca": {
+        "direita": 0,
+        "frente": 2.9,
+        "altura": 0
+      },
+      "olharPara": "DINJER"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DINJER",
+    "planoFinal": "MEDIA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 0.8,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 4.2,
+        "plano": "DOIS",
+        "personagem": "DINJER"
+      },
+      {
+        "inicioSegundos": 7.5,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "texto": "E ela não tava só gastando. Ela tava comprando um lugar. Um lugar numa mesa onde gente como a gente não senta.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "objetos": [
+    {
+      "id": "MESA_RESERVADA",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 1.1,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DINJER",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_1",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_2",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_3",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 1.1,
+        "frente": 2.2,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_CAPANGA_4",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 2.9,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "ENVELOPE_DINJER",
+      "recurso": "envelope",
+      "marca": {
+        "direita": 0.45,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "CAPANGA_1",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 1,
+          "esperaMaximaSegundos": 2,
+          "personagem": "DINJER",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "tipo": "guardar",
+          "inicioSegundos": 4.5,
+          "personagem": "DINJER",
+          "recurso": "guardar_envelope",
+          "esperaMaximaSegundos": 2
+        }
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DINJER",
+      "objeto": "CADEIRA_DINJER",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "objeto": "CADEIRA_CAPANGA_1",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_2",
+      "objeto": "CADEIRA_CAPANGA_2",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_3",
+      "objeto": "CADEIRA_CAPANGA_3",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "objeto": "CADEIRA_CAPANGA_4",
+      "recurso": "sentado_cadeira_m",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ],
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "CAPANGA_1",
+      "inicioSegundos": 1,
+      "duracaoSegundos": 3.5,
+      "recurso": "entrega_a",
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "sobrePoseSentada": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 1,
+      "duracaoSegundos": 3.5,
+      "recurso": "entrega_b",
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "sobrePoseSentada": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "inicioSegundos": 4.5,
+      "duracaoSegundos": 3,
+      "recurso": "guardar_envelope",
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "sobrePoseSentada": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "CAPANGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "CAPANGA_1"
+      }
+    },
+    {
+      "personagem": "CAPANGA_3",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DINJER"
+      }
+    }
+  ]
+}

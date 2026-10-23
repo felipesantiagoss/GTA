@@ -1,0 +1,23 @@
+1
+00:00:03,000 --> 00:00:06,000
+Djanira: O senhor conhece esse nome?
+
+2
+00:00:09,000 --> 00:00:13,000
+O Chefe: Onde é que a senhora conseguiu isso?
+
+3
+00:00:13,000 --> 00:00:21,000
+Djanira: Com a mulher que me criou. Ela me escondeu num roçado a vida inteira pro senhor não me achar.
+
+4
+00:00:21,000 --> 00:00:23,000
+O Chefe: ...Djanira.
+
+5
+00:00:23,000 --> 00:00:26,000
+Djanira: O senhor sabe o meu nome.
+
+6
+00:00:26,000 --> 00:00:29,000
+O Chefe: Eu escolhi o teu nome.

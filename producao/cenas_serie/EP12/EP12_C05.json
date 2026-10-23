@@ -1,0 +1,113 @@
+{
+  "versao": 1,
+  "id": "EP12_C05",
+  "episodio": 12,
+  "numero": 5,
+  "nome": "O BILHETE",
+  "ambiente": {
+    "local": "BOATE_DENTRO",
+    "hora": "00:05",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DINJER",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO",
+    "objeto": "ENVELOPE_GORJETA",
+    "fovObjeto": 30,
+    "elevacaoObjetoGraus": 45
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "PERTO",
+      "texto": "Ela recebeu de volta, com juros, tudo que emprestou. Sem saber de quem. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "ENVELOPE_GORJETA"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "MESA_GORJETA",
+      "recurso": "mesa",
+      "marca": {
+        "direita": 0,
+        "frente": 0.5,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "ENVELOPE_GORJETA",
+      "recurso": "envelope",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "apoioInicial": "MESA_GORJETA",
+      "eventos": []
+    },
+    {
+      "id": "DINHEIRO_GORJETA",
+      "recurso": "dinheiro",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "apoioInicial": "MESA_GORJETA",
+      "eventos": []
+    },
+    {
+      "id": "BILHETE_GORJETA",
+      "recurso": "carta_simples",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "apoioInicial": "MESA_GORJETA",
+      "eventos": []
+    }
+  ]
+}

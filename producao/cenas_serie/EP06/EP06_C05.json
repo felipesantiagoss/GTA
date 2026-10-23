@@ -1,0 +1,115 @@
+{
+  "versao": 1,
+  "id": "EP06_C05",
+  "episodio": 6,
+  "numero": 5,
+  "nome": "A SAÍDA FELIZ",
+  "ambiente": {
+    "local": "BOATE_FORA",
+    "hora": "00:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 2,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 180
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "ajustes": {
+      "lado": 2,
+      "altura": 0,
+      "aproximar": -2
+    },
+    "transicaoSuave": true,
+    "cortes": [
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 0
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 1
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 2
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 3
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 4
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 5
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 6
+      },
+      {
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE",
+        "inicioSegundos": 7
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Eu saí daquela boate feliz. Eu liguei pra minha avó de um orelhão e falei que ia dar tudo certo. Que no domingo a gente pagava o aluguel.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "destino": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "feliz"
+    }
+  ]
+}

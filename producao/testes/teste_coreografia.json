@@ -1,0 +1,33 @@
+{
+  "versao": 1,
+  "id": "teste_coreografia",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Ensaio técnico de coreografia sem combate da IA",
+  "encenacao": "ensaio_coreografia_v1",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {"personagem": "CAPANGA_1", "marca": {"direita": -0.55, "frente": 0, "altura": 0}, "olharPara": "DJANIRA_POBRE"},
+    {"personagem": "DJANIRA_POBRE", "marca": {"direita": 0.55, "frente": 0, "altura": 0}, "olharPara": "CAPANGA_1"}
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "CAPANGA_1",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false,
+    "transicaoSuave": false
+  },
+  "roteiro": [
+    {"tipo": "narracao", "narrador": "Narrador", "texto": "Ensaio técnico: um gesto de empurrão e um candidato de reação. Sem combate da IA; conferir o contato e a sincronia na imagem.", "duracaoSegundos": 10}
+  ],
+  "acoes": []
+}

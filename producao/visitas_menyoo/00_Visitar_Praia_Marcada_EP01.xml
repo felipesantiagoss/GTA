@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SpoonerPlacements>
+  <Note>Retorno normal ZERO Placement a marca PRAIA_DELPERRO existente, capturada no jogo. Nao cria/edita marca F3 nem define heading. Origem XML: C:\Users\felipe.santiago\GTA_Diretor\catalogos\locais_marcados.xml; SHA256 3AD111091697079520D2FA75C830798EED5E0FFE43837FAF0F5BAF1A93A802BF; marca dataUtc 2026-10-05T10:52:41.8139854+00:00; heading registrado 324.5282.</Note>
+  <ReferenceCoords>
+    <X>-1701.42639</X>
+    <Y>-1023.074</Y>
+    <Z>4.364629</Z>
+  </ReferenceCoords>
+</SpoonerPlacements>

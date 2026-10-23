@@ -1,0 +1,151 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP05_C01",
+  "episodio": 5,
+  "numero": 1,
+  "nome": "OS TRÊS SERVIÇOS",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 629,
+    "linhaFim": 637,
+    "sha256BlocoUtf8": "19E396D97DB65CE6196C571FDB06A9205A04776440E76F4C2206C2A9CE1455D2",
+    "raw": "### EP05_C01 · OS TRÊS SERVIÇOS\n`local:` ROCA_GRAPESEED · `hora:` 12:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira capinando no sol forte, exausta. Expressão `chateado`.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Passaram mais duas semanas. Eu peguei três serviços. Capinei terreno, lavei roupa dos outros, colhi de sol a sol. Juntei duzentos reais. Faltavam oitocentos e a minha avó tinha vinte e dois dias.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "12:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      630,
+      631
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Passaram mais duas semanas. Eu peguei três serviços. Capinei terreno, lavei roupa dos outros, colhi de sol a sol. Juntei duzentos reais. Faltavam oitocentos e a minha avó tinha vinte e dois dias.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+      "textoOriginal": "> \"Passaram mais duas semanas. Eu peguei três serviços. Capinei terreno, lavei roupa dos outros, colhi de sol a sol. Juntei duzentos reais. Faltavam oitocentos e a minha avó tinha vinte e dois dias.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 635,
+      "linhaTexto": 636,
+      "inicioMs": 0,
+      "fimMs": 12000,
+      "duracaoMs": 12000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 12000,
+    "conteudoPlanejadoMs": 12000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 15000,
+    "fimUltimaLegendaMs": 15000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 633,
+      "raw": "**Ação:** Djanira capinando no sol forte, exausta. Expressão `chateado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:trabalho",
+      "tipo": "atuacao_integral",
+      "descricao": "Atuação de capinar e ferramenta real; clipe de jardinagem não comprova capina/enxada.",
+      "candidatos": [
+        "trabalho_plantacao_f"
+      ]
+    },
+    {
+      "codigo": "capacidade:expressao",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP05_C01",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "trabalho_plantacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "trabalho",
+      "dicionario": "amb@world_human_gardener_plant@female@base",
+      "animacao": "base_female",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54835,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_gardener_plant@female@base base_female"
+      },
+      "restricoes": [
+        "É jardinagem; não comprova capina com enxada. Ferramenta e postura precisam de pesquisa/teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

@@ -1,0 +1,2 @@
+# Preserve original bytes: production manifests depend on SHA256 hashes.
+* -text

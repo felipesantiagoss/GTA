@@ -1,0 +1,176 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP07_C02",
+  "episodio": 7,
+  "numero": 2,
+  "nome": "O QUE ELA NÃO DEVIA VER",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 808,
+    "linhaFim": 822,
+    "sha256BlocoUtf8": "E6CE666C449642225712248D13ABC75363F43B7BFA2C66B0189DB6BCCB9E647C",
+    "raw": "### EP07_C02 · O QUE ELA NÃO DEVIA VER\n`local:` GALPAO_CYPRESS · `hora:` 19:30 · `clima:` limpo\n`elenco:` O_CHEFE, CAPANGA_1, CAPANGA_2, DJANIRA_POBRE · `cam:` LONGE → PERTO · `dur:` 16s · `gravar:` SIM\n\n**Ação:** Djanira escondida atrás de um contêiner, escutando. O Chefe conversa com dois homens perto de umas caixas. Filme de longe, pouca luz, nada claramente visível.\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | O_CHEFE | \"Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo.\" | 8s | irritado |\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca, depois)*:\n> \"Eu não entendi metade do que eles falaram. Eu só entendi que eu não podia estar ali.\"\n\n"
+  },
+  "original": {
+    "local": "GALPAO_CYPRESS",
+    "locaisCodigos": [
+      "GALPAO_CYPRESS"
+    ],
+    "hora": "19:30",
+    "clima": "limpo",
+    "elenco": "O_CHEFE, CAPANGA_1, CAPANGA_2, DJANIRA_POBRE",
+    "elencoCodigos": [
+      "O_CHEFE",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE → PERTO",
+    "planosSemTemposDefinidos": [
+      "LONGE",
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 16000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      809,
+      810
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "O_CHEFE",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "O_CHEFE",
+      "texto": "Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo.",
+      "textoOriginal": "\"Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo.\"",
+      "gestoOriginal": "irritado",
+      "boca": true,
+      "linhaInicio": 818,
+      "raw": "| 1 | O_CHEFE | \"Isso aqui não pode passar pelo porto. Vai tudo no meu voo. E ninguém, ninguém mesmo, fica sabendo.\" | 8s | irritado |",
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    },
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não entendi metade do que eles falaram. Eu só entendi que eu não podia estar ali.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca, depois)*:",
+      "textoOriginal": "> \"Eu não entendi metade do que eles falaram. Eu só entendi que eu não podia estar ali.\"",
+      "indicacoesOriginais": " *(sem boca, depois)*:",
+      "linhaInicio": 820,
+      "linhaTexto": 821,
+      "inicioMs": 8000,
+      "fimMs": 16000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 16000,
+    "blocosDeclaradosMs": 16000,
+    "conteudoPlanejadoMs": 16000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 19000,
+    "fimUltimaLegendaMs": 19000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 812,
+      "raw": "**Ação:** Djanira escondida atrás de um contêiner, escutando. O Chefe conversa com dois homens perto de umas caixas. Filme de longe, pouca luz, nada claramente visível.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:O_CHEFE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_1",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_2",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:GALPAO_CYPRESS",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:olhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:esconder",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:dialogo",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:ambiente_mobiliario",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP07_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "O_CHEFE",
+    "CAPANGA_1",
+    "CAPANGA_2",
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

@@ -1,0 +1,124 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP09_C05",
+  "episodio": 9,
+  "numero": 5,
+  "nome": "A SAÍDA DE CASA",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1026,
+    "linhaFim": 1034,
+    "sha256BlocoUtf8": "0F8E224DD8CB02FB3D87042477F584CE373EAB48348F110E84C6EA5071AAF344",
+    "raw": "### EP09_C05 · A SAÍDA DE CASA\n`local:` CASA_VO · `hora:` 08:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Djanira sai de casa com uma sacola, de costas. Câmera parada. Ela some do quadro sozinha.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_VO",
+    "locaisCodigos": [
+      "CASA_VO"
+    ],
+    "hora": "08:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1027,
+      1028
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1032,
+      "linhaTexto": 1033,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1030,
+      "raw": "**Ação:** Djanira sai de casa com uma sacola, de costas. Câmera parada. Ela some do quadro sozinha.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:CASA_VO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:caminhar",
+      "tipo": "atuacao_integral",
+      "descricao": "Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:sacola",
+      "tipo": "atuacao_integral",
+      "descricao": "Sacola real na mão/abraço e poses; aparências de ped não criam o objeto da história.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP09_C05",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

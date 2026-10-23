@@ -1,0 +1,103 @@
+{
+  "versao": 1,
+  "id": "EP02_C04",
+  "episodio": 2,
+  "numero": 4,
+  "nome": "O AVISO DA AVÓ",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "19:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.6,
+        "frente": -0.85,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0.65,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFinal": "DOIS",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DONA_IRACI"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 5,
+      "plano": "MEDIA",
+      "texto": "Minha filha, chega aqui. Tu deu dinheiro pra aquela menina, né?",
+      "personagem": "DONA_IRACI",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 4,
+      "plano": "MEDIA",
+      "texto": "Dei, vó. É a Dinjer. A gente cresceu junto.",
+      "personagem": "DJANIRA_POBRE",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "MEDIA",
+      "texto": "Essa menina não é flor que se cheira. Vai lá na internet e procura o nome dela. Procura, minha filha. Tu vai ver o tanto de gente que ela já passou pra trás.",
+      "personagem": "DONA_IRACI",
+      "gesto": "explicando"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3.6,
+      "destino": {
+        "direita": -0.6,
+        "frente": 0,
+        "altura": 0
+      },
+      "velocidade": 1
+    },
+    {
+      "tipo": "virar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 3.6,
+      "duracaoSegundos": 1.2,
+      "alvo": "DONA_IRACI"
+    },
+    {
+      "tipo": "virar",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 3.6,
+      "duracaoSegundos": 1.2,
+      "alvo": "DJANIRA_POBRE"
+    }
+  ]
+}

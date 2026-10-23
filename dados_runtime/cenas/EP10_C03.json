@@ -1,0 +1,59 @@
+{
+  "versao": 1,
+  "id": "EP10_C03",
+  "episodio": 10,
+  "numero": 3,
+  "nome": "AS QUATRO DA MANHÃ",
+  "ambiente": {
+    "local": "RUA_STRAWBERRY",
+    "hora": "04:00",
+    "clima": "nublado",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -2,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "LONGE",
+      "texto": "Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "destino": {
+        "direita": -2,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": []
+}

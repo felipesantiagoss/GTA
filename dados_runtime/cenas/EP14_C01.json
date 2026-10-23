@@ -1,0 +1,67 @@
+{
+  "versao": 1,
+  "id": "EP14_C01",
+  "episodio": 14,
+  "numero": 1,
+  "nome": "O PORTÃO",
+  "ambiente": {
+    "local": "MANSAO_DJANIRA",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "ATRAS",
+    "personagem": "DINJER",
+    "planoFala": "MEDIA",
+    "planoNarracao": "ATRAS",
+    "planoFinal": "ATRAS",
+    "ajustes": {
+      "aproximar": -1,
+      "lado": 0.7
+    }
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 7,
+      "plano": "ATRAS",
+      "texto": "Ela apareceu no meu portão às onze da noite. Sem maquiagem, com o uniforme ainda.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "interpretacao": [
+    {
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "expressao": "estressado"
+    }
+  ],
+  "portas": [
+    {
+      "tipo": "bater",
+      "personagem": "DINJER",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "batidas": 3,
+      "recurso": "bater_porta"
+    }
+  ]
+}

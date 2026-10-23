@@ -1,0 +1,89 @@
+{
+  "versao": 1,
+  "id": "teste_fila_91",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Elenco 1/3 — Djanira pobre e rica, Dinjer e dona Iraci",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo"
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -2.4000000000000004,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": -0.8,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": 0.8,
+        "frente": 0
+      }
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 2.4000000000000004,
+        "frente": 0
+      }
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS",
+      "personagem": "DJANIRA_POBRE"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "DJANIRA_POBRE",
+      "texto": "Este é o visual de Djanira.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "DJANIRA_RICA",
+      "texto": "Este é o visual de Djanira.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "DINJER",
+      "texto": "Este é o visual de Dinjer.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    },
+    {
+      "tipo": "fala",
+      "personagem": "DONA_IRACI",
+      "texto": "Este é o visual de Dona Iraci.",
+      "duracaoSegundos": 4,
+      "gesto": "neutro",
+      "plano": "MEDIA"
+    }
+  ]
+}

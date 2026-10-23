@@ -1,0 +1,18 @@
+{
+  "versao": 1,
+  "id": "teste_elenco_rica",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Prévia dos visuais — Djanira, episódios 11 a 15",
+  "ambiente": {"local": "TESTE_AMBIENTE", "hora": "17:00", "clima": "limpo"},
+  "elenco": [
+    {"personagem": "DJANIRA_RICA", "marca": {"direita": -1.1, "frente": 0}, "olharPara": "DINJER"},
+    {"personagem": "DINJER", "marca": {"direita": 1.1, "frente": 0}, "olharPara": "DJANIRA_RICA"}
+  ],
+  "camera": {"modo": "automatico", "planoInicial": "DOIS", "personagem": "DJANIRA_RICA"},
+  "roteiro": [
+    {"tipo": "narracao", "narrador": "Narrador", "texto": "A mesma Djanira, agora com outro figurino. Seu rosto continua igual.", "duracaoSegundos": 4},
+    {"tipo": "fala", "personagem": "DJANIRA_RICA", "texto": "Meu cabelo e minha roupa mudaram. Eu continuo sendo a mesma Djanira.", "duracaoSegundos": 4, "gesto": "neutro"},
+    {"tipo": "fala", "personagem": "DINJER", "texto": "O meu visual continua igual ao da primeira prévia.", "duracaoSegundos": 4, "gesto": "explicando"}
+  ]
+}

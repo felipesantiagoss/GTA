@@ -1,0 +1,134 @@
+{
+  "versao": 1,
+  "id": "EP02_C05",
+  "episodio": 2,
+  "numero": 5,
+  "nome": "O BLOQUEIO",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "19:30",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 3.2,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "plano": "PERTO",
+      "texto": "Eu peguei o celular pra provar pra minha avó que ela tava errada. E eu tava bloqueada. Em tudo. Não tinha feito nem uma semana que ela saiu da minha casa com o meu dinheiro na mão, e eu já não existia mais pra ela.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "objetos": [
+    {
+      "id": "CELULAR_DJANIRA",
+      "recurso": "celular",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DJANIRA_POBRE",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 7,
+      "recurso": "celular_texto_f",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 2,
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "CELULAR_DJANIRA"
+      },
+      "expressao": "normal"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 2,
+      "duracaoSegundos": 5,
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "CELULAR_DJANIRA"
+      },
+      "expressao": "comraiva"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 7,
+      "duracaoSegundos": 2,
+      "olhar": {
+        "tipo": "desvio"
+      },
+      "expressao": "comraiva"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 9,
+      "duracaoSegundos": 3,
+      "olhar": {
+        "tipo": "horizonte"
+      },
+      "expressao": "comraiva"
+    }
+  ]
+}

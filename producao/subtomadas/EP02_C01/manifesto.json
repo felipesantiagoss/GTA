@@ -1,0 +1,33 @@
+{
+  "versao": 1,
+  "id": "EP02_C01",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 352,
+    "linhaFim": 362,
+    "sha256BlocoUtf8": "16A75A96E9673C9BDFAA1814757776B382191B64E396D6EE94DEF3D9E08999BC",
+    "raw": "### EP02_C01 · A BALADA\n`local:` BOATE_DENTRO · `hora:` 23:00 · `clima:` limpo\n`elenco:` DINJER · `cam:` MEDIA → PERTO · `dur:` 8s · `gravar:` SIM\n\n⚠️ Se o interior não abrir, use `BOATE_FORA` com ela entrando pela porta, à noite, com neon.\n\n**Ação:** Dinjer bebendo, dançando, tirando foto. Expressão `convencido`.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Enquanto eu contava moeda pra comprar pão, o meu dinheiro tava fazendo outra coisa.\"\n\n"
+  },
+  "notaAlternativaLiteral": [
+    {
+      "linha": 356,
+      "raw": "⚠️ Se o interior não abrir, use `BOATE_FORA` com ela entrando pela porta, à noite, com neon."
+    }
+  ],
+  "alternativa": {
+    "parte": "fora",
+    "arquivo": "producao/subtomadas/EP02_C01/fora/EP02_C01.json",
+    "sha256": "58508E4F1AD1155CC8E09B38E5E87A9D48074A82D6FEBFE84DD496ED462B7B78",
+    "local": "BOATE_FORA",
+    "conteudoMs": 8000,
+    "capturaDesdeF7Ms": 11000
+  },
+  "pronto": false,
+  "gravado": false,
+  "requisitos": [
+    "F3 no limiar real da porta da boate olhando para dentro, acesso realmente aberto, noite/neon vistos.",
+    "Dinjer inicia2m fora e caminha4m através da passagem; chegada física<=0,40m, bloqueio/tempo insuficiente causa erro sem teleporte.",
+    "T alterna dentro/fora no mesmoID fora da captura/ação; o log registra a variante. Não editar JSON do usuário nem forçar abertura de interior."
+  ]
+}

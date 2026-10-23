@@ -1,0 +1,118 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP09_C03",
+  "episodio": 9,
+  "numero": 3,
+  "nome": "O BANCO",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 997,
+    "linhaFim": 1005,
+    "sha256BlocoUtf8": "D035D696BF4FFB0009F073C370BCCE67DD411091CD2B75F28336292D5562F720",
+    "raw": "### EP09_C03 · O BANCO\n`local:` BANCO_MAZE · `hora:` 14:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` BAIXA · `dur:` 6s · `gravar:` SIM\n\n**Ação:** Djanira parada na calçada, olhando o prédio enorme. Câmera baixa — o prédio gigante, ela minúscula.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:\n> \"E eu fui atrás do dinheiro.\"\n\n"
+  },
+  "original": {
+    "local": "BANCO_MAZE",
+    "locaisCodigos": [
+      "BANCO_MAZE"
+    ],
+    "hora": "14:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "BAIXA",
+    "planosSemTemposDefinidos": [
+      "BAIXA"
+    ],
+    "duracaoEstimadaMs": 6000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      998,
+      999
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "E eu fui atrás do dinheiro.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca)*:",
+      "textoOriginal": "> \"E eu fui atrás do dinheiro.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1003,
+      "linhaTexto": 1004,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 6000,
+    "blocosDeclaradosMs": 6000,
+    "conteudoPlanejadoMs": 6000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 9000,
+    "fimUltimaLegendaMs": 9000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1001,
+      "raw": "**Ação:** Djanira parada na calçada, olhando o prédio enorme. Câmera baixa — o prédio gigante, ela minúscula.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Ator imóvel conforme a ação original, no eixo da marca real; direção do horizonte/prédio depende da captura F3."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BANCO_MAZE",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP09_C03.json",
+  "runtimeSHA256": "99A4E88E4032FF75045919BB50CB8A1A1C5B501189938D14C758D37F4DC5B298",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 6000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 9000,
+    "blocosOriginaisMs": 6000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

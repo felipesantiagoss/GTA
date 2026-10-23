@@ -1,0 +1,113 @@
+{
+  "versao": 1,
+  "id": "EP15_C08",
+  "episodio": 15,
+  "numero": 8,
+  "nome": "OS QUE FICARAM",
+  "ambiente": {
+    "local": "MANSAO_CHEFE",
+    "hora": "21:10",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DINJER",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "inverterEixo": true,
+    "ajustes": { "lado": 1.5, "altura": 0, "aproximar": 0 },
+    "planoInicial": "MEDIA",
+    "personagem": "DINJER",
+    "planoFala": "LONGE",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "MEDIA",
+        "personagem": "DINJER"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 10,
+      "plano": "LONGE",
+      "texto": "E a Dinjer continuou ali. De pé, de uniforme, com a bandeja na mão. Não mudou nada pra ela. Ela começou servindo e terminou servindo.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 2,
+      "plano": "LONGE"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DINJER",
+      "recurso": "servir_champanhe_autor",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "loop": true,
+      "corpoInteiro": false,
+      "manterPoseFinal": true,
+      "preservarDuranteFala": false
+    }
+  ],
+  "interpretacao": [],
+  "objetos": [
+    {
+      "id": "MESA_JANTAR",
+      "recurso": "mesa_grande_c8_autor",
+      "marca": {
+        "direita": -0.65,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "BANDEJA_SERVICO",
+      "recurso": "bandeja_champanhe_autor",
+      "marca": {
+        "direita": -1.8,
+        "frente": 2.5,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DINJER",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.01
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": []
+    }
+  ],
+  "poses": []
+}

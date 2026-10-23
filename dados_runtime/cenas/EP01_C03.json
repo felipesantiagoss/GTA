@@ -1,0 +1,146 @@
+{
+  "versao": 1,
+  "id": "EP01_C03",
+  "episodio": 1,
+  "numero": 3,
+  "nome": "A AVÓ",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "18:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "DOIS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "MEDIA",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "DOIS",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 6,
+        "plano": "MEDIA",
+        "personagem": "DONA_IRACI"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "texto": "Eu morava com a minha avó, dona Iraci. Foi ela que me criou. Agora que ela tava muito doente, era a minha vez de cuidar dela.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "recurso": "entrega_b",
+      "loop": true,
+      "corpoInteiro": false
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DONA_IRACI",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "recurso": "entrega_a",
+      "loop": true,
+      "corpoInteiro": false
+    }
+  ],
+  "objetos": [
+    {
+      "id": "SACOLA_IRACI",
+      "recurso": "sacola",
+      "marca": {
+        "direita": 0.35,
+        "frente": 0,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DONA_IRACI",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 1,
+          "personagem": "DJANIRA_POBRE",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "esperaMaximaSegundos": 0.7
+        },
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 4,
+          "personagem": "DONA_IRACI",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "esperaMaximaSegundos": 1.5
+        }
+      ]
+    }
+  ]
+}

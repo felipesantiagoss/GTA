@@ -1,0 +1,206 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP13_C02",
+  "episodio": 13,
+  "numero": 2,
+  "nome": "A DEMISSÃO",
+  "estado": "pendente_atuacao_integral",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1311,
+    "linhaFim": 1319,
+    "sha256BlocoUtf8": "E9FE3325F51340BCAD285370443D8ED82F4588CC78E771F2F02A2873BE580196",
+    "raw": "### EP13_C02 · A DEMISSÃO\n`local:` BOATE_DENTRO · `hora:` 21:30 · `clima:` limpo\n`elenco:` DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3 · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"\n\n"
+  },
+  "original": {
+    "local": "BOATE_DENTRO",
+    "locaisCodigos": [
+      "BOATE_DENTRO"
+    ],
+    "hora": "21:30",
+    "clima": "limpo",
+    "elenco": "DINJER, CAPANGA_1, CAPANGA_2, CAPANGA_3",
+    "elencoCodigos": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1312,
+      1313
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DINJER",
+      "CAPANGA_1",
+      "CAPANGA_2",
+      "CAPANGA_3"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"Eu demiti todo mundo no primeiro mês. Todo mundo menos ela. Não por bondade. Eu precisava dela ali, onde eu pudesse ver.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1317,
+      "linhaTexto": 1318,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1315,
+      "raw": "**Ação:** Um gerente entrega envelopes de demissão. Dinjer fica sem.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [],
+  "pendencias": [
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_1",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_2",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:CAPANGA_3",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:BOATE_DENTRO",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    },
+    {
+      "codigo": "capacidade:entrega",
+      "tipo": "atuacao_integral",
+      "descricao": "Prop autêntico, osso/mão e fase de transferência entre donos; clipes A/B não provam o papel de cada ator.",
+      "candidatos": [
+        "entrega_a",
+        "entrega_b"
+      ]
+    },
+    {
+      "codigo": "capacidade:elenco_adicional",
+      "tipo": "atuacao_integral",
+      "descricao": "Resolver gerente/segurança/colegas/pai/amiga citados fora do elenco declarado, sem inventar identidade.",
+      "candidatos": []
+    },
+    {
+      "codigo": "capacidade:interior",
+      "tipo": "atuacao_integral",
+      "descricao": "Acesso real e marca interna; fachada é alternativa explícita e não comprovação de interior.",
+      "candidatos": []
+    },
+    {
+      "codigo": "adaptador:EP13_C02",
+      "tipo": "atuacao_integral",
+      "descricao": "Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "entrega_a",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_a",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70739,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_a"
+      },
+      "restricoes": [
+        "A/B são candidatos para entrega; prop próprio precisa trocar de dono em fase medida."
+      ]
+    },
+    {
+      "codigo": "entrega_b",
+      "tipo": "coreografia_pareada",
+      "categoria": "entrega",
+      "dicionario": "mp_common",
+      "animacao": "givetake1_b",
+      "sexoOrigem": "não confirmado pelo nome",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 70738,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "mp_common givetake1_b"
+      },
+      "restricoes": [
+        "Testar qual ator entrega/recebe e fase da mão; não inferir papéis só pelos sufixos A/B."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DINJER",
+    "CAPANGA_1",
+    "CAPANGA_2",
+    "CAPANGA_3"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": null,
+  "runtimeSHA256": null,
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações."
+}

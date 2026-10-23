@@ -1,0 +1,413 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C08",
+  "episodio": 1,
+  "numero": 8,
+  "nome": "O PEDIDO",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 307,
+    "linhaFim": 327,
+    "sha256BlocoUtf8": "954366A6031F1884C86542B54484CE8F7B1A237B50E20C5E8075760D54C9D0F8",
+    "raw": "### EP01_C08 · O PEDIDO\n`local:` ROCA_GRAPESEED · `hora:` 17:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE, DINJER · `cam:` auto · `dur:` 28s · `gravar:` SIM\n\n> 🔴 **Esta é a cena de teste do sistema.** Gere esta primeiro.\n\n**Ação:** Dinjer chega de moto, desce, anda com jeito de passarela até a Djanira e para na frente dela. As duas conversam. No fim, Djanira mexe no celular fazendo o Pix.\n\n**NARRAÇÃO** — DJANIRA — 6s *(sem boca, antes do diálogo começar)*:\n> \"Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.\"\n\n**DIÁLOGO** *(com boca)*:\n\n| # | Quem | Texto | Dur | Gesto |\n|---|---|---|---|---|\n| 1 | DINJER | \"Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?\" | 9s | implorando |\n| 2 | DJANIRA | \"Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?\" | 6s | neutro |\n| 3 | DINJER | \"Prometo pela vida da minha mãe.\" | 3s | implorando |\n| 4 | DJANIRA | \"Então tá bom. Vou fazer o Pix.\" | 3s | neutro |\n| 5 | DINJER | \"Amiga, muito obrigada. Te amo!\" | 3s | explicando |\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "17:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE, DINJER",
+    "elencoCodigos": [
+      "DJANIRA_POBRE",
+      "DINJER"
+    ],
+    "camera": "auto",
+    "planosSemTemposDefinidos": [],
+    "duracaoEstimadaMs": 28000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      308,
+      309
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE",
+      "DINJER"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 6s *(sem boca, antes do diálogo começar)*:",
+      "textoOriginal": "> \"Ela não devia nem lembrar mais de mim, porque ela sumiu. Mas naquele dia ela apareceu com um problema.\"",
+      "indicacoesOriginais": " *(sem boca, antes do diálogo começar)*:",
+      "linhaInicio": 315,
+      "linhaTexto": 316,
+      "inicioMs": 0,
+      "fimMs": 6000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 1,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?",
+      "textoOriginal": "\"Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 322,
+      "raw": "| 1 | DINJER | \"Amiga, eu tô desesperada. Minha mãe tá doente, eu preciso pagar uns exames, comprar remédio, e o meu dinheiro não caiu. Pode me emprestar mil reais?\" | 9s | implorando |",
+      "inicioMs": 6000,
+      "fimMs": 15000,
+      "duracaoMs": 9000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 2,
+      "quemOriginal": "DJANIRA",
+      "texto": "Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?",
+      "textoOriginal": "\"Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 323,
+      "raw": "| 2 | DJANIRA | \"Amiga, eu tenho só o dinheiro do aluguel. Me promete que devolve em duas semanas?\" | 6s | neutro |",
+      "inicioMs": 15000,
+      "fimMs": 21000,
+      "duracaoMs": 6000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 3,
+      "quemOriginal": "DINJER",
+      "texto": "Prometo pela vida da minha mãe.",
+      "textoOriginal": "\"Prometo pela vida da minha mãe.\"",
+      "gestoOriginal": "implorando",
+      "boca": true,
+      "linhaInicio": 324,
+      "raw": "| 3 | DINJER | \"Prometo pela vida da minha mãe.\" | 3s | implorando |",
+      "inicioMs": 21000,
+      "fimMs": 24000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 4,
+      "quemOriginal": "DJANIRA",
+      "texto": "Então tá bom. Vou fazer o Pix.",
+      "textoOriginal": "\"Então tá bom. Vou fazer o Pix.\"",
+      "gestoOriginal": "neutro",
+      "boca": true,
+      "linhaInicio": 325,
+      "raw": "| 4 | DJANIRA | \"Então tá bom. Vou fazer o Pix.\" | 3s | neutro |",
+      "inicioMs": 24000,
+      "fimMs": 27000,
+      "duracaoMs": 3000
+    },
+    {
+      "tipo": "fala",
+      "tipoOriginal": "DIÁLOGO",
+      "numeroOriginal": 5,
+      "quemOriginal": "DINJER",
+      "texto": "Amiga, muito obrigada. Te amo!",
+      "textoOriginal": "\"Amiga, muito obrigada. Te amo!\"",
+      "gestoOriginal": "explicando",
+      "boca": true,
+      "linhaInicio": 326,
+      "raw": "| 5 | DINJER | \"Amiga, muito obrigada. Te amo!\" | 3s | explicando |",
+      "inicioMs": 27000,
+      "fimMs": 30000,
+      "duracaoMs": 3000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 28000,
+    "blocosDeclaradosMs": 30000,
+    "conteudoPlanejadoMs": 30000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 33000,
+    "fimUltimaLegendaMs": 33000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 313,
+      "raw": "**Ação:** Dinjer chega de moto, desce, anda com jeito de passarela até a Djanira e para na frente dela. As duas conversam. No fim, Djanira mexe no celular fazendo o Pix.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [
+    {
+      "linha": 311,
+      "raw": "> 🔴 **Esta é a cena de teste do sistema.** Gere esta primeiro."
+    }
+  ],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "pedido_v1 implementa chegada12s, voz30s e celular4s; teste visual pendente."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "visual:DINJER",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "pegar_celular_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "anim@amb@business@bgen@bgen_no_work@",
+      "animacao": "stand_phone_phonepickup-noworkfemale",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 134260,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "anim@amb@business@bgen@bgen_no_work@ stand_phone_phonepickup-noworkfemale"
+      },
+      "restricoes": [
+        "Prop próprio no osso da mão; origem da peça/entrada precisa de calibração."
+      ]
+    },
+    {
+      "codigo": "celular_entrada_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_in",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55782,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_in"
+      },
+      "restricoes": [
+        "Entrada/texto/saída com prop próprio; nenhuma transferência bancária real."
+      ]
+    },
+    {
+      "codigo": "celular_texto_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_read_base",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55788,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_read_base"
+      },
+      "restricoes": [
+        "Posição/rotação do telefone e mão pendentes; Pix é encenado, sem interface bancária."
+      ]
+    },
+    {
+      "codigo": "celular_saida_f",
+      "tipo": "animacao_corporal",
+      "categoria": "celular",
+      "dicionario": "cellphone@female",
+      "animacao": "cellphone_text_out",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 55789,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "cellphone@female cellphone_text_out"
+      },
+      "restricoes": [
+        "Remover/ocultar somente telefone próprio ao fim ou reset."
+      ]
+    },
+    {
+      "codigo": "andar_passarela_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@sexy@a",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68939,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@sexy@a walk"
+      },
+      "restricoes": [
+        "Só candidato de estilo; não prometer passarela ou gait feminino até testar carregamento/visual."
+      ]
+    },
+    {
+      "codigo": "andar_salto_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_f@heels@c",
+      "animacao": "walk",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 68841,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_f@heels@c walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável; não trocar outfit registrado para usar salto."
+      ]
+    },
+    {
+      "codigo": "andar_chefe_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@business@a",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69144,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@business@a walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem andar playboy."
+      ]
+    },
+    {
+      "codigo": "andar_capanga_candidato",
+      "tipo": "clipset_candidato",
+      "categoria": "andar_estilo",
+      "dicionario": "move_m@tough_guy@",
+      "animacao": "walk",
+      "sexoOrigem": "masculino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 69564,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "move_m@tough_guy@ walk"
+      },
+      "restricoes": [
+        "Nome de dicionário não comprova clipset carregável nem autoriza combate."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE",
+    "DINJER"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C08.json",
+  "runtimeSHA256": "F7B4080C0177BA686827A80AAF7FDC3ED8E07A9D2549E1780D2EDDD4205B427D",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 46000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 49000,
+    "blocosOriginaisMs": 30000,
+    "tempoSemVozAdicionalMs": 16000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C08_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C08_LIMPO.mp4",
+    "sha256": "F98D4ED8517444FB5C7F6693D8123329BE3F09598B346CFDD59A4319D46B7D6A",
+    "duracaoMs": 46032,
+    "sessoesReais": [
+      "432e5fe17a13430e98d0f8f182811f0b"
+    ],
+    "fontesJsonSHA256": [
+      "F7B4080C0177BA686827A80AAF7FDC3ED8E07A9D2549E1780D2EDDD4205B427D"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

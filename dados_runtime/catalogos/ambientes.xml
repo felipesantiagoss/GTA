@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ambientes versao="1">
+  <Origem arquivo="dependencias/ScriptHookVDotNet-v3.7.0-nightly.191/ScriptHookVDotNet3.dll" tipo="GTA.Weather" fonte="https://github.com/scripthookvdotnet/scripthookvdotnet-nightly/releases/tag/v3.7.0-nightly.191" verificacao="2026-10-03">
+    Enumeração conferida na DLL oficial local. Os identificadores são os nomes de clima usados pelas funções nativas do GTA; a aparência ainda exige teste no jogo.
+  </Origem>
+  <Climas>
+    <Clima id="CLEAR" nome="Céu limpo" api="GTA.Weather.Clear" estado="não testado" />
+    <Clima id="EXTRASUNNY" nome="Muito sol" api="GTA.Weather.ExtraSunny" estado="não testado" />
+    <Clima id="CLOUDS" nome="Com nuvens" api="GTA.Weather.Clouds" estado="não testado" />
+    <Clima id="OVERCAST" nome="Encoberto" api="GTA.Weather.Overcast" estado="não testado" />
+    <Clima id="RAIN" nome="Chuva" api="GTA.Weather.Raining" estado="não testado" />
+    <Clima id="THUNDER" nome="Tempestade" api="GTA.Weather.ThunderStorm" estado="não testado" />
+    <Clima id="FOGGY" nome="Névoa" api="GTA.Weather.Foggy" estado="não testado" />
+    <Clima id="SMOG" nome="Névoa de poluição" api="GTA.Weather.Smog" estado="não testado" />
+    <Clima id="CLEARING" nome="Tempo abrindo" api="GTA.Weather.Clearing" estado="não testado" />
+    <Clima id="NEUTRAL" nome="Clima neutro" api="GTA.Weather.Neutral" estado="não testado" />
+  </Climas>
+  <Locais>
+    <Local id="frente_jogador" nome="Área livre à frente do jogador" referencia="jogador" distanciaFrente="4" estado="não testado">
+      <Descricao>Posição relativa ao jogador no instante de Montar. Direita e frente seguem a direção capturada do jogador, e altura aponta para cima. Usar piso aberto e plano; nenhuma coordenada absoluta foi cadastrada.</Descricao>
+    </Local>
+  </Locais>
+  <Horarios>
+    <Horario id="fim_tarde_teste" nome="Fim de tarde para o teste" hora="17" minuto="0" estado="não testado" />
+  </Horarios>
+</Ambientes>

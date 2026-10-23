@@ -1,0 +1,20 @@
+1
+00:00:07,000 --> 00:00:12,000
+Djanira: Dinjer. Mil reais. Eu só quero os meus mil reais.
+
+2
+00:00:12,000 --> 00:00:17,000
+Dinjer: Amiga, eu já mandei o comprovante. Deve ser o banco, tá fora do ar.
+
+3
+00:00:17,000 --> 00:00:21,000
+Djanira: Tu me mandou o print de uma tela preta.
+
+4
+00:00:21,000 --> 00:00:30,000
+Dinjer: Você veio me cobrar no meu trabalho? Na frente dos meus colegas? Por mil reais? Djanira, mil reais aqui é dinheiro de gorjeta.
+
+5
+00:00:30,000 --> 00:00:34,000
+Djanira: Pra você. Pra mim é a casa da minha avó.
+

@@ -1,0 +1,118 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP10_C03",
+  "episodio": 10,
+  "numero": 3,
+  "nome": "AS QUATRO DA MANHÃ",
+  "estado": "rascunho_integral_pendente_recursos_e_teste",
+  "pronto": false,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1081,
+    "linhaFim": 1089,
+    "sha256BlocoUtf8": "66DE64BC68F0B9FDEDC1C5F1E9B800516B507B45ABAD2A4429CDD56E94463BF5",
+    "raw": "### EP10_C03 · AS QUATRO DA MANHÃ\n`local:` RUA_STRAWBERRY · `hora:` 04:00 · `clima:` nublado\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 8s · `gravar:` SIM\n\n**Ação:** Djanira andando sozinha na rua vazia, ainda escuro.\n\n**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:\n> \"Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.\"\n\n"
+  },
+  "original": {
+    "local": "RUA_STRAWBERRY",
+    "locaisCodigos": [
+      "RUA_STRAWBERRY"
+    ],
+    "hora": "04:00",
+    "clima": "nublado",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 8000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1082,
+      1083
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 8s *(sem boca)*:",
+      "textoOriginal": "> \"Eu acordava às quatro da manhã pra pegar dois ônibus e limpar a casa de gente que tinha menos dinheiro do que eu.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1087,
+      "linhaTexto": 1088,
+      "inicioMs": 0,
+      "fimMs": 8000,
+      "duracaoMs": 8000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 8000,
+    "blocosDeclaradosMs": 8000,
+    "conteudoPlanejadoMs": 8000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 11000,
+    "fimUltimaLegendaMs": 11000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1085,
+      "raw": "**Ação:** Djanira andando sozinha na rua vazia, ainda escuro.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Rota cênica explícita4m para frente do eixo capturado, durante a voz original; chão/colisão reais e chegada sem warp conferidos pelo backend."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:RUA_STRAWBERRY",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP10_C03.json",
+  "runtimeSHA256": "832F3CCB244F97A6D41226ECA048B1532804830CBB84A34D01660ABA25F0432E",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 8000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 11000,
+    "blocosOriginaisMs": 8000,
+    "tempoSemVozAdicionalMs": 0
+  },
+  "objetosRuntime": [],
+  "posesRuntime": []
+}

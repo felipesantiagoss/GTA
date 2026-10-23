@@ -1,0 +1,129 @@
+{
+  "versao": 1,
+  "id": "EP12_C01",
+  "episodio": 12,
+  "numero": 1,
+  "nome": "A MESMA PORTA",
+  "ambiente": {
+    "local": "BOATE_FORA",
+    "hora": "23:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_RICA",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "CAPANGA_4",
+      "marca": {
+        "direita": 2,
+        "frente": 2,
+        "altura": 0
+      },
+      "olharPara": null,
+      "rotacao": 0
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "MEDIA",
+    "personagem": "DJANIRA_RICA",
+    "planoFala": "MEDIA",
+    "planoNarracao": "MEDIA",
+    "planoFinal": "MEDIA"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Três anos antes eu fiquei quarenta minutos naquela fila. Naquela noite, o segurança abriu a porta antes de eu chegar perto.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 4,
+      "plano": "DOIS"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_RICA",
+      "inicioSegundos": 8,
+      "duracaoSegundos": 4,
+      "destino": {
+        "direita": 0,
+        "frente": 4,
+        "altura": 0
+      },
+      "velocidade": 0.8,
+      "recurso": "andar_salto_candidato"
+    }
+  ],
+  "interpretacao": [],
+  "veiculos": [
+    {
+      "id": "CARRO_LUXO",
+      "recurso": "SUPERD",
+      "marca": {
+        "direita": 0,
+        "frente": -5,
+        "altura": 0
+      },
+      "rotacao": 0,
+      "motoristaExtra": true,
+      "trajetoDireto": false,
+      "assentosIniciais": [
+        {
+          "personagem": "DJANIRA_RICA",
+          "assento": 0
+        }
+      ],
+      "acoes": [
+        {
+          "tipo": "dirigir",
+          "personagem": null,
+          "inicioSegundos": 0,
+          "duracaoSegundos": 4,
+          "assento": -1,
+          "rota": [
+            {
+              "direita": 0,
+              "frente": 0,
+              "altura": 0
+            }
+          ],
+          "velocidade": 3,
+          "raioChegada": 1.5,
+          "raioParada": 1
+        },
+        {
+          "tipo": "sair",
+          "personagem": "DJANIRA_RICA",
+          "inicioSegundos": 4,
+          "duracaoSegundos": 4,
+          "assento": 0
+        }
+      ]
+    }
+  ],
+  "portas": [
+    {
+      "tipo": "abrir",
+      "personagem": "CAPANGA_4",
+      "inicioSegundos": 4,
+      "duracaoSegundos": 4
+    }
+  ]
+}

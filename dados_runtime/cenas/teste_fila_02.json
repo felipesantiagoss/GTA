@@ -1,0 +1,75 @@
+{
+  "versao": 1,
+  "id": "teste_fila_02",
+  "episodio": 0,
+  "numero": 0,
+  "nome": "Fila 2: caminhar e reiniciar",
+  "ambiente": {
+    "local": "TESTE_AMBIENTE",
+    "hora": "17:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "TESTE_HOMEM",
+      "marca": {"direita": -0.8, "frente": 0.0, "altura": 0.0},
+      "olharPara": "TESTE_MULHER"
+    },
+    {
+      "personagem": "TESTE_MULHER",
+      "marca": {"direita": 0.8, "frente": 0.0, "altura": 0.0},
+      "olharPara": "TESTE_HOMEM"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "TESTE_HOMEM",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS",
+    "inverterEixo": false,
+    "transicaoSuave": false,
+    "ajustes": {"lado": 0.0, "altura": 0.0, "aproximar": 0.0}
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "texto": "Fila 2: o homem anda um metro à frente.",
+      "duracaoSegundos": 4.0,
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Fila 2. Esta é a segunda cena.",
+      "duracaoSegundos": 3.0,
+      "personagem": "TESTE_HOMEM",
+      "gesto": "neutro"
+    },
+    {
+      "tipo": "fala",
+      "texto": "Fila 2. Vamos repetir a tomada.",
+      "duracaoSegundos": 3.0,
+      "personagem": "TESTE_MULHER",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "narracao",
+      "texto": "Fim da segunda cena da fila.",
+      "duracaoSegundos": 2.0,
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [
+    {
+      "tipo": "andarAte",
+      "personagem": "TESTE_HOMEM",
+      "inicioSegundos": 0.0,
+      "duracaoSegundos": 4.0,
+      "destino": {"direita": -0.8, "frente": 1.0, "altura": 0.0},
+      "velocidade": 1.0
+    }
+  ]
+}

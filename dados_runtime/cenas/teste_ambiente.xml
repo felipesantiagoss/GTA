@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Etapa 6: F3 captura o local de teste real; F6 retorna a ele e limpa o ambiente.
+     F7 executa a câmera automática já aprovada; F10 restaura o jogador e ambiente.
+     Mesmos atores/textos/gestos/tempos: 3 segundos de contagem + 36 de cena. -->
+<Cena versao="1" id="teste_ambiente" nome="Etapa 6: ambiente limpo e local marcado">
+  <Ambiente hora="17" minuto="0" clima="CLEAR" densidadeTransito="0"
+            densidadePedestres="0" bloquearPolicia="true" limparArea="true" />
+  <Local referencia="marcado" id="TESTE_AMBIENTE" distanciaFrente="4" />
+  <Personagens>
+    <Personagem id="homem" nome="Homem" modelo="a_m_y_business_01"
+                direita="-0.8" frente="0" altura="0" olharPara="mulher" />
+    <Personagem id="mulher" nome="Mulher" modelo="a_f_y_business_01"
+                direita="0.8" frente="0" altura="0" olharPara="homem" />
+  </Personagens>
+  <Camera plano="DOIS" personagem="homem" inverterEixo="false"
+          deslocLado="0" deslocAltura="0" aproximar="0" transicaoSuave="false"
+          automatica="true" planoFala="MEDIA" planoNarracao="DOIS" planoFinal="DOIS" />
+  <Roteiro>
+    <Narracao narrador="Narrador" duracaoSegundos="3">Trecho de narração: os dois ficam sem falar.</Narracao>
+    <Fala personagem="homem" duracaoSegundos="6" gesto="neutro">Olá. Estamos testando o movimento da boca e os gestos.</Fala>
+    <Fala personagem="mulher" duracaoSegundos="6" gesto="explicando">Agora é minha vez. Observe minha boca e minhas mãos.</Fala>
+    <Fala personagem="homem" duracaoSegundos="6" gesto="negando">Não. Isto é só um teste técnico, antes de gravar a história.</Fala>
+    <Fala personagem="mulher" duracaoSegundos="6" gesto="implorando" plano="PERTO">Por favor, repare se minha boca continua mexendo até o fim.</Fala>
+    <Fala personagem="homem" duracaoSegundos="6" gesto="irritado" plano="PERTO">Preste atenção! Quem está escutando deve olhar para quem fala.</Fala>
+    <Narracao narrador="Narrador" duracaoSegundos="3">Fim do teste: as duas bocas devem voltar ao normal.</Narracao>
+  </Roteiro>
+</Cena>

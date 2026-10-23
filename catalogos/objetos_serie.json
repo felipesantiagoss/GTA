@@ -1,0 +1,528 @@
+{
+  "versao": 1,
+  "objetos": [
+    {
+      "codigo": "celular",
+      "tipo": "prop",
+      "modelo": "prop_npc_phone_02",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 12614,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_npc_phone_02"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "papel",
+      "tipo": "prop",
+      "modelo": "p_cs_papers_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9011,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_cs_papers_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "envelope",
+      "tipo": "prop",
+      "modelo": "prop_cs_envolope_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10564,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_envolope_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "documentos",
+      "tipo": "prop",
+      "modelo": "prop_cs_documents_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10545,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_documents_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "sacola",
+      "tipo": "prop",
+      "modelo": "prop_cs_shopping_bag",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10675,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_shopping_bag"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "bandeja",
+      "tipo": "prop",
+      "modelo": "prop_food_bs_tray_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 11368,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_food_bs_tray_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "comprimidos",
+      "tipo": "prop",
+      "modelo": "prop_cs_pills",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10640,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_pills"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "prancheta",
+      "tipo": "prop",
+      "modelo": "p_amb_clipboard_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 8928,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_amb_clipboard_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "ferramenta_jardim",
+      "tipo": "prop",
+      "modelo": "prop_tool_shovel",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14180,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_tool_shovel"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "taca",
+      "tipo": "prop",
+      "modelo": "prop_wine_glass",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14624,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_wine_glass"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cadeira_simples",
+      "tipo": "apoio",
+      "modelo": "prop_chair_01a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10261,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_chair_01a"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "poltrona",
+      "tipo": "apoio",
+      "modelo": "prop_armchair_01",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9571,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_armchair_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "banco",
+      "tipo": "apoio",
+      "modelo": "prop_bench_01a",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9788,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_bench_01a"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "mesa",
+      "tipo": "apoio",
+      "modelo": "prop_table_01",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 13997,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_table_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cadeira_casa",
+      "tipo": "apoio",
+      "modelo": "v_res_fa_chair01",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19002,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_fa_chair01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cama_casa",
+      "tipo": "apoio",
+      "modelo": "v_res_d_bed",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 18958,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_d_bed"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cama_quarto",
+      "tipo": "apoio",
+      "modelo": "v_res_msonbed",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19210,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_msonbed"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cama_simples",
+      "tipo": "apoio",
+      "modelo": "v_res_tre_bed1",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19272,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_tre_bed1"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "garrafa_cerveja",
+      "tipo": "prop",
+      "modelo": "prop_amb_beer_bottle",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9542,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_amb_beer_bottle"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "bandeja_servico",
+      "tipo": "prop",
+      "modelo": "prop_food_bs_tray_03",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 11370,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_food_bs_tray_03"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "container_serie",
+      "tipo": "prop",
+      "modelo": "prop_container_01a",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10375,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_container_01a"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "caixas_serie",
+      "tipo": "prop",
+      "modelo": "prop_box_wood02a_pu",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9963,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_box_wood02a_pu"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "guarda_roupa",
+      "tipo": "prop",
+      "modelo": "v_res_tre_wardrobe",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19316,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_tre_wardrobe"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "sapato_mao",
+      "tipo": "prop",
+      "modelo": "prop_cs_amanda_shoe",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10494,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_amanda_shoe"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "laptop",
+      "tipo": "prop",
+      "modelo": "prop_laptop_01a",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 12113,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_laptop_01a"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "foto_quadro",
+      "tipo": "prop",
+      "modelo": "prop_cs_photoframe_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10639,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cs_photoframe_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "bloco_anotacao",
+      "tipo": "prop",
+      "modelo": "prop_notepad_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 12610,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_notepad_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "lapis",
+      "tipo": "prop",
+      "modelo": "prop_pencil_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 12803,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_pencil_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "dinheiro",
+      "tipo": "prop",
+      "modelo": "prop_cash_pile_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 10193,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_cash_pile_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "lapide",
+      "tipo": "prop",
+      "modelo": "prop_gravestones_01a",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 11631,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_gravestones_01a"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "caixa_remedio",
+      "tipo": "prop",
+      "modelo": "v_res_tt_pharm2",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19351,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_tt_pharm2"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "guarda_roupa_aberto_candidato",
+      "tipo": "prop",
+      "modelo": "v_24_wrd_mesh_wardrobe",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 16764,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_24_wrd_mesh_wardrobe"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "carta_simples",
+      "tipo": "prop",
+      "modelo": "prop_amanda_note_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9538,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_amanda_note_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "armario_classico_candidato",
+      "tipo": "prop",
+      "modelo": "v_res_m_armoire",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 19118,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "v_res_m_armoire"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "porta_armario",
+      "tipo": "prop",
+      "modelo": "prop_wardrobe_door_01",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14506,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_wardrobe_door_01"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "cadeira_entrada_autor",
+      "tipo": "apoio",
+      "modelo": "ex_prop_offchair_exec_02",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 2266,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "ex_prop_offchair_exec_02"
+      },
+      "estado": "fonte_conferida; teste_visual_pendente"
+    },
+    {
+      "codigo": "documento_script",
+      "tipo": "prop",
+      "modelo": "p_cs_script_s",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 9025,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "p_cs_script_s"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "mesa_banco_candidata",
+      "tipo": "apoio",
+      "modelo": "prop_table_03",
+      "origem": {
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14002,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_table_03"
+      },
+      "estado": "fonte_conferida;teste_visual_pendente"
+    },
+    {
+      "codigo": "mesa_limpeza_bar",
+      "tipo": "apoio",
+      "modelo": "prop_table_07",
+      "origem": {
+        "fonte": "apoios",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 14013,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_table_07"
+      },
+      "estado": "fonte_conferida;altura_superficie_contato_teste_visual_pendentes"
+    },
+    {
+      "codigo": "bancada_limpeza_candidata",
+      "tipo": "apoio",
+      "modelo": "prop_ff_counter_02",
+      "origem": {
+        "fonte": "apoios",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 11000,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "prop_ff_counter_02"
+      },
+      "estado": "fonte_conferida;altura_superficie_contato_teste_visual_pendentes"
+    },
+    {
+      "codigo": "bandeja_champanhe_autor",
+      "tipo": "prop",
+      "modelo": "h4_prop_h4_champ_tray_01b",
+      "origem": {
+        "fonte": "objetos",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PropList.txt",
+        "linha": 2909,
+        "sha256": "35BFD924919FC223F5AB131941643B2AE4E0082FCD0ECEF1A5A50FCDEE9B2552",
+        "texto": "h4_prop_h4_champ_tray_01b"
+      },
+      "estado": "fonte_conferida;disponibilidade_Legacy_geometria_propria_e_visual_pendentes"
+    }
+  ]
+}

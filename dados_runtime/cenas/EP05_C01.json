@@ -1,0 +1,64 @@
+{
+  "versao": 1,
+  "id": "EP05_C01",
+  "episodio": 5,
+  "numero": 1,
+  "nome": "OS TRÊS SERVIÇOS",
+  "ambiente": {
+    "local": "ROCA_GRAPESEED",
+    "hora": "12:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 12,
+      "plano": "LONGE",
+      "texto": "Passaram mais duas semanas. Eu peguei três serviços. Capinei terreno, lavei roupa dos outros, colhi de sol a sol. Juntei duzentos reais. Faltavam oitocentos e a minha avó tinha vinte e dois dias.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "recurso": "trabalho_plantacao_f",
+      "loop": true,
+      "corpoInteiro": true,
+      "manterPoseFinal": false
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "chateado"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "versao": 1,
+  "id": "EP03_C07",
+  "episodio": 3,
+  "numero": 7,
+  "nome": "OS TRINTA DIAS",
+  "ambiente": {
+    "local": "CASA_VO",
+    "hora": "10:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": 0.35,
+        "frente": -1.35,
+        "altura": 0
+      },
+      "olharPara": "CAPANGA_1",
+      "rotacao": 0
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": -0.35,
+        "frente": -1.35,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    },
+    {
+      "personagem": "CAPANGA_1",
+      "marca": {
+        "direita": 0,
+        "frente": -0.8,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI",
+      "rotacao": 180
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "DOIS",
+    "personagem": "DONA_IRACI",
+    "planoFala": "MEDIA",
+    "planoNarracao": "DOIS",
+    "planoFinal": "DOIS"
+  },
+  "roteiro": [
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 9,
+      "plano": "LONGE"
+    },
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 10,
+      "plano": "MEDIA",
+      "texto": "Dona Iraci, eu gosto muito da senhora. Mas já são três meses de aluguel atrasado. Eu vou ter que pedir a casa. A senhora tem trinta dias.",
+      "personagem": "CAPANGA_1",
+      "gesto": "explicando"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 5,
+      "plano": "DOIS",
+      "texto": "Mil reais. Foi só isso. Mil reais foi o que separou a minha avó de morrer na casa dela.",
+      "narrador": "Narrador"
+    },
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 6,
+      "plano": "DOIS",
+      "texto": "Trinta dias pra achar o que ela nunca devia ter perdido. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "portas": [
+    {
+      "personagem": "CAPANGA_1",
+      "tipo": "bater",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 6,
+      "batidas": 3,
+      "recurso": "bater_porta"
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "tipo": "abrir",
+      "inicioSegundos": 6,
+      "duracaoSegundos": 1
+    },
+    {
+      "personagem": "DONA_IRACI",
+      "tipo": "atravessar",
+      "inicioSegundos": 7,
+      "duracaoSegundos": 2,
+      "destino": {
+        "direita": 0.35,
+        "frente": -0.2,
+        "altura": 0
+      },
+      "velocidade": 1
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 30,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "ator",
+        "alvo": "DONA_IRACI"
+      }
+    }
+  ]
+}

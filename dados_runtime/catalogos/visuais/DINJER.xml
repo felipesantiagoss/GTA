@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutfitPedData>
+  <ModelHash>0x9C9EFFD8</ModelHash>
+  <Type>1</Type>
+  <PedProperties>
+    <PedComps>
+      <_0>0,0</_0>
+      <_1>0,0</_1>
+      <_2>79,0</_2>
+      <_3>1,0</_3>
+      <_4>7,2</_4>
+      <_5>0,0</_5>
+      <_6>6,0</_6>
+      <_7>13,3</_7>
+      <_8>38,0</_8>
+      <_9>0,0</_9>
+      <_10>0,0</_10>
+      <_11>6,2</_11>
+    </PedComps>
+    <PedProps>
+      <_0>-1,-1</_0>
+      <_1>-1,-1</_1>
+      <_2>7,2</_2>
+      <_3>-1,-1</_3>
+      <_4>-1,-1</_4>
+      <_5>-1,-1</_5>
+      <_6>35,2</_6>
+      <_7>18,1</_7>
+      <_8>-1,-1</_8>
+      <_9>-1,-1</_9>
+    </PedProps>
+    <HeadFeatures WasInArray="true">
+      <ShapeAndSkinTone>
+        <ShapeFatherId>35</ShapeFatherId>
+        <ShapeMotherId>35</ShapeMotherId>
+        <ShapeOverrideId>39</ShapeOverrideId>
+        <ToneFatherId>39</ToneFatherId>
+        <ToneMotherId>25</ToneMotherId>
+        <ToneOverrideId>28</ToneOverrideId>
+        <ShapeVal>0.403402</ShapeVal>
+        <ToneVal>0.937347</ToneVal>
+        <OverrideVal>0</OverrideVal>
+        <IsP>0</IsP>
+      </ShapeAndSkinTone>
+      <HairColour>61</HairColour>
+      <HairColourStreaks>61</HairColourStreaks>
+      <EyeColour>4</EyeColour>
+      <FacialFeatures>
+        <_0>0.193291008</_0>
+        <_1>-0.124514</_1>
+        <_2>0.193317</_2>
+        <_3>-0.191773</_3>
+        <_4>0.193809509</_4>
+        <_5>-0.0273710042</_5>
+        <_6>0.0554060042</_6>
+        <_7>-0.021632</_7>
+        <_8>0.0107469857</_8>
+        <_9>0.219823509</_9>
+        <_10>-0.207363</_10>
+        <_11>-0.0378045</_11>
+        <_12>0.09539351</_12>
+        <_13>0.0674049854</_13>
+        <_14>-0.0721755</_14>
+        <_15>0.0866830051</_15>
+        <_16>-0.0336855054</_16>
+        <_17>-0.0972384959</_17>
+        <_18>0.1482915</_18>
+        <_19>-0.0617225021</_19>
+      </FacialFeatures>
+      <Overlays>
+        <_0 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_1 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_2 index="26" colour="-1" colourSecondary="-1" opacity="1" />
+        <_3 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_4 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_5 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_6 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_7 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_8 index="2" colour="0" colourSecondary="0" opacity="1" />
+        <_9 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_10 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_11 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+        <_12 index="255" colour="-1" colourSecondary="-1" opacity="0" />
+      </Overlays>
+    </HeadFeatures>
+  </PedProperties>
+  <DiretorVisual>
+    <Codigo>DINJER</Codigo>
+    <Modelo>mp_f_freemode_01</Modelo>
+    <Seed>20601003</Seed>
+    <GeradorVersao>ElencoAutomaticoDiretor.v2</GeradorVersao>
+    <FaceSHA256>7530A254AE678D17578582E682534800CF5FD9E76F70304F4942599F920B0D65</FaceSHA256>
+    <PoliticaAlternativas>ElencoAutomaticoDiretor.Alternativas.v1</PoliticaAlternativas>
+    <LimiteGeracaoMs>120000</LimiteGeracaoMs>
+    <QuantidadeAjustes>2</QuantidadeAjustes>
+    <Ajustes>
+      <Ajuste>
+        <Tipo>componente</Tipo>
+        <Peca>4</Peca>
+        <Esperado>222,1</Esperado>
+        <Observado>0,0</Observado>
+        <Novo>222,0</Novo>
+        <Tentativa>1</Tentativa>
+        <TentativaPeca>1</TentativaPeca>
+        <DecorridoMs>2699</DecorridoMs>
+        <Motivo>testar textura0 do mesmo drawable, diferente da recusada</Motivo>
+        <Rejeicao>visual.PedProperties.PedComps._4: mp_f_freemode_01; esperado=222,1; observado=0,0; preload concluído; setter aceito; esperou dois segundos.</Rejeicao>
+      </Ajuste>
+      <Ajuste>
+        <Tipo>componente</Tipo>
+        <Peca>4</Peca>
+        <Esperado>222,0</Esperado>
+        <Observado>0,0</Observado>
+        <Novo>83,0</Novo>
+        <Tentativa>2</Tentativa>
+        <TentativaPeca>2</TentativaPeca>
+        <DecorridoMs>5429</DecorridoMs>
+        <Motivo>testar outro drawable real, distinto e ainda não recusado</Motivo>
+        <Rejeicao>visual.PedProperties.PedComps._4: mp_f_freemode_01; esperado=222,0; observado=0,0; preload concluído; setter aceito; esperou dois segundos.</Rejeicao>
+      </Ajuste>
+    </Ajustes>
+    <Estado>gerado no jogo; teste visual pendente</Estado>
+    <DataUtc>2026-10-04T03:59:33.2182733Z</DataUtc>
+    <Origem>GTA Legacy: contagens, texturas e RGB reais do modelo; parâmetros faciais aplicados pelo Diretor</Origem>
+    <LimiteVisual>Índices válidos não comprovam tecido, penteado afro, uniforme, tom de pele ou ausência de sobreposição entre roupas.</LimiteVisual>
+  </DiretorVisual>
+</OutfitPedData>

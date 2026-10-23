@@ -1,0 +1,147 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP03_C06",
+  "episodio": 3,
+  "numero": 6,
+  "nome": "O QUE ELA ENTENDEU",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 506,
+    "linhaFim": 514,
+    "sha256BlocoUtf8": "60D8BD3EEA054D3C08E3696002C5B91881CD1AFB1C414D282A7CB0035A674B75",
+    "raw": "### EP03_C06 · O QUE ELA ENTENDEU\n`local:` CASA_DINJER, rua · `hora:` 21:40 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` PERTO · `dur:` 11s · `gravar:` SIM\n\n**Ação:** Close na Djanira, parada, sem reação.\n\n**NARRAÇÃO** — DJANIRA — 11s *(sem boca)*:\n> \"Eu não gritei. Eu não corri atrás. Pra ela, eu nunca fui amiga. Eu era reserva. Eu era o dinheiro que dava pra pegar sem precisar devolver.\"\n\n"
+  },
+  "original": {
+    "local": "CASA_DINJER, rua",
+    "locaisCodigos": [
+      "CASA_DINJER"
+    ],
+    "hora": "21:40",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "PERTO",
+    "planosSemTemposDefinidos": [
+      "PERTO"
+    ],
+    "duracaoEstimadaMs": 11000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      507,
+      508
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 510,
+      "raw": "**Ação:** Close na Djanira, parada, sem reação.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Eu não gritei. Eu não corri atrás. Pra ela, eu nunca fui amiga. Eu era reserva. Eu era o dinheiro que dava pra pegar sem precisar devolver.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 11s *(sem boca)*:",
+      "textoOriginal": "> \"Eu não gritei. Eu não corri atrás. Pra ela, eu nunca fui amiga. Eu era reserva. Eu era o dinheiro que dava pra pegar sem precisar devolver.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 512,
+      "linhaTexto": 513,
+      "inicioMs": 0,
+      "fimMs": 11000,
+      "duracaoMs": 11000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 11000,
+    "blocosDeclaradosMs": 11000,
+    "conteudoPlanejadoMs": 11000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 14000,
+    "fimUltimaLegendaMs": 14000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:CASA_DINJER",
+      "familia": "ambiente",
+      "descricao": "Marca real CASA_DINJER; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Close na Djanira, parada, sem reação.",
+      "origem": "linha 510",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

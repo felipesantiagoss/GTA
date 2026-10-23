@@ -1,0 +1,208 @@
+{
+  "versao": 1,
+  "tipoDocumento": "timeline_edicao_preliminar",
+  "episodio": 9,
+  "nomeOriginal": "\"VINTE E UM\"",
+  "origemIndiceSHA256": "0281350174AAF46A401C8B0E7ED06748D4DC497C88EF13E36550B5941F463711",
+  "duracaoPlanejadaClipesMs": 101000,
+  "clipes": [
+    {
+      "id": "EP09_C01",
+      "inicioEpisodioBaseMs": 0,
+      "fimEpisodioBaseMs": 13000,
+      "duracaoPlanejadaMs": 13000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C01.base.srt"
+    },
+    {
+      "id": "EP09_C02",
+      "inicioEpisodioBaseMs": 13000,
+      "fimEpisodioBaseMs": 22000,
+      "duracaoPlanejadaMs": 9000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C02.base.srt"
+    },
+    {
+      "id": "EP09_C03",
+      "inicioEpisodioBaseMs": 22000,
+      "fimEpisodioBaseMs": 28000,
+      "duracaoPlanejadaMs": 6000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C03.base.srt"
+    },
+    {
+      "id": "EP09_C04",
+      "inicioEpisodioBaseMs": 28000,
+      "fimEpisodioBaseMs": 52000,
+      "duracaoPlanejadaMs": 24000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C04.base.srt"
+    },
+    {
+      "id": "EP09_C05",
+      "inicioEpisodioBaseMs": 52000,
+      "fimEpisodioBaseMs": 62000,
+      "duracaoPlanejadaMs": 10000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C05.base.srt"
+    },
+    {
+      "id": "EP09_C06",
+      "inicioEpisodioBaseMs": 62000,
+      "fimEpisodioBaseMs": 81000,
+      "duracaoPlanejadaMs": 19000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "EP09_C06.base.srt"
+    },
+    {
+      "id": "VINHETA_01",
+      "inicioEpisodioBaseMs": 81000,
+      "fimEpisodioBaseMs": 101000,
+      "duracaoPlanejadaMs": 20000,
+      "mp4Real": null,
+      "offsetManualMp4ParaConteudoMs": null,
+      "retirarContagemPelaImagem": true,
+      "arquivoSrtBase": "VINHETA_01.base.srt"
+    }
+  ],
+  "legendas": [
+    {
+      "cena": "EP09_C01",
+      "bloco": 1,
+      "inicioMs": 0,
+      "fimMs": 13000,
+      "legenda": "Narrador: Foram quatro pessoas no enterro da minha avó. Eu, o coveiro e dois vizinhos que foram por educação. A mulher que me criou foi enterrada num caixão que a prefeitura pagou. Eu não tinha dinheiro nem pra flor."
+    },
+    {
+      "cena": "EP09_C02",
+      "bloco": 1,
+      "inicioMs": 13000,
+      "fimMs": 22000,
+      "legenda": "Narrador: Uma semana depois, eu abri o papel. Eu li só a primeira linha, que era o nome do banco. A segunda linha eu nem olhei, porque naquele momento eu só queria o dinheiro."
+    },
+    {
+      "cena": "EP09_C03",
+      "bloco": 1,
+      "inicioMs": 22000,
+      "fimMs": 28000,
+      "legenda": "Narrador: E eu fui atrás do dinheiro."
+    },
+    {
+      "cena": "EP09_C04",
+      "bloco": 1,
+      "inicioMs": 28000,
+      "fimMs": 36000,
+      "legenda": "Atendente: A conta existe, senhorita. O valor existe. A senhorita é que ainda não existe legalmente."
+    },
+    {
+      "cena": "EP09_C04",
+      "bloco": 2,
+      "inicioMs": 36000,
+      "fimMs": 38000,
+      "legenda": "Djanira: Como assim?"
+    },
+    {
+      "cena": "EP09_C04",
+      "bloco": 3,
+      "inicioMs": 38000,
+      "fimMs": 46000,
+      "legenda": "Atendente: É um banco americano. Lá a idade pra movimentar é vinte e um anos. A senhorita tem dezoito."
+    },
+    {
+      "cena": "EP09_C04",
+      "bloco": 4,
+      "inicioMs": 46000,
+      "fimMs": 49000,
+      "legenda": "Djanira: Faltam quantos anos?"
+    },
+    {
+      "cena": "EP09_C04",
+      "bloco": 5,
+      "inicioMs": 49000,
+      "fimMs": 51000,
+      "legenda": "Atendente: Três."
+    },
+    {
+      "cena": "EP09_C05",
+      "bloco": 1,
+      "inicioMs": 52000,
+      "fimMs": 62000,
+      "legenda": "Narrador: No mesmo mês eu perdi a casa. Juntei o que cabia numa sacola, deixei a chave em cima da mesa e nem tranquei a porta, porque não era minha pra trancar."
+    },
+    {
+      "cena": "EP09_C06",
+      "bloco": 1,
+      "inicioMs": 62000,
+      "fimMs": 74000,
+      "legenda": "Narrador: Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva."
+    },
+    {
+      "cena": "EP09_C06",
+      "bloco": 2,
+      "inicioMs": 74000,
+      "fimMs": 81000,
+      "legenda": "Narrador: Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste."
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "anteriormente",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 969,
+        "linhaFim": 970,
+        "sha256BlocoUtf8": "EAFB28C84A2B9AE6156D7D0C6B4A18671CD6CD485F2B54FC9EC181E3FC5F1C6E",
+        "raw": "**ANTERIORMENTE**: EP08_C03 (a herança) · EP08_C04 (o cassino) · EP08_C05 (o papel)\n\n"
+      },
+      "referenciasOriginais": [
+        {
+          "cena": "EP08_C03",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP08_C04",
+          "falaOriginal": null
+        },
+        {
+          "cena": "EP08_C05",
+          "falaOriginal": null
+        }
+      ],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": []
+    }
+  ],
+  "observacoes": [
+    {
+      "cena": "EP09_C01",
+      "codigo": "presenca_narrada",
+      "descricao": "A ação exige Djanira sozinha; a narração cita outras pessoas. Não criar figurantes contrariando a ação.",
+      "resolucao": "preservar origem e implementar regra do prompt explicitamente"
+    },
+    {
+      "cena": "EP09_C06",
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 12000ms menor que blocos declarados 19000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "audioReal": false,
+  "mp4Real": false,
+  "sincronismoMedido": false,
+  "excluiTemposIndefinidos": true,
+  "vinhetaReutilizada": "VINHETA_01"
+}

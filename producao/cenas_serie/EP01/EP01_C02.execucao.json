@@ -1,0 +1,183 @@
+{
+  "versao": 1,
+  "tipoDocumento": "compilacao_cena",
+  "id": "EP01_C02",
+  "episodio": 1,
+  "numero": 2,
+  "nome": "A ROÇA",
+  "estado": "gravado_remontagem_sem_texto_avaliacao_visual_pendente",
+  "pronto": false,
+  "gravado": true,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 225,
+    "linhaFim": 235,
+    "sha256BlocoUtf8": "CDABDFAA6536BE7E9F11CA7460DC1914C28C8E534E9FB6CDC78D2394F009FC35",
+    "raw": "### EP01_C02 · A ROÇA\n`local:` ROCA_GRAPESEED · `hora:` 07:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` LONGE · `dur:` 10s · `gravar:` SIM\n\n**Ação:** Djanira andando devagar no meio da plantação, trabalhando. Câmera bem afastada, ela pequena no quadro.\n\n**CARTELA NA TELA:** `QUATRO SEMANAS ANTES`\n\n**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:\n> \"A minha vida era bem diferente. Eu acordava antes do sol, trabalhava na roça e voltava pra casa com o corpo pedindo descanso.\"\n\n"
+  },
+  "original": {
+    "local": "ROCA_GRAPESEED",
+    "locaisCodigos": [
+      "ROCA_GRAPESEED"
+    ],
+    "hora": "07:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "LONGE",
+    "planosSemTemposDefinidos": [
+      "LONGE"
+    ],
+    "duracaoEstimadaMs": 10000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      226,
+      227
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": [
+      "Caminhada0-4s e trabalho4-20s: ampliar somente a ação física e a reserva silenciosa, mantendo a narração original10s; LONGE antes de10s, MEDIA depois."
+    ]
+  },
+  "roteiroOriginal": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "A minha vida era bem diferente. Eu acordava antes do sol, trabalhava na roça e voltava pra casa com o corpo pedindo descanso.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 10s *(sem boca)*:",
+      "textoOriginal": "> \"A minha vida era bem diferente. Eu acordava antes do sol, trabalhava na roça e voltava pra casa com o corpo pedindo descanso.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 233,
+      "linhaTexto": 234,
+      "inicioMs": 0,
+      "fimMs": 10000,
+      "duracaoMs": 10000
+    }
+  ],
+  "temposOriginais": {
+    "estimativaOriginalMs": 10000,
+    "blocosDeclaradosMs": 10000,
+    "conteudoPlanejadoMs": 10000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 13000,
+    "fimUltimaLegendaMs": 13000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "acoesOriginais": [
+    {
+      "linha": 229,
+      "raw": "**Ação:** Djanira andando devagar no meio da plantação, trabalhando. Câmera bem afastada, ela pequena no quadro.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [
+    {
+      "linha": 231,
+      "raw": "**CARTELA NA TELA:** `QUATRO SEMANAS ANTES`",
+      "realizacao": "CapCut",
+      "tempoDefinido": false
+    }
+  ],
+  "reaproveitamentos": [],
+  "mapeamentoDeclarado": [
+    "Remontagem20s: caminhada lenta2m durante0–4s, seguida de16s trabalhando manualmente na plantação com o clipe feminino real de jardinagem. Narração original10s sem boca e reserva silenciosa10s; câmeraLONGE até10s, depoisMEDIA, plano finalLONGE. Não acrescenta enxada nem chama a ação de capina; cartelaQUATRO SEMANAS ANTES no CapCut. Trabalho/terreno/semântica precisam do teste visual."
+  ],
+  "pendencias": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "tipo": "recurso_real",
+      "descricao": "XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino."
+    },
+    {
+      "codigo": "marca:ROCA_GRAPESEED",
+      "tipo": "recurso_real",
+      "descricao": "F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local."
+    }
+  ],
+  "candidatosDocumentados": [
+    {
+      "codigo": "trabalho_plantacao_f",
+      "tipo": "animacao_corporal",
+      "categoria": "trabalho",
+      "dicionario": "amb@world_human_gardener_plant@female@base",
+      "animacao": "base_female",
+      "sexoOrigem": "feminino",
+      "estado": "não testado",
+      "pronto": false,
+      "duracaoSegundos": null,
+      "duracaoOrigem": "PedAnimList não informa duração. Medir GET_ANIM_DURATION após REQUEST_ANIM_DICT/HAS_ANIM_DICT_LOADED no GTA; clipset exige carga própria.",
+      "rootMotion": "não medido",
+      "loopConfirmado": false,
+      "origem": {
+        "fonte": "animacoes",
+        "arquivo": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V\\menyooStuff\\PedAnimList.txt",
+        "linha": 54835,
+        "sha256": "2C537060BD97FCF0DACA407DB1436A5D54E4B8DD5274DBC9EF0D8466EF6F21E4",
+        "texto": "amb@world_human_gardener_plant@female@base base_female"
+      },
+      "restricoes": [
+        "É jardinagem; não comprova capina com enxada. Ferramenta e postura precisam de pesquisa/teste."
+      ]
+    }
+  ],
+  "elencoRuntime": [
+    "DJANIRA_POBRE"
+  ],
+  "elencoAdicionalDaAcao": [],
+  "runtimeRascunho": "EP01_C02.json",
+  "runtimeSHA256": "3795ED73DF06F7147A1CE140CCEAEEB4CC3E39253FC95EFB0D350430E74ECAB2",
+  "limite": "Rascunhos permanecem na produção do workspace. Catálogo/marca/streaming/chão/semântica visual reais precisam ser conferidos; não publicar substitutos de ações.",
+  "temposRascunho": {
+    "conteudoMs": 20000,
+    "contagemMs": 3000,
+    "capturaDesdeF7Ms": 23000,
+    "blocosOriginaisMs": 10000,
+    "tempoSemVozAdicionalMs": 10000
+  },
+  "objetosRuntime": [],
+  "posesRuntime": [],
+  "revisoesUsuario": [
+    {
+      "data": "2026-10-05",
+      "pedido": "refazer sem legendas, preservar anteriores",
+      "fonte": "pedido atual no chat"
+    }
+  ],
+  "remontagemAutorizada": {
+    "fonte": "pedido atual no chat",
+    "semTextoNaImagem": true,
+    "semVinheta": true,
+    "acaoTecnica": "Caminhada0-4s e trabalho4-20s: ampliar somente a ação física e a reserva silenciosa, mantendo a narração original10s; LONGE antes de10s, MEDIA depois.",
+    "trabalhoMs": 16000,
+    "reservaSemVozMs": 10000
+  },
+  "ultimaRemontagemGravada": {
+    "arquivo": "C:\\GTA_Diretor\\videos\\EP01_SEM_LEGENDAS\\EP01_C02_LIMPO.mp4",
+    "arquivoPerfil": "C:\\Users\\felipe.santiago\\GTA_Diretor\\Serie\\A_CALOTEIRA_1_TEMP\\EP01\\EP01_SEM_LEGENDAS\\EP01_C02_LIMPO.mp4",
+    "sha256": "8EE2497A2D92F9D4F4DC1C8E1E7AAB6BABAF315190771D88ABE326E0FAB13248",
+    "duracaoMs": 20032,
+    "sessoesReais": [
+      "2db14b3ad10c4bf0acdc70ea21b603b8"
+    ],
+    "fontesJsonSHA256": [
+      "3795ED73DF06F7147A1CE140CCEAEEB4CC3E39253FC95EFB0D350430E74ECAB2"
+    ],
+    "semTextoConferidoNosQuadros": true,
+    "aprovacaoArtisticaUsuario": false,
+    "originaisPreservados": true,
+    "provaPublicacao": "C:\\GTA_Diretor\\backups\\montagem-video-ep01\\20261005T212254663283Z-clips-capcut-limpos-exportar-5ff75b69\\publicacao-verificada.json"
+  }
+}

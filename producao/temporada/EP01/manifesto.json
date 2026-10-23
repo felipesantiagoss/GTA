@@ -1,0 +1,97 @@
+{
+  "versao": 1,
+  "tipoDocumento": "manifesto_episodio",
+  "episodio": 1,
+  "nomeOriginal": "\"O EMPRÉSTIMO\"",
+  "subtituloOriginal": null,
+  "ordemCenas": [
+    "EP01_C01",
+    "EP01_C02",
+    "EP01_C03",
+    "EP01_C04",
+    "EP01_C05",
+    "EP01_C06",
+    "EP01_C07",
+    "EP01_C08",
+    "EP01_C09"
+  ],
+  "cenas": [
+    {
+      "id": "EP01_C01",
+      "plano": "EP01_C01.plano.json",
+      "srtBase": "EP01_C01.base.srt"
+    },
+    {
+      "id": "EP01_C02",
+      "plano": "EP01_C02.plano.json",
+      "srtBase": "EP01_C02.base.srt"
+    },
+    {
+      "id": "EP01_C03",
+      "plano": "EP01_C03.plano.json",
+      "srtBase": "EP01_C03.base.srt"
+    },
+    {
+      "id": "EP01_C04",
+      "plano": "EP01_C04.plano.json",
+      "srtBase": "EP01_C04.base.srt"
+    },
+    {
+      "id": "EP01_C05",
+      "plano": "EP01_C05.plano.json",
+      "srtBase": "EP01_C05.base.srt"
+    },
+    {
+      "id": "EP01_C06",
+      "plano": "EP01_C06.plano.json",
+      "srtBase": "EP01_C06.base.srt"
+    },
+    {
+      "id": "EP01_C07",
+      "plano": "EP01_C07.plano.json",
+      "srtBase": "EP01_C07.base.srt"
+    },
+    {
+      "id": "EP01_C08",
+      "plano": "EP01_C08.plano.json",
+      "srtBase": "EP01_C08.base.srt"
+    },
+    {
+      "id": "EP01_C09",
+      "plano": "EP01_C09.plano.json",
+      "srtBase": "EP01_C09.base.srt"
+    }
+  ],
+  "montagemEditorial": [
+    {
+      "tipo": "proximo_episodio",
+      "origem": {
+        "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+        "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+        "linhaInicio": 341,
+        "linhaFim": 343,
+        "sha256BlocoUtf8": "9B68107CA09BC6D2BF128BE5C3E777EBCD3EFEBA5BAC4BA74912008F84231C85",
+        "raw": "**NO PRÓXIMO EPISÓDIO** *(montagem de 5s, cortes do Ep 2)*:\nDinjer na boate bebendo. Dinjer sentada com quatro homens de terno.\n\n"
+      },
+      "referenciasOriginais": [],
+      "realizacao": "CapCut",
+      "gravarNovamente": false,
+      "referenciasDerivadas": [
+        "EP02_C01",
+        "EP02_C02"
+      ]
+    }
+  ],
+  "vinheta": "VINHETA_01",
+  "estado": "preparacao",
+  "runtime": null,
+  "gravado": false,
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 210,
+    "linhaFim": 345,
+    "sha256BlocoUtf8": "3A45841B0B3061A12F2A1E287A07AAB7962EFE0455EECC085F72ADF6B4F52846",
+    "raw": null
+  }
+}

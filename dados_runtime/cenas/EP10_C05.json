@@ -1,0 +1,122 @@
+{
+  "versao": 1,
+  "id": "EP10_C05",
+  "episodio": 10,
+  "numero": 5,
+  "nome": "A INVISÍVEL",
+  "ambiente": {
+    "local": "CENTRO_LEGION",
+    "hora": "08:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 4
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -3,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_1",
+      "marca": {
+        "direita": -3,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_2",
+      "marca": {
+        "direita": 3,
+        "frente": 2,
+        "altura": 0
+      },
+      "olharPara": null
+    },
+    {
+      "personagem": "COLEGA_3",
+      "marca": {
+        "direita": -4.5,
+        "frente": -2,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "LONGE",
+    "personagem": "DJANIRA_POBRE",
+    "planoFala": "LONGE",
+    "planoNarracao": "LONGE",
+    "planoFinal": "LONGE"
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 9,
+      "plano": "LONGE",
+      "texto": "Ninguém me dava bom dia. Ninguém sabia o meu nome. Eu era só mais uma mulher andando rápido na calçada de manhã cedo.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "andar",
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "destino": {
+        "direita": 0,
+        "frente": 4,
+        "altura": 0
+      },
+      "velocidade": 1.4
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_1",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "destino": {
+        "direita": -3,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_2",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "destino": {
+        "direita": 3,
+        "frente": -3,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    },
+    {
+      "tipo": "andar",
+      "personagem": "COLEGA_3",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 9,
+      "destino": {
+        "direita": -4.5,
+        "frente": 3,
+        "altura": 0
+      },
+      "velocidade": 0.8
+    }
+  ],
+  "interpretacao": []
+}

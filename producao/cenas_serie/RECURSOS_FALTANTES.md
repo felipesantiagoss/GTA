@@ -1,0 +1,162 @@
+# Compilação da temporada
+
+95descritores; 27rascunhos integrais com atuação representada; 68pendentes de adaptador integral.
+
+Nenhuma cena é declarada pronta/gravada. Saídas ficam exclusivamente no workspace. OsJSON que existem representam atuação inteira, sem substituir ação por ator parado; pesquisa/compilação não prova semântica visual dos clipes candidatos.
+
+Rascunhos: EP01_C01, EP01_C02, EP01_C03, EP01_C04, EP01_C06, EP01_C07, EP01_C08, EP01_C09, EP02_C04, EP02_C07, EP03_C06, EP04_C04, EP04_C05, EP05_C05, EP06_C03, EP08_C02, EP08_C04, EP09_C03, EP09_C04, EP10_C03, EP10_C04, EP10_C07, EP12_C02, EP14_C03, EP14_C04, EP15_C06, VINHETA_01
+
+Falhas de origem/hash/recurso rejeitam geração. Publicação no perfil fica para o Diretor após validação real. Queda/voo/água, veículos/props/apoios/portas/interiores e atuação pareada permanecem explícitos nos95descritores e CSV.
+
+- `visual:DJANIRA_POBRE`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C01, EP01_C02, EP01_C03, EP01_C04, EP01_C08, EP01_C09, EP02_C03, EP02_C04, EP02_C05, EP02_C06, EP02_C07, EP03_C01, EP03_C02, EP03_C03, EP03_C04, EP03_C05, EP03_C06, EP03_C07, EP04_C01, EP04_C02, EP04_C03, EP04_C04, EP04_C05, EP04_C06, EP05_C01, EP05_C02, EP05_C03, EP05_C04, EP05_C05, EP06_C01, EP06_C02, EP06_C03, EP06_C04, EP06_C05, EP07_C01, EP07_C02, EP07_C03, EP07_C04, EP07_C05, EP08_C01, EP08_C02, EP08_C03, EP08_C04, EP08_C05, EP08_C06, EP09_C01, EP09_C02, EP09_C03, EP09_C04, EP09_C05, EP09_C06, EP10_C01, EP10_C02, EP10_C03, EP10_C04, EP10_C05, EP10_C06, EP10_C07.
+- `marca:CANAL_LS`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C01, EP07_C05, EP08_C01.
+- `marca:CANAL_LS_RAMPA_ENTRADA`: Subponto real de CANAL_LS capturado porF3, sem preencher coordenadas antes do jogo; rampa de concreto/piso e rota precisam ser vistos e medidos. Cenas: EP01_C01.
+- `marca:CANAL_LS_RAMPA_TOPO`: Subponto real de CANAL_LS capturado porF3, sem preencher coordenadas antes do jogo; rampa de concreto/piso e rota precisam ser vistos e medidos. Cenas: EP01_C01.
+- `marca:CANAL_LS_FUGA`: Subponto real de CANAL_LS capturado porF3, sem preencher coordenadas antes do jogo; rampa de concreto/piso e rota precisam ser vistos e medidos. Cenas: EP01_C01.
+- `ensaio:queda_CANAL_LS`: Confirmar primeiro o ensaio técnico separado, invencibilidade/impacto/imersão; depois validar a cena completa na rampa real. Compilação não é confirmação de física ou aparência. Cenas: EP01_C01.
+- `marca:ROCA_GRAPESEED`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C02, EP01_C08, EP01_C09, EP02_C07, EP05_C01, EP05_C02, EP05_C03.
+- `visual:DONA_IRACI`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C03, EP01_C04, EP01_C05, EP02_C04, EP02_C06, EP03_C07, EP04_C05, EP05_C05, EP08_C03, EP08_C04, EP08_C05, VINHETA_01.
+- `marca:CASA_VO`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C03, EP02_C03, EP02_C04, EP02_C05, EP02_C06, EP03_C07, EP04_C05, EP04_C06, EP05_C04, EP05_C05, EP08_C03, EP08_C04, EP08_C05, EP08_C06, EP09_C02, EP09_C05.
+- `marca:HOSPITAL_SANDY`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C04, EP01_C05.
+- `passagem:HOSPITAL_SANDY`: Limiar real aberto apontando para dentro; raycasts/colisão e travessia da avó precisam passar no GTA. Porta fechada impede montagem; recurso não confirmado por existir JSON. Cenas: EP01_C04.
+- `marca:CASSINO_FORA`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C05.
+- `capacidade:caminhar`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP01_C05, EP03_C01, EP03_C05, EP04_C01, EP04_C03, EP06_C01, EP06_C04, EP06_C05, EP07_C01, EP09_C05, EP10_C05, EP11_C01, EP11_C03, EP13_C01, EP13_C04, EP14_C05, EP15_C04, EP15_C07.
+- `capacidade:porta`: Porta/portão real, aproximação e direção; abertura/fechamento físico e três batidas quando declaradas. Cenas: EP01_C05, EP03_C02, EP03_C04, EP03_C07, EP11_C01, EP12_C01, EP14_C01, EP15_C07.
+- `capacidade:olhar`: Alvo e altura conforme roteiro; chão/costas/desvio/horizonte não equivalem sempre ao olhar automático do ouvinte. Cenas: EP01_C05, EP02_C06, EP04_C02, EP05_C04, EP06_C01, EP06_C02, EP06_C06, EP07_C02, EP07_C04, EP08_C06, EP09_C01, EP09_C02, EP11_C01, EP11_C02, EP13_C01, EP13_C05, EP14_C05, EP15_C04, EP15_C05.
+- `capacidade:expressao`: Mapear normal/chateado/feliz/machucado/comraiva/estressado/convencido por clipes reais; não substituir por neutro. Cenas: EP01_C05, EP02_C01, EP02_C03, EP02_C05, EP03_C04, EP04_C06, EP05_C01, EP06_C02, EP06_C05, EP07_C01, EP07_C03, EP09_C06, EP10_C02, EP11_C02, EP13_C01, EP13_C04, EP14_C01.
+- `adaptador:EP01_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP01_C05.
+- `visual:DINJER`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C06, EP01_C07, EP01_C08, EP01_C09, EP02_C01, EP02_C02, EP03_C05, EP04_C02, EP04_C03, EP05_C03, EP06_C03, EP06_C04, EP06_C06, EP07_C03, EP07_C04, EP12_C03, EP12_C04, EP12_C05, EP13_C01, EP13_C02, EP13_C05, EP13_C06, EP14_C01, EP14_C02, EP14_C03, EP14_C04, EP14_C05, EP15_C02, EP15_C03, EP15_C05, EP15_C06, EP15_C08, VINHETA_01.
+- `marca:AEROPORTO_TERMINAL`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C06, EP04_C01, EP04_C02, EP04_C03.
+- `visual:COLEGA_1`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C07, EP04_C02.
+- `visual:COLEGA_2`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C07, EP04_C02.
+- `visual:COLEGA_3`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP01_C07.
+- `marca:AEROPORTO_HANGAR`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP01_C07, EP07_C01, EP07_C03.
+- `marca:BOATE_DENTRO`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP02_C01, EP02_C02, EP06_C03, EP06_C04, EP06_C06, EP12_C02, EP12_C03, EP12_C04, EP12_C05, EP13_C01, EP13_C02, EP13_C05, EP13_C06.
+- `capacidade:bebida`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP02_C01.
+- `capacidade:danca`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP02_C01.
+- `capacidade:foto`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP02_C01.
+- `capacidade:interior`: Acesso real e marca interna; fachada é alternativa explícita e não comprovação de interior. Cenas: EP02_C01, EP02_C02, EP06_C04, EP11_C04, EP12_C03, EP13_C01, EP13_C02, EP13_C05, EP13_C06, EP15_C02.
+- `adaptador:EP02_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP02_C01.
+- `visual:CAPANGA_1`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP02_C02, EP03_C07, EP06_C03, EP07_C02, EP13_C02.
+- `visual:CAPANGA_2`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP02_C02, EP06_C03, EP07_C02, EP13_C02.
+- `visual:CAPANGA_3`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP02_C02, EP13_C02.
+- `visual:CAPANGA_4`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP02_C02.
+- `capacidade:sentar`: Apoio/assento/mesa ou chão real e posição corporal; entrada/saída e fala sem gesto standing desfazer a pose. Cenas: EP02_C02, EP03_C03, EP06_C04, EP08_C03, EP11_C04, EP13_C06, EP15_C02, EP15_C04, EP15_C05, EP15_C08.
+- `capacidade:entrega`: Prop autêntico, osso/mão e fase de transferência entre donos; clipes A/B não provam o papel de cada ator. Cenas: EP02_C02, EP08_C05, EP11_C05, EP12_C04, EP12_C05, EP13_C02, EP15_C03.
+- `adaptador:EP02_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP02_C02.
+- `capacidade:celular`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP02_C03, EP02_C05, EP02_C06, EP05_C02.
+- `adaptador:EP02_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP02_C03.
+- `adaptador:EP02_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP02_C05.
+- `capacidade:dialogo`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP02_C06, EP03_C07, EP04_C02, EP05_C03, EP06_C04, EP07_C02, EP07_C04, EP08_C03, EP08_C05, EP11_C02, EP12_C03, EP13_C04, EP13_C06, EP14_C02, EP14_C05, EP15_C02, EP15_C03, EP15_C04, EP15_C05, EP15_C07.
+- `adaptador:EP02_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP02_C06.
+- `marca:ESTRADA_SENORA`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP03_C01, EP04_C04, EP08_C02, EP09_C06.
+- `capacidade:carona`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP03_C01.
+- `adaptador:EP03_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C01.
+- `marca:CASA_DINJER`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP03_C02, EP03_C03, EP03_C04, EP03_C05, EP03_C06.
+- `adaptador:EP03_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C02.
+- `adaptador:EP03_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C03.
+- `adaptador:EP03_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C04.
+- `capacidade:recurso_sapato`: Sapatos na mão e fuga; conflito com figurino permanente de Dinjer precisa de adaptação declarada. Cenas: EP03_C05.
+- `capacidade:figurino_conflito`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP03_C05, EP07_C01, EP10_C02, EP11_C01.
+- `adaptador:EP03_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C05.
+- `capacidade:elenco_adicional`: Resolver gerente/segurança/colegas/pai/amiga citados fora do elenco declarado, sem inventar identidade. Cenas: EP03_C07, EP04_C02, EP06_C02, EP11_C01, EP12_C01, EP13_C02.
+- `adaptador:EP03_C07`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP03_C07.
+- `capacidade:onibus`: Ônibus real, assento/porta e desembarque físico; andar ao lado de ônibus não substitui descer. Cenas: EP04_C01, EP06_C01.
+- `adaptador:EP04_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP04_C01.
+- `adaptador:EP04_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP04_C02.
+- `capacidade:andar_estilo`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP04_C03, EP11_C03.
+- `capacidade:riso`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP04_C03, EP11_C05.
+- `adaptador:EP04_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP04_C03.
+- `capacidade:remedio`: Caixa de remédio vazia real; comprimidos candidatos não correspondem a uma caixa vazia. Cenas: EP04_C06.
+- `adaptador:EP04_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP04_C06.
+- `capacidade:trabalho`: Atuação de capinar e ferramenta real; clipe de jardinagem não comprova capina/enxada. Cenas: EP05_C01.
+- `adaptador:EP05_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP05_C01.
+- `capacidade:ligacao`: Telefone/mão, atender/conversar/desligar, toque e ação simultânea; celular de texto não substitui ligação. Cenas: EP05_C02, EP05_C03, EP13_C04.
+- `adaptador:EP05_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP05_C02.
+- `capacidade:montagem_locacoes`: EP05_C03 exige duas tomadas/locais separados; nenhuma dupla colocada no mesmo ponto representa ligação à distância. Cenas: EP05_C03.
+- `adaptador:EP05_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP05_C03.
+- `capacidade:ambiente_mobiliario`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP05_C04, EP07_C02, EP09_C01, EP13_C03.
+- `adaptador:EP05_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP05_C04.
+- `marca:CENTRO_LEGION`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP06_C01, EP10_C05.
+- `adaptador:EP06_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP06_C01.
+- `marca:BOATE_FORA`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP06_C02, EP06_C05, EP12_C01.
+- `capacidade:quadro_reutilizavel`: Salvar enquadramento real de EP06_C02 e reutilizar exatamente em EP12_C01. Cenas: EP06_C02, EP12_C01.
+- `adaptador:EP06_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP06_C02.
+- `visual:O_CHEFE`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP06_C03, EP06_C04, EP06_C06, EP07_C02, EP07_C03, EP07_C04, EP13_C04, EP15_C02, EP15_C03, EP15_C04, EP15_C06, EP15_C07, EP15_C08, VINHETA_01.
+- `capacidade:abraco`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP06_C04.
+- `adaptador:EP06_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP06_C04.
+- `adaptador:EP06_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP06_C05.
+- `capacidade:ameaca`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP06_C06.
+- `adaptador:EP06_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP06_C06.
+- `adaptador:EP07_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP07_C01.
+- `marca:GALPAO_CYPRESS`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP07_C02, EP13_C03.
+- `capacidade:esconder`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP07_C02.
+- `adaptador:EP07_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP07_C02.
+- `capacidade:voo_queda`: Aeronave, assentos, rota aérea, água/rampa e queda invencível; nenhuma marca terrestre simula ponto aéreo. Cenas: EP07_C03, EP07_C04, EP07_C05.
+- `adaptador:EP07_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP07_C03.
+- `marca:AEROPORTO_AR`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP07_C04, EP07_C05.
+- `capacidade:bandeja`: Bandeja compatível, attachment/mãos e serviço/pose; prop fast-food candidato não comprova serviço de jantar. Cenas: EP07_C04, EP12_C03, EP15_C02, EP15_C08.
+- `adaptador:EP07_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP07_C04.
+- `capacidade:reutilizacao`: Reutilizar arquivo da tomada original; sem vídeo existente não declarar reaproveitamento concluído. Cenas: EP07_C05.
+- `adaptador:EP07_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP07_C05.
+- `capacidade:agua`: GET_WATER_HEIGHT, saída/rampa real, nadar/escalar e trajeto físico; não executar pose aquática no chão. Cenas: EP08_C01.
+- `capacidade:machucado`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP08_C01.
+- `adaptador:EP08_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP08_C01.
+- `capacidade:deitar`: Cama/banco real e alinhamento; transições, sacola quando prevista e facial doente/sono compatível. Cenas: EP08_C03, EP10_C01.
+- `adaptador:EP08_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP08_C03.
+- `capacidade:papel`: Papel/envelope real, abrir/ler/entregar e close nas mãos; jornal candidato não equivale a papel dobrado. Cenas: EP08_C05, EP09_C02, EP11_C05, EP12_C04, EP12_C05, EP15_C03.
+- `adaptador:EP08_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP08_C05.
+- `capacidade:edicao_externa`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP08_C06, EP10_C06, EP12_C05, EP13_C05, EP15_C09.
+- `adaptador:EP08_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP08_C06.
+- `marca:IGREJA_CHAPARRAL`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP09_C01.
+- `adaptador:EP09_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP09_C01.
+- `adaptador:EP09_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP09_C02.
+- `marca:BANCO_MAZE`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP09_C03, EP09_C04, EP11_C01, EP11_C02.
+- `visual:ATENDENTE`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP09_C04, EP11_C02.
+- `capacidade:sacola`: Sacola real na mão/abraço e poses; aparências de ped não criam o objeto da história. Cenas: EP09_C05, EP09_C06, EP10_C01.
+- `adaptador:EP09_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP09_C05.
+- `adaptador:EP09_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP09_C06.
+- `marca:PRAIA_DELPERRO`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP10_C01, VINHETA_01.
+- `adaptador:EP10_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP10_C01.
+- `marca:RUA_STRAWBERRY`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP10_C02, EP10_C03.
+- `adaptador:EP10_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP10_C02.
+- `marca:VIADUTO_LAPUERTA`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP10_C04, EP10_C06, EP10_C07.
+- `capacidade:populacao_propria`: Figurantes próprios preservados da limpeza; população removida não representa gente na calçada. Cenas: EP10_C05.
+- `adaptador:EP10_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP10_C05.
+- `capacidade:escrever`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP10_C06.
+- `adaptador:EP10_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP10_C06.
+- `visual:DJANIRA_RICA`: XML/modelo/hash real registrado; confirmação visual pendente, sem nova geração de figurino. Cenas: EP11_C01, EP11_C02, EP11_C03, EP11_C04, EP11_C05, EP12_C01, EP12_C02, EP12_C03, EP12_C04, EP14_C02, EP14_C03, EP14_C04, EP14_C05, EP15_C01, EP15_C02, EP15_C03, EP15_C04, EP15_C05, EP15_C06, EP15_C07, EP15_C09, VINHETA_01.
+- `adaptador:EP11_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP11_C01.
+- `adaptador:EP11_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP11_C02.
+- `marca:MANSAO_DJANIRA`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP11_C03, EP11_C04, EP11_C05, EP14_C01, EP14_C02, EP14_C03, EP14_C04, EP14_C05.
+- `capacidade:carro`: Modelo real escolhido, motorista, portas, entrada/saída e rota do morro; nunca simular com personagem parado. Cenas: EP11_C03, EP12_C01, EP12_C04, EP15_C01, EP15_C09.
+- `capacidade:montagem`: Subtomadas com duração/alvos próprios e ordem do CapCut; uma câmera parada não substitui montagem. Cenas: EP11_C03, EP13_C03, EP15_C08.
+- `adaptador:EP11_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP11_C03.
+- `adaptador:EP11_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP11_C04.
+- `adaptador:EP11_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP11_C05.
+- `adaptador:EP12_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP12_C01.
+- `adaptador:EP12_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP12_C03.
+- `capacidade:choro`: Mapear integralmente a intenção original por recurso/controlador real, sem substituir por pose parada. Cenas: EP12_C04.
+- `adaptador:EP12_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP12_C04.
+- `adaptador:EP12_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP12_C05.
+- `adaptador:EP13_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C01.
+- `adaptador:EP13_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C02.
+- `capacidade:caminhao`: Caminhões e portões reais e três tomadas separadas; cenário vazio sozinho não reproduz a montagem. Cenas: EP13_C03.
+- `adaptador:EP13_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C03.
+- `marca:MANSAO_CHEFE`: F3 real na locação/subponto indicado; coordenadas não são inventadas nem copiadas de outro local. Cenas: EP13_C04, EP15_C01, EP15_C02, EP15_C03, EP15_C04, EP15_C05, EP15_C06, EP15_C07, EP15_C08, EP15_C09.
+- `adaptador:EP13_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C04.
+- `capacidade:limpeza`: Mesa, mão, pano/objeto e movimento até a foto; clipe isolado não executa toda a cena. Cenas: EP13_C05.
+- `adaptador:EP13_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C05.
+- `adaptador:EP13_C06`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP13_C06.
+- `adaptador:EP14_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP14_C01.
+- `capacidade:marca_elevada`: Degrau real e altura de Djanira comprovada; não elevar Z para fazê-la flutuar. Cenas: EP14_C02.
+- `adaptador:EP14_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP14_C02.
+- `adaptador:EP14_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP14_C05.
+- `adaptador:EP15_C01`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C01.
+- `adaptador:EP15_C02`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C02.
+- `adaptador:EP15_C03`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C03.
+- `adaptador:EP15_C04`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C04.
+- `adaptador:EP15_C05`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C05.
+- `adaptador:EP15_C07`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C07.
+- `adaptador:EP15_C08`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C08.
+- `adaptador:EP15_C09`: Sequência inteira ainda sem adaptador; recursos pesquisados isolados não produzem a cena completa. Cenas: EP15_C09.

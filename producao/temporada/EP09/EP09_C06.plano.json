@@ -1,0 +1,177 @@
+{
+  "versao": 1,
+  "tipoDocumento": "plano_producao",
+  "id": "EP09_C06",
+  "episodio": 9,
+  "numero": 6,
+  "nome": "O ÔNIBUS",
+  "origem": {
+    "arquivo": "ROTEIRO_A_CALOTEIRA_DO_OESTE_15_EPISODIOS.md",
+    "sha256Arquivo": "E8FBF15EAAFBC8F0D74CBF39E9B9CBD30F8E9226B94749047762B6745274F36C",
+    "linhaInicio": 1037,
+    "linhaFim": 1048,
+    "sha256BlocoUtf8": "8CF59A7827A5FF606357C9435AD675CE804D163F4C2BCC2690C2471EFD785F76",
+    "raw": "### EP09_C06 · O ÔNIBUS\n`local:` ESTRADA_SENORA · `hora:` 09:00 · `clima:` limpo\n`elenco:` DJANIRA_POBRE · `cam:` MEDIA · `dur:` 12s · `gravar:` SIM\n\n**Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`.\n\n**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:\n> \"Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.\"\n\n**NARRADOR** — 7s:\n> \"Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.\"\n\n"
+  },
+  "original": {
+    "local": "ESTRADA_SENORA",
+    "locaisCodigos": [
+      "ESTRADA_SENORA"
+    ],
+    "hora": "09:00",
+    "clima": "limpo",
+    "elenco": "DJANIRA_POBRE",
+    "elencoCodigos": [
+      "DJANIRA_POBRE"
+    ],
+    "camera": "MEDIA",
+    "planosSemTemposDefinidos": [
+      "MEDIA"
+    ],
+    "duracaoEstimadaMs": 12000,
+    "gravar": "SIM",
+    "linhasMetadados": [
+      1038,
+      1039
+    ]
+  },
+  "adaptacao": {
+    "elencoEfetivo": [
+      "DJANIRA_POBRE"
+    ],
+    "regras": []
+  },
+  "acoesOriginais": [
+    {
+      "linha": 1041,
+      "raw": "**Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`.",
+      "tipo": "principal",
+      "estadoImplementacao": "pendente",
+      "implementacao": null
+    }
+  ],
+  "notasOriginais": [],
+  "cartelas": [],
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "tipoOriginal": "NARRAÇÃO",
+      "quemOriginal": "DJANIRA",
+      "texto": "Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRAÇÃO** — DJANIRA — 12s *(sem boca)*:",
+      "textoOriginal": "> \"Três anos. Eu ia passar três anos sendo a mulher mais pobre daquela cidade, sabendo que eu era a mais rica. E foi isso, exatamente isso, que me manteve viva.\"",
+      "indicacoesOriginais": " *(sem boca)*:",
+      "linhaInicio": 1043,
+      "linhaTexto": 1044,
+      "inicioMs": 0,
+      "fimMs": 12000,
+      "duracaoMs": 12000
+    },
+    {
+      "tipo": "narrador",
+      "tipoOriginal": "NARRADOR",
+      "quemOriginal": "NARRADOR",
+      "texto": "Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.",
+      "boca": false,
+      "cabecalhoOriginal": "**NARRADOR** — 7s:",
+      "textoOriginal": "> \"Três anos separam ela de tudo que é dela. E em três anos, muita coisa morre por dentro. Não perca o próximo episódio de A Caloteira do Oeste.\"",
+      "indicacoesOriginais": ":",
+      "linhaInicio": 1046,
+      "linhaTexto": 1047,
+      "inicioMs": 12000,
+      "fimMs": 19000,
+      "duracaoMs": 7000
+    }
+  ],
+  "tempos": {
+    "estimativaOriginalMs": 12000,
+    "blocosDeclaradosMs": 19000,
+    "conteudoPlanejadoMs": 19000,
+    "reservaSemBlocoDefinidoMs": 0,
+    "contagemMs": 3000,
+    "capturaPlanejadaMs": 22000,
+    "fimUltimaLegendaMs": 22000,
+    "criterio": "Vozes/pausas sequenciais na ordem original; ações podem ser simultâneas. Estimativa não corta blocos. Reserva não cria falas ou ação."
+  },
+  "reaproveitamentos": [],
+  "conflitos": [
+    {
+      "codigo": "duracao_estimada",
+      "descricao": "Estimativa 12000ms menor que blocos declarados 19000ms.",
+      "resolucao": "Preservar todos os tempos; reserva de gravação aumentada, sem comprimir vozes."
+    }
+  ],
+  "execucao": {
+    "estado": "pendente",
+    "pronto": false,
+    "gravado": false,
+    "runtime": null,
+    "motivo": "Plano fiel de pré-produção; recursos e atuação completa ainda precisam de implementação e teste."
+  },
+  "requisitos": [
+    {
+      "codigo": "visual:DJANIRA_POBRE",
+      "familia": "visuais",
+      "descricao": "Visual de produção DJANIRA_POBRE, com rosto/figurino fixos aprovados.",
+      "origem": "elenco original e regra do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "local:ESTRADA_SENORA",
+      "familia": "ambiente",
+      "descricao": "Marca real ESTRADA_SENORA; interior/sublocais e rotas compatíveis com a ação.",
+      "origem": "metadados de local",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "camera:composicao",
+      "familia": "camera",
+      "descricao": "Compor em16:9 todos os alvos/planos/olhares descritos, sem encobrir instruções específicas.",
+      "origem": "câmera e notas originais",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "acao:1",
+      "familia": "corpo",
+      "descricao": "Implementar integralmente: **Ação:** Djanira esperando na beira da estrada com a sacola. Expressão `chateado`.",
+      "origem": "linha 1041",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "objeto:sacola",
+      "familia": "objetos",
+      "descricao": "sacola: modelo/uso/attachment real e testado.",
+      "origem": "descrição de ação original; classificação derivada",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "elenco:quantidade",
+      "familia": "visuais",
+      "descricao": "Suportar a quantidade original de atores sem inventar/omitir personagens.",
+      "origem": "elenco original",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    },
+    {
+      "codigo": "gravacao:tomada",
+      "familia": "gravacao",
+      "descricao": "Captura real Game Bar e associação segura MP4/SRT; nenhuma tomada existe ainda neste plano.",
+      "origem": "regras do prompt",
+      "estado": "pendente",
+      "recursoVerificado": null,
+      "confirmadoNoJogo": false
+    }
+  ]
+}

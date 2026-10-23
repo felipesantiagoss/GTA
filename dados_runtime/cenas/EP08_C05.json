@@ -1,0 +1,186 @@
+{
+  "versao": 1,
+  "id": "EP08_C05",
+  "episodio": 8,
+  "numero": 5,
+  "nome": "O PAPEL",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "21:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DONA_IRACI",
+      "marca": {
+        "direita": -0.55,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DJANIRA_POBRE"
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0.55,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": "DONA_IRACI"
+    }
+  ],
+  "camera": {
+    "modo": "automatico",
+    "planoInicial": "PERTO",
+    "personagem": "DONA_IRACI",
+    "planoFala": "PERTO",
+    "planoNarracao": "PERTO",
+    "planoFinal": "PERTO",
+    "objeto": "PAPEL_IRACI",
+    "fovObjeto": 55,
+    "elevacaoObjetoGraus": 35
+  },
+  "roteiro": [
+    {
+      "tipo": "fala",
+      "duracaoSegundos": 9,
+      "plano": "PERTO",
+      "texto": "Guarda isso. Tá escrito o nome do banco e o nome dele. E não abre até tu precisar de verdade.",
+      "personagem": "DONA_IRACI",
+      "gesto": "implorando"
+    },
+    {
+      "tipo": "pausa",
+      "duracaoSegundos": 3,
+      "plano": "PERTO"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [
+    {
+      "tipo": "clipe",
+      "personagem": "DONA_IRACI",
+      "recurso": "entrega_a",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3.5,
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": true,
+      "sobrePoseSentada": true
+    },
+    {
+      "tipo": "clipe",
+      "personagem": "DJANIRA_POBRE",
+      "recurso": "entrega_b",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 3.5,
+      "loop": false,
+      "corpoInteiro": false,
+      "manterPoseFinal": false,
+      "preservarDuranteFala": true,
+      "sobrePoseSentada": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 12,
+      "expressao": "normal",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "PAPEL_IRACI"
+      }
+    }
+  ],
+  "objetos": [
+    {
+      "id": "CADEIRA_DONA_IRACI",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": -0.55,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": 90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "CADEIRA_DJANIRA_POBRE",
+      "recurso": "cadeira_simples",
+      "marca": {
+        "direita": 0.55,
+        "frente": -1,
+        "altura": 0
+      },
+      "rotacao": -90,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    },
+    {
+      "id": "PAPEL_IRACI",
+      "recurso": "papel_dobrado_autoral",
+      "marca": {
+        "direita": 0,
+        "frente": 0,
+        "altura": 0
+      },
+      "assentarNoChao": false,
+      "visivelInicial": true,
+      "attachmentInicial": {
+        "personagem": "DONA_IRACI",
+        "mao": "direita",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotacao": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "eventos": [
+        {
+          "tipo": "transferir",
+          "inicioSegundos": 1,
+          "personagem": "DJANIRA_POBRE",
+          "mao": "direita",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotacao": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "esperaMaximaSegundos": 2
+        }
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "personagem": "DONA_IRACI",
+      "objeto": "CADEIRA_DONA_IRACI",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    },
+    {
+      "personagem": "DJANIRA_POBRE",
+      "objeto": "CADEIRA_DJANIRA_POBRE",
+      "recurso": "sentada_cadeira_livre_f",
+      "tipo": "sentada",
+      "rotacao": 180
+    }
+  ]
+}

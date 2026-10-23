@@ -1,0 +1,81 @@
+{
+  "versao": 1,
+  "id": "EP05_C04",
+  "episodio": 5,
+  "numero": 4,
+  "nome": "O ARMÁRIO",
+  "ambiente": {
+    "local": "CASA_VO_INTERIOR",
+    "hora": "19:00",
+    "clima": "limpo",
+    "raioLimpeza": 40,
+    "distanciaFrente": 1
+  },
+  "elenco": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "marca": {
+        "direita": 0,
+        "frente": -1,
+        "altura": 0
+      },
+      "olharPara": null
+    }
+  ],
+  "camera": {
+    "modo": "programado",
+    "planoInicial": "ATRAS",
+    "personagem": "DJANIRA_POBRE",
+    "planoFinal": "PERTO",
+    "cortes": [
+      {
+        "inicioSegundos": 0,
+        "plano": "ATRAS",
+        "personagem": "DJANIRA_POBRE"
+      },
+      {
+        "inicioSegundos": 4,
+        "plano": "PERTO",
+        "personagem": "DJANIRA_POBRE"
+      }
+    ]
+  },
+  "roteiro": [
+    {
+      "tipo": "narracao",
+      "duracaoSegundos": 8,
+      "plano": "MEDIA",
+      "texto": "Minha melhor roupa. Eu abri o armário e fiquei olhando pra ele um tempo. Eu tinha duas roupas. Uma de trabalhar e uma de ir na igreja.",
+      "narrador": "Narrador"
+    }
+  ],
+  "acoes": [],
+  "encenacao": "serie_v1",
+  "direcao": [],
+  "objetos": [
+    {
+      "id": "ARMARIO_DJANIRA",
+      "recurso": "guarda_roupa",
+      "marca": {
+        "direita": 0,
+        "frente": 0.3,
+        "altura": 0
+      },
+      "rotacao": 180,
+      "assentarNoChao": true,
+      "visivelInicial": true
+    }
+  ],
+  "interpretacao": [
+    {
+      "personagem": "DJANIRA_POBRE",
+      "inicioSegundos": 0,
+      "duracaoSegundos": 8,
+      "expressao": "chateado",
+      "olhar": {
+        "tipo": "objeto",
+        "alvo": "ARMARIO_DJANIRA"
+      }
+    }
+  ]
+}
